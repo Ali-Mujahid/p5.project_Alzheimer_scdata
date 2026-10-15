@@ -1,0 +1,5645 @@
+[
+  {
+    "assay": "rna",
+    "library_id": "EasySci_010",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.969224920867905,
+        "median_transformed": 6.826545223556594,
+        "scaled_MAD": 1.110323558455728,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.79947162721214,
+        "median_transformed": 6.311734809152915,
+        "scaled_MAD": 0.9112672249571987,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7945
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_101",
+    "thresholds": {
+      "low_counts": {
+        "value": 27.9663822673136,
+        "median_transformed": 6.818924065275521,
+        "scaled_MAD": 1.1509293799599891,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.20406988771677,
+        "median_transformed": 6.311734809152915,
+        "scaled_MAD": 0.936354117921407,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7847
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_103",
+    "thresholds": {
+      "low_counts": {
+        "value": 28.106823562533194,
+        "median_transformed": 6.8679744089702925,
+        "scaled_MAD": 1.165667258531854,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.91009282896536,
+        "median_transformed": 6.354370040797351,
+        "scaled_MAD": 0.9338646868633728,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7307
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_112",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.407123648861567,
+        "median_transformed": 6.834108738813838,
+        "scaled_MAD": 1.1398106090993738,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.45077910426584,
+        "median_transformed": 6.331501849893691,
+        "scaled_MAD": 0.9306567457271024,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7712
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_113",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.910006098506315,
+        "median_transformed": 6.803505257608338,
+        "scaled_MAD": 1.0932650405423054,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.53998964911369,
+        "median_transformed": 6.297109319933935,
+        "scaled_MAD": 0.8995673507532007,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8379
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_114",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.158973116028672,
+        "median_transformed": 6.782192056006791,
+        "scaled_MAD": 1.103833514225853,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.938561270469705,
+        "median_transformed": 6.274762021241939,
+        "scaled_MAD": 0.9070569648437448,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7908
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_117",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.58900518904992,
+        "median_transformed": 6.927557906278317,
+        "scaled_MAD": 1.1582495944283246,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.86305655394888,
+        "median_transformed": 6.386879319362645,
+        "scaled_MAD": 0.9357238730231016,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7912
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_122",
+    "thresholds": {
+      "low_counts": {
+        "value": 28.952618471286577,
+        "median_transformed": 6.8966943316227125,
+        "scaled_MAD": 1.1656925275977217,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.85999244322189,
+        "median_transformed": 6.3578422665081,
+        "scaled_MAD": 0.9452027043267599,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8123
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_125",
+    "thresholds": {
+      "low_counts": {
+        "value": 27.45194850714861,
+        "median_transformed": 6.97354301952014,
+        "scaled_MAD": 1.2084421241551113,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.451848946593735,
+        "median_transformed": 6.431331081933479,
+        "scaled_MAD": 0.9737413406504355,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.06971845405682109,
+        "median_transformed": 0.012797542871768621,
+        "scaled_MAD": 0.018973637061684156,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7868
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_014",
+    "thresholds": {
+      "low_counts": {
+        "value": 33.90327565664814,
+        "median_transformed": 6.70073110954781,
+        "scaled_MAD": 1.0493834754623894,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.656769518075784,
+        "median_transformed": 6.210600077024653,
+        "scaled_MAD": 0.869667319523402,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7644
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_143",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.36630464846185,
+        "median_transformed": 6.915723448631314,
+        "scaled_MAD": 1.1566630774230007,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.56703885474167,
+        "median_transformed": 6.385194398997726,
+        "scaled_MAD": 0.9379250216311446,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7995
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_151",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.12296413606596,
+        "median_transformed": 6.822197390620491,
+        "scaled_MAD": 1.117542074203221,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.885797631805595,
+        "median_transformed": 6.315358001522335,
+        "scaled_MAD": 0.9116721311479827,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8021
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_161",
+    "thresholds": {
+      "low_counts": {
+        "value": 26.299433852660304,
+        "median_transformed": 6.853299093186078,
+        "scaled_MAD": 1.1821443764026636,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 30.804884470091295,
+        "median_transformed": 6.352629396319567,
+        "scaled_MAD": 0.9643365062134182,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7285
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_176",
+    "thresholds": {
+      "low_counts": {
+        "value": 38.91371703224031,
+        "median_transformed": 7.061334366910438,
+        "scaled_MAD": 1.1248714389420182,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 41.67435214490213,
+        "median_transformed": 6.470799503782602,
+        "scaled_MAD": 0.9057338054520407,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.16279228754210653,
+        "median_transformed": 0.029882207045432384,
+        "scaled_MAD": 0.04430336016555805,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 6041
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_177",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.856498514933744,
+        "median_transformed": 6.8308742346461795,
+        "scaled_MAD": 1.1338422858986097,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.423238530526795,
+        "median_transformed": 6.327936783729195,
+        "scaled_MAD": 0.9297349695817604,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7614
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_179",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.021292917343544,
+        "median_transformed": 6.811244378601294,
+        "scaled_MAD": 1.125523513866937,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.87352427648532,
+        "median_transformed": 6.297109319933935,
+        "scaled_MAD": 0.924825201825597,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7212
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_186",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.648137777008092,
+        "median_transformed": 6.76849321164863,
+        "scaled_MAD": 1.1046046342662303,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.40219953883507,
+        "median_transformed": 6.274762021241939,
+        "scaled_MAD": 0.9122138396080838,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7709
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_019",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.53184243452193,
+        "median_transformed": 6.70808408385307,
+        "scaled_MAD": 1.0651961920156827,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.733214135712444,
+        "median_transformed": 6.22455842927536,
+        "scaled_MAD": 0.8828259350222158,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7643
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_191",
+    "thresholds": {
+      "low_counts": {
+        "value": 18.487721454542662,
+        "median_transformed": 7.025538314638521,
+        "scaled_MAD": 1.351917905463804,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 25.86291052002417,
+        "median_transformed": 6.464588303689961,
+        "scaled_MAD": 1.057947253188794,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.09370154621780423,
+        "median_transformed": 0.017199887333933742,
+        "scaled_MAD": 0.025500552961290165,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7684
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_002",
+    "thresholds": {
+      "low_counts": {
+        "value": 26.72740195938994,
+        "median_transformed": 6.825460036255307,
+        "scaled_MAD": 1.167679623875557,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.71828573678937,
+        "median_transformed": 6.326149473155099,
+        "scaled_MAD": 0.9360363931624182,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7544
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_023",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.903412366697776,
+        "median_transformed": 6.787844982309579,
+        "scaled_MAD": 1.1083773358322884,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.57508491241819,
+        "median_transformed": 6.282266746896006,
+        "scaled_MAD": 0.9130444711525267,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7788
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_024",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.31615078175256,
+        "median_transformed": 6.878841136375883,
+        "scaled_MAD": 1.1344246689716169,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.20163304180354,
+        "median_transformed": 6.3561076606958915,
+        "scaled_MAD": 0.9223344770765448,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8108
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_025",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.96083877859421,
+        "median_transformed": 6.78105762593618,
+        "scaled_MAD": 1.1055154202485418,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.719922980922405,
+        "median_transformed": 6.285998094508865,
+        "scaled_MAD": 0.9128948076701938,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7849
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_003",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.818630870710635,
+        "median_transformed": 6.79794041297493,
+        "scaled_MAD": 1.1023146814976625,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.07974105145708,
+        "median_transformed": 6.300785794663244,
+        "scaled_MAD": 0.9050180921868739,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7817
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_031",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.705193606331758,
+        "median_transformed": 6.8139937483854265,
+        "scaled_MAD": 1.1191710815866616,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.26423249915259,
+        "median_transformed": 6.302618975744905,
+        "scaled_MAD": 0.9228389833106918,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7493
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_035",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.414559224679515,
+        "median_transformed": 6.786716950605081,
+        "scaled_MAD": 1.102703089983939,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.59480324779664,
+        "median_transformed": 6.29156913955832,
+        "scaled_MAD": 0.9064564961804613,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7494
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_004",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.375717121142635,
+        "median_transformed": 6.814542897259958,
+        "scaled_MAD": 1.1336331289838084,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.49857044475504,
+        "median_transformed": 6.313548046277095,
+        "scaled_MAD": 0.9146852065894597,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7768
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_046",
+    "thresholds": {
+      "low_counts": {
+        "value": 27.616609448837966,
+        "median_transformed": 6.859614903654202,
+        "scaled_MAD": 1.1685425348130072,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.212206144510766,
+        "median_transformed": 6.342121418721152,
+        "scaled_MAD": 0.9464013184706959,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7195
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_061",
+    "thresholds": {
+      "low_counts": {
+        "value": 27.94340066930636,
+        "median_transformed": 6.873163834212518,
+        "scaled_MAD": 1.1692738707782293,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 31.973266534482935,
+        "median_transformed": 6.361302477572996,
+        "scaled_MAD": 0.9552017831448587,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7522
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_063",
+    "thresholds": {
+      "low_counts": {
+        "value": 33.6190617903665,
+        "median_transformed": 6.85751406254539,
+        "scaled_MAD": 1.1043698711283463,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.57135659699022,
+        "median_transformed": 6.335054251498059,
+        "scaled_MAD": 0.9211711758228324,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7970
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_069",
+    "thresholds": {
+      "low_counts": {
+        "value": 41.91724825330703,
+        "median_transformed": 6.928537818164665,
+        "scaled_MAD": 1.0564213386157943,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 41.497548883847244,
+        "median_transformed": 6.369900982828227,
+        "scaled_MAD": 0.8734848606274225,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.18467118644067795,
+        "median_transformed": 0.03389830508474576,
+        "scaled_MAD": 0.050257627118644066,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7641
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_007",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.082473050284463,
+        "median_transformed": 6.754604099487962,
+        "scaled_MAD": 1.0954314097882627,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.13757492602953,
+        "median_transformed": 6.257667587882639,
+        "scaled_MAD": 0.8901114690609359,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7689
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_072",
+    "thresholds": {
+      "low_counts": {
+        "value": 24.720505211976715,
+        "median_transformed": 6.945051063725834,
+        "scaled_MAD": 1.2325875072606545,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 30.629453610755885,
+        "median_transformed": 6.406879986069314,
+        "scaled_MAD": 0.9842637411000265,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7608
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_088",
+    "thresholds": {
+      "low_counts": {
+        "value": 34.307592391559275,
+        "median_transformed": 6.755768921984256,
+        "scaled_MAD": 1.0638902997526476,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.562906058715484,
+        "median_transformed": 6.257667587882639,
+        "scaled_MAD": 0.8862111190242786,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7506
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_092",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.41721560957013,
+        "median_transformed": 6.7580945044277305,
+        "scaled_MAD": 1.0830077666083435,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.62777237402623,
+        "median_transformed": 6.269096283706261,
+        "scaled_MAD": 0.8986569423733494,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7928
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_095",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.96526915733324,
+        "median_transformed": 6.871091294610546,
+        "scaled_MAD": 1.1460750226499272,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.32854691853759,
+        "median_transformed": 6.336825731146441,
+        "scaled_MAD": 0.9336161504810312,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7746
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_096",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.329858900832345,
+        "median_transformed": 6.844815479208263,
+        "scaled_MAD": 1.1442276032169099,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 31.499171859818816,
+        "median_transformed": 6.313548046277095,
+        "scaled_MAD": 0.9441111461674665,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7668
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_099",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.242944171077653,
+        "median_transformed": 6.907255028815346,
+        "scaled_MAD": 1.165997374029507,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.79783472470597,
+        "median_transformed": 6.3835066348840055,
+        "scaled_MAD": 0.9543699652820943,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8059
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_109",
+    "thresholds": {
+      "low_counts": {
+        "value": 28.911325730470544,
+        "median_transformed": 6.795705775173515,
+        "scaled_MAD": 1.1324895265087631,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.52677632451998,
+        "median_transformed": 6.29156913955832,
+        "scaled_MAD": 0.9166113304007105,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7427
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_128",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.0114798699228,
+        "median_transformed": 6.86484777797086,
+        "scaled_MAD": 1.1434967745506792,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.29692594221987,
+        "median_transformed": 6.345636360828596,
+        "scaled_MAD": 0.9368602111162865,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8133
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_013",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.72375244971767,
+        "median_transformed": 6.78332520060396,
+        "scaled_MAD": 1.1087531705542268,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.07361422442869,
+        "median_transformed": 6.2878585601617845,
+        "scaled_MAD": 0.9101364812931754,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7761
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_131",
+    "thresholds": {
+      "low_counts": {
+        "value": 28.98020655400708,
+        "median_transformed": 6.8658910748834385,
+        "scaled_MAD": 1.1551178975020002,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.150966297453046,
+        "median_transformed": 6.343880434126331,
+        "scaled_MAD": 0.9376965176101341,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7921
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_137",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.131115530486987,
+        "median_transformed": 6.8966943316227125,
+        "scaled_MAD": 1.142289813272335,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.96792548447203,
+        "median_transformed": 6.361302477572996,
+        "scaled_MAD": 0.926224965007073,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8116
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_152",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.969506155967544,
+        "median_transformed": 6.741700694652055,
+        "scaled_MAD": 1.0720791500790197,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.43912687088807,
+        "median_transformed": 6.248042874508429,
+        "scaled_MAD": 0.8934087953003327,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7738
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_159",
+    "thresholds": {
+      "low_counts": {
+        "value": 22.309136164694873,
+        "median_transformed": 6.959398512133975,
+        "scaled_MAD": 1.270184372781548,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 29.32255029939058,
+        "median_transformed": 6.423246963533519,
+        "scaled_MAD": 1.0037850978399652,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.07472486132683204,
+        "median_transformed": 0.013716520673819163,
+        "scaled_MAD": 0.02033611355100429,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8031
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_164",
+    "thresholds": {
+      "low_counts": {
+        "value": 24.978374052567776,
+        "median_transformed": 6.84108100288314,
+        "scaled_MAD": 1.19460552606029,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 29.09904561512445,
+        "median_transformed": 6.335054251498059,
+        "scaled_MAD": 0.9768535957948778,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7067
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_166",
+    "thresholds": {
+      "low_counts": {
+        "value": 24.497444174052447,
+        "median_transformed": 7.103322062526113,
+        "scaled_MAD": 1.2882479479511575,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 31.61045649673217,
+        "median_transformed": 6.530148232994055,
+        "scaled_MAD": 1.0151717482058782,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.08563718818116065,
+        "median_transformed": 0.015719591060824673,
+        "scaled_MAD": 0.02330586570677866,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 5759
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_167",
+    "thresholds": {
+      "low_counts": {
+        "value": 21.15761504122948,
+        "median_transformed": 7.095064377287131,
+        "scaled_MAD": 1.3322943818977446,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 27.210650958023226,
+        "median_transformed": 6.52795791762255,
+        "scaled_MAD": 1.0627527724799375,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.10710316680239651,
+        "median_transformed": 0.01965989331517246,
+        "scaled_MAD": 0.029147757829074687,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 5808
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_168",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.61026405504313,
+        "median_transformed": 6.81783057145415,
+        "scaled_MAD": 1.1110678281072035,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.14398959558597,
+        "median_transformed": 6.295266001439646,
+        "scaled_MAD": 0.9119374636057153,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 6706
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_172",
+    "thresholds": {
+      "low_counts": {
+        "value": 25.861079918518993,
+        "median_transformed": 6.915227170674939,
+        "scaled_MAD": 1.208182924977717,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 31.470617897304155,
+        "median_transformed": 6.3784261836515865,
+        "scaled_MAD": 0.9660301893090641,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.07405935893754932,
+        "median_transformed": 0.013594360831445598,
+        "scaled_MAD": 0.020154999368701243,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7612
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_174",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.489878102318656,
+        "median_transformed": 6.959398512133975,
+        "scaled_MAD": 1.1493850883859191,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 36.573919011003326,
+        "median_transformed": 6.414277958169476,
+        "scaled_MAD": 0.9293225972599476,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.10855093543603603,
+        "median_transformed": 0.019925646212422633,
+        "scaled_MAD": 0.029541763074537795,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7154
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_100",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.19201899661136,
+        "median_transformed": 6.876780341694097,
+        "scaled_MAD": 1.1248236287795652,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.46727958808045,
+        "median_transformed": 6.344758397477463,
+        "scaled_MAD": 0.9161143295273086,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7705
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_110",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.19944718596791,
+        "median_transformed": 6.815639990074331,
+        "scaled_MAD": 1.1250798712714438,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.34463983417119,
+        "median_transformed": 6.313548046277095,
+        "scaled_MAD": 0.9161337655713281,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7850
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_111",
+    "thresholds": {
+      "low_counts": {
+        "value": 27.11788732859531,
+        "median_transformed": 6.863803391452954,
+        "scaled_MAD": 1.175799152631659,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.27957168018592,
+        "median_transformed": 6.354370040797351,
+        "scaled_MAD": 0.9498087650379619,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8011
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_123",
+    "thresholds": {
+      "low_counts": {
+        "value": 27.01784658249205,
+        "median_transformed": 6.9584483932976555,
+        "scaled_MAD": 1.2085355694051199,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 31.173694081785357,
+        "median_transformed": 6.410174881966167,
+        "scaled_MAD": 0.9796752390954635,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.05951278129779332,
+        "median_transformed": 0.010924186148131964,
+        "scaled_MAD": 0.01619619838322045,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7503
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_126",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.69818097688232,
+        "median_transformed": 6.890609120147166,
+        "scaled_MAD": 1.1554685729589365,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.06310137955308,
+        "median_transformed": 6.3561076606958915,
+        "scaled_MAD": 0.9426309777495798,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7848
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_136",
+    "thresholds": {
+      "low_counts": {
+        "value": 35.03649891939321,
+        "median_transformed": 6.721425700790643,
+        "scaled_MAD": 1.0456311390234283,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.40097836197834,
+        "median_transformed": 6.240275845170769,
+        "scaled_MAD": 0.8818933976043184,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7361
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_144",
+    "thresholds": {
+      "low_counts": {
+        "value": 38.42038138036197,
+        "median_transformed": 6.792344427470809,
+        "scaled_MAD": 1.0393538169998264,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 38.90393492340145,
+        "median_transformed": 6.267200548541362,
+        "scaled_MAD": 0.8602418699580064,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7572
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_148",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.06872375905848,
+        "median_transformed": 6.953684210870537,
+        "scaled_MAD": 1.1619343311447172,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.81498294076064,
+        "median_transformed": 6.415914620841961,
+        "scaled_MAD": 0.9458494323637173,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.0789338947183237,
+        "median_transformed": 0.014489132258585797,
+        "scaled_MAD": 0.0214815874865793,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7683
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_015",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.12188955279946,
+        "median_transformed": 6.829793737512425,
+        "scaled_MAD": 1.1200853407479587,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.176844331285245,
+        "median_transformed": 6.298949246855942,
+        "scaled_MAD": 0.9224669661456655,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7132
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_150",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.42371522557243,
+        "median_transformed": 6.875232087276577,
+        "scaled_MAD": 1.1425564058227513,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.97964020606145,
+        "median_transformed": 6.352629396319567,
+        "scaled_MAD": 0.9326210708287901,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7490
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_156",
+    "thresholds": {
+      "low_counts": {
+        "value": 24.60543812102041,
+        "median_transformed": 7.002155954403621,
+        "scaled_MAD": 1.2531170662916935,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 30.741918565254643,
+        "median_transformed": 6.452048954437226,
+        "scaled_MAD": 0.9981369316251499,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7372
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_157",
+    "thresholds": {
+      "low_counts": {
+        "value": 25.717532587323355,
+        "median_transformed": 6.870053411798126,
+        "scaled_MAD": 1.1949111368941272,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 31.403573872220107,
+        "median_transformed": 6.3578422665081,
+        "scaled_MAD": 0.9598578483649269,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8207
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_180",
+    "thresholds": {
+      "low_counts": {
+        "value": 28.231102616323653,
+        "median_transformed": 6.788408362650875,
+        "scaled_MAD": 1.1377250207205791,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 31.795214836778175,
+        "median_transformed": 6.284134161070802,
+        "scaled_MAD": 0.9312838484820578,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7693
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_158",
+    "thresholds": {
+      "low_counts": {
+        "value": 22.53021050645304,
+        "median_transformed": 6.959398512133975,
+        "scaled_MAD": 1.2670377877113752,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 27.578034134402863,
+        "median_transformed": 6.411818267709897,
+        "scaled_MAD": 1.0197266274114836,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.03937990744856096,
+        "median_transformed": 0.007228589054032997,
+        "scaled_MAD": 0.010717106131509321,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8140
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_032",
+    "thresholds": {
+      "low_counts": {
+        "value": 28.84643168192884,
+        "median_transformed": 6.904750769961838,
+        "scaled_MAD": 1.1695618263042746,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.62806842508592,
+        "median_transformed": 6.363028103540465,
+        "scaled_MAD": 0.9394545080614431,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.09235124597389388,
+        "median_transformed": 0.016952025767079167,
+        "scaled_MAD": 0.025133073402271573,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7916
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_165",
+    "thresholds": {
+      "low_counts": {
+        "value": 26.476841625701926,
+        "median_transformed": 6.951772164398911,
+        "scaled_MAD": 1.2128095457375505,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 31.447570118431823,
+        "median_transformed": 6.411818267709897,
+        "scaled_MAD": 0.9773975693838098,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 6246
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_169",
+    "thresholds": {
+      "low_counts": {
+        "value": 42.135993260415574,
+        "median_transformed": 6.650279048587422,
+        "scaled_MAD": 0.9619737631793195,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 43.64096211933163,
+        "median_transformed": 6.20050917404269,
+        "scaled_MAD": 0.8006191011164941,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7068
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_038",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.10131125597109,
+        "median_transformed": 6.870572353204336,
+        "scaled_MAD": 1.1553345396923538,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.77087631774536,
+        "median_transformed": 6.354370040797351,
+        "scaled_MAD": 0.9449237523812876,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7942
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_173",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.19605797592333,
+        "median_transformed": 7.086737934510577,
+        "scaled_MAD": 1.226342183082726,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.08886877966866,
+        "median_transformed": 6.505784060128229,
+        "scaled_MAD": 0.9732665287968985,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.0985135623869801,
+        "median_transformed": 0.018083182640144666,
+        "scaled_MAD": 0.02681012658227848,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 6830
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_040",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.77054907384028,
+        "median_transformed": 6.855408798609928,
+        "scaled_MAD": 1.1429502549938302,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.179021048850544,
+        "median_transformed": 6.35088571671474,
+        "scaled_MAD": 0.9397578934964088,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8177
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_042",
+    "thresholds": {
+      "low_counts": {
+        "value": 25.306762385442592,
+        "median_transformed": 6.840546529288687,
+        "scaled_MAD": 1.1902401660780482,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 31.1020781794476,
+        "median_transformed": 6.327936783729195,
+        "scaled_MAD": 0.9530053382986863,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7613
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_175",
+    "thresholds": {
+      "low_counts": {
+        "value": 14.55158381918028,
+        "median_transformed": 7.155005829405198,
+        "scaled_MAD": 1.4702811142143872,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 23.54287570744978,
+        "median_transformed": 6.541029999189903,
+        "scaled_MAD": 1.1135361274266826,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.11053106799931245,
+        "median_transformed": 0.020289120011621656,
+        "scaled_MAD": 0.030080649329230266,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7149
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_018",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.77053432045753,
+        "median_transformed": 6.724433041494025,
+        "scaled_MAD": 1.0682814616268876,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.91589916850722,
+        "median_transformed": 6.244166900663736,
+        "scaled_MAD": 0.8876622764781913,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7518
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_047",
+    "thresholds": {
+      "low_counts": {
+        "value": 26.477257050278762,
+        "median_transformed": 6.905753276311464,
+        "scaled_MAD": 1.1974648767197091,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 30.739001349720752,
+        "median_transformed": 6.359573868672378,
+        "scaled_MAD": 0.9673425391769845,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7428
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_065",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.49614998429431,
+        "median_transformed": 6.769641976852503,
+        "scaled_MAD": 1.0860704901559746,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.481382650861526,
+        "median_transformed": 6.274762021241939,
+        "scaled_MAD": 0.9019179648978063,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7986
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_066",
+    "thresholds": {
+      "low_counts": {
+        "value": 24.8035055457023,
+        "median_transformed": 6.910750787961936,
+        "scaled_MAD": 1.2200801437999838,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 30.71954745868781,
+        "median_transformed": 6.393590753950631,
+        "scaled_MAD": 0.978885874678608,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7588
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_067",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.692694326862142,
+        "median_transformed": 6.761572768804055,
+        "scaled_MAD": 1.0914737103141277,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.57623814497827,
+        "median_transformed": 6.274762021241939,
+        "scaled_MAD": 0.8917877408959518,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7748
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_071",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.34112743466082,
+        "median_transformed": 6.811244378601294,
+        "scaled_MAD": 1.1116348877116,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.945324782639595,
+        "median_transformed": 6.297109319933935,
+        "scaled_MAD": 0.914441542979672,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7689
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_076",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.28798764300727,
+        "median_transformed": 6.805722553416985,
+        "scaled_MAD": 1.120829436969122,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.6141646988076,
+        "median_transformed": 6.3017023852040746,
+        "scaled_MAD": 0.9191464675189027,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7752
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_078",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.98640275925042,
+        "median_transformed": 6.882437470997847,
+        "scaled_MAD": 1.1496296611347419,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.65127866658943,
+        "median_transformed": 6.359573868672378,
+        "scaled_MAD": 0.9380797471208892,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8317
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_008",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.472737726489875,
+        "median_transformed": 6.761572768804055,
+        "scaled_MAD": 1.0836138201655432,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.34705925874488,
+        "median_transformed": 6.255750041753367,
+        "scaled_MAD": 0.8968449473856883,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7765
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_085",
+    "thresholds": {
+      "low_counts": {
+        "value": 26.22986205804386,
+        "median_transformed": 6.827629234502852,
+        "scaled_MAD": 1.1744383312127242,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 31.96968674109913,
+        "median_transformed": 6.322565239927284,
+        "scaled_MAD": 0.9423255614067741,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7585
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_087",
+    "thresholds": {
+      "low_counts": {
+        "value": 39.79032520307658,
+        "median_transformed": 6.690842277418564,
+        "scaled_MAD": 0.9941324505010545,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 39.30503390611347,
+        "median_transformed": 6.192362489474872,
+        "scaled_MAD": 0.8319620391670893,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7246
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_091",
+    "thresholds": {
+      "low_counts": {
+        "value": 18.756970852362617,
+        "median_transformed": 6.860663671448287,
+        "scaled_MAD": 1.2923857626083182,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 26.290778173904997,
+        "median_transformed": 6.35088571671474,
+        "scaled_MAD": 1.0147789558057811,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 6771
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_182",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.43650017716682,
+        "median_transformed": 6.813444599510896,
+        "scaled_MAD": 1.1218249852220947,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.446696958505434,
+        "median_transformed": 6.302618975744905,
+        "scaled_MAD": 0.9308886465604843,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7803
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_183",
+    "thresholds": {
+      "low_counts": {
+        "value": 26.71691879393603,
+        "median_transformed": 6.827629234502852,
+        "scaled_MAD": 1.168528740326398,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 31.118576264941254,
+        "median_transformed": 6.3080984415095305,
+        "scaled_MAD": 0.9462212929711115,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7900
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_184",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.91651895752428,
+        "median_transformed": 6.728628613084702,
+        "scaled_MAD": 1.0782179951159998,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.90221203525439,
+        "median_transformed": 6.2422232654551655,
+        "scaled_MAD": 0.8965576853854549,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7231
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_185",
+    "thresholds": {
+      "low_counts": {
+        "value": 27.3374089972358,
+        "median_transformed": 6.858565034791365,
+        "scaled_MAD": 1.171460743450959,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 31.743363655244234,
+        "median_transformed": 6.333279628139691,
+        "scaled_MAD": 0.9481931076910225,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7433
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_188",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.017877711969344,
+        "median_transformed": 6.84587987526405,
+        "scaled_MAD": 1.1480289157872063,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 31.855538749247476,
+        "median_transformed": 6.327936783729195,
+        "scaled_MAD": 0.9452721485760525,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7881
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_192",
+    "thresholds": {
+      "low_counts": {
+        "value": 27.43796298878604,
+        "median_transformed": 6.861187505964509,
+        "scaled_MAD": 1.1711541761538427,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 30.968262229308536,
+        "median_transformed": 6.333279628139691,
+        "scaled_MAD": 0.9561786742794768,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.08927527106546101,
+        "median_transformed": 0.016387398778490585,
+        "scaled_MAD": 0.024295957428990142,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7827
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_026",
+    "thresholds": {
+      "low_counts": {
+        "value": 28.73805502152414,
+        "median_transformed": 6.856461984594587,
+        "scaled_MAD": 1.1546781483706559,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.52681902224767,
+        "median_transformed": 6.3578422665081,
+        "scaled_MAD": 0.9484988600440954,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7931
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_027",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.10714238728095,
+        "median_transformed": 6.813444599510896,
+        "scaled_MAD": 1.1045651861041352,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 36.04656147469605,
+        "median_transformed": 6.304448802421981,
+        "scaled_MAD": 0.8974244208957659,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8095
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_028",
+    "thresholds": {
+      "low_counts": {
+        "value": 28.273663159213086,
+        "median_transformed": 6.818924065275521,
+        "scaled_MAD": 1.147411940587696,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.186706923036986,
+        "median_transformed": 6.320768294250582,
+        "scaled_MAD": 0.9296438040670305,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7529
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_034",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.435782614507907,
+        "median_transformed": 6.830333986079302,
+        "scaled_MAD": 1.1170239236671904,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.145018357455,
+        "median_transformed": 6.326149473155099,
+        "scaled_MAD": 0.9128701129397682,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8134
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_039",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.981871319400252,
+        "median_transformed": 6.8416154764775925,
+        "scaled_MAD": 1.1360710797335953,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.44609531778756,
+        "median_transformed": 6.320768294250582,
+        "scaled_MAD": 0.9369444154649169,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8283
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_041",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.576614313089586,
+        "median_transformed": 6.833031732786201,
+        "scaled_MAD": 1.1064006369086354,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.76638851546188,
+        "median_transformed": 6.329720905522696,
+        "scaled_MAD": 0.9083789444230844,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7669
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_054",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.35877750125061,
+        "median_transformed": 6.810142450115136,
+        "scaled_MAD": 1.111085712240315,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.502475117018214,
+        "median_transformed": 6.309918278226516,
+        "scaled_MAD": 0.9229624047467688,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7797
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_060",
+    "thresholds": {
+      "low_counts": {
+        "value": 26.442022859397504,
+        "median_transformed": 6.840546529288687,
+        "scaled_MAD": 1.176157003260781,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 31.148864914586937,
+        "median_transformed": 6.338594078203183,
+        "scaled_MAD": 0.9560723113551565,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7797
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_075",
+    "thresholds": {
+      "low_counts": {
+        "value": 19.83494708512073,
+        "median_transformed": 6.951772164398911,
+        "scaled_MAD": 1.3050468130795825,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 26.86008034612657,
+        "median_transformed": 6.410174881966167,
+        "scaled_MAD": 1.027660009898175,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7443
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_077",
+    "thresholds": {
+      "low_counts": {
+        "value": 27.104836893893648,
+        "median_transformed": 6.966967138613983,
+        "scaled_MAD": 1.2103418152106373,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 30.48678886578668,
+        "median_transformed": 6.410174881966167,
+        "scaled_MAD": 0.9868689417313169,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.05455809612597951,
+        "median_transformed": 0.010014702471819728,
+        "scaled_MAD": 0.014847797884719927,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7771
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_079",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.75081989586299,
+        "median_transformed": 6.777646593635117,
+        "scaled_MAD": 1.0862139611336328,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.69231517330119,
+        "median_transformed": 6.259581464064923,
+        "scaled_MAD": 0.894882019901142,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7457
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_081",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.937028705859444,
+        "median_transformed": 6.821107472256465,
+        "scaled_MAD": 1.1297178885978627,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.82065711353112,
+        "median_transformed": 6.329720905522696,
+        "scaled_MAD": 0.9265033665446029,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7900
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_082",
+    "thresholds": {
+      "low_counts": {
+        "value": 26.976647664692763,
+        "median_transformed": 6.823286122355687,
+        "scaled_MAD": 1.1639719907124075,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.001557320086995,
+        "median_transformed": 6.343880434126331,
+        "scaled_MAD": 0.9391580356757163,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7223
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_009",
+    "thresholds": {
+      "low_counts": {
+        "value": 33.1592954373893,
+        "median_transformed": 6.794586580876499,
+        "scaled_MAD": 1.087850612512667,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 36.48344750119212,
+        "median_transformed": 6.289715570908998,
+        "scaled_MAD": 0.8886053784488283,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7758
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_093",
+    "thresholds": {
+      "low_counts": {
+        "value": 22.75213853754581,
+        "median_transformed": 6.912742820493176,
+        "scaled_MAD": 1.248356750126692,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 29.055750603352372,
+        "median_transformed": 6.391917113392602,
+        "scaled_MAD": 0.9962877009626159,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7359
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_098",
+    "thresholds": {
+      "low_counts": {
+        "value": 27.890562973409992,
+        "median_transformed": 6.86484777797086,
+        "scaled_MAD": 1.1671109256303194,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 31.614441260124213,
+        "median_transformed": 6.3473892096560105,
+        "scaled_MAD": 0.9542113453107176,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7880
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_102",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.496432220577862,
+        "median_transformed": 6.803505257608338,
+        "scaled_MAD": 1.1286318524039125,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.700514609097226,
+        "median_transformed": 6.298949246855942,
+        "scaled_MAD": 0.9173982432599155,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7665
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_104",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.621682569784614,
+        "median_transformed": 6.815639990074331,
+        "scaled_MAD": 1.1205989825026907,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.917709872473715,
+        "median_transformed": 6.318968113746434,
+        "scaled_MAD": 0.9219913223475508,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8040
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_108",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.015469518420808,
+        "median_transformed": 6.957497370876951,
+        "scaled_MAD": 1.1743370913786642,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.60555895402857,
+        "median_transformed": 6.413458957167357,
+        "scaled_MAD": 0.9564815415324774,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.04151970124228336,
+        "median_transformed": 0.007621370322383965,
+        "scaled_MAD": 0.011299443639966466,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8370
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_115",
+    "thresholds": {
+      "low_counts": {
+        "value": 27.640303770505753,
+        "median_transformed": 6.9167150203536085,
+        "scaled_MAD": 1.1873000239351132,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.314462465267084,
+        "median_transformed": 6.375024819828097,
+        "scaled_MAD": 0.9563444029533189,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7835
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_116",
+    "thresholds": {
+      "low_counts": {
+        "value": 27.43382990600456,
+        "median_transformed": 6.921658184151129,
+        "scaled_MAD": 1.1913595180063605,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.40709817096622,
+        "median_transformed": 6.386879319362645,
+        "scaled_MAD": 0.9593703072901255,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7709
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_118",
+    "thresholds": {
+      "low_counts": {
+        "value": 25.555457277439768,
+        "median_transformed": 6.9411900550683745,
+        "scaled_MAD": 1.2206515937764932,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 30.543460478972506,
+        "median_transformed": 6.403574197934815,
+        "scaled_MAD": 0.9840693017554863,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7745
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_119",
+    "thresholds": {
+      "low_counts": {
+        "value": 26.525384647921268,
+        "median_transformed": 6.950814768442584,
+        "scaled_MAD": 1.2119020371461433,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 31.359963323616586,
+        "median_transformed": 6.400257445308821,
+        "scaled_MAD": 0.974445162168519,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.07692459757130754,
+        "median_transformed": 0.01412030499858797,
+        "scaled_MAD": 0.02093476419090652,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7997
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_012",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.23459658037079,
+        "median_transformed": 6.7661917146603505,
+        "scaled_MAD": 1.097717136977593,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.852716547950706,
+        "median_transformed": 6.270988431858299,
+        "scaled_MAD": 0.9066191159878999,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7992
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_124",
+    "thresholds": {
+      "low_counts": {
+        "value": 21.576145095561095,
+        "median_transformed": 7.075808863978387,
+        "scaled_MAD": 1.3196383473019655,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 28.43724235262598,
+        "median_transformed": 6.511745329644728,
+        "scaled_MAD": 1.0431615700862673,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.08493607733083879,
+        "median_transformed": 0.015590894917368257,
+        "scaled_MAD": 0.023115060804490176,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7721
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_127",
+    "thresholds": {
+      "low_counts": {
+        "value": 26.168905615653937,
+        "median_transformed": 6.8885724595653635,
+        "scaled_MAD": 1.1954997720274885,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 31.725978389297413,
+        "median_transformed": 6.370756415030042,
+        "scaled_MAD": 0.9608624021254202,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8075
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_129",
+    "thresholds": {
+      "low_counts": {
+        "value": 28.3836126397648,
+        "median_transformed": 6.833031732786201,
+        "scaled_MAD": 1.1508648690160619,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.521168337804575,
+        "median_transformed": 6.329720905522696,
+        "scaled_MAD": 0.9391812585232654,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7462
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_132",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.61388641400623,
+        "median_transformed": 6.8679744089702925,
+        "scaled_MAD": 1.1381259804744084,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.85877312946166,
+        "median_transformed": 6.3578422665081,
+        "scaled_MAD": 0.9355124737521306,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7576
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_133",
+    "thresholds": {
+      "low_counts": {
+        "value": 28.292779063339406,
+        "median_transformed": 6.889591308354466,
+        "scaled_MAD": 1.1707500903516734,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.45843886842576,
+        "median_transformed": 6.361302477572996,
+        "scaled_MAD": 0.9503328132515744,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7569
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_134",
+    "thresholds": {
+      "low_counts": {
+        "value": 26.720924427431353,
+        "median_transformed": 6.90875477931522,
+        "scaled_MAD": 1.1955224189322136,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 31.560911978087645,
+        "median_transformed": 6.3818160174060985,
+        "scaled_MAD": 0.9662344891696607,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7539
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_139",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.80455448287588,
+        "median_transformed": 6.97166860472579,
+        "scaled_MAD": 1.170686367487703,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.536062274152684,
+        "median_transformed": 6.424057993719454,
+        "scaled_MAD": 0.9511699913815134,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.0868107719631501,
+        "median_transformed": 0.015935014494502388,
+        "scaled_MAD": 0.023625252489549237,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7644
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_141",
+    "thresholds": {
+      "low_counts": {
+        "value": 26.776709314992384,
+        "median_transformed": 6.925595197110468,
+        "scaled_MAD": 1.200465773994833,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.781412572318885,
+        "median_transformed": 6.391917113392602,
+        "scaled_MAD": 0.9573354620210414,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7629
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_142",
+    "thresholds": {
+      "low_counts": {
+        "value": 24.07817992109554,
+        "median_transformed": 6.976348070447749,
+        "scaled_MAD": 1.251449976081877,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 30.796238438661554,
+        "median_transformed": 6.429719478039138,
+        "scaled_MAD": 0.9901238277806661,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.08405801573831198,
+        "median_transformed": 0.015429717636167259,
+        "scaled_MAD": 0.022876099367381577,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7556
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_145",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.73917502622874,
+        "median_transformed": 6.837332814685591,
+        "scaled_MAD": 1.1265936971791055,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.15955839160702,
+        "median_transformed": 6.334166939818875,
+        "scaled_MAD": 0.9247568090154821,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8190
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_147",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.252893564656226,
+        "median_transformed": 6.8001700683022,
+        "scaled_MAD": 1.09867609349527,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.32160155184275,
+        "median_transformed": 6.298949246855942,
+        "scaled_MAD": 0.9114848426994284,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7701
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_154",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.626166753745313,
+        "median_transformed": 6.8501261661455,
+        "scaled_MAD": 1.1216705128584008,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.231504640551364,
+        "median_transformed": 6.329720905522696,
+        "scaled_MAD": 0.9132639570797588,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7676
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_155",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.21301768006643,
+        "median_transformed": 6.9102520348033725,
+        "scaled_MAD": 1.1357700456447979,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.64080367870775,
+        "median_transformed": 6.372465818404434,
+        "scaled_MAD": 0.9237677814588379,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7760
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_162",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.585754321250896,
+        "median_transformed": 6.845347677236156,
+        "scaled_MAD": 1.1416044405782422,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.15337584377882,
+        "median_transformed": 6.326149473155099,
+        "scaled_MAD": 0.9416683087666639,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 6542
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_001",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.096718381829728,
+        "median_transformed": 6.813444599510896,
+        "scaled_MAD": 1.1148969352321758,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.89177096992477,
+        "median_transformed": 6.317164686747284,
+        "scaled_MAD": 0.9122188794738786,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7920
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_163",
+    "thresholds": {
+      "low_counts": {
+        "value": 25.384854904366144,
+        "median_transformed": 6.924611912624448,
+        "scaled_MAD": 1.217273914984401,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 30.447127411593076,
+        "median_transformed": 6.3835066348840055,
+        "scaled_MAD": 0.9783996647244269,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 6554
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_105",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.945230750984017,
+        "median_transformed": 6.796823718274855,
+        "scaled_MAD": 1.1006590699353314,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.74813433420861,
+        "median_transformed": 6.289715570908998,
+        "scaled_MAD": 0.9138632295212245,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7766
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_017",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.773392579045527,
+        "median_transformed": 6.8001700683022,
+        "scaled_MAD": 1.11384694670172,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.316818151079616,
+        "median_transformed": 6.302618975744905,
+        "scaled_MAD": 0.9127532301299789,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8149
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_106",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.959264383929604,
+        "median_transformed": 6.79346613258001,
+        "scaled_MAD": 1.1096680095733307,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.61362677525717,
+        "median_transformed": 6.295266001439646,
+        "scaled_MAD": 0.9170061864914653,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8016
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_170",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.46624505953662,
+        "median_transformed": 6.81618793533465,
+        "scaled_MAD": 1.1224241831575803,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.96139809533993,
+        "median_transformed": 6.309918278226516,
+        "scaled_MAD": 0.9185579123177814,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7821
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_107",
+    "thresholds": {
+      "low_counts": {
+        "value": 28.603174281048148,
+        "median_transformed": 6.895682697747868,
+        "scaled_MAD": 1.1692670343143228,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.54817743654432,
+        "median_transformed": 6.368187186350492,
+        "scaled_MAD": 0.9419441296676867,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7427
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_171",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.099629645777227,
+        "median_transformed": 6.866933284461882,
+        "scaled_MAD": 1.1432457912811698,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.169599726569984,
+        "median_transformed": 6.3561076606958915,
+        "scaled_MAD": 0.9319751984596107,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7718
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_011",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.086152092934395,
+        "median_transformed": 6.779921907472252,
+        "scaled_MAD": 1.114386485924328,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.179757289231276,
+        "median_transformed": 6.2766434893416445,
+        "scaled_MAD": 0.9150033042127074,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7928
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_178",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.34796393955409,
+        "median_transformed": 6.79794041297493,
+        "scaled_MAD": 1.1284036612437292,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.028235761736255,
+        "median_transformed": 6.297109319933935,
+        "scaled_MAD": 0.9332488317219597,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7286
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_120",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.616343493218334,
+        "median_transformed": 6.933910117829637,
+        "scaled_MAD": 1.170792050122318,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.78486451998028,
+        "median_transformed": 6.3784261836515865,
+        "scaled_MAD": 0.9528044255732367,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.11673026705035634,
+        "median_transformed": 0.02142704707411365,
+        "scaled_MAD": 0.0317677399920809,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7833
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_121",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.789728648589286,
+        "median_transformed": 6.822197390620491,
+        "scaled_MAD": 1.1106940250766788,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.02438857893745,
+        "median_transformed": 6.309918278226516,
+        "scaled_MAD": 0.90857403620572,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7812
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_130",
+    "thresholds": {
+      "low_counts": {
+        "value": 34.01585311619114,
+        "median_transformed": 6.8001700683022,
+        "scaled_MAD": 1.0814563877283503,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 36.5671807693464,
+        "median_transformed": 6.293419278846481,
+        "scaled_MAD": 0.8890961538289102,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7770
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_135",
+    "thresholds": {
+      "low_counts": {
+        "value": 34.469916015839765,
+        "median_transformed": 6.811244378601294,
+        "scaled_MAD": 1.0808531591901587,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 36.16064407224481,
+        "median_transformed": 6.2878585601617845,
+        "scaled_MAD": 0.8908694379864441,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7674
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_138",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.40214747854518,
+        "median_transformed": 6.860663671448287,
+        "scaled_MAD": 1.1173478259225635,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.49119538172904,
+        "median_transformed": 6.340359303727752,
+        "scaled_MAD": 0.914429431552165,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7701
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_140",
+    "thresholds": {
+      "low_counts": {
+        "value": 26.721470692101523,
+        "median_transformed": 6.914730892718563,
+        "scaled_MAD": 1.1975078881778745,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 30.787636443453152,
+        "median_transformed": 6.39024066706535,
+        "scaled_MAD": 0.9770544146548158,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7445
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_146",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.879472849500868,
+        "median_transformed": 6.824373670043086,
+        "scaled_MAD": 1.1105083775137965,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.48980837719048,
+        "median_transformed": 6.309918278226516,
+        "scaled_MAD": 0.9135575703097502,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7523
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_149",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.879234046106884,
+        "median_transformed": 6.874198495453294,
+        "scaled_MAD": 1.1374145559923874,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.0993690415057,
+        "median_transformed": 6.345636360828596,
+        "scaled_MAD": 0.9197869912390462,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7971
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_153",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.434998843223255,
+        "median_transformed": 6.810693414358215,
+        "scaled_MAD": 1.1317000634734784,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.6748988200928,
+        "median_transformed": 6.315358001522335,
+        "scaled_MAD": 0.9328684279434954,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7518
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_016",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.839892883102184,
+        "median_transformed": 6.779921907472252,
+        "scaled_MAD": 1.1064006369086354,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.56607998596143,
+        "median_transformed": 6.272877006546167,
+        "scaled_MAD": 0.9197869912390462,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7579
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_160",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.91013207364391,
+        "median_transformed": 6.90875477931522,
+        "scaled_MAD": 1.1592235834450546,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.330047977987284,
+        "median_transformed": 6.366470447731438,
+        "scaled_MAD": 0.9434831475700081,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7489
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_187",
+    "thresholds": {
+      "low_counts": {
+        "value": 25.969001398278888,
+        "median_transformed": 6.893656354602635,
+        "scaled_MAD": 1.1996560815086177,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.04735197209553,
+        "median_transformed": 6.373319789577012,
+        "scaled_MAD": 0.9584594494541002,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7941
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_189",
+    "thresholds": {
+      "low_counts": {
+        "value": 25.797686315011294,
+        "median_transformed": 6.93537044601511,
+        "scaled_MAD": 1.2156849645848364,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 30.903110339098916,
+        "median_transformed": 6.391917113392602,
+        "scaled_MAD": 0.9764045351872741,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.05334750309452901,
+        "median_transformed": 0.00979248560786538,
+        "scaled_MAD": 0.01451833916222121,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7933
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_190",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.725901129606168,
+        "median_transformed": 6.8079343332175775,
+        "scaled_MAD": 1.1276094497743692,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.91488079789169,
+        "median_transformed": 6.2878585601617845,
+        "scaled_MAD": 0.9213348935003695,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7798
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_021",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.38822925858681,
+        "median_transformed": 6.76849321164863,
+        "scaled_MAD": 1.0867632637290545,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.418561359241664,
+        "median_transformed": 6.267200548541362,
+        "scaled_MAD": 0.8907073254719318,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7743
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_029",
+    "thresholds": {
+      "low_counts": {
+        "value": 28.705067394374908,
+        "median_transformed": 6.802394763324311,
+        "scaled_MAD": 1.1370257042434195,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.40329328998554,
+        "median_transformed": 6.306275286948016,
+        "scaled_MAD": 0.9131568134482768,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7806
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_030",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.07206435974195,
+        "median_transformed": 6.804614520062624,
+        "scaled_MAD": 1.112209712665877,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.165413211893295,
+        "median_transformed": 6.304448802421981,
+        "scaled_MAD": 0.9054485254819464,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7627
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_181",
+    "thresholds": {
+      "low_counts": {
+        "value": 28.871655140544238,
+        "median_transformed": 6.822197390620491,
+        "scaled_MAD": 1.1417624494865986,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.05707179574036,
+        "median_transformed": 6.304448802421981,
+        "scaled_MAD": 0.9354044287911728,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7154
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_033",
+    "thresholds": {
+      "low_counts": {
+        "value": 33.52960467939169,
+        "median_transformed": 6.70196036600254,
+        "scaled_MAD": 1.053381101093072,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.56021994846537,
+        "median_transformed": 6.22455842927536,
+        "scaled_MAD": 0.8844436111237854,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7293
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_020",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.847935004202306,
+        "median_transformed": 6.782192056006791,
+        "scaled_MAD": 1.1070731703744652,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.03235218493467,
+        "median_transformed": 6.285998094508865,
+        "scaled_MAD": 0.9099087039417085,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7477
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_036",
+    "thresholds": {
+      "low_counts": {
+        "value": 28.93624193920916,
+        "median_transformed": 6.826545223556594,
+        "scaled_MAD": 1.1424917907252885,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.46969313164579,
+        "median_transformed": 6.322565239927284,
+        "scaled_MAD": 0.9373082977353401,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7946
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_022",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.417057022412425,
+        "median_transformed": 6.762729506931879,
+        "scaled_MAD": 1.0946815904504812,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.712732584117234,
+        "median_transformed": 6.272877006546167,
+        "scaled_MAD": 0.8991232421098556,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7851
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_045",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.82730931464246,
+        "median_transformed": 6.8308742346461795,
+        "scaled_MAD": 1.1032019301662401,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 36.599942072498195,
+        "median_transformed": 6.318968113746434,
+        "scaled_MAD": 0.8973218679922734,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8070
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_037",
+    "thresholds": {
+      "low_counts": {
+        "value": 28.96007835623534,
+        "median_transformed": 6.8690144506657065,
+        "scaled_MAD": 1.1563828922194825,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.479896014384856,
+        "median_transformed": 6.352629396319567,
+        "scaled_MAD": 0.9472280855351995,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8221
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_043",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.40687642848791,
+        "median_transformed": 6.786716950605081,
+        "scaled_MAD": 1.0926517302401926,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.2769248973297,
+        "median_transformed": 6.284134161070802,
+        "scaled_MAD": 0.89765076656276,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8147
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_044",
+    "thresholds": {
+      "low_counts": {
+        "value": 28.625493265175862,
+        "median_transformed": 6.827629234502852,
+        "scaled_MAD": 1.1463313282949588,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.22751552969889,
+        "median_transformed": 6.317164686747284,
+        "scaled_MAD": 0.928044939500561,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8074
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_005",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.8835030008814,
+        "median_transformed": 6.729824070489475,
+        "scaled_MAD": 1.0892451139244195,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.70002708136899,
+        "median_transformed": 6.240275845170769,
+        "scaled_MAD": 0.8883747992678998,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7330
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_050",
+    "thresholds": {
+      "low_counts": {
+        "value": 22.266817907885258,
+        "median_transformed": 6.897704943128636,
+        "scaled_MAD": 1.250225573903546,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 28.715068099323357,
+        "median_transformed": 6.391917113392602,
+        "scaled_MAD": 1.000087617609181,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7235
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_052",
+    "thresholds": {
+      "low_counts": {
+        "value": 28.34334345812341,
+        "median_transformed": 6.889591308354466,
+        "scaled_MAD": 1.1701751955013837,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.74774232736326,
+        "median_transformed": 6.363028103540465,
+        "scaled_MAD": 0.9480381941544938,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7599
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_056",
+    "thresholds": {
+      "low_counts": {
+        "value": 33.513257330573225,
+        "median_transformed": 6.7650389767805414,
+        "scaled_MAD": 1.0745651520349369,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 36.47448524113916,
+        "median_transformed": 6.2766434893416445,
+        "scaled_MAD": 0.8843277271692176,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7717
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_048",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.3664832991458,
+        "median_transformed": 6.9167150203536085,
+        "scaled_MAD": 1.1677918477404954,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.41457075847065,
+        "median_transformed": 6.3818160174060985,
+        "scaled_MAD": 0.9477786580487974,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7449
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_058",
+    "thresholds": {
+      "low_counts": {
+        "value": 18.3977490117173,
+        "median_transformed": 6.82001636467413,
+        "scaled_MAD": 1.2849531118869122,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 26.683563849902818,
+        "median_transformed": 6.333279628139691,
+        "scaled_MAD": 1.0041469179583922,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 6508
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_068",
+    "thresholds": {
+      "low_counts": {
+        "value": 35.212242788018216,
+        "median_transformed": 6.75110146893676,
+        "scaled_MAD": 1.0539014029057463,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 37.968990290966545,
+        "median_transformed": 6.26530121273771,
+        "scaled_MAD": 0.8675116678762245,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7754
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_049",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.23156531615208,
+        "median_transformed": 6.766767419962871,
+        "scaled_MAD": 1.08775574439805,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.87206613749357,
+        "median_transformed": 6.272877006546167,
+        "scaled_MAD": 0.8976393719833708,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7766
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_073",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.265412384790324,
+        "median_transformed": 6.829793737512425,
+        "scaled_MAD": 1.1290937621993506,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.35504477974605,
+        "median_transformed": 6.315358001522335,
+        "scaled_MAD": 0.9166389699641009,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7325
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_051",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.949878108488218,
+        "median_transformed": 6.799612965180498,
+        "scaled_MAD": 1.1015418011753266,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.93838242271369,
+        "median_transformed": 6.306275286948016,
+        "scaled_MAD": 0.9081564714402456,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7880
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_083",
+    "thresholds": {
+      "low_counts": {
+        "value": 33.78724634964907,
+        "median_transformed": 6.790097235513905,
+        "scaled_MAD": 1.080282133370237,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 37.7085828122365,
+        "median_transformed": 6.306275286948016,
+        "scaled_MAD": 0.8834046444691465,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7882
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_089",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.863943432172388,
+        "median_transformed": 6.769641976852503,
+        "scaled_MAD": 1.1027223020881098,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.0718328190474,
+        "median_transformed": 6.285998094508865,
+        "scaled_MAD": 0.9001619293489599,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8072
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_053",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.52561693886185,
+        "median_transformed": 6.822197390620491,
+        "scaled_MAD": 1.123798979710637,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.441897416787775,
+        "median_transformed": 6.318968113746434,
+        "scaled_MAD": 0.9170244835314313,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8034
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_055",
+    "thresholds": {
+      "low_counts": {
+        "value": 34.373461171968174,
+        "median_transformed": 6.739336627357174,
+        "scaled_MAD": 1.0577915909263353,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.483823712184936,
+        "median_transformed": 6.244166900663736,
+        "scaled_MAD": 0.8824326414262511,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7427
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_057",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.926478916156654,
+        "median_transformed": 6.773080375655535,
+        "scaled_MAD": 1.0829615257293983,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.90895258785847,
+        "median_transformed": 6.2766434893416445,
+        "scaled_MAD": 0.8893964500549676,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7548
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_059",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.57554311873324,
+        "median_transformed": 6.775366090936392,
+        "scaled_MAD": 1.118388548676686,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.96793334839856,
+        "median_transformed": 6.284134161070802,
+        "scaled_MAD": 0.9005021199606164,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7753
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_006",
+    "thresholds": {
+      "low_counts": {
+        "value": 29.35081774631156,
+        "median_transformed": 6.814542897259958,
+        "scaled_MAD": 1.1339064787507134,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.835000891977074,
+        "median_transformed": 6.306275286948016,
+        "scaled_MAD": 0.9282598303004238,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8178
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_062",
+    "thresholds": {
+      "low_counts": {
+        "value": 25.065185306465665,
+        "median_transformed": 6.9411900550683745,
+        "scaled_MAD": 1.2268631758251054,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 30.90479499114401,
+        "median_transformed": 6.403574197934815,
+        "scaled_MAD": 0.9802726287459691,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": 0.06879403965147114,
+        "median_transformed": 0.012627857052658164,
+        "scaled_MAD": 0.01872206086627099,
+        "log1p": false,
+        "side": "higher",
+        "n_MAD": 3
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7559
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_064",
+    "thresholds": {
+      "low_counts": {
+        "value": 26.874491276843173,
+        "median_transformed": 6.875232087276577,
+        "scaled_MAD": 1.1825067026069742,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 32.50363950161859,
+        "median_transformed": 6.343880434126331,
+        "scaled_MAD": 0.9440754531190154,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7882
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_070",
+    "thresholds": {
+      "low_counts": {
+        "value": 32.419165821403546,
+        "median_transformed": 6.795705775173515,
+        "scaled_MAD": 1.0955254042594935,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.9941158562706,
+        "median_transformed": 6.297109319933935,
+        "scaled_MAD": 0.9045846144246348,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7777
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_074",
+    "thresholds": {
+      "low_counts": {
+        "value": 17.70076294395163,
+        "median_transformed": 6.872128101338986,
+        "scaled_MAD": 1.3145212597229696,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 26.102216531349562,
+        "median_transformed": 6.375024819828097,
+        "scaled_MAD": 1.0251364348208072,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7196
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_080",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.404466822162373,
+        "median_transformed": 6.78332520060396,
+        "scaled_MAD": 1.101676307475537,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.829053128549816,
+        "median_transformed": 6.278521424165844,
+        "scaled_MAD": 0.89992077332534,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7471
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_084",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.66658999851133,
+        "median_transformed": 6.755768921984256,
+        "scaled_MAD": 1.1001689133847992,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 34.16637183516813,
+        "median_transformed": 6.272877006546167,
+        "scaled_MAD": 0.9042622420557941,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7959
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_086",
+    "thresholds": {
+      "low_counts": {
+        "value": 31.634751184648373,
+        "median_transformed": 6.829793737512425,
+        "scaled_MAD": 1.1148053432138603,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 35.52143223665944,
+        "median_transformed": 6.317164686747284,
+        "scaled_MAD": 0.9064218046394096,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7676
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_090",
+    "thresholds": {
+      "low_counts": {
+        "value": 16.87083369036488,
+        "median_transformed": 6.82001636467413,
+        "scaled_MAD": 1.3122821278402637,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 25.619251443017895,
+        "median_transformed": 6.335054251498059,
+        "scaled_MAD": 1.0178065196744899,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 6995
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_094",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.332377817401326,
+        "median_transformed": 6.8292529045770545,
+        "scaled_MAD": 1.1282003022098224,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.186706923036986,
+        "median_transformed": 6.320768294250582,
+        "scaled_MAD": 0.9296438040670305,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 7868
+  },
+  {
+    "assay": "rna",
+    "library_id": "EasySci_097",
+    "thresholds": {
+      "low_counts": {
+        "value": 30.06319153264388,
+        "median_transformed": 6.906754778648554,
+        "scaled_MAD": 1.1569104041397296,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "low_features": {
+        "value": 33.573562555907905,
+        "median_transformed": 6.385194398997726,
+        "scaled_MAD": 0.9473683656591975,
+        "log1p": true,
+        "side": "lower",
+        "n_MAD": 3
+      },
+      "high_mitochondrial": {
+        "value": null,
+        "median_transformed": 0.0,
+        "reason": "zero_MAD_no_automatic_threshold"
+      }
+    },
+    "mitochondrial_definition": "raw mitochondrial gene UMIs / all assigned gene UMIs *100",
+    "n_doublet_unresolved": 8099
+  }
+]

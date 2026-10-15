@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-15T08:08:05.689Z",
+  "all_passed": true,
+  "checks": 22,
+  "scope": "real app state transitions with minimal DOM/Chart doubles",
+  "actual_browser_visual_review": false,
+  "PDF_or_graph_execution": false
+}

@@ -1,0 +1,45 @@
+TE coordinate-overlap heatmap | producer 7471562 | page 1 / 1
+Microglia | TE class / type
+% of callable peak union
+WT | 3 mo 5xFAD | 3 mo APOE4/TREM2 | 3 mo
+LTR 2.36%
+4/4 animals
+2.45%
+4/4 animals
+2.60%
+4/4 animals
+SINE 1.67%
+4/4 animals
+1.87%
+4/4 animals
+1.85%
+4/4 animals
+LINE 1.51%
+4/4 animals
+1.89%
+4/4 animals
+1.94%
+4/4 animals
+DNA 0.22%
+4/4 animals
+0.26%
+4/4 animals
+0.25%
+4/4 animals
+RC 0.0016%
+4/4 animals
+0.00%
+4/4 animals
+0.0022%
+4/4 animals
+0.00 2.60
+Overlap (%) NA | missing / noncallable
+Equal-animal means | initial calibration peak groups | coordinate overlap only
+Producer job 7471562 | mm10 / GRCm38 | heatmap
+Cell type: Microglia (initial published calibration; not final annotation)
+Conditions: WT_3mo, 5xFAD_3mo, APOE4_TREM2_3mo | Sex: all | Taxonomy: class
+Units: % of callable peak union overlapping category
+One point = one animal; equal-animal condition means. Missing/noncallable groups = NA.
+Coordinate overlap only; no TE expression, fragment accessibility counts or inferential enrichment. Categories can overlap.
+Displayed categories: 5 | Search: none | Primary TE only: true
+Native-vector plot and legend | exported 2026-10-15T08:15:37.462Z

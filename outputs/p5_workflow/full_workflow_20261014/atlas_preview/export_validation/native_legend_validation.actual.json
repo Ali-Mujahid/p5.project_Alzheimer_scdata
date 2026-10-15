@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-14T21:42:19.543571+00:00",
+  "PDF_browser_downloaded": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/full_workflow_20261014/atlas_preview/export_validation/ATAC_activity_dotplot_with_legend.pdf",
+  "bytes": 452506,
+  "sha256": "ac2cf33043395fad36e67de018746875fe090d06303134d258683f6ec3553879",
+  "one_page_PDF13": true,
+  "visually_reviewed": true,
+  "color_gradient_range": [
+    -2.5,
+    2.5
+  ],
+  "dot_area_keys": [
+    25,
+    50,
+    100
+  ],
+  "unmapped_NA_key": true,
+  "resolution_in_footer": 0.6,
+  "plot_raster_context_legend_text_vector": true,
+  "UMAP_browser_PDF_with_native_legend": {
+    "path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/full_workflow_20261014/atlas_preview/export_validation/ATAC_initial_harmony_UMAP_with_legend.pdf",
+    "bytes": 785047,
+    "sha256": "600a58173baecac5095b734c946bac24190fcf493d3ee3a991e09e710353679f",
+    "one_page_valid_PDF": true,
+    "native_categorical_legend_and_axes_implemented": true
+  }
+}

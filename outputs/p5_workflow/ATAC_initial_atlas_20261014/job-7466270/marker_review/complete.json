@@ -1,0 +1,12 @@
+{
+  "n_cells": 456472,
+  "panel_genes": 107,
+  "zero_total_activity_cells": 0,
+  "counts_source": "raw integer GENCODE M25 gene-body fragment accessibility; not RNA expression",
+  "normalized_statistics": "descriptive log1p activity per10k using full gene-body activity denominator; equal animal weight",
+  "cell_types_assigned": false,
+  "exclusions_applied": false,
+  "final_annotation_complete": false,
+  "missing_gene_does_not_prove_absence": true,
+  "ARI_corrected_vs_same_LSI_uncorrected": 0.8558545239911065
+}

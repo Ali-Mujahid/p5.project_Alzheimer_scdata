@@ -1,0 +1,77 @@
+{
+  "utc": "2026-10-15T08:17:29.188608+00:00",
+  "source": "actual CUA UI click/download events",
+  "producer_job_id": "7471562",
+  "checks": {
+    "microglia_class_heatmap_browser.pdf": {
+      "producer_job": true,
+      "Microglia": true,
+      "scope_overlap": true,
+      "no_expression_claim": false,
+      "genotype_WT": true,
+      "genotype_FAD": true,
+      "genotype_APOE": true,
+      "native_vectors": true
+    },
+    "microglia_primaryTE_boxplot_browser.pdf": {
+      "producer_job": true,
+      "Microglia": true,
+      "scope_overlap": true,
+      "no_expression_claim": false,
+      "genotype_WT": true,
+      "genotype_FAD": true,
+      "genotype_APOE": true,
+      "native_vectors": true,
+      "median_boxlegend": true,
+      "animals_available": true,
+      "sex_shapes": true
+    },
+    "microglia_female_family_zscore_browser.pdf": {
+      "producer_job": true,
+      "Microglia": true,
+      "scope_overlap": true,
+      "no_expression_claim": false,
+      "genotype_WT": true,
+      "genotype_FAD": true,
+      "genotype_APOE": true,
+      "native_vectors": true,
+      "two_pages": true,
+      "zscore": true,
+      "female_filter": true,
+      "family_disambiguation": true
+    }
+  },
+  "files": {
+    "microglia_class_heatmap_browser.pdf": {
+      "path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/full_workflow_20261014/atlas_preview/export_validation/TE_overlap/microglia_class_heatmap_browser.pdf",
+      "bytes": 7096,
+      "sha256": "0086f8ea36f8d1577f024f282650e715ba13429f1d7867dc7f0201623f382b66",
+      "pages": 1,
+      "native_text_extracted": true,
+      "embedded_images": 0
+    },
+    "microglia_primaryTE_boxplot_browser.pdf": {
+      "path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/full_workflow_20261014/atlas_preview/export_validation/TE_overlap/microglia_primaryTE_boxplot_browser.pdf",
+      "bytes": 6760,
+      "sha256": "505f48a79dbcca8b0687463fca66e469b7119002ac36c9a9932e23de5c5e8188",
+      "pages": 1,
+      "native_text_extracted": true,
+      "embedded_images": 0
+    },
+    "microglia_female_family_zscore_browser.pdf": {
+      "path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/full_workflow_20261014/atlas_preview/export_validation/TE_overlap/microglia_female_family_zscore_browser.pdf",
+      "bytes": 15914,
+      "sha256": "7760451307d9c3cfaf58abc2fa154f5072e8b525e57463ed4a2066ee2da14cb3",
+      "pages": 2,
+      "native_text_extracted": true,
+      "embedded_images": 0
+    },
+    "microglia_female_family_means_browser.tsv": {
+      "path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/full_workflow_20261014/atlas_preview/export_validation/TE_overlap/microglia_female_family_means_browser.tsv",
+      "bytes": 14450,
+      "sha256": "20391e7379279d0488882a72e0843c732db924ca731c9b54efa2f7ee77b5b955",
+      "rows": 126
+    }
+  },
+  "all_passed": false
+}

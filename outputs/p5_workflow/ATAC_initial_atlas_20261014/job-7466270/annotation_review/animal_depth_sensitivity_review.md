@@ -1,0 +1,9 @@
+# Animal and depth sensitivity review
+
+The cluster-8 concentration is present in all four 5xFAD mice using each animal’s full initial-QC denominator: 9.63–12.66% of nuclei, versus 0.36–0.81% in the other 16 mice. This is descriptive composition evidence, not a genotype-effect test. All four 5xFAD mice are represented and both sexes contribute. Differences in technical quality, retained-cell composition and depth still need sensitivity review.
+
+For corrected cluster 8, 11,017/11,606 nuclei (94.93%) belong to uncorrected cluster 6. That uncorrected cluster also contains 5,885 nuclei assigned to corrected cluster 2 and other smaller contingents. Thus the same-nucleus correspondence supports a shared baseline neighborhood, not one-to-one preservation of a unique cluster-8 identity. Cluster indices are arbitrary and cannot be compared by matching their numbers. No graph was rerun.
+
+Corrected cluster 7 has a higher median detected-peak count than corrected cluster 1 within **every one of the 20 animals**: paired ratios 3.18–4.27, median 3.62. Both have granule-neuron-associated activity, so depth needs explicit consideration before treating their separation as a new cell type or state. Of cluster 7, 9,819 nuclei belong to uncorrected cluster 1 and 1,792 to uncorrected cluster 8; this also illustrates clustering sensitivity.
+
+Inputs: the downloaded 38.86MB per-cell metadata table from job 7466270, read in 3.1 seconds. Exact coverage totals and unique cell IDs were reconciled. No peak or activity matrix was scanned, no counts/atlas were changed, and no cells were excluded. Per-animal denominator/QC tables, the full corrected-versus-uncorrected contingency and the companion PNG/PDF are saved beside this report. Remaining per-cell marker breadth and doublet sensitivity require the accepted marker counts and an appropriate human-submitted allocation if heavy analysis is needed.

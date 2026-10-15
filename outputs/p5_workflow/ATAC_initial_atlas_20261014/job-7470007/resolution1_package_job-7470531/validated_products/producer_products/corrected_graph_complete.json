@@ -1,0 +1,11 @@
+{
+  "branch": "corrected",
+  "resolution": 1.0,
+  "n_clusters": 12,
+  "n_cells": 456472,
+  "old_cluster_key": "initial_cluster",
+  "new_cluster_key": "initial_cluster_resolution1",
+  "graph_only_completed": true,
+  "raw_peak_X_read": false,
+  "TFIDF_LSI_Harmony_UMAP_rerun": false
+}

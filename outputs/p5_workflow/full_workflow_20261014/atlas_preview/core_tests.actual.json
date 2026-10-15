@@ -1,0 +1,18 @@
+{
+  "tested_utc": "2026-10-14T23:47:21.048Z",
+  "checks": 18,
+  "all_passed": true,
+  "scope": [
+    "exact total/sex/condition coverage",
+    "empty selection semantics",
+    "weighted within-animal display merges",
+    "equal-animal and condition groups",
+    "z-score mean/variance and one-group behavior",
+    "unmapped source values flagged",
+    "label import validation",
+    "boxplot quantiles",
+    "all coordinate and attribute axes"
+  ],
+  "browser_render_checked": false,
+  "raw_CSR_read": false
+}

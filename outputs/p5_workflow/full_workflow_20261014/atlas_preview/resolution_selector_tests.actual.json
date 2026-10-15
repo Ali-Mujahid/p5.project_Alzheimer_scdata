@@ -1,0 +1,21 @@
+{
+  "tested_utc": "2026-10-14T23:48:43.944Z",
+  "all_passed": true,
+  "checks": 159,
+  "actual_resolution1_enabled": true,
+  "clusters": {
+    "0.6|corrected": 11,
+    "0.6|uncorrected": 9,
+    "1.0|corrected": 12,
+    "1.0|uncorrected": 12
+  },
+  "package_manifest_sha256": "07fb6736f0304ca87225dd8449a548a579072a4223092d2c2589ad58e288cc02",
+  "all_nuclei": 456472,
+  "graphs_and_coordinate_controls_separate": true,
+  "labels_scoped_by_dataset_resolution_graph": true,
+  "canonical_genotype_filter": true,
+  "initial_uncorrected_markers_explicitly_unavailable": true,
+  "raw_integer_NA_animal_coverage_and_label_axes": true,
+  "coordinate_or_raw_matrix_recomputed": false,
+  "browser_visual_check": false
+}

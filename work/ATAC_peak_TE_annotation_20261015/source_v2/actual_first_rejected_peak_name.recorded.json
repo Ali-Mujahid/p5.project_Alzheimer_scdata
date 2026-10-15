@@ -1,0 +1,23 @@
+{
+  "read_only_technical_failure_diagnostic": true,
+  "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_LiSC_parallel_prepare_20261013_v2/run-AAv4sN3T/atlas/peak_calls/PB00000/PB00000_peaks.narrowPeak",
+  "file_bytes": 748553,
+  "bounded_maximum_bytes": 1000000,
+  "bytes_examined_to_first_rejection": 7207,
+  "first_rejected": {
+    "line": 102,
+    "name": "PB00000_peak_102a",
+    "columns": [
+      "chr1",
+      "46853213",
+      "46853993",
+      "PB00000_peak_102a",
+      "63",
+      ".",
+      "6.48148",
+      "10.507",
+      "6.30749",
+      "143"
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "stage": "ATAC_resolution1_20261014_v1",
+  "project_root": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging",
+  "deployed_source": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_source/ATAC_resolution1_20261014_v1",
+  "output_root": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_resolution1_20261014_v1",
+  "python": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_environment/rna_py312/bin/python",
+  "guard_source": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_20261014_v4",
+  "guard_source_manifest_sha256": "d2385aebc47931ee9b4f15f6db3a11c140e70d53da33c6038a35ffddfb5bcf50",
+  "accepted_source": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_source/ATAC_embedding_20261014_v2",
+  "accepted_source_manifest_sha256": "1602256721588ea9839ec42b5e0c5ca77793c278ee46d5ef3cf1683d0a59d115",
+  "atlas": {
+    "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/atac_initial_atlas.h5ad",
+    "bytes": 1627723675,
+    "inode": 642043062,
+    "mtime_ns": 1791966079459724674
+  },
+  "activity": {
+    "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_LiSC_parallel_prepare_20261013_v2/run-AAv4sN3T/atlas/atac_activity_mm10.h5ad",
+    "bytes": 3155453193,
+    "inode": 106644169,
+    "mtime_ns": 1791957267901942011
+  },
+  "n_cells": 456472,
+  "n_animals": 20,
+  "n_libraries": 104,
+  "n_conditions": 5,
+  "graphs": {
+    "corrected": {
+      "key": "initial_connectivities",
+      "nnz": 25131608,
+      "dtype": "float32",
+      "old_cluster": "initial_cluster",
+      "new_cluster": "initial_cluster_resolution1"
+    },
+    "uncorrected": {
+      "key": "uncorrected_initial_connectivities",
+      "nnz": 25050706,
+      "dtype": "float32",
+      "old_cluster": "initial_cluster_uncorrected",
+      "new_cluster": "initial_cluster_uncorrected_resolution1"
+    }
+  },
+  "leiden": {
+    "resolution": 1.0,
+    "random_state": 1729,
+    "flavor": "leidenalg",
+    "directed": true,
+    "use_weights": true,
+    "n_iterations": -1,
+    "partition_type": "leidenalg.RBConfigurationVertexPartition"
+  },
+  "runtime_versions": {
+    "igraph": "0.11.9",
+    "leidenalg": "0.10.2",
+    "scanpy": "1.11.5",
+    "anndata": "0.11.4",
+    "h5py": "3.14.0",
+    "scipy": "1.15.3",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3"
+  },
+  "marker_helper_sha256": "94b19f68de6fbee6438efd4a07d31593bd36418051475bd534e2eb93c5ddbbe6",
+  "marker_panels_sha256": "7802bd950bdcbb67b904b99685f7d5abe37e0c7fb79254b6d06a9447b8952901",
+  "marker_genes_expected": 107,
+  "activity_block_rows": 10000,
+  "resources": {
+    "CPUs": 2,
+    "memory_MiB": 16384,
+    "time_limit_seconds": 7200
+  },
+  "storage": {
+    "shared_bytes": 500000000000,
+    "shared_inodes": 40000,
+    "headroom_bytes": 605000000000,
+    "headroom_inodes": 53000,
+    "own_stage_bytes": 1000000000,
+    "own_stage_inodes": 4000,
+    "sample_seconds": 30
+  },
+  "no_peak_X_read": true,
+  "no_TFIDF_LSI_Harmony_UMAP_rerun": true,
+  "initial_diagnostic_only_final_QC_and_annotation_pending": true
+}

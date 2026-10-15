@@ -1,0 +1,416 @@
+[
+  {
+    "path": ".",
+    "device": 51,
+    "inode": 1641109199,
+    "mode": 16877,
+    "bytes": 4096,
+    "mtime_ns": 1792014618493218000,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi",
+    "device": 51,
+    "inode": 886960668,
+    "mode": 16877,
+    "bytes": 4096,
+    "mtime_ns": 1792014579506013000,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/CITATION",
+    "device": 51,
+    "inode": 1262552782,
+    "mode": 33188,
+    "bytes": 651,
+    "mtime_ns": 1792014481351576968,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/DESCRIPTION",
+    "device": 51,
+    "inode": 1229702724,
+    "mode": 33188,
+    "bytes": 2201,
+    "mtime_ns": 1792014221173409336,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/INDEX",
+    "device": 51,
+    "inode": 1263833483,
+    "mode": 33188,
+    "bytes": 875,
+    "mtime_ns": 1792014536792299006,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/Meta",
+    "device": 51,
+    "inode": 1229702725,
+    "mode": 16877,
+    "bytes": 4096,
+    "mtime_ns": 1792014537401833000,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/Meta/Rd.rds",
+    "device": 51,
+    "inode": 1673959254,
+    "mode": 33188,
+    "bytes": 1130,
+    "mtime_ns": 1792014536754893276,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/Meta/features.rds",
+    "device": 51,
+    "inode": 1648681372,
+    "mode": 33188,
+    "bytes": 123,
+    "mtime_ns": 1792014221202709530,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/Meta/hsearch.rds",
+    "device": 51,
+    "inode": 1682812152,
+    "mode": 33188,
+    "bytes": 1086,
+    "mtime_ns": 1792014536767436295,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/Meta/links.rds",
+    "device": 51,
+    "inode": 1682812153,
+    "mode": 33188,
+    "bytes": 482,
+    "mtime_ns": 1792014536771700134,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/Meta/nsInfo.rds",
+    "device": 51,
+    "inode": 1682812154,
+    "mode": 33188,
+    "bytes": 553,
+    "mtime_ns": 1792014537403199655,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/Meta/package.rds",
+    "device": 51,
+    "inode": 1648681371,
+    "mode": 33188,
+    "bytes": 1919,
+    "mtime_ns": 1792014221199725569,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/Meta/vignette.rds",
+    "device": 51,
+    "inode": 1682812150,
+    "mode": 33188,
+    "bytes": 254,
+    "mtime_ns": 1792014537361348747,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/NAMESPACE",
+    "device": 51,
+    "inode": 1229702722,
+    "mode": 33188,
+    "bytes": 752,
+    "mtime_ns": 1792014221052287603,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/NEWS",
+    "device": 51,
+    "inode": 1229702723,
+    "mode": 33188,
+    "bytes": 5632,
+    "mtime_ns": 1792014221055882000,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/R",
+    "device": 51,
+    "inode": 1262552779,
+    "mode": 16877,
+    "bytes": 4096,
+    "mtime_ns": 1792014529636120000,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/R/glmGamPoi",
+    "device": 51,
+    "inode": 943807877,
+    "mode": 33188,
+    "bytes": 1058,
+    "mtime_ns": 1792014529654335161,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/R/glmGamPoi.rdb",
+    "device": 51,
+    "inode": 943807883,
+    "mode": 33188,
+    "bytes": 153811,
+    "mtime_ns": 1792014529631433304,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/R/glmGamPoi.rdx",
+    "device": 51,
+    "inode": 943807923,
+    "mode": 33188,
+    "bytes": 1774,
+    "mtime_ns": 1792014529638802741,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/doc",
+    "device": 51,
+    "inode": 1262552780,
+    "mode": 16877,
+    "bytes": 4096,
+    "mtime_ns": 1792014537381752000,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/doc/glmGamPoi.R",
+    "device": 51,
+    "inode": 1262552783,
+    "mode": 33188,
+    "bytes": 7311,
+    "mtime_ns": 1792014481353981000,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/doc/glmGamPoi.Rmd",
+    "device": 51,
+    "inode": 1262552784,
+    "mode": 33188,
+    "bytes": 12631,
+    "mtime_ns": 1792014481357115555,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/doc/glmGamPoi.html",
+    "device": 51,
+    "inode": 1262552785,
+    "mode": 33188,
+    "bytes": 1269970,
+    "mtime_ns": 1792014481365232482,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/doc/index.html",
+    "device": 51,
+    "inode": 1263833485,
+    "mode": 33188,
+    "bytes": 1826,
+    "mtime_ns": 1792014537382322481,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/doc/pseudobulk.R",
+    "device": 51,
+    "inode": 1262552786,
+    "mode": 33188,
+    "bytes": 1678,
+    "mtime_ns": 1792014481366689872,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/doc/pseudobulk.Rmd",
+    "device": 51,
+    "inode": 1262552787,
+    "mode": 33188,
+    "bytes": 4854,
+    "mtime_ns": 1792014481369310000,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/doc/pseudobulk.html",
+    "device": 51,
+    "inode": 1262552788,
+    "mode": 33188,
+    "bytes": 1303119,
+    "mtime_ns": 1792014481376260964,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/help",
+    "device": 51,
+    "inode": 1263833472,
+    "mode": 16877,
+    "bytes": 4096,
+    "mtime_ns": 1792014532570767000,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/help/AnIndex",
+    "device": 51,
+    "inode": 1263833479,
+    "mode": 33188,
+    "bytes": 884,
+    "mtime_ns": 1792014532530982692,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/help/aliases.rds",
+    "device": 51,
+    "inode": 1263833480,
+    "mode": 33188,
+    "bytes": 344,
+    "mtime_ns": 1792014532534459225,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/help/figures",
+    "device": 51,
+    "inode": 1263833482,
+    "mode": 16877,
+    "bytes": 4096,
+    "mtime_ns": 1792014532596006000,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/help/figures/README-coefficientComparison-1.png",
+    "device": 51,
+    "inode": 810498115,
+    "mode": 33188,
+    "bytes": 55612,
+    "mtime_ns": 1792014532577986635,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/help/figures/README-make_volcano_plot-1.png",
+    "device": 51,
+    "inode": 810498116,
+    "mode": 33188,
+    "bytes": 42224,
+    "mtime_ns": 1792014532583759871,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/help/figures/README-plot_marker_genes-1.png",
+    "device": 51,
+    "inode": 810498117,
+    "mode": 33188,
+    "bytes": 79634,
+    "mtime_ns": 1792014532592368830,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/help/figures/logo.svg",
+    "device": 51,
+    "inode": 810498118,
+    "mode": 33188,
+    "bytes": 4708,
+    "mtime_ns": 1792014532597510000,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/help/glmGamPoi.rdb",
+    "device": 51,
+    "inode": 1263833474,
+    "mode": 33188,
+    "bytes": 81131,
+    "mtime_ns": 1792014532271017274,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/help/glmGamPoi.rdx",
+    "device": 51,
+    "inode": 1263833475,
+    "mode": 33188,
+    "bytes": 693,
+    "mtime_ns": 1792014532275030042,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/help/paths.rds",
+    "device": 51,
+    "inode": 1263833473,
+    "mode": 33188,
+    "bytes": 503,
+    "mtime_ns": 1792014532100819747,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/html",
+    "device": 51,
+    "inode": 1263833481,
+    "mode": 16877,
+    "bytes": 4096,
+    "mtime_ns": 1792014532567880000,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/html/00Index.html",
+    "device": 51,
+    "inode": 1682812148,
+    "mode": 33188,
+    "bytes": 3460,
+    "mtime_ns": 1792014532569076401,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/html/R.css",
+    "device": 51,
+    "inode": 1682812149,
+    "mode": 33188,
+    "bytes": 1844,
+    "mtime_ns": 1792014532568580793,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/include",
+    "device": 51,
+    "inode": 1262552781,
+    "mode": 16877,
+    "bytes": 4096,
+    "mtime_ns": 1792014481350056000,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/include/deviance.h",
+    "device": 51,
+    "inode": 1673959252,
+    "mode": 33188,
+    "bytes": 3106,
+    "mtime_ns": 1792014481377667419,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/include/fisher_scoring_steps.h",
+    "device": 51,
+    "inode": 1673959253,
+    "mode": 33188,
+    "bytes": 3947,
+    "mtime_ns": 1792014481379057644,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/libs",
+    "device": 51,
+    "inode": 1229702726,
+    "mode": 16877,
+    "bytes": 4096,
+    "mtime_ns": 1792014480918596000,
+    "link_target": null
+  },
+  {
+    "path": "glmGamPoi/libs/glmGamPoi.so",
+    "device": 51,
+    "inode": 801645260,
+    "mode": 33261,
+    "bytes": 383336,
+    "mtime_ns": 1792014480922331642,
+    "link_target": null
+  }
+]

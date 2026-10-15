@@ -1,0 +1,51 @@
+{
+  "exported_utc": "2026-10-14T21:22:25.401399+00:00",
+  "source": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/atac_initial_atlas.h5ad",
+  "source_local_bytes": 1627723675,
+  "accepted_remote_identity": {
+    "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/atac_initial_atlas.h5ad",
+    "bytes": 1627723675,
+    "inode": 642043062,
+    "mtime_ns": 1791966079459724674
+  },
+  "read_datasets": [
+    "/obsm/X_umap_initial",
+    "/obsm/X_umap_initial_uncorrected",
+    "/obs/cell_id"
+  ],
+  "source_metadata": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/initial_cell_metadata.tsv.gz",
+  "exact_metadata_H5_cell_id_order": true,
+  "n_rows": 456472,
+  "ordered_cell_ids_sha256": "6792e79c2f13c82c110b3b03011eb654abf043c733614c8aadfa9e34dfea9ad1",
+  "graph_recomputed": false,
+  "raw_X_CSR_read": false,
+  "large_source_content_hash_computed": false,
+  "coordinate_outputs": [
+    {
+      "file": "coordinates_harmony.js",
+      "dataset": "/obsm/X_umap_initial",
+      "shape": [
+        456472,
+        2
+      ],
+      "source_dtype": "float32",
+      "export_dtype": "float32",
+      "derived_bytes_sha256": "c92e4d7b4c8a07002efe820f9bb92522e395d059e0c8ec3a735639b552470e00",
+      "file_bytes": 4869269
+    },
+    {
+      "file": "coordinates_uncorrected.js",
+      "dataset": "/obsm/X_umap_initial_uncorrected",
+      "shape": [
+        456472,
+        2
+      ],
+      "source_dtype": "float32",
+      "export_dtype": "float32",
+      "derived_bytes_sha256": "7bfb72be469e4ec00f25ab0beb8b05c74f0a23aa5bdeb0154d23673dc0a19752",
+      "file_bytes": 4869273
+    }
+  ],
+  "attribute_bytes_sha256": "1496e75782c426fdd026af00c4f3dc98312629492b8ba9e13928d0896892a897",
+  "all_points_exported": true
+}

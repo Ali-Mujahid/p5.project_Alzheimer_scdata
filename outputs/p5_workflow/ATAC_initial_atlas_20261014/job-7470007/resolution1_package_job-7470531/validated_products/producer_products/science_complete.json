@@ -1,0 +1,14 @@
+{
+  "resolution": 1.0,
+  "seed": 1729,
+  "n_cells": 456472,
+  "corrected_and_uncorrected_graphs_complete": true,
+  "new_107_gene_activity_summaries_complete": true,
+  "raw_peak_X_read": false,
+  "activity_counts_read_only_in_10000_row_blocks": true,
+  "source_atlas_modified": false,
+  "initial_diagnostic_only": true,
+  "final_cell_selection": false,
+  "final_annotation_complete": false,
+  "TFIDF_LSI_Harmony_UMAP_rerun": false
+}

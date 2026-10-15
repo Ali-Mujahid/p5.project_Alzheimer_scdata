@@ -1,0 +1,102 @@
+{
+  "utc": "2026-10-15T09:58:59.583883+00:00",
+  "builder": {
+    "workspace_path": "work/atlas_QC_status_20261015/build_status.py",
+    "bytes": 14642,
+    "sha256": "7a9e377f67b6f3aad99b11695669561507f4268e6b07c6aef875077428fa78a7"
+  },
+  "scope": "Actual dated QC progress and accepted candidate/technical reports; initial atlas views unchanged",
+  "sources": [
+    {
+      "workspace_path": "work/ATAC_QC_operational_recovery_20261015/active_recovery_observation_20261015T095638Z.actual.json",
+      "bytes": 34501,
+      "sha256": "9db38546d160d3bfc71d445b896f383a0b8a3863a04f4aaf8dee8b55a4e4dc82"
+    },
+    {
+      "workspace_path": "work/ATAC_QC_operational_recovery_20261015/six_terminal_QC_routes_review.actual.json",
+      "bytes": 91643,
+      "sha256": "73285106a532b32dfcedd34468bc9b902c28de0f129e3d4bcd908d05ecfa20dc"
+    },
+    {
+      "workspace_path": "work/ATAC_QC_operational_recovery_20261015/two_new_terminal_QC_routes_200_201_review.actual.json",
+      "bytes": 30710,
+      "sha256": "170c1f70cc6e61f2730c946b21afbf497124f31366c148eb42e75a4766102a02"
+    },
+    {
+      "workspace_path": "work/overnight_LiSC_20261015/ATAC_QC_operational_recovery.submit.actual.json",
+      "bytes": 5167,
+      "sha256": "820d9aeb427ee8a1ad076e88e5c033237721d74dfa27e92baf38b2284d7fef9d"
+    },
+    {
+      "workspace_path": "outputs/p5_workflow/full_workflow_20261014/QC_review_RNA_job-7471574/summary/validated_QC_certificate.json",
+      "bytes": 20549,
+      "sha256": "b8cf20fd64750dab1443d7ec3e51688f8f1f6c80596a2553e69180c48c4efbdf"
+    },
+    {
+      "workspace_path": "outputs/p5_workflow/full_workflow_20261014/QC_review_RNA_job-7471574/review/review_needed.json",
+      "bytes": 646,
+      "sha256": "4ab08b1bff2542d94b5148d23b20ffc907305e30ad74ebf5777c26ecbdc97157"
+    },
+    {
+      "workspace_path": "outputs/p5_workflow/full_workflow_20261014/QC_review_RNA_job-7471574/terminal_adoption.actual.json",
+      "bytes": 463,
+      "sha256": "06e17b88e05162fa0f88900f962a6224b633774ec81b3159be6cc6f06f543589"
+    },
+    {
+      "workspace_path": "outputs/p5_workflow/full_workflow_20261014/QC_review_RNA_job-7471574/terminal_evidence/complete.json",
+      "bytes": 7086,
+      "sha256": "98eb8e214904668d7dc96f432ff66fc88335a6a3f28e41e6c59c51a86e4eaeed"
+    },
+    {
+      "workspace_path": "outputs/p5_workflow/full_workflow_20261014/QC_review_RNA_job-7471574/summary/all_192_RNA_library_QC_summary.tsv",
+      "bytes": 7966,
+      "sha256": "2a627e9c6c3b8fe846d1ab0001698469ce416aa306389e2523a3ad857682ebc1"
+    },
+    {
+      "workspace_path": "outputs/p5_workflow/full_workflow_20261014/SCT_technical_profile_job-7471609/terminal_adoption.actual.json",
+      "bytes": 16294,
+      "sha256": "537e45adb6f31ef8e681effb509a9660c335b609d8106b20acc08bd4d4d51816"
+    },
+    {
+      "workspace_path": "outputs/p5_workflow/full_workflow_20261014/SCT_technical_profile_job-7471609/profile/complete.json",
+      "bytes": 7670,
+      "sha256": "309f36fd0ada9eefb7498a324832c24719347c5ced8c6379cfdf74e8dcd7cedf"
+    },
+    {
+      "workspace_path": "outputs/p5_workflow/full_workflow_20261014/SCT_technical_profile_job-7471609/complete.json",
+      "bytes": 4606,
+      "sha256": "b3177d9c8ee48873d665d8f0f883107859c4ac4ac9a7d5e94a1c99548716865b"
+    },
+    {
+      "workspace_path": "work/overnight_LiSC_20261015/QC_operational_reconciliation.submit.actual.json",
+      "bytes": 5278,
+      "sha256": "81a4d4f1d5cdb3e49c0e8205731707298537ccf3476c8a75db899c3872db9673"
+    }
+  ],
+  "adapter": {
+    "workspace_path": "outputs/p5_workflow/full_workflow_20261014/atlas_preview/qc_status.json",
+    "bytes": 5586,
+    "sha256": "5d6534827fa9fbe2ebf1d4668d07f4cca5d392a6686de01ab164e6423781c716"
+  },
+  "frontend_assets": [
+    {
+      "workspace_path": "outputs/p5_workflow/full_workflow_20261014/atlas_preview/index.html",
+      "bytes": 14795,
+      "sha256": "41fe9e7a21b12ed696a724c0cb113e4d757e2375f0a69c146fb28b8d2ff73c08"
+    },
+    {
+      "workspace_path": "outputs/p5_workflow/full_workflow_20261014/atlas_preview/qc_status.js",
+      "bytes": 6137,
+      "sha256": "0dcf244c00355545efbc8fb6f43166b4318fa55d5bf1d58ee66b86fc0990b6b9"
+    },
+    {
+      "workspace_path": "outputs/p5_workflow/full_workflow_20261014/atlas_preview/qc_status.css",
+      "bytes": 605,
+      "sha256": "14e769fb9b9c9e5c4754024fe4b4d20d7a30e7ea38187377be8eec9a05b60bb3"
+    }
+  ],
+  "full_QC_complete": false,
+  "normalization_ready": false,
+  "no_study_matrix_or_BAM_scan": true,
+  "no_remote_query": true
+}

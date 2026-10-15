@@ -1,0 +1,20 @@
+{
+  "status": "passed_small_SCT_profile_caller_fixture",
+  "checks": {
+    "all120_cells_used_by_model": true,
+    "model_only_no_full_residuals": true,
+    "full_depth_and_order": true,
+    "rare_and_zero_models_remain_absent": true,
+    "missing_models_rejected": true,
+    "wrong_cell_identity_rejected": true,
+    "streamed_all_model_gene_mean": true,
+    "streamed_all_model_gene_variance": true,
+    "fixed_clip_uses_full120_cells": true,
+    "fixed_floor_uses_all_nonzero_raw_counts": true,
+    "raw_sparse_counts_and_axes_unchanged": true
+  },
+  "n_checks": 11,
+  "synthetic_only": true,
+  "study_matrix_read": false,
+  "raw_counts_unchanged": true
+}

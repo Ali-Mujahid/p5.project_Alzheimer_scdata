@@ -1,0 +1,125 @@
+{
+  "utc": "2026-10-15T08:12:55.232997+00:00",
+  "scope": "Independent static PDF native text, producer/limits and category/condition scope review",
+  "checks": [
+    {
+      "name": "all_cell_types_TE_class_by_condition_heatmaps.pdf all_pages_producer_scope",
+      "passed": true
+    },
+    {
+      "name": "all_cell_types_TE_class_by_condition_heatmaps.pdf all_pages_descriptive_no_inference_limit",
+      "passed": true
+    },
+    {
+      "name": "all_cell_types_TE_class_by_condition_heatmaps.pdf extractable_native_text",
+      "passed": true
+    },
+    {
+      "name": "all_cell_types_TE_class_by_condition_heatmaps.pdf six_pages_all28_types",
+      "passed": true
+    },
+    {
+      "name": "microglia_TE_class_by_condition_heatmap.pdf all_pages_producer_scope",
+      "passed": true
+    },
+    {
+      "name": "microglia_TE_class_by_condition_heatmap.pdf all_pages_descriptive_no_inference_limit",
+      "passed": true
+    },
+    {
+      "name": "microglia_TE_class_by_condition_heatmap.pdf extractable_native_text",
+      "passed": true
+    },
+    {
+      "name": "microglia_TE_class_by_condition_heatmap.pdf tiny_RC_values_not_fabricated_zero",
+      "passed": true
+    },
+    {
+      "name": "microglia_TE_family_top20_by_condition_heatmap.pdf all_pages_producer_scope",
+      "passed": true
+    },
+    {
+      "name": "microglia_TE_family_top20_by_condition_heatmap.pdf all_pages_descriptive_no_inference_limit",
+      "passed": true
+    },
+    {
+      "name": "microglia_TE_family_top20_by_condition_heatmap.pdf extractable_native_text",
+      "passed": true
+    },
+    {
+      "name": "microglia_TE_genotype_animal_boxplots_3mo.pdf all_pages_producer_scope",
+      "passed": true
+    },
+    {
+      "name": "microglia_TE_genotype_animal_boxplots_3mo.pdf all_pages_descriptive_no_inference_limit",
+      "passed": true
+    },
+    {
+      "name": "microglia_TE_genotype_animal_boxplots_3mo.pdf extractable_native_text",
+      "passed": true
+    },
+    {
+      "name": "microglia_TE_genotype_animal_boxplots_3mo.pdf age_matched_only",
+      "passed": true
+    },
+    {
+      "name": "microglia_TE_subfamily_top20_by_condition_heatmap.pdf all_pages_producer_scope",
+      "passed": true
+    },
+    {
+      "name": "microglia_TE_subfamily_top20_by_condition_heatmap.pdf all_pages_descriptive_no_inference_limit",
+      "passed": true
+    },
+    {
+      "name": "microglia_TE_subfamily_top20_by_condition_heatmap.pdf extractable_native_text",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "files": {
+    "all_cell_types_TE_class_by_condition_heatmaps.pdf": {
+      "pages": 6,
+      "bytes": 127640,
+      "sha256": "3021ff7ffb8f9666a702017217ae69a24c9b0799cc6de252e132daae23452d97",
+      "all_pages_producer_scope": true,
+      "all_pages_descriptive_no_inference_limit": true,
+      "extractable_native_text": true,
+      "six_pages_all28_types": true
+    },
+    "microglia_TE_class_by_condition_heatmap.pdf": {
+      "pages": 1,
+      "bytes": 77882,
+      "sha256": "395a65cc0fdbb3f4b35cf9c70f36961e9f58fc9909d8fceac68375f28e34b066",
+      "all_pages_producer_scope": true,
+      "all_pages_descriptive_no_inference_limit": true,
+      "extractable_native_text": true,
+      "tiny_RC_values_not_fabricated_zero": true
+    },
+    "microglia_TE_family_top20_by_condition_heatmap.pdf": {
+      "pages": 1,
+      "bytes": 96209,
+      "sha256": "dea8ec5bcdde318ab41d85a8c679cd908824ae09582b3665a8f8771fcc76baaa",
+      "all_pages_producer_scope": true,
+      "all_pages_descriptive_no_inference_limit": true,
+      "extractable_native_text": true
+    },
+    "microglia_TE_genotype_animal_boxplots_3mo.pdf": {
+      "pages": 1,
+      "bytes": 80394,
+      "sha256": "f31b6f298ccbe3ccd98a94ed6676033101b58fcc82ef60671d913b37a5081ced",
+      "all_pages_producer_scope": true,
+      "all_pages_descriptive_no_inference_limit": true,
+      "extractable_native_text": true,
+      "age_matched_only": true
+    },
+    "microglia_TE_subfamily_top20_by_condition_heatmap.pdf": {
+      "pages": 1,
+      "bytes": 95121,
+      "sha256": "d408f9b4562a4f9f5507d400393838ec62c240ab69a7c4b8c78f62ff964706cf",
+      "all_pages_producer_scope": true,
+      "all_pages_descriptive_no_inference_limit": true,
+      "extractable_native_text": true
+    }
+  },
+  "detailed_peak_depth_GC_TSS_mappability_limit_location": "HTML method note and adapter manifest; not part of static plot footer"
+}

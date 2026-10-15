@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-14T23:42:44.919322+00:00",
+  "package_job_id": "7470531",
+  "producer_job_id": "7470007",
+  "destination": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531",
+  "files_verified": 47,
+  "product_bytes": 26359106,
+  "validated_manifest_sha256": "07fb6736f0304ca87225dd8449a548a579072a4223092d2c2589ad58e288cc02",
+  "local_content_SHA_matches_all_allocated_package_SHA": true,
+  "remote_files_original_identity_matched": true,
+  "transport": "existing authenticated SSH; no auth fallback",
+  "large_atlas_or_matrix_copied": false,
+  "scientific_final_annotation_or_retention_adopted": false,
+  "HTML_enabled_by_download": false,
+  "terminal_evidence": "/Users/mujahidali/Documents/Codex/2026-09-30/a/work/overnight_LiSC_20261015/overnight_observation_20261014T234143Z.actual.json"
+}

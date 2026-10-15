@@ -1,0 +1,106 @@
+{
+  "utc": "2026-10-15T08:00:00.649279+00:00",
+  "job_id": "7471609",
+  "source_manifest_sha256": "215679dbe4f9ce5145b086f181ddebcb11f73c00c5a7ef369b67c46742387f7d",
+  "parent_QC_certificate_sha256": "b8cf20fd64750dab1443d7ec3e51688f8f1f6c80596a2553e69180c48c4efbdf",
+  "selected_route": {
+    "task_index": 189,
+    "assay": "rna",
+    "library_id": "EasySci_090",
+    "origin": "original",
+    "array_id": "7469911",
+    "physical_job_id": "7470765",
+    "task_dir": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/Full_QC_20261014_v4/array-7469911/task-189",
+    "source_version": "Full_QC_20261014_v4",
+    "source_manifest_sha256": "d2385aebc47931ee9b4f15f6db3a11c140e70d53da33c6038a35ffddfb5bcf50",
+    "science_file_SHA256": {
+      "qc_task.py": "f8068b20ad08324801090b195d2b1a364a3b473884fddc55228c158abf58b8d9",
+      "doublets.R": "f3c8f2091ebd81be62d84c336ad3081c608255d82982c08255f9aad675f8d201",
+      "tasks.json": "a01142d5dee1af8d8f646c203a7989472de3f36f9d2582ae066b6e6c794c63ec"
+    },
+    "record": {
+      "assay": "rna",
+      "library_id": "EasySci_090",
+      "run_accession": "SRR21410217",
+      "matrix": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/remaining_RNA/results/mm10/full_study_20261008/rna_counting/SRR21410217/stages/09_RNA_primer_merge_metadata/attempt_fa66bed5fce741b1bbcfea7de8d822be/genes/expression_matrix.mtx",
+      "cells": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/remaining_RNA/results/mm10/full_study_20261008/rna_counting/SRR21410217/stages/09_RNA_primer_merge_metadata/attempt_fa66bed5fce741b1bbcfea7de8d822be/genes/cell_annotation.csv",
+      "genes": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/remaining_RNA/results/mm10/full_study_20261008/rna_counting/SRR21410217/stages/09_RNA_primer_merge_metadata/attempt_fa66bed5fce741b1bbcfea7de8d822be/genes/gene_annotation.csv",
+      "audit": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_LiSC_20261012_v3/job-7448772/rna/qc_audit/SRR21410217.all_input_qc.tsv.gz",
+      "identities": [
+        {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/remaining_RNA/results/mm10/full_study_20261008/rna_counting/SRR21410217/stages/09_RNA_primer_merge_metadata/attempt_fa66bed5fce741b1bbcfea7de8d822be/genes/expression_matrix.mtx",
+          "bytes": 302373454,
+          "inode": 1700656822,
+          "mtime_ns": 1791802606535696885
+        },
+        {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/remaining_RNA/results/mm10/full_study_20261008/rna_counting/SRR21410217/stages/09_RNA_primer_merge_metadata/attempt_fa66bed5fce741b1bbcfea7de8d822be/genes/cell_annotation.csv",
+          "bytes": 24201059,
+          "inode": 1700656823,
+          "mtime_ns": 1791802606625698064
+        },
+        {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/remaining_RNA/results/mm10/full_study_20261008/rna_counting/SRR21410217/stages/09_RNA_primer_merge_metadata/attempt_fa66bed5fce741b1bbcfea7de8d822be/genes/gene_annotation.csv",
+          "bytes": 2400140,
+          "inode": 1700656821,
+          "mtime_ns": 1791802605351681364
+        },
+        {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_LiSC_20261012_v3/job-7448772/rna/qc_audit/SRR21410217.all_input_qc.tsv.gz",
+          "bytes": 1964880,
+          "inode": 190828615,
+          "mtime_ns": 1791829111087408788
+        }
+      ]
+    },
+    "actual_whole_batch": [
+      {
+        "JobID": "7469911_189",
+        "State": "COMPLETED",
+        "ExitCode": "0:0",
+        "Start": "2026-10-15T02:41:52",
+        "End": "2026-10-15T02:52:32"
+      },
+      {
+        "JobID": "7469911_189.batch",
+        "State": "COMPLETED",
+        "ExitCode": "0:0",
+        "Start": "2026-10-15T02:41:52",
+        "End": "2026-10-15T02:52:32"
+      }
+    ],
+    "receipts": {
+      "started.json": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/Full_QC_20261014_v4/array-7469911/task-189/started.json",
+        "sha256": "c6a0a3147088047566aceee58bc8947207fc8eb3963038ca912f0776e8c8b81c"
+      },
+      "complete.json": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/Full_QC_20261014_v4/array-7469911/task-189/complete.json",
+        "sha256": "68e1a6196c9e3bd9804f9356a43313a9dec9a1ac91f90acb451eb493844e7c80"
+      },
+      "execution_complete.json": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/Full_QC_20261014_v4/array-7469911/task-189/execution_complete.json",
+        "sha256": "905563bcd2a506b108077dafe8a8413ba7d1132c0639e780e22e069f61bceee3"
+      },
+      "storage_complete.json": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/Full_QC_20261014_v4/array-7469911/task-189/storage_complete.json",
+        "sha256": "eb14f69b34d17c66e76f091cc33725430c2e1d8d234f7bfe1e0c4693934ac009"
+      }
+    },
+    "repair_operational_evidence": null,
+    "QC_decision_product": {
+      "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/Full_QC_20261014_v4/array-7469911/task-189/cell_QC_decisions.tsv.gz",
+      "bytes": 3011972,
+      "inode": 1137893039,
+      "mtime_ns": 1792025545865023430,
+      "sha256": "b1d14a98e8e5e6346c017f055f0b54fa6fe676d6a09e97c94e747bcdc4a24043"
+    }
+  },
+  "selected_candidate_number": 17081,
+  "runtime_manifest_sha256": "c4d0d1825bc26f021c2c63c48f51e3126b159e680bd7fdfa512b34b401c9d722",
+  "python_fixture_log_sha256": "68316e3259569af20b4e8aa4c3578be5d3aa130fbb74776432991062d2528205",
+  "tiny_R_fixture_sha256": "298639d0762eb6628ffb1dea5af93de32e7e9963c5bf8dcbe62100cf08df7627",
+  "all_provisional_candidates_including_unresolved": true,
+  "no_final_retained_manifest_claimed": true,
+  "normalization_ready": false
+}

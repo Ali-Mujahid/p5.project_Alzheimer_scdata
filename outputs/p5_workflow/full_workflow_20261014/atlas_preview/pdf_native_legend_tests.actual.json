@@ -1,0 +1,62 @@
+{
+  "tested_utc": "2026-10-14T23:47:21.419Z",
+  "all_passed": true,
+  "native_legend_cases": [
+    {
+      "kind": "dotplot",
+      "page_width": 420,
+      "mode": "zscore",
+      "expected_min": -2.5,
+      "expected_max": 2.5
+    },
+    {
+      "kind": "dotplot",
+      "page_width": 420,
+      "mode": "raw",
+      "expected_min": 1.25,
+      "expected_max": 7.5
+    },
+    {
+      "kind": "dotplot",
+      "page_width": 420,
+      "mode": "normalized",
+      "expected_min": 1.25,
+      "expected_max": 7.5
+    },
+    {
+      "kind": "dotplot",
+      "page_width": 297,
+      "mode": "zscore",
+      "expected_min": -2.5,
+      "expected_max": 2.5
+    },
+    {
+      "kind": "dotplot",
+      "page_width": 297,
+      "mode": "raw",
+      "expected_min": 1.25,
+      "expected_max": 7.5
+    },
+    {
+      "kind": "dotplot",
+      "page_width": 297,
+      "mode": "normalized",
+      "expected_min": 1.25,
+      "expected_max": 7.5
+    },
+    {
+      "kind": "UMAP_categorical",
+      "n_keys": 3,
+      "columns": 9
+    }
+  ],
+  "PDF_native_color_gradient": true,
+  "PDF_native_area_keys": [
+    0.25,
+    0.5,
+    1
+  ],
+  "PDF_native_NA_key": true,
+  "PDF_native_UMAP_axes_and_category_labels": true,
+  "browser_visual_check": false
+}

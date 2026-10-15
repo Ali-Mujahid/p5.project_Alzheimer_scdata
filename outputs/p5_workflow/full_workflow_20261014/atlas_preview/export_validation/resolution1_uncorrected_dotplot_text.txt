@@ -1,0 +1,12 @@
+ATAC gene-body activity dotplot
+GSE212606 | Job 7470007 | Leiden 1.0 / uncorrected | PROVISIONAL - final QC and identities pending
+Genotype: 5xFAD | Condition: all | Animal: all | Sex: all | Initial clusters: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+Color: Within-gene z-score. Dot area: equal-animal fraction with nonzero gene-body activity. Accessibility is not RNA expression. Z-scores use the currently displayed groups; unmapped genes are NA.
+Within-gene z-score (selected groups)
+-2.5 2.50
+Dot area: equal-animal detection fraction
+25% 50% 100% Unmapped = NA (not zero)
+Color is clipped at +/-2.5; exported z-scores remain unclipped.
+0% detection has no dot. Means are balanced across animals; gene-body activity is accessibility, not RNA expression.
+Raster plot embedded in PDF; headers, legends and context are PDF text/primitives. Display labels are not final biological annotations.
+Source job 7470007; Leiden 1.0; uncorrected partition; coordinate producer 7466270 | Exported 2026-10-14T23:50:14.347Z

@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Add actual Leiden resolution-1 labels from the existing saved corrected and uncorrected neighbor graphs without recomputing UMAP or reading raw matrices in the preview builder.",
+  "current_view": {
+    "available_resolutions": [
+      0.6,
+      1.0
+    ],
+    "graphs": [
+      "corrected",
+      "uncorrected"
+    ],
+    "state": "actual verified initial partitions available; final QC and independent labels pending",
+    "cluster_counts": {
+      "0.6_corrected": 11,
+      "0.6_uncorrected": 9,
+      "1.0_corrected": 12,
+      "1.0_uncorrected": 12
+    },
+    "resolution1_producer": "7470007",
+    "validated_package_job": "7470531",
+    "validated_package_manifest_sha256": "07fb6736f0304ca87225dd8449a548a579072a4223092d2c2589ad58e288cc02",
+    "initial_uncorrected_activity": "unavailable; never reuses corrected marker means"
+  },
+  "required_producer_evidence": [
+    "actual job ID and unique successful terminal accounting",
+    "matching execution, stage and storage completion receipts",
+    "frozen producer source manifest and actual runtime versions",
+    "identity of the saved corrected and uncorrected graphs used",
+    "actual Leiden implementation, resolution=1.0, seed and settings",
+    "explicit whether only partition labels changed or any graph changed; never imply a new embedding when coordinates are reused"
+  ],
+  "cell_axis": {
+    "n": 456472,
+    "source_atlas": "ATAC_embedding_20261014_v2/job-7466270/embedding/atac_initial_atlas.h5ad",
+    "expected_ordered_cell_ids_sha256": "6792e79c2f13c82c110b3b03011eb654abf043c733614c8aadfa9e34dfea9ad1",
+    "hash_convention": "UTF-8 exact cell ID plus newline for every row in saved source order",
+    "required_checks": [
+      "unique cell IDs",
+      "exact ordered axis equality",
+      "each nucleus has one valid label per available graph",
+      "all label and composition counts reconcile",
+      "no change in retained-cell membership for this additive resolution comparison"
+    ]
+  },
+  "resolution_dataset": {
+    "resolution_key": "1.0",
+    "dataset_id": "must identify the actual new producer and resolution",
+    "corrected_labels": "One dictionary-coded actual per-cell label per saved source row; codes are dictionary indices, not assumed biological identities.",
+    "uncorrected_labels": "Separate actual partition from the saved uncorrected graph; do not copy corrected labels into the comparator.",
+    "point_attributes": "Supply a versioned typed-array label file or separate resolution-specific vectors. Existing point_attributes.js is explicitly resolution-0.6 and cannot serve as resolution-1 labels.",
+    "dtype": "Declare uint8/uint16/uint32 according to actual label dictionary size. Validate byte length and finite integer codes.",
+    "coordinates": "May reference the existing real Harmony and uncorrected UMAP coordinate adapters after exact cell-axis matching. Changing color labels does not recompute UMAP."
+  },
+  "composition_adapter": {
+    "required": [
+      "actual source cluster label",
+      "animal",
+      "condition",
+      "genotype",
+      "sex",
+      "n_initial_cells"
+    ],
+    "calculation": "Count actual resolution-1 per-cell labels within the unchanged animal axis. Animal/condition denominators remain all initial nuclei in the selected animals, never resolution-0.6 cluster sizes.",
+    "invariants": [
+      "sum of corrected cluster counts=456472",
+      "sum of uncorrected cluster counts=456472 if produced",
+      "sum within each animal matches accepted initial metadata",
+      "no biological cluster matching is implied by the same numeric cluster label at a different resolution"
+    ]
+  },
+  "marker_adapter": {
+    "availability_gate": "Resolution-1 marker plots stay unavailable until resolution-1-specific summaries are actually produced and validated.",
+    "key": [
+      "resolution",
+      "graph",
+      "cluster",
+      "animal",
+      "gene"
+    ],
+    "columns": [
+      "n_cells",
+      "raw_integer_activity_sum",
+      "fraction_activity_detected",
+      "mean_log1p_activity_per10k"
+    ],
+    "normalization": "Use the declared full-cell activity denominator and same documented units. Preserve raw integer activity separately.",
+    "coverage": "n_cells must agree with the actual resolution-1 animal x cluster counts. Missing mapped features, empty groups and unsupported combinations are explicit NA/absence, not zero-filled fabricated activity.",
+    "selected_panel": "If the same 107 diagnostic genes are summarized, mark them as a selected panel. They do not become unbiased top markers or final cell-type markers.",
+    "prohibited": [
+      "renaming 0.6 cluster IDs to pretend they are 1.0",
+      "using 0.6 marker means for new 1.0 clusters",
+      "propagating initial candidate cell-type labels by numeric cluster ID",
+      "claiming differential biology from a finer partition"
+    ]
+  },
+  "UI_adoption": {
+    "label_views_ready": "With validated actual labels and axis, enable the 1.0 option for UMAP colors and composition. State clearly that the displayed UMAP coordinates are reused saved coordinates.",
+    "marker_views_pending": "If label views are ready before marker summaries, resolution-1 dotplots and animal activity boxes must show a pending state. The 0.6 activity data must not remain silently displayed under a 1.0 heading.",
+    "marker_views_ready": "Enable dotplot/boxplot only after resolution-specific marker validation. Recompute equal-animal summaries from those rows.",
+    "display_labels": "Store resolution-specific mappings keyed by dataset and resolution so a 0.6 browser mapping is not automatically applied to 1.0 labels.",
+    "exports": "PDF figure titles and context must include the selected resolution, graph and actual source producer. TSV/JSON includes resolution and graph. No visible PNG plot export.",
+    "cell_type_status": "All partitions remain provisional; no automatic final identities or exclusions. Preserve every cell type for independent review."
+  },
+  "not_executed_by_this_scaffold": [
+    "raw matrix read",
+    "neighbor graph read",
+    "Leiden clustering",
+    "source job mutation",
+    "scientific marker recomputation",
+    "global status write"
+  ]
+}

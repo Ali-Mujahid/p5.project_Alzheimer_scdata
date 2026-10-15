@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-15T08:01:14.838564+00:00",
+  "status": "root_adopted_independently_verified_scoped_outputs",
+  "scope": "RNA_QC_candidates_only",
+  "independent_review": "/Users/mujahidali/Documents/Codex/2026-09-30/a/work/overnight_LiSC_20261015/independent_terminal_adoption_review/terminal_adoption_independent.actual.json",
+  "normalization_ready": false,
+  "final_retention_complete": false,
+  "TE_expression_or_fragment_accessibility_measured": false
+}

@@ -1,0 +1,106 @@
+{
+  "status": "design_only_pending_actual_terminal_producer_and_download",
+  "observed_utc": "2026-10-14T23:12:05Z",
+  "producer_job_id": "7470007",
+  "producer_source_manifest_sha256": "f880a8ce236dc558d03693c2bc0e4c5a2067841746fb0ac2e731dce3535e6d1c",
+  "current_actual_state": "RUNNING;corrected12provisional;uncorrected/markers/whole incomplete",
+  "UI_resolution1_enabled": false,
+  "UI_or_plot_data_modified": false,
+  "required_acceptance": [
+    "Root-accepted unique actual7470007 whole and batch COMPLETED0:0 with no failed receipt",
+    "Matching source/runtime/actual fixture/input/execution/complete/storage and download product proofs",
+    "Both corrected and uncorrected graph-stage completions with unchanged before/after graph digests",
+    "Science complete at resolution1.0/seed1729/all456472initial nuclei;explicit no peakX/source mutation and no TFIDF/LSI/Harmony/UMAP rerun",
+    "Fresh per-branch resolution1 marker completion;never use0.6means for1.0labels"
+  ],
+  "cell_axis": {
+    "file": "cell_resolution0_6_and_1_assignments.tsv.gz",
+    "n": 456472,
+    "ordered_cell_id_sha256": "6792e79c2f13c82c110b3b03011eb654abf043c733614c8aadfa9e34dfea9ad1",
+    "hash_convention": "UTF-8 exact cellID plus newline, in saved order",
+    "columns": [
+      "cell_id",
+      "initial_cluster",
+      "initial_cluster_uncorrected",
+      "initial_cluster_resolution1",
+      "initial_cluster_uncorrected_resolution1",
+      "animal_id",
+      "library_id",
+      "condition",
+      "genotype",
+      "sex"
+    ],
+    "invariants": [
+      "Unique nonempty cell IDs; exact ordered hash",
+      "Old labels and animal-index values equal current point_attributes adapter",
+      "20animals104libraries5conditions; animal biological attributes equal existing adapter",
+      "Dictionary-code new labels independently for both graphs; no assumed contiguous numeric label codes",
+      "All branch cluster and per-animal coverage totals equal456472 and existing initial denominators"
+    ]
+  },
+  "markers": {
+    "base": "marker_review_resolution1",
+    "branches": [
+      "corrected",
+      "uncorrected"
+    ],
+    "files": [
+      "markers_by_cluster_animal.tsv",
+      "equal_animal_markers.tsv",
+      "symbol_audit.tsv",
+      "complete.json"
+    ],
+    "key": [
+      "branch",
+      "resolution",
+      "initial_cluster",
+      "animal_id",
+      "gene_symbol"
+    ],
+    "invariants": [
+      "Collapse identical duplicate panel rows;conflicting duplicates fail",
+      "n_cells matches new branch cluster\u00d7animal coverage",
+      "Mapped raw sums nonnegative integers;detection in[0,1];normalized means finite nonnegative",
+      "Unmapped present=false features retain explicitNA,never0",
+      "Recomputed equal-animal summaries match the fresh saved equal-animal table",
+      "Selected107diagnosticgenes are not genome-wide top markers or final type annotations"
+    ]
+  },
+  "outputs_after_verified_import": [
+    "resolution1/corrected_data_adapter.js",
+    "resolution1/uncorrected_data_adapter.js",
+    "resolution1/point_labels.js: separate new corrected/uncorrected codes,declared uint8/uint16 dtype and label dictionaries",
+    "resolution1/import_provenance.actual.json:source/productSHA,terminalproofSHA,exactaxis/count/markerinvariants,coordinatesreused"
+  ],
+  "UI_minimal_edits_after_import": {
+    "app.js": [
+      "Dataset registry and selection instead of const initialD/maps",
+      "Reinitialize cluster/marker selectors on graph+resolution change",
+      "Dynamic cluster dictionaries instead of hardcoded11/9",
+      "PDFsource/resolution/graph/completioncontext from activeadapter",
+      "Resolution-specific browser display-label storage and data exports",
+      "Disable microglia shortcut until independently reviewed new-membership candidate mapping exists"
+    ],
+    "atlas_core.js": [
+      "Validate labels against requested active dataset+resolution+graph;reject cross-resolution mappings"
+    ],
+    "index.html": [
+      "Enable1.0onlyafter adapter accepted;explicit partition-graph selector separate from reused coordinate embedding"
+    ],
+    "data_adapter.js": "Keep protected initial0.6 adapter;lazy load new1.0adapter separately",
+    "tests": [
+      "Switch0.6\u21941.0and graph without stale labels/markers",
+      "Counts and allfilters reconcile",
+      "NAmapped semantics",
+      "PDF-onlyexports titleslegends/units matchactive resolution",
+      "No inherited automatic biological annotation"
+    ]
+  },
+  "prohibited": [
+    "No rawCSR/neighbor graph read",
+    "No producer code execution",
+    "No graph/UMAP regeneration",
+    "No SSH/deployment/submission",
+    "No UIenableorresultsreadyclaimwhilejobrunning"
+  ]
+}

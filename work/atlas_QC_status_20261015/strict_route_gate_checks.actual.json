@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-15T09:48:24.375773+00:00",
+  "status": "passed_unreviewed_terminal_route_fail_closed_gate",
+  "checks": {
+    "unreviewed future terminal route refused": true,
+    "explicit strict acceptance reason": true,
+    "last verified public adapter and provenance preserved": true
+  },
+  "n_checks": 3,
+  "synthetic_only": true,
+  "remote_queries": false
+}

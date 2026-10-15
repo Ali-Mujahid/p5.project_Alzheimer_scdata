@@ -1,0 +1,318 @@
+{
+  "utc": "2026-10-14T23:45:29.841975+00:00",
+  "status": "accepted_small_adapters_imported",
+  "package_manifest_sha256": "07fb6736f0304ca87225dd8449a548a579072a4223092d2c2589ad58e288cc02",
+  "terminal_review_sha256": "a20d9273cfdf4e497a017c3270119416a741f6ae5b4f11c02cf95635e457a8fb",
+  "files_verified": 47,
+  "n_cells": 456472,
+  "cluster_counts": {
+    "0.6_corrected": 11,
+    "0.6_uncorrected": 9,
+    "1.0_corrected": 12,
+    "1.0_uncorrected": 12
+  },
+  "resolution1_label_counts_match_actual_marker_animal_axis": true,
+  "initial_uncorrected_coverage_matches_existing_labels": true,
+  "initial_uncorrected_activity_available": false,
+  "source_mapped_gene_nonnegative_integer_and_NA_checks": true,
+  "coordinates_unchanged": true,
+  "raw_matrix_graph_or_h5_read": false,
+  "final_QC_or_cell_types_adopted": false,
+  "source_records": [
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/corrected_activity_adapter.js",
+      "bytes": 2067094,
+      "sha256": "7a2251d89f4b581d50a57305664d7b10648a91e2b292d1061195a20124c2c3cf"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/corrected_activity_adapter.json",
+      "bytes": 3587668,
+      "sha256": "1e8b2c0ab3f84ed6116b825541fb7bec6edccd94f7ac05a8d80027782d30ba5b"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/corrected_labels.u16le",
+      "bytes": 912944,
+      "sha256": "c4fb55f0d0478640968e636deb48c4853dd3acabe9355a2e563eece00010ae5d"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/cell_resolution0_6_and_1_assignments.tsv.gz",
+      "bytes": 3492872,
+      "sha256": "1dc90399476c5ca7f23239723ecb46eac2f8d65872527b563ce31ed2a05106ce"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/complete.json",
+      "bytes": 554,
+      "sha256": "429f09254836d6b52a31b490bafa5da8e4eca17579124df6b07815b58a56a2bb"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/corrected_graph_complete.json",
+      "bytes": 283,
+      "sha256": "27c4dece4522b912e08558a878ca7c6f714972799f672f37583099a94feffe0a"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/corrected_resolution0_6_vs_1_contingency.tsv",
+      "bytes": 432,
+      "sha256": "5671b15db611da4f6c3a05134a395f00bb83723081859286d21114b7f0f4111b"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/corrected_resolution1_QC_quantiles.tsv",
+      "bytes": 9106,
+      "sha256": "856f015dd7348c4ab9ecdf31b8827ebf941e071f7cce7b5fad4797d150db2c2d"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/corrected_resolution1_animal_QC_quantiles.tsv",
+      "bytes": 91628,
+      "sha256": "48722c124fa494afe9dd7a1597d484e82638a9304528f32ae37c6754b9950b10"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/corrected_resolution1_animal_library_condition_coverage.tsv",
+      "bytes": 1249720,
+      "sha256": "8bffc65c134859c2d4ee5850cdaed5194a099132d7c62e30495a3f192301b6e2"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/corrected_resolution1_by_animal_id.tsv",
+      "bytes": 1513,
+      "sha256": "15dcc9722d9667cdeb780be0a4b04d19256b14f0d8a27395a8cc650863a04c41"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/corrected_resolution1_by_condition.tsv",
+      "bytes": 415,
+      "sha256": "3f0c40a76d5f8bdb08518dc5e7eaf52d3e721f697dc12ad64907f27cee45c9c7"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/corrected_resolution1_by_genotype.tsv",
+      "bytes": 267,
+      "sha256": "602b5707b9503609fd1557a1cdd15ea0c597aaadad40172b885d3926a000878f"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/corrected_resolution1_by_library_id.tsv",
+      "bytes": 6949,
+      "sha256": "b8ec9edf9b0754a05e64422a800637fbf641f855b6f32f4f6dcbfe857eed90ea"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/corrected_resolution1_by_sex.tsv",
+      "bytes": 200,
+      "sha256": "e6c7104dafb3dcc0d4457d3bdb27fb953a24fa47970826c0c2288d521448ec1e"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/corrected_resolution1_cluster_summary.tsv",
+      "bytes": 276,
+      "sha256": "1d9f135ea3490d229a18e62c0663da288520a96872e077015112740029dfbd00"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/execution_complete.json",
+      "bytes": 187,
+      "sha256": "caaa0f9529a8b739abddb649837c997a93f77937f7eb1b8342a9fa5c355d0345"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/graph_stage_complete.json",
+      "bytes": 1427,
+      "sha256": "16a36f306179c79675bfbcc167795bb5f3f6af0584c84b2b85a22d1364a528f9"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/marker_review_resolution1/complete.json",
+      "bytes": 194,
+      "sha256": "abed8221978823fb510a7fd99b88f95b2d157c478c013500f1dea2d0e9f7f27b"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/marker_review_resolution1/corrected/complete.json",
+      "bytes": 560,
+      "sha256": "19c34b10f6946cf438c5970dc270ca6cfb9de3708eb7081f2746e2b42c76c76e"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/marker_review_resolution1/corrected/equal_animal_markers.tsv",
+      "bytes": 81282,
+      "sha256": "ffe84b4392c21a477f0a1534d52209bc6dd74821bf9ba00a637653b3231249ae"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/marker_review_resolution1/corrected/markers_by_cluster_animal.tsv",
+      "bytes": 2211755,
+      "sha256": "7bd1efa909d0ae96244e3bfef9d4afab4ea919849179cb33c3f03713be3ff7a1"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/marker_review_resolution1/corrected/symbol_audit.tsv",
+      "bytes": 1409,
+      "sha256": "cdbfd8d2b682119d05196e7b7f72fa6a51502c9af7933ab9921f66031c6013c2"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/marker_review_resolution1/uncorrected/complete.json",
+      "bytes": 562,
+      "sha256": "4b80cfc7e3b53387f0e7198b62908cf03fc1a587622e1e649d4e9514372a3040"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/marker_review_resolution1/uncorrected/equal_animal_markers.tsv",
+      "bytes": 81247,
+      "sha256": "9079845329940abd9aa8686bc022bd43b13cd6b84fb1ff2734ad604e35dcacbc"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/marker_review_resolution1/uncorrected/markers_by_cluster_animal.tsv",
+      "bytes": 2210158,
+      "sha256": "78f8c6e5c0f987e83f3520e00770c25a54ae66e813afcd5cfcbd7771ccf0b737"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/marker_review_resolution1/uncorrected/symbol_audit.tsv",
+      "bytes": 1409,
+      "sha256": "cdbfd8d2b682119d05196e7b7f72fa6a51502c9af7933ab9921f66031c6013c2"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/runtime.actual.json",
+      "bytes": 1317,
+      "sha256": "3b7b15d6cfa02a17d4372037ab1a086030f8a336a331c4a5399d5079b5b08b59"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/runtime_fixture/complete.json",
+      "bytes": 832,
+      "sha256": "35c536c7ce8fb3731c0afa017c71b32027309f82502de87db3452bcf3d51e68f"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/science_complete.json",
+      "bytes": 432,
+      "sha256": "65ffb1f58ad7f1576c3a6aea5bcff968ba5572e9621bac7e7909f4260ee086f6"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/started.json",
+      "bytes": 3809,
+      "sha256": "30f3db113248104be1b489f61dc83b1dc2dab9930ec0ab05d2c312f8319ca745"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/storage_complete.json",
+      "bytes": 387,
+      "sha256": "f5d80d7e2d7517963fdb54067945c5e8950538f9ef7cdb3c46f8bfd02f210df2"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/uncorrected_graph_complete.json",
+      "bytes": 309,
+      "sha256": "6acc279ef353e1d974fbe792eac7c573055ed0a50a9027b2f37c6d0add9ce268"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/uncorrected_resolution0_6_vs_1_contingency.tsv",
+      "bytes": 390,
+      "sha256": "e0891ee7ee593a579b2f662919e69294d6c8dcbd8c5a184ea68eb407cbffec64"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/uncorrected_resolution1_QC_quantiles.tsv",
+      "bytes": 9088,
+      "sha256": "81e3fa155d924af06f555c690ee42321228e49ab4a6f4f2351e4a65de9f1eecb"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/uncorrected_resolution1_animal_QC_quantiles.tsv",
+      "bytes": 92143,
+      "sha256": "6c3763f9164872fe95ea70d343db218760d8b4dcec7bff1ed7f89a8ba8925929"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/uncorrected_resolution1_animal_library_condition_coverage.tsv",
+      "bytes": 1229010,
+      "sha256": "14e1023762a3e3bf590238dffca2a221ff200f9d69ad119e48ec8bf292d58e38"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/uncorrected_resolution1_by_animal_id.tsv",
+      "bytes": 1515,
+      "sha256": "a48847cc42539bde0b0dabc6a65a47be8d6b7486350a3a50ff90d46519a318d9"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/uncorrected_resolution1_by_condition.tsv",
+      "bytes": 423,
+      "sha256": "1d5ee691b54c63d9e90cc4d5d32069825adf14c73cc56763ed46d04b523cc335"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/uncorrected_resolution1_by_genotype.tsv",
+      "bytes": 278,
+      "sha256": "00096a04b588e7f32e2d248590c5b7d742fca3d1c2b156883890348287241997"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/uncorrected_resolution1_by_library_id.tsv",
+      "bytes": 6908,
+      "sha256": "849e20f21d403362746fa7b04c026f97834871459660acfe0f600c367067dd47"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/uncorrected_resolution1_by_sex.tsv",
+      "bytes": 212,
+      "sha256": "78aeaa227d2c8baeccb1cc91fcbfdc45306f2124f894c02f265aa5ed6107e06a"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/producer_products/uncorrected_resolution1_cluster_summary.tsv",
+      "bytes": 288,
+      "sha256": "04d6b4ec877f69c432c029308df43a9492c3f389b6362b3b94e19f68aaada4b8"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/resolution1_labels.js",
+      "bytes": 2435118,
+      "sha256": "a153cf160ec45474d76229f78ba04914715735a0a8730aa56a254d9a850fe7f7"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/uncorrected_activity_adapter.js",
+      "bytes": 2065510,
+      "sha256": "92078f8eeb9fbc2b66b57464629998b704386c0e51b3efceb49a962be04e6408"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/uncorrected_activity_adapter.json",
+      "bytes": 3586082,
+      "sha256": "8fdc7dc514f85262da3e5589c105dfa241b8d212962791bcdb72200208823281"
+    },
+    {
+      "path": "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/uncorrected_labels.u16le",
+      "bytes": 912944,
+      "sha256": "d95dc7fd35d1fd6684adbc716464bd5aa09989c92451323a6334c2fedb94120e"
+    }
+  ],
+  "registry_sha256": "78802698a19b1108ab77882d5141bd7d0aab783539ce51bc182fcd31d2980b08",
+  "UI_registry_import_complete": true,
+  "UI_test_reports": {
+    "resolution_selector_tests.actual.json": {
+      "sha256": "d7e4968ab581fafaaa636c354d2378d0f85cdfbc37167ecdc57e3debaeb55520",
+      "checks": 159
+    },
+    "resolution_ui_state_tests.actual.json": {
+      "sha256": "e367a6f8def3432ad907d078208f7b3b5f82b85ebd99ad3d658e139c2300457c",
+      "checks": 22
+    },
+    "core_tests.actual.json": {
+      "sha256": "2f3bb06fda1eea8812fd1237c86f90cc273854926a9c2db4b83dd1bec0bbf368",
+      "checks": 18
+    },
+    "pdf_export_tests.actual.json": {
+      "sha256": "9aa98c49885ad843afb7fd68574c6c3f5cd4b104700e478b641a1a9f9637dc52",
+      "checks": null
+    },
+    "pdf_native_legend_tests.actual.json": {
+      "sha256": "19a79ec366a6c31da9a3bc4279993d42bb40c8c41a49bb88629ec84c8c26ace6",
+      "checks": null
+    }
+  },
+  "original_data_attributes_and_coordinate_files_byte_unchanged": true,
+  "browser_visual_review": "performed separately by parent; no claim from local state/data tests",
+  "UI_files": {
+    "index.html": {
+      "bytes": 13854,
+      "sha256": "b849c77e89646a85b95ef9befb0d4176927f9d7d45f257a9fd8a30e3c580bf9b"
+    },
+    "app.js": {
+      "bytes": 37148,
+      "sha256": "61c6eb4efbd47a9ea7d21465fb80743815f0b8d51ee66804b1d9846b960ab46e"
+    },
+    "atlas_core.js": {
+      "bytes": 4475,
+      "sha256": "9bd30b3b7754d81c52c0635ae6473ed8a2f30d5728825d9e386038b35182cdd7"
+    },
+    "resolution_registry.js": {
+      "bytes": 33448,
+      "sha256": "78802698a19b1108ab77882d5141bd7d0aab783539ce51bc182fcd31d2980b08"
+    },
+    "resolution_datasets.js": {
+      "bytes": 2267,
+      "sha256": "923587cedfa3e34147d4459d27532fc0a18d5ddc9d3b862cf0781a3ead1ff993"
+    },
+    "README.md": {
+      "bytes": 8682,
+      "sha256": "424cb09889986d240e72e5f6a11805f20ffee08e28ce5ddceeb8d8d8a59ec79d"
+    },
+    "leiden_resolution_adapter_contract.json": {
+      "bytes": 6242,
+      "sha256": "98f80b88a71a100c36479ec7923b666f5da5a2537da56937f2638a8d15c8e464"
+    },
+    "leiden_resolution1_import_plan.md": {
+      "bytes": 1979,
+      "sha256": "57964f70aa5a8d0895544da55f2693664052f8fbf7dae764f07f7a87d79ea1d0"
+    }
+  }
+}

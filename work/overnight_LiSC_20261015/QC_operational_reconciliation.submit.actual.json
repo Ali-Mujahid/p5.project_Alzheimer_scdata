@@ -1,0 +1,56 @@
+{
+  "utc": "2026-10-15T09:42:57.921973+00:00",
+  "stage": "QC_operational_reconciliation",
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--chdir=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/Full_QC_operational_reconciled_20261015_v1",
+    "--dependency=afterany:7471575:7472294",
+    "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_operational_reconciled_20261015_v1/reconcile.sbatch",
+    "d2d718a0921441309809f17129cafcdea8c6fa2df292e7213cb4668800df17a7"
+  ],
+  "rc": 0,
+  "stdout": "7472372\n",
+  "stderr": "",
+  "source": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_operational_reconciled_20261015_v1",
+  "source_manifest_sha256": "d2d718a0921441309809f17129cafcdea8c6fa2df292e7213cb4668800df17a7",
+  "output_root": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/Full_QC_operational_reconciled_20261015_v1",
+  "dependency": "afterany:7471575:7472294",
+  "submission_owner": "Codex",
+  "quota_pre_submission": {
+    "utc": "2026-10-15T09:42:47.945996+00:00",
+    "available_bytes": 760160190464,
+    "available_inodes": 230998,
+    "reserved": false,
+    "includes_in_doubt": true,
+    "raw": "mmlsquota:user:HEADER:version:reserved:reserved:filesystemName:quotaType:id:name:blockUsage:blockQuota:blockLimit:blockInDoubt:blockGrace:filesUsage:filesQuota:filesLimit:filesInDoubt:filesGrace:remarks:fid:filesetname:\nmmlsquota:user:0:1:::data:USR:10796:mujahid:949206272:1073741824:1610612736:0:none:5701:200000:300000:0:none:lisc-sss.lisc:1:work:\nmmlsquota:user:0:1:::data:USR:10796:mujahid:3546763264:4294967296:6442450944:5860096:none:767893:1000000:1500000:1109:none:lisc-sss.lisc:2:scratch:\n"
+  },
+  "shared_usage_pre_submission": {
+    "utc": "2026-10-15T09:42:57.866536+00:00",
+    "bytes_including_child_unlinked": 223742234980,
+    "inodes": 12019,
+    "cap_bytes": 500000000000,
+    "cap_inodes": 40000,
+    "own_attempt_bytes": 3236771,
+    "own_attempt_inodes": 65,
+    "FD_sample": {
+      "unlinked_bytes": 0,
+      "unlinked_inodes": 0,
+      "new_inode_keys": [],
+      "maximum_observed_new_inode_charges": [],
+      "observed_unlinked_charge_deltas": [],
+      "process_results": [],
+      "scope": "sampled supplied PID/starttime identities; not atomic full-allocation FD census",
+      "already_seen_semantics": "explicit prior bytes; charge only observed growth above credit"
+    },
+    "known_live_identities": [
+      {
+        "pid": 1189339,
+        "starttime_ticks": 2071045
+      }
+    ],
+    "scope": "sampled supplied PID/starttime identities; not atomic full-allocation FD census"
+  },
+  "job_id": "7472372",
+  "controller": "JobId=7472372 JobName=p5-full-QC-op-reconcile-v1 UserId=mujahid(10796) GroupId=login(11000) MCS_label=N/A Priority=2926 Nice=0 Account=molecular_neurosciences QOS=cpu-24h JobState=PENDING Reason=Dependency Dependency=afterany:7471575_*(unfulfilled),afterany:7472294_*(unfulfilled) Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:00 TimeLimit=04:00:00 TimeMin=N/A SubmitTime=2026-10-15T11:42:57 EligibleTime=Unknown AccrueTime=Unknown StartTime=Unknown EndTime=Unknown Deadline=N/A SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-15T11:42:57 Scheduler=Main Partition=xeon_0384,xeon_1024_t4x1,xeon_0768_t4x1,zen1_0512_t4x1,zen2_1024_t4x1,zen2_1024,zen3_2048_l4x3,zen2_0512_l40sx2,zen4_0768_rtxx2,zen4_0768_a30x4,zen5_1536_h200x2,zen3_4096_l4x3 AllocNode:Sid=0.0.0.0:1189339 ReqNodeList=(null) ExcNodeList=(null) NodeList= NumNodes=1 NumCPUs=8 NumTasks=1 CPUs/Task=8 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=8,mem=64G,node=1,billing=8 AllocTRES=(null) Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=8 MinMemoryNode=64G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=NO Exclusive=NO Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null) Command=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_operational_reconciled_20261015_v1/reconcile.sbatch SubmitLine=sbatch --parsable --chdir=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/Full_QC_operational_reconciled_20261015_v1 --dependency=afterany:7471575:7472294 /lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_operational_reconciled_20261015_v1/reconcile.sbatch d2d718a0921441309809f17129cafcdea8c6fa2df292e7213cb4668800df17a7 WorkDir=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/Full_QC_operational_reconciled_20261015_v1 StdErr=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/Full_QC_operational_reconciled_20261015_v1/full-QC-op-reconcile-v1-7472372.err StdIn=/dev/null StdOut=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/Full_QC_operational_reconciled_20261015_v1/full-QC-op-reconcile-v1-7472372.out TresPerTask=cpu=8\n"
+}

@@ -1,0 +1,525 @@
+{
+  "utc": "2026-10-15T09:57:08.572420+00:00",
+  "read_only": true,
+  "selected_indices": [
+    200,
+    201
+  ],
+  "route_reviews": {
+    "200": {
+      "status": "verified_provisional_QC_candidate_route",
+      "actual_whole_batch": [
+        {
+          "JobID": "7471575_200",
+          "State": "COMPLETED",
+          "ExitCode": "0:0",
+          "Start": "2026-10-15T09:46:48",
+          "End": "2026-10-15T09:49:40"
+        },
+        {
+          "JobID": "7471575_200.batch",
+          "State": "COMPLETED",
+          "ExitCode": "0:0",
+          "Start": "2026-10-15T09:46:48",
+          "End": "2026-10-15T09:49:40"
+        }
+      ],
+      "physical_job_id": "7472410",
+      "receipt_artifacts": {
+        "started.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-200/started.json",
+          "bytes": 4264,
+          "inode": 935598193,
+          "mtime_ns": 1792057621510868000,
+          "sha256": "f40ab07f99fe455b47513967720d28f2174974b92ff32dc8b45c9a4a17161250"
+        },
+        "complete.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-200/complete.json",
+          "bytes": 1377,
+          "inode": 936878866,
+          "mtime_ns": 1792057759652999663,
+          "sha256": "0f829ec9748e2a0d5e77f0878231a030d85c0e3b7a1210a240adc510d8e96a16"
+        },
+        "execution_complete.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-200/execution_complete.json",
+          "bytes": 378,
+          "inode": 936878868,
+          "mtime_ns": 1792057768436175123,
+          "sha256": "0d9566e0e394445816f71525a299db389bfa65c41dd60c88b36d4c8f3d6fe82f"
+        },
+        "storage_complete.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-200/storage_complete.json",
+          "bytes": 831,
+          "inode": 936878871,
+          "mtime_ns": 1792057780405898241,
+          "sha256": "bde1608a62e7e785d3a593b5bd6495c486f384f98f7f807f9b833874736a514c"
+        },
+        "recovery_complete.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-200/recovery_complete.json",
+          "bytes": 1075,
+          "inode": 936878870,
+          "mtime_ns": 1792057768439278541,
+          "sha256": "2cf31bbd3f4f3e42409920af886c021425326e7b9119df4bbb52912ad6a7a34e"
+        },
+        "study_science_admission.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-200/study_science_admission.json",
+          "bytes": 1525,
+          "inode": 936878852,
+          "mtime_ns": 1792057714876671908,
+          "sha256": "5b741d136fb59f76a9cdfff97c3272288c1771c5f30ced887fdd32490e19a04e"
+        },
+        "FD_deterministic.actual.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-200/FD_deterministic.actual.json",
+          "bytes": 433,
+          "inode": 935598198,
+          "mtime_ns": 1792057621808754489,
+          "sha256": "3502e759d5a23fb049a60715482ad68caa282313f52785902091bde8cdca8de7"
+        },
+        "FD_Linux_smoke/linux_smoke_complete.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-200/FD_Linux_smoke/linux_smoke_complete.json",
+          "bytes": 2108,
+          "inode": 240584047,
+          "mtime_ns": 1792057633915346324,
+          "sha256": "a3c1ff3a375122312efde63d16bb459eea29dab8b99867049e315d325597f140"
+        },
+        "barcode_fixture.actual.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-200/barcode_fixture.actual.json",
+          "bytes": 169,
+          "inode": 936878849,
+          "mtime_ns": 1792057645553488832,
+          "sha256": "6aa13c7e23416728ee3b8e5c3979cec3d99ebf08c943938bad7c94a22796c46b"
+        },
+        "failure_join_fixture.actual.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-200/failure_join_fixture.actual.json",
+          "bytes": 170,
+          "inode": 936878853,
+          "mtime_ns": 1792057657220006744,
+          "sha256": "e74f009f4b5001d528a1a6e6700c9b3b4011fd0f118950d5c2237185cf0afd34"
+        },
+        "generated_ATAC22_science_fixture/fixture_complete.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-200/generated_ATAC22_science_fixture/fixture_complete.json",
+          "bytes": 690,
+          "inode": 1396880418,
+          "mtime_ns": 1792057708449268503,
+          "sha256": "573c66ed0d4aa119be8bd02a24ccae2c577d9defa4b99e0660df7e94cfce6f43"
+        },
+        "generated_ATAC22_science_fixture/result/doublet_method.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-200/generated_ATAC22_science_fixture/result/doublet_method.json",
+          "bytes": 3761,
+          "inode": 1396880396,
+          "mtime_ns": 1792057706247539786,
+          "sha256": "13eb89bcd139b3313833a266a9db3006136466ddb75d93374e92b6430880e8fc"
+        },
+        "R_runtime_gate.txt": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-200/R_runtime_gate.txt",
+          "bytes": 326,
+          "inode": 936878855,
+          "mtime_ns": 1792057679392497205,
+          "sha256": "862345d2b8457ce3c46cb9b634385645a6c0d4d836a0fb899feb30e7f3bb0637"
+        },
+        "ATAC_barcode_contract.actual.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-200/ATAC_barcode_contract.actual.json",
+          "bytes": 18296,
+          "inode": 935598205,
+          "mtime_ns": 1792057723361099000,
+          "sha256": "81a3c19d4a772d0ade317cd0acd10308f140369c6d15f00a690e8d67a6fc685b"
+        },
+        "original_failure_before.actual.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-200/original_failure_before.actual.json",
+          "bytes": 4146,
+          "inode": 935598189,
+          "mtime_ns": 1792057614477041000,
+          "sha256": "cbf79f7ca276b779a0865e7f81162603a72f958a563f5b72af41b9183522775e"
+        },
+        "original_failure_pre_science.actual.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-200/original_failure_pre_science.actual.json",
+          "bytes": 4146,
+          "inode": 936878851,
+          "mtime_ns": 1792057714874783000,
+          "sha256": "701b8d9579fc55868d5c308152ab25461386a59ea2500e9ae002f02265738f2d"
+        },
+        "original_failure_post_science.actual.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-200/original_failure_post_science.actual.json",
+          "bytes": 4146,
+          "inode": 936878867,
+          "mtime_ns": 1792057767623019000,
+          "sha256": "80fd89e1e3e75a66de5163d93065ca5401e643b9b0f719bd25df29c52526f369"
+        },
+        "cross_version_recovery_intent": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/Full_QC_recovery_intents/original-7469911_task-200.intent.json",
+          "bytes": 344,
+          "inode": 935598191,
+          "mtime_ns": 1792057614477810220,
+          "sha256": "69c987b131acd9bc9da4b96dca9c2d2efac4201fbfc6d2d708bcc0053c6c730e"
+        }
+      },
+      "current_original_failure": {
+        "utc": "2026-10-15T09:57:08.664804+00:00",
+        "original_logical_selector": "7469911_200",
+        "original_physical_job_id": "7470994",
+        "source_manifest_sha256": "d2385aebc47931ee9b4f15f6db3a11c140e70d53da33c6038a35ffddfb5bcf50",
+        "record_canonical_sha256": "9b92dfd056fcbd4faee91a346d59a5f0f94cf48d82aa0c108ff2b0307fc0c513",
+        "started_sha256": "28232e767d8e5090594e9e63b6445309f833e847ed4575210ba7c126ce51ec1d",
+        "failed_sha256": "ed7ad9e84b07e0d015459ca762b06167ce2d2b557d239f58b7854949e2d84ffb",
+        "science_log_sha256": "19c7c45233389e686a5ad7e06bb1ec485a0805b4aef724fed4c4749e87518224",
+        "actual_accounting": [
+          {
+            "query": "7469911_200",
+            "source": "actual_sacct",
+            "raw": "7469911_200|FAILED|1:0\n7469911_200.batch|FAILED|1:0\n",
+            "rows": [
+              [
+                "7469911_200",
+                "FAILED",
+                "1:0"
+              ],
+              [
+                "7469911_200.batch",
+                "FAILED",
+                "1:0"
+              ]
+            ]
+          },
+          {
+            "query": "7470994",
+            "source": "actual_sacct",
+            "raw": "7469911_200|FAILED|1:0\n7469911_200.batch|FAILED|1:0\n",
+            "rows": [
+              [
+                "7469911_200",
+                "FAILED",
+                "1:0"
+              ],
+              [
+                "7469911_200.batch",
+                "FAILED",
+                "1:0"
+              ]
+            ]
+          }
+        ],
+        "queue_raw": "7471575_203|PENDING\n7471575_204|PENDING\n7471575_205|PENDING\n7471575_206|PENDING\n7471575_207|PENDING\n7471575_208|PENDING\n7471575_209|PENDING\n7471575_210|PENDING\n7471575_211|PENDING\n7471575_212|PENDING\n7471575_213|PENDING\n7471575_214|PENDING\n7471575_215|PENDING\n7471575_216|PENDING\n7471575_217|PENDING\n7471575_218|PENDING\n7471575_219|PENDING\n7471575_220|PENDING\n7471575_221|PENDING\n7471575_222|PENDING\n7471575_223|PENDING\n7471575_224|PENDING\n7471575_225|PENDING\n7471575_226|PENDING\n7471575_227|PENDING\n7471575_228|PENDING\n7471575_229|PENDING\n7471575_230|PENDING\n7471575_231|PENDING\n7471575_232|PENDING\n7471575_233|PENDING\n7471575_234|PENDING\n7471575_235|PENDING\n7471575_236|PENDING\n7471575_237|PENDING\n7471575_238|PENDING\n7471575_239|PENDING\n7471575_240|PENDING\n7471575_241|PENDING\n7471575_242|PENDING\n7471575_243|PENDING\n7471575_244|PENDING\n7471575_245|PENDING\n7471575_246|PENDING\n7471575_247|PENDING\n7471575_248|PENDING\n7471575_249|PENDING\n7471575_250|PENDING\n7471575_251|PENDING\n7471575_252|PENDING\n7471575_253|PENDING\n7471575_254|PENDING\n7471575_255|PENDING\n7471575_256|PENDING\n7471575_257|PENDING\n7471575_258|PENDING\n7471575_259|PENDING\n7471575_260|PENDING\n7471575_261|PENDING\n7471575_262|PENDING\n7471575_263|PENDING\n7471575_264|PENDING\n7471575_265|PENDING\n7471575_266|PENDING\n7471575_267|PENDING\n7471575_268|PENDING\n7471575_269|PENDING\n7471575_270|PENDING\n7471575_271|PENDING\n7471575_272|PENDING\n7471575_273|PENDING\n7471575_274|PENDING\n7471575_275|PENDING\n7471575_276|PENDING\n7471575_277|PENDING\n7471575_278|PENDING\n7471575_279|PENDING\n7471575_280|PENDING\n7471575_281|PENDING\n7471575_282|PENDING\n7471575_283|PENDING\n7471575_284|PENDING\n7471575_285|PENDING\n7471575_286|PENDING\n7471575_287|PENDING\n7471575_288|PENDING\n7471575_289|PENDING\n7471575_290|PENDING\n7471575_291|PENDING\n7471575_292|PENDING\n7471575_293|PENDING\n7471575_294|PENDING\n7471575_295|PENDING\n7472294_194|PENDING\n7472294_195|PENDING\n7472372|PENDING\n7471604|PENDING\n7471575_202|RUNNING\n",
+        "original_failed_receipt": {
+          "utc": "2026-10-15T01:05:50.553155+00:00",
+          "error": "RuntimeError('QC science child failed; inspect science.log')",
+          "traceback": "Traceback (most recent call last):\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_20261014_v4/guard.py\", line 90, in main\n    if child.wait()!=0:raise RuntimeError('QC science child failed; inspect science.log')\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: QC science child failed; inspect science.log\n",
+          "job_id": "7470994"
+        },
+        "no_original_completion_receipts": true,
+        "original_success_not_claimed": true
+      },
+      "science": {
+        "status": "complete_library_QC_decisions_pending_full_study_retention_review",
+        "assay": "atac",
+        "task_index": 200,
+        "library_id": "Novaseq_220316_009",
+        "n_input": 4615,
+        "n_basic": 4615,
+        "n_retained": 4014,
+        "n_concordant_doublets": 0,
+        "thresholds": {
+          "low_counts": {
+            "value": 100.93394292569262,
+            "median_transformed": 6.5998704992128365,
+            "scaled_MAD": 0.658515171366497,
+            "log1p": true,
+            "side": "lower",
+            "n_MAD": 3
+          },
+          "low_features": {
+            "value": 101.51210920792099,
+            "median_transformed": 6.579251212010101,
+            "scaled_MAD": 0.6497567605985304,
+            "log1p": true,
+            "side": "lower",
+            "n_MAD": 3
+          },
+          "high_mitochondrial": {
+            "value": 0.4443965076193854,
+            "median_transformed": 0.10790396547073106,
+            "scaled_MAD": 0.11216418071621811,
+            "log1p": false,
+            "side": "higher",
+            "n_MAD": 3
+          }
+        },
+        "mitochondrial_definition": "mitochondrial classified query groups / all classified query groups *100; not unique nuclear fragments",
+        "doublet_rate_sensitivity": [
+          0.02,
+          0.05,
+          0.1
+        ],
+        "cell_types_used_for_filtering": false,
+        "n_zero_peak_supported_ATAC": 0,
+        "n_doublet_unresolved": 4615,
+        "ATAC_peak_counts_are_review_flags_only": true,
+        "raw_inputs_modified": false,
+        "raw_mtx_temp_preserved": true,
+        "final_atlas_rebuilt": false
+      },
+      "source_inputs_fixtures_storage_and_nonce_joined": true,
+      "original_failure_preserved": true
+    },
+    "201": {
+      "status": "verified_provisional_QC_candidate_route",
+      "actual_whole_batch": [
+        {
+          "JobID": "7471575_201",
+          "State": "COMPLETED",
+          "ExitCode": "0:0",
+          "Start": "2026-10-15T09:46:48",
+          "End": "2026-10-15T09:49:40"
+        },
+        {
+          "JobID": "7471575_201.batch",
+          "State": "COMPLETED",
+          "ExitCode": "0:0",
+          "Start": "2026-10-15T09:46:48",
+          "End": "2026-10-15T09:49:40"
+        }
+      ],
+      "physical_job_id": "7472411",
+      "receipt_artifacts": {
+        "started.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-201/started.json",
+          "bytes": 4264,
+          "inode": 239303346,
+          "mtime_ns": 1792057621511472000,
+          "sha256": "7beba16721aa9f51249031e9ab3adea01388e3d15dfd9529a6470b5252321432"
+        },
+        "complete.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-201/complete.json",
+          "bytes": 1374,
+          "inode": 1145465158,
+          "mtime_ns": 1792057760317784351,
+          "sha256": "c4f0f5b5aff2eefca7caa5981191fe533fdb8c093e56f1e29c0e4cdae903a82d"
+        },
+        "execution_complete.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-201/execution_complete.json",
+          "bytes": 378,
+          "inode": 1145465161,
+          "mtime_ns": 1792057768439971555,
+          "sha256": "fe9ff96a3e9a0c71b9d7631e286e81df2572312aab1a81ab4fc1a7eb576557e9"
+        },
+        "storage_complete.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-201/storage_complete.json",
+          "bytes": 831,
+          "inode": 1145465163,
+          "mtime_ns": 1792057780408027773,
+          "sha256": "d955c2bc48256d8559f43592a4a37ad5bd03e8153c1899ec0cfdf6953cf7304d"
+        },
+        "recovery_complete.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-201/recovery_complete.json",
+          "bytes": 1075,
+          "inode": 1145465162,
+          "mtime_ns": 1792057768442590900,
+          "sha256": "00ac2c485d00fb1e137038215f6b5a23abf05dfd5dff04128929cf856e4d387b"
+        },
+        "study_science_admission.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-201/study_science_admission.json",
+          "bytes": 1525,
+          "inode": 248156183,
+          "mtime_ns": 1792057714877073520,
+          "sha256": "3dd549e5659cc0e3b3ab1b135c4951c20da54ea6a2749eebc6f3d8e268eaf859"
+        },
+        "FD_deterministic.actual.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-201/FD_deterministic.actual.json",
+          "bytes": 433,
+          "inode": 240584000,
+          "mtime_ns": 1792057621819514571,
+          "sha256": "3502e759d5a23fb049a60715482ad68caa282313f52785902091bde8cdca8de7"
+        },
+        "FD_Linux_smoke/linux_smoke_complete.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-201/FD_Linux_smoke/linux_smoke_complete.json",
+          "bytes": 2107,
+          "inode": 935598202,
+          "mtime_ns": 1792057634011872080,
+          "sha256": "f405c7c049f942a9fb4fad39fafb0bb8e41d798da93b4fbd5549e9251eb033b3"
+        },
+        "barcode_fixture.actual.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-201/barcode_fixture.actual.json",
+          "bytes": 169,
+          "inode": 240584049,
+          "mtime_ns": 1792057645562963787,
+          "sha256": "6aa13c7e23416728ee3b8e5c3979cec3d99ebf08c943938bad7c94a22796c46b"
+        },
+        "failure_join_fixture.actual.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-201/failure_join_fixture.actual.json",
+          "bytes": 170,
+          "inode": 248156174,
+          "mtime_ns": 1792057657241812919,
+          "sha256": "e74f009f4b5001d528a1a6e6700c9b3b4011fd0f118950d5c2237185cf0afd34"
+        },
+        "generated_ATAC22_science_fixture/fixture_complete.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-201/generated_ATAC22_science_fixture/fixture_complete.json",
+          "bytes": 690,
+          "inode": 398920288,
+          "mtime_ns": 1792057708447796294,
+          "sha256": "573c66ed0d4aa119be8bd02a24ccae2c577d9defa4b99e0660df7e94cfce6f43"
+        },
+        "generated_ATAC22_science_fixture/result/doublet_method.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-201/generated_ATAC22_science_fixture/result/doublet_method.json",
+          "bytes": 3761,
+          "inode": 398920282,
+          "mtime_ns": 1792057706666023346,
+          "sha256": "13eb89bcd139b3313833a266a9db3006136466ddb75d93374e92b6430880e8fc"
+        },
+        "R_runtime_gate.txt": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-201/R_runtime_gate.txt",
+          "bytes": 326,
+          "inode": 248156186,
+          "mtime_ns": 1792057679391641490,
+          "sha256": "862345d2b8457ce3c46cb9b634385645a6c0d4d836a0fb899feb30e7f3bb0637"
+        },
+        "ATAC_barcode_contract.actual.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-201/ATAC_barcode_contract.actual.json",
+          "bytes": 18292,
+          "inode": 248156184,
+          "mtime_ns": 1792057723360961000,
+          "sha256": "120be59a94a0c4ebae8c70e0023874b15954b97259273a10734c6562b416c4cf"
+        },
+        "original_failure_before.actual.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-201/original_failure_before.actual.json",
+          "bytes": 4146,
+          "inode": 239303343,
+          "mtime_ns": 1792057614230544000,
+          "sha256": "d721b679d5e5ba2ed5a82128244f89bd14f2d796fc9fd4773904023b71f57554"
+        },
+        "original_failure_pre_science.actual.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-201/original_failure_pre_science.actual.json",
+          "bytes": 4146,
+          "inode": 240584057,
+          "mtime_ns": 1792057714875139000,
+          "sha256": "2bc86874618fe1c581229a4ec3bf22b165b49b1e41bb9aeb6093ba9e51020695"
+        },
+        "original_failure_post_science.actual.json": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-201/original_failure_post_science.actual.json",
+          "bytes": 4146,
+          "inode": 1145465159,
+          "mtime_ns": 1792057767623181000,
+          "sha256": "f8551e24da811f79a67b373074d27ba6d6201421bfe1b4be78549daf39dba839"
+        },
+        "cross_version_recovery_intent": {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/Full_QC_recovery_intents/original-7469911_task-201.intent.json",
+          "bytes": 344,
+          "inode": 935598188,
+          "mtime_ns": 1792057614233406373,
+          "sha256": "0608ac015374babc50892b362a222bef1b78b119003ef0b3a616cb6e97ec2d89"
+        }
+      },
+      "current_original_failure": {
+        "utc": "2026-10-15T09:57:08.758057+00:00",
+        "original_logical_selector": "7469911_201",
+        "original_physical_job_id": "7470995",
+        "source_manifest_sha256": "d2385aebc47931ee9b4f15f6db3a11c140e70d53da33c6038a35ffddfb5bcf50",
+        "record_canonical_sha256": "43e13bb807caf1d47128d0f6f9cae5e393de42b768d8a2b434043a63f2a728df",
+        "started_sha256": "6ea65e5a2e3436df37937b0cb70a747173d186c3a52bee3ec912f106cca7ec3f",
+        "failed_sha256": "2fc629135e61542f0edb5cf8651ac7e9f3c0ffd3db1a9b6d64cda1bec4258a9d",
+        "science_log_sha256": "19c7c45233389e686a5ad7e06bb1ec485a0805b4aef724fed4c4749e87518224",
+        "actual_accounting": [
+          {
+            "query": "7469911_201",
+            "source": "actual_sacct",
+            "raw": "7469911_201|FAILED|1:0\n7469911_201.batch|FAILED|1:0\n",
+            "rows": [
+              [
+                "7469911_201",
+                "FAILED",
+                "1:0"
+              ],
+              [
+                "7469911_201.batch",
+                "FAILED",
+                "1:0"
+              ]
+            ]
+          },
+          {
+            "query": "7470995",
+            "source": "actual_sacct",
+            "raw": "7469911_201|FAILED|1:0\n7469911_201.batch|FAILED|1:0\n",
+            "rows": [
+              [
+                "7469911_201",
+                "FAILED",
+                "1:0"
+              ],
+              [
+                "7469911_201.batch",
+                "FAILED",
+                "1:0"
+              ]
+            ]
+          }
+        ],
+        "queue_raw": "7471575_203|PENDING\n7471575_204|PENDING\n7471575_205|PENDING\n7471575_206|PENDING\n7471575_207|PENDING\n7471575_208|PENDING\n7471575_209|PENDING\n7471575_210|PENDING\n7471575_211|PENDING\n7471575_212|PENDING\n7471575_213|PENDING\n7471575_214|PENDING\n7471575_215|PENDING\n7471575_216|PENDING\n7471575_217|PENDING\n7471575_218|PENDING\n7471575_219|PENDING\n7471575_220|PENDING\n7471575_221|PENDING\n7471575_222|PENDING\n7471575_223|PENDING\n7471575_224|PENDING\n7471575_225|PENDING\n7471575_226|PENDING\n7471575_227|PENDING\n7471575_228|PENDING\n7471575_229|PENDING\n7471575_230|PENDING\n7471575_231|PENDING\n7471575_232|PENDING\n7471575_233|PENDING\n7471575_234|PENDING\n7471575_235|PENDING\n7471575_236|PENDING\n7471575_237|PENDING\n7471575_238|PENDING\n7471575_239|PENDING\n7471575_240|PENDING\n7471575_241|PENDING\n7471575_242|PENDING\n7471575_243|PENDING\n7471575_244|PENDING\n7471575_245|PENDING\n7471575_246|PENDING\n7471575_247|PENDING\n7471575_248|PENDING\n7471575_249|PENDING\n7471575_250|PENDING\n7471575_251|PENDING\n7471575_252|PENDING\n7471575_253|PENDING\n7471575_254|PENDING\n7471575_255|PENDING\n7471575_256|PENDING\n7471575_257|PENDING\n7471575_258|PENDING\n7471575_259|PENDING\n7471575_260|PENDING\n7471575_261|PENDING\n7471575_262|PENDING\n7471575_263|PENDING\n7471575_264|PENDING\n7471575_265|PENDING\n7471575_266|PENDING\n7471575_267|PENDING\n7471575_268|PENDING\n7471575_269|PENDING\n7471575_270|PENDING\n7471575_271|PENDING\n7471575_272|PENDING\n7471575_273|PENDING\n7471575_274|PENDING\n7471575_275|PENDING\n7471575_276|PENDING\n7471575_277|PENDING\n7471575_278|PENDING\n7471575_279|PENDING\n7471575_280|PENDING\n7471575_281|PENDING\n7471575_282|PENDING\n7471575_283|PENDING\n7471575_284|PENDING\n7471575_285|PENDING\n7471575_286|PENDING\n7471575_287|PENDING\n7471575_288|PENDING\n7471575_289|PENDING\n7471575_290|PENDING\n7471575_291|PENDING\n7471575_292|PENDING\n7471575_293|PENDING\n7471575_294|PENDING\n7471575_295|PENDING\n7472294_194|PENDING\n7472294_195|PENDING\n7472372|PENDING\n7471604|PENDING\n7471575_202|RUNNING\n",
+        "original_failed_receipt": {
+          "utc": "2026-10-15T01:06:15.948367+00:00",
+          "error": "RuntimeError('QC science child failed; inspect science.log')",
+          "traceback": "Traceback (most recent call last):\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_20261014_v4/guard.py\", line 90, in main\n    if child.wait()!=0:raise RuntimeError('QC science child failed; inspect science.log')\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: QC science child failed; inspect science.log\n",
+          "job_id": "7470995"
+        },
+        "no_original_completion_receipts": true,
+        "original_success_not_claimed": true
+      },
+      "science": {
+        "status": "complete_library_QC_decisions_pending_full_study_retention_review",
+        "assay": "atac",
+        "task_index": 201,
+        "library_id": "Novaseq_220316_010",
+        "n_input": 4650,
+        "n_basic": 4650,
+        "n_retained": 4030,
+        "n_concordant_doublets": 0,
+        "thresholds": {
+          "low_counts": {
+            "value": 95.93568454117977,
+            "median_transformed": 6.643138267257465,
+            "scaled_MAD": 0.6896968515444971,
+            "log1p": true,
+            "side": "lower",
+            "n_MAD": 3
+          },
+          "low_features": {
+            "value": 95.99226627896421,
+            "median_transformed": 6.618070980745848,
+            "scaled_MAD": 0.6811465781679471,
+            "log1p": true,
+            "side": "lower",
+            "n_MAD": 3
+          },
+          "high_mitochondrial": {
+            "value": 0.4689949169914073,
+            "median_transformed": 0.11016249802793655,
+            "scaled_MAD": 0.1196108063211569,
+            "log1p": false,
+            "side": "higher",
+            "n_MAD": 3
+          }
+        },
+        "mitochondrial_definition": "mitochondrial classified query groups / all classified query groups *100; not unique nuclear fragments",
+        "doublet_rate_sensitivity": [
+          0.02,
+          0.05,
+          0.1
+        ],
+        "cell_types_used_for_filtering": false,
+        "n_zero_peak_supported_ATAC": 0,
+        "n_doublet_unresolved": 4650,
+        "ATAC_peak_counts_are_review_flags_only": true,
+        "raw_inputs_modified": false,
+        "raw_mtx_temp_preserved": true,
+        "final_atlas_rebuilt": false
+      },
+      "source_inputs_fixtures_storage_and_nonce_joined": true,
+      "original_failure_preserved": true
+    }
+  },
+  "raw_matrix_read": false,
+  "QC_decision_axis_read": false,
+  "large_content_hash": false,
+  "full104_adoption": false,
+  "full296_adoption": false,
+  "normalization_ready": false,
+  "all_selected_strict_checks_passed": true
+}

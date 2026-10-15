@@ -1,0 +1,17 @@
+{
+  "embedding_role": "initial_ATAC_diagnostic_for_iterative_doublet_and_marker_review",
+  "n_initial_cells": 456472,
+  "n_peaks": 68126,
+  "n_LSI_features": 68126,
+  "n_initial_clusters": 11,
+  "n_animals": 20,
+  "n_libraries": 104,
+  "input": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_LiSC_parallel_prepare_20261013_v2/run-AAv4sN3T/atlas/atac_peaks_mm10.h5ad",
+  "raw_counts_preserved": true,
+  "all_initial_QC_cells_retained": true,
+  "final_annotation_complete": false,
+  "final_doublet_selection": false,
+  "final_cell_selection": false,
+  "provisional_peak_universe": true,
+  "refined_peaks_pending": true
+}

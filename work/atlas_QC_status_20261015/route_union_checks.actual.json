@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-15T09:59:00.387216+00:00",
+  "status": "passed_strict_route_union_negative_boundaries",
+  "checks": {
+    "stale six-route proof cannot accept two new completions: fail closed": true,
+    "stale six-route proof cannot accept two new completions: expected boundary reason": true,
+    "stale six-route proof cannot accept two new completions: actual proofs and last accepted public outputs preserved": true,
+    "missing added proof: fail closed": true,
+    "missing added proof: expected boundary reason": true,
+    "missing added proof: actual proofs and last accepted public outputs preserved": true,
+    "unsuccessful review refused: fail closed": true,
+    "unsuccessful review refused: expected boundary reason": true,
+    "unsuccessful review refused: actual proofs and last accepted public outputs preserved": true,
+    "overlapping distinct reports refused: fail closed": true,
+    "overlapping distinct reports refused: expected boundary reason": true,
+    "overlapping distinct reports refused: actual proofs and last accepted public outputs preserved": true,
+    "duplicate same proof refused: fail closed": true,
+    "duplicate same proof refused: expected boundary reason": true,
+    "duplicate same proof refused: actual proofs and last accepted public outputs preserved": true,
+    "one physical job cannot certify two libraries: fail closed": true,
+    "one physical job cannot certify two libraries: expected boundary reason": true,
+    "one physical job cannot certify two libraries: actual proofs and last accepted public outputs preserved": true
+  },
+  "n_checks": 18,
+  "synthetic_only": true,
+  "remote_queries": false,
+  "actual_proofs_modified": false
+}

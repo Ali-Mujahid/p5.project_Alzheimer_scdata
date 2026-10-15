@@ -1,0 +1,1276 @@
+{
+  "status": "verified_RNA192_QC_candidates_for_single_library_technical_profile",
+  "parent_job_id": "7471574",
+  "parent_accounting": {
+    "job_id": "7471574",
+    "source": "actual_sacct",
+    "raw": "7471574|COMPLETED|0:0\n7471574.batch|COMPLETED|0:0\n",
+    "rows": [
+      [
+        "7471574",
+        "COMPLETED",
+        "0:0"
+      ],
+      [
+        "7471574.batch",
+        "COMPLETED",
+        "0:0"
+      ]
+    ]
+  },
+  "parent_source_manifest_sha256": "ad55a1c8e48519a02c5c00d525af33eb2d8d0d50ab50c87c55dc37cf8e651a0e",
+  "QC_certificate_sha256": "b8cf20fd64750dab1443d7ec3e51688f8f1f6c80596a2553e69180c48c4efbdf",
+  "chosen_attempts_sha256": "d64694e5e7ba2cd77404f47bbaf9672ef8292efa264e61b5bff22d3434deaef8",
+  "library_table": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_QC_review_20261015_v1/job-7471574/review/QC_by_library.tsv",
+  "candidate_export": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_QC_review_20261015_v1/job-7471574/review/rna_candidate_retained_IDs.tsv.gz",
+  "selected_route": {
+    "task_index": 189,
+    "assay": "rna",
+    "library_id": "EasySci_090",
+    "origin": "original",
+    "array_id": "7469911",
+    "physical_job_id": "7470765",
+    "task_dir": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/Full_QC_20261014_v4/array-7469911/task-189",
+    "source_version": "Full_QC_20261014_v4",
+    "source_manifest_sha256": "d2385aebc47931ee9b4f15f6db3a11c140e70d53da33c6038a35ffddfb5bcf50",
+    "science_file_SHA256": {
+      "qc_task.py": "f8068b20ad08324801090b195d2b1a364a3b473884fddc55228c158abf58b8d9",
+      "doublets.R": "f3c8f2091ebd81be62d84c336ad3081c608255d82982c08255f9aad675f8d201",
+      "tasks.json": "a01142d5dee1af8d8f646c203a7989472de3f36f9d2582ae066b6e6c794c63ec"
+    },
+    "record": {
+      "assay": "rna",
+      "library_id": "EasySci_090",
+      "run_accession": "SRR21410217",
+      "matrix": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/remaining_RNA/results/mm10/full_study_20261008/rna_counting/SRR21410217/stages/09_RNA_primer_merge_metadata/attempt_fa66bed5fce741b1bbcfea7de8d822be/genes/expression_matrix.mtx",
+      "cells": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/remaining_RNA/results/mm10/full_study_20261008/rna_counting/SRR21410217/stages/09_RNA_primer_merge_metadata/attempt_fa66bed5fce741b1bbcfea7de8d822be/genes/cell_annotation.csv",
+      "genes": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/remaining_RNA/results/mm10/full_study_20261008/rna_counting/SRR21410217/stages/09_RNA_primer_merge_metadata/attempt_fa66bed5fce741b1bbcfea7de8d822be/genes/gene_annotation.csv",
+      "audit": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_LiSC_20261012_v3/job-7448772/rna/qc_audit/SRR21410217.all_input_qc.tsv.gz",
+      "identities": [
+        {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/remaining_RNA/results/mm10/full_study_20261008/rna_counting/SRR21410217/stages/09_RNA_primer_merge_metadata/attempt_fa66bed5fce741b1bbcfea7de8d822be/genes/expression_matrix.mtx",
+          "bytes": 302373454,
+          "inode": 1700656822,
+          "mtime_ns": 1791802606535696885
+        },
+        {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/remaining_RNA/results/mm10/full_study_20261008/rna_counting/SRR21410217/stages/09_RNA_primer_merge_metadata/attempt_fa66bed5fce741b1bbcfea7de8d822be/genes/cell_annotation.csv",
+          "bytes": 24201059,
+          "inode": 1700656823,
+          "mtime_ns": 1791802606625698064
+        },
+        {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/remaining_RNA/results/mm10/full_study_20261008/rna_counting/SRR21410217/stages/09_RNA_primer_merge_metadata/attempt_fa66bed5fce741b1bbcfea7de8d822be/genes/gene_annotation.csv",
+          "bytes": 2400140,
+          "inode": 1700656821,
+          "mtime_ns": 1791802605351681364
+        },
+        {
+          "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_LiSC_20261012_v3/job-7448772/rna/qc_audit/SRR21410217.all_input_qc.tsv.gz",
+          "bytes": 1964880,
+          "inode": 190828615,
+          "mtime_ns": 1791829111087408788
+        }
+      ]
+    },
+    "actual_whole_batch": [
+      {
+        "JobID": "7469911_189",
+        "State": "COMPLETED",
+        "ExitCode": "0:0",
+        "Start": "2026-10-15T02:41:52",
+        "End": "2026-10-15T02:52:32"
+      },
+      {
+        "JobID": "7469911_189.batch",
+        "State": "COMPLETED",
+        "ExitCode": "0:0",
+        "Start": "2026-10-15T02:41:52",
+        "End": "2026-10-15T02:52:32"
+      }
+    ],
+    "receipts": {
+      "started.json": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/Full_QC_20261014_v4/array-7469911/task-189/started.json",
+        "sha256": "c6a0a3147088047566aceee58bc8947207fc8eb3963038ca912f0776e8c8b81c"
+      },
+      "complete.json": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/Full_QC_20261014_v4/array-7469911/task-189/complete.json",
+        "sha256": "68e1a6196c9e3bd9804f9356a43313a9dec9a1ac91f90acb451eb493844e7c80"
+      },
+      "execution_complete.json": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/Full_QC_20261014_v4/array-7469911/task-189/execution_complete.json",
+        "sha256": "905563bcd2a506b108077dafe8a8413ba7d1132c0639e780e22e069f61bceee3"
+      },
+      "storage_complete.json": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/Full_QC_20261014_v4/array-7469911/task-189/storage_complete.json",
+        "sha256": "eb14f69b34d17c66e76f091cc33725430c2e1d8d234f7bfe1e0c4693934ac009"
+      }
+    },
+    "repair_operational_evidence": null,
+    "QC_decision_product": {
+      "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/Full_QC_20261014_v4/array-7469911/task-189/cell_QC_decisions.tsv.gz",
+      "bytes": 3011972,
+      "inode": 1137893039,
+      "mtime_ns": 1792025545865023430,
+      "sha256": "b1d14a98e8e5e6346c017f055f0b54fa6fe676d6a09e97c94e747bcdc4a24043"
+    }
+  },
+  "all192_ranking": [
+    {
+      "n_candidates": 17081,
+      "matrix_bytes": 302373454,
+      "task_index": 189,
+      "library_id": "EasySci_090"
+    },
+    {
+      "n_candidates": 16276,
+      "matrix_bytes": 295047339,
+      "task_index": 185,
+      "library_id": "EasySci_074"
+    },
+    {
+      "n_candidates": 16150,
+      "matrix_bytes": 290005013,
+      "task_index": 84,
+      "library_id": "EasySci_091"
+    },
+    {
+      "n_candidates": 16087,
+      "matrix_bytes": 285501095,
+      "task_index": 170,
+      "library_id": "EasySci_058"
+    },
+    {
+      "n_candidates": 14969,
+      "matrix_bytes": 267142782,
+      "task_index": 166,
+      "library_id": "EasySci_050"
+    },
+    {
+      "n_candidates": 14913,
+      "matrix_bytes": 262641299,
+      "task_index": 105,
+      "library_id": "EasySci_093"
+    },
+    {
+      "n_candidates": 14752,
+      "matrix_bytes": 271633440,
+      "task_index": 99,
+      "library_id": "EasySci_075"
+    },
+    {
+      "n_candidates": 14640,
+      "matrix_bytes": 252247612,
+      "task_index": 2,
+      "library_id": "EasySci_103"
+    },
+    {
+      "n_candidates": 14569,
+      "matrix_bytes": 241560491,
+      "task_index": 154,
+      "library_id": "EasySci_029"
+    },
+    {
+      "n_candidates": 14494,
+      "matrix_bytes": 237836112,
+      "task_index": 93,
+      "library_id": "EasySci_028"
+    },
+    {
+      "n_candidates": 14233,
+      "matrix_bytes": 180987408,
+      "task_index": 67,
+      "library_id": "EasySci_169"
+    },
+    {
+      "n_candidates": 14224,
+      "matrix_bytes": 247070556,
+      "task_index": 120,
+      "library_id": "EasySci_134"
+    },
+    {
+      "n_candidates": 14065,
+      "matrix_bytes": 237926288,
+      "task_index": 103,
+      "library_id": "EasySci_082"
+    },
+    {
+      "n_candidates": 13989,
+      "matrix_bytes": 245793150,
+      "task_index": 76,
+      "library_id": "EasySci_066"
+    },
+    {
+      "n_candidates": 13947,
+      "matrix_bytes": 234911647,
+      "task_index": 183,
+      "library_id": "EasySci_064"
+    },
+    {
+      "n_candidates": 13839,
+      "matrix_bytes": 237058999,
+      "task_index": 28,
+      "library_id": "EasySci_061"
+    },
+    {
+      "n_candidates": 13833,
+      "matrix_bytes": 234641953,
+      "task_index": 53,
+      "library_id": "EasySci_111"
+    },
+    {
+      "n_candidates": 13831,
+      "matrix_bytes": 231813931,
+      "task_index": 167,
+      "library_id": "EasySci_052"
+    },
+    {
+      "n_candidates": 13521,
+      "matrix_bytes": 226391068,
+      "task_index": 27,
+      "library_id": "EasySci_046"
+    },
+    {
+      "n_candidates": 13438,
+      "matrix_bytes": 222916188,
+      "task_index": 88,
+      "library_id": "EasySci_185"
+    },
+    {
+      "n_candidates": 13435,
+      "matrix_bytes": 227905914,
+      "task_index": 71,
+      "library_id": "EasySci_042"
+    },
+    {
+      "n_candidates": 13394,
+      "matrix_bytes": 225632995,
+      "task_index": 98,
+      "library_id": "EasySci_060"
+    },
+    {
+      "n_candidates": 13269,
+      "matrix_bytes": 228610698,
+      "task_index": 169,
+      "library_id": "EasySci_048"
+    },
+    {
+      "n_candidates": 13261,
+      "matrix_bytes": 223399506,
+      "task_index": 82,
+      "library_id": "EasySci_085"
+    },
+    {
+      "n_candidates": 13184,
+      "matrix_bytes": 209346302,
+      "task_index": 107,
+      "library_id": "EasySci_102"
+    },
+    {
+      "n_candidates": 13177,
+      "matrix_bytes": 207365364,
+      "task_index": 129,
+      "library_id": "EasySci_001"
+    },
+    {
+      "n_candidates": 13164,
+      "matrix_bytes": 211781888,
+      "task_index": 3,
+      "library_id": "EasySci_112"
+    },
+    {
+      "n_candidates": 13159,
+      "matrix_bytes": 236984324,
+      "task_index": 32,
+      "library_id": "EasySci_072"
+    },
+    {
+      "n_candidates": 13139,
+      "matrix_bytes": 212436074,
+      "task_index": 155,
+      "library_id": "EasySci_030"
+    },
+    {
+      "n_candidates": 13083,
+      "matrix_bytes": 206402279,
+      "task_index": 23,
+      "library_id": "EasySci_003"
+    },
+    {
+      "n_candidates": 13026,
+      "matrix_bytes": 221968649,
+      "task_index": 119,
+      "library_id": "EasySci_133"
+    },
+    {
+      "n_candidates": 13008,
+      "matrix_bytes": 244357261,
+      "task_index": 61,
+      "library_id": "EasySci_156"
+    },
+    {
+      "n_candidates": 12999,
+      "matrix_bytes": 204596006,
+      "task_index": 176,
+      "library_id": "EasySci_089"
+    },
+    {
+      "n_candidates": 12952,
+      "matrix_bytes": 207139628,
+      "task_index": 177,
+      "library_id": "EasySci_053"
+    },
+    {
+      "n_candidates": 12936,
+      "matrix_bytes": 211901581,
+      "task_index": 136,
+      "library_id": "EasySci_171"
+    },
+    {
+      "n_candidates": 12916,
+      "matrix_bytes": 213537416,
+      "task_index": 91,
+      "library_id": "EasySci_026"
+    },
+    {
+      "n_candidates": 12911,
+      "matrix_bytes": 225429682,
+      "task_index": 144,
+      "library_id": "EasySci_140"
+    },
+    {
+      "n_candidates": 12905,
+      "matrix_bytes": 208681568,
+      "task_index": 26,
+      "library_id": "EasySci_004"
+    },
+    {
+      "n_candidates": 12895,
+      "matrix_bytes": 205194477,
+      "task_index": 159,
+      "library_id": "EasySci_036"
+    },
+    {
+      "n_candidates": 12879,
+      "matrix_bytes": 220171372,
+      "task_index": 19,
+      "library_id": "EasySci_002"
+    },
+    {
+      "n_candidates": 12866,
+      "matrix_bytes": 208574965,
+      "task_index": 180,
+      "library_id": "EasySci_059"
+    },
+    {
+      "n_candidates": 12856,
+      "matrix_bytes": 214415422,
+      "task_index": 92,
+      "library_id": "EasySci_027"
+    },
+    {
+      "n_candidates": 12854,
+      "matrix_bytes": 193344123,
+      "task_index": 134,
+      "library_id": "EasySci_170"
+    },
+    {
+      "n_candidates": 12849,
+      "matrix_bytes": 224040092,
+      "task_index": 62,
+      "library_id": "EasySci_157"
+    },
+    {
+      "n_candidates": 12797,
+      "matrix_bytes": 204068098,
+      "task_index": 1,
+      "library_id": "EasySci_101"
+    },
+    {
+      "n_candidates": 12779,
+      "matrix_bytes": 202331419,
+      "task_index": 181,
+      "library_id": "EasySci_006"
+    },
+    {
+      "n_candidates": 12777,
+      "matrix_bytes": 210766628,
+      "task_index": 70,
+      "library_id": "EasySci_040"
+    },
+    {
+      "n_candidates": 12701,
+      "matrix_bytes": 217029675,
+      "task_index": 135,
+      "library_id": "EasySci_107"
+    },
+    {
+      "n_candidates": 12687,
+      "matrix_bytes": 206459250,
+      "task_index": 164,
+      "library_id": "EasySci_044"
+    },
+    {
+      "n_candidates": 12683,
+      "matrix_bytes": 208603046,
+      "task_index": 162,
+      "library_id": "EasySci_037"
+    },
+    {
+      "n_candidates": 12675,
+      "matrix_bytes": 201407684,
+      "task_index": 0,
+      "library_id": "EasySci_010"
+    },
+    {
+      "n_candidates": 12670,
+      "matrix_bytes": 223311280,
+      "task_index": 122,
+      "library_id": "EasySci_141"
+    },
+    {
+      "n_candidates": 12645,
+      "matrix_bytes": 212094411,
+      "task_index": 74,
+      "library_id": "EasySci_047"
+    },
+    {
+      "n_candidates": 12643,
+      "matrix_bytes": 198641303,
+      "task_index": 108,
+      "library_id": "EasySci_104"
+    },
+    {
+      "n_candidates": 12622,
+      "matrix_bytes": 225269446,
+      "task_index": 112,
+      "library_id": "EasySci_118"
+    },
+    {
+      "n_candidates": 12562,
+      "matrix_bytes": 204650595,
+      "task_index": 68,
+      "library_id": "EasySci_038"
+    },
+    {
+      "n_candidates": 12555,
+      "matrix_bytes": 208541564,
+      "task_index": 60,
+      "library_id": "EasySci_150"
+    },
+    {
+      "n_candidates": 12544,
+      "matrix_bytes": 198053500,
+      "task_index": 52,
+      "library_id": "EasySci_110"
+    },
+    {
+      "n_candidates": 12481,
+      "matrix_bytes": 200515956,
+      "task_index": 14,
+      "library_id": "EasySci_177"
+    },
+    {
+      "n_candidates": 12444,
+      "matrix_bytes": 212098225,
+      "task_index": 37,
+      "library_id": "EasySci_099"
+    },
+    {
+      "n_candidates": 12423,
+      "matrix_bytes": 192338201,
+      "task_index": 132,
+      "library_id": "EasySci_017"
+    },
+    {
+      "n_candidates": 12403,
+      "matrix_bytes": 190356505,
+      "task_index": 187,
+      "library_id": "EasySci_084"
+    },
+    {
+      "n_candidates": 12359,
+      "matrix_bytes": 189562302,
+      "task_index": 31,
+      "library_id": "EasySci_007"
+    },
+    {
+      "n_candidates": 12273,
+      "matrix_bytes": 196733785,
+      "task_index": 190,
+      "library_id": "EasySci_094"
+    },
+    {
+      "n_candidates": 12215,
+      "matrix_bytes": 196992926,
+      "task_index": 29,
+      "library_id": "EasySci_063"
+    },
+    {
+      "n_candidates": 12187,
+      "matrix_bytes": 196599979,
+      "task_index": 161,
+      "library_id": "EasySci_045"
+    },
+    {
+      "n_candidates": 12185,
+      "matrix_bytes": 193267105,
+      "task_index": 102,
+      "library_id": "EasySci_081"
+    },
+    {
+      "n_candidates": 12171,
+      "matrix_bytes": 193348808,
+      "task_index": 40,
+      "library_id": "EasySci_013"
+    },
+    {
+      "n_candidates": 12156,
+      "matrix_bytes": 207090695,
+      "task_index": 10,
+      "library_id": "EasySci_143"
+    },
+    {
+      "n_candidates": 12127,
+      "matrix_bytes": 187440627,
+      "task_index": 175,
+      "library_id": "EasySci_083"
+    },
+    {
+      "n_candidates": 12089,
+      "matrix_bytes": 207697235,
+      "task_index": 116,
+      "library_id": "EasySci_127"
+    },
+    {
+      "n_candidates": 12056,
+      "matrix_bytes": 184983195,
+      "task_index": 137,
+      "library_id": "EasySci_011"
+    },
+    {
+      "n_candidates": 12050,
+      "matrix_bytes": 202341490,
+      "task_index": 191,
+      "library_id": "EasySci_097"
+    },
+    {
+      "n_candidates": 12045,
+      "matrix_bytes": 187886774,
+      "task_index": 186,
+      "library_id": "EasySci_080"
+    },
+    {
+      "n_candidates": 12041,
+      "matrix_bytes": 198360813,
+      "task_index": 156,
+      "library_id": "EasySci_181"
+    },
+    {
+      "n_candidates": 12040,
+      "matrix_bytes": 199063404,
+      "task_index": 146,
+      "library_id": "EasySci_149"
+    },
+    {
+      "n_candidates": 12034,
+      "matrix_bytes": 190146343,
+      "task_index": 12,
+      "library_id": "EasySci_161"
+    },
+    {
+      "n_candidates": 12018,
+      "matrix_bytes": 198508912,
+      "task_index": 118,
+      "library_id": "EasySci_132"
+    },
+    {
+      "n_candidates": 11985,
+      "matrix_bytes": 185236145,
+      "task_index": 160,
+      "library_id": "EasySci_022"
+    },
+    {
+      "n_candidates": 11983,
+      "matrix_bytes": 192179523,
+      "task_index": 94,
+      "library_id": "EasySci_034"
+    },
+    {
+      "n_candidates": 11981,
+      "matrix_bytes": 183515111,
+      "task_index": 174,
+      "library_id": "EasySci_051"
+    },
+    {
+      "n_candidates": 11981,
+      "matrix_bytes": 182404437,
+      "task_index": 22,
+      "library_id": "EasySci_025"
+    },
+    {
+      "n_candidates": 11978,
+      "matrix_bytes": 192724999,
+      "task_index": 41,
+      "library_id": "EasySci_131"
+    },
+    {
+      "n_candidates": 11965,
+      "matrix_bytes": 208706536,
+      "task_index": 111,
+      "library_id": "EasySci_116"
+    },
+    {
+      "n_candidates": 11961,
+      "matrix_bytes": 183277607,
+      "task_index": 147,
+      "library_id": "EasySci_153"
+    },
+    {
+      "n_candidates": 11928,
+      "matrix_bytes": 191340484,
+      "task_index": 38,
+      "library_id": "EasySci_109"
+    },
+    {
+      "n_candidates": 11883,
+      "matrix_bytes": 194301520,
+      "task_index": 51,
+      "library_id": "EasySci_100"
+    },
+    {
+      "n_candidates": 11867,
+      "matrix_bytes": 184557249,
+      "task_index": 97,
+      "library_id": "EasySci_054"
+    },
+    {
+      "n_candidates": 11866,
+      "matrix_bytes": 199040728,
+      "task_index": 80,
+      "library_id": "EasySci_078"
+    },
+    {
+      "n_candidates": 11792,
+      "matrix_bytes": 182162473,
+      "task_index": 95,
+      "library_id": "EasySci_039"
+    },
+    {
+      "n_candidates": 11769,
+      "matrix_bytes": 195057755,
+      "task_index": 117,
+      "library_id": "EasySci_129"
+    },
+    {
+      "n_candidates": 11764,
+      "matrix_bytes": 192778957,
+      "task_index": 86,
+      "library_id": "EasySci_183"
+    },
+    {
+      "n_candidates": 11763,
+      "matrix_bytes": 190489142,
+      "task_index": 124,
+      "library_id": "EasySci_145"
+    },
+    {
+      "n_candidates": 11745,
+      "matrix_bytes": 192973023,
+      "task_index": 35,
+      "library_id": "EasySci_095"
+    },
+    {
+      "n_candidates": 11737,
+      "matrix_bytes": 181153238,
+      "task_index": 4,
+      "library_id": "EasySci_113"
+    },
+    {
+      "n_candidates": 11731,
+      "matrix_bytes": 190663430,
+      "task_index": 106,
+      "library_id": "EasySci_098"
+    },
+    {
+      "n_candidates": 11727,
+      "matrix_bytes": 183462606,
+      "task_index": 77,
+      "library_id": "EasySci_067"
+    },
+    {
+      "n_candidates": 11721,
+      "matrix_bytes": 186700354,
+      "task_index": 89,
+      "library_id": "EasySci_188"
+    },
+    {
+      "n_candidates": 11711,
+      "matrix_bytes": 191332642,
+      "task_index": 173,
+      "library_id": "EasySci_073"
+    },
+    {
+      "n_candidates": 11708,
+      "matrix_bytes": 185110393,
+      "task_index": 143,
+      "library_id": "EasySci_138"
+    },
+    {
+      "n_candidates": 11701,
+      "matrix_bytes": 208044612,
+      "task_index": 150,
+      "library_id": "EasySci_187"
+    },
+    {
+      "n_candidates": 11629,
+      "matrix_bytes": 181241759,
+      "task_index": 79,
+      "library_id": "EasySci_076"
+    },
+    {
+      "n_candidates": 11588,
+      "matrix_bytes": 172683452,
+      "task_index": 34,
+      "library_id": "EasySci_092"
+    },
+    {
+      "n_candidates": 11557,
+      "matrix_bytes": 172932557,
+      "task_index": 25,
+      "library_id": "EasySci_035"
+    },
+    {
+      "n_candidates": 11527,
+      "matrix_bytes": 177945972,
+      "task_index": 163,
+      "library_id": "EasySci_043"
+    },
+    {
+      "n_candidates": 11503,
+      "matrix_bytes": 167787392,
+      "task_index": 153,
+      "library_id": "EasySci_021"
+    },
+    {
+      "n_candidates": 11497,
+      "matrix_bytes": 178565955,
+      "task_index": 165,
+      "library_id": "EasySci_005"
+    },
+    {
+      "n_candidates": 11470,
+      "matrix_bytes": 184863709,
+      "task_index": 11,
+      "library_id": "EasySci_151"
+    },
+    {
+      "n_candidates": 11461,
+      "matrix_bytes": 195698731,
+      "task_index": 42,
+      "library_id": "EasySci_137"
+    },
+    {
+      "n_candidates": 11449,
+      "matrix_bytes": 176814809,
+      "task_index": 145,
+      "library_id": "EasySci_146"
+    },
+    {
+      "n_candidates": 11431,
+      "matrix_bytes": 194373381,
+      "task_index": 21,
+      "library_id": "EasySci_024"
+    },
+    {
+      "n_candidates": 11413,
+      "matrix_bytes": 169276668,
+      "task_index": 172,
+      "library_id": "EasySci_049"
+    },
+    {
+      "n_candidates": 11396,
+      "matrix_bytes": 166960529,
+      "task_index": 168,
+      "library_id": "EasySci_056"
+    },
+    {
+      "n_candidates": 11362,
+      "matrix_bytes": 167040237,
+      "task_index": 114,
+      "library_id": "EasySci_012"
+    },
+    {
+      "n_candidates": 11299,
+      "matrix_bytes": 181597661,
+      "task_index": 24,
+      "library_id": "EasySci_031"
+    },
+    {
+      "n_candidates": 11266,
+      "matrix_bytes": 188636610,
+      "task_index": 188,
+      "library_id": "EasySci_086"
+    },
+    {
+      "n_candidates": 11238,
+      "matrix_bytes": 174460777,
+      "task_index": 141,
+      "library_id": "EasySci_130"
+    },
+    {
+      "n_candidates": 11229,
+      "matrix_bytes": 189203568,
+      "task_index": 110,
+      "library_id": "EasySci_115"
+    },
+    {
+      "n_candidates": 11228,
+      "matrix_bytes": 166779805,
+      "task_index": 5,
+      "library_id": "EasySci_114"
+    },
+    {
+      "n_candidates": 11219,
+      "matrix_bytes": 176993873,
+      "task_index": 78,
+      "library_id": "EasySci_071"
+    },
+    {
+      "n_candidates": 11197,
+      "matrix_bytes": 170138812,
+      "task_index": 104,
+      "library_id": "EasySci_009"
+    },
+    {
+      "n_candidates": 11192,
+      "matrix_bytes": 180010209,
+      "task_index": 20,
+      "library_id": "EasySci_023"
+    },
+    {
+      "n_candidates": 11177,
+      "matrix_bytes": 181631794,
+      "task_index": 126,
+      "library_id": "EasySci_154"
+    },
+    {
+      "n_candidates": 11140,
+      "matrix_bytes": 187785413,
+      "task_index": 7,
+      "library_id": "EasySci_122"
+    },
+    {
+      "n_candidates": 11085,
+      "matrix_bytes": 188476606,
+      "task_index": 6,
+      "library_id": "EasySci_117"
+    },
+    {
+      "n_candidates": 11077,
+      "matrix_bytes": 169102213,
+      "task_index": 16,
+      "library_id": "EasySci_186"
+    },
+    {
+      "n_candidates": 11046,
+      "matrix_bytes": 178243450,
+      "task_index": 39,
+      "library_id": "EasySci_128"
+    },
+    {
+      "n_candidates": 11035,
+      "matrix_bytes": 161141452,
+      "task_index": 75,
+      "library_id": "EasySci_065"
+    },
+    {
+      "n_candidates": 10950,
+      "matrix_bytes": 161841836,
+      "task_index": 9,
+      "library_id": "EasySci_014"
+    },
+    {
+      "n_candidates": 10920,
+      "matrix_bytes": 171486661,
+      "task_index": 158,
+      "library_id": "EasySci_020"
+    },
+    {
+      "n_candidates": 10853,
+      "matrix_bytes": 158337028,
+      "task_index": 133,
+      "library_id": "EasySci_106"
+    },
+    {
+      "n_candidates": 10845,
+      "matrix_bytes": 160697376,
+      "task_index": 131,
+      "library_id": "EasySci_105"
+    },
+    {
+      "n_candidates": 10805,
+      "matrix_bytes": 187404980,
+      "task_index": 127,
+      "library_id": "EasySci_155"
+    },
+    {
+      "n_candidates": 10805,
+      "matrix_bytes": 162504323,
+      "task_index": 179,
+      "library_id": "EasySci_057"
+    },
+    {
+      "n_candidates": 10787,
+      "matrix_bytes": 164529771,
+      "task_index": 171,
+      "library_id": "EasySci_068"
+    },
+    {
+      "n_candidates": 10751,
+      "matrix_bytes": 180052461,
+      "task_index": 149,
+      "library_id": "EasySci_160"
+    },
+    {
+      "n_candidates": 10714,
+      "matrix_bytes": 155671110,
+      "task_index": 81,
+      "library_id": "EasySci_008"
+    },
+    {
+      "n_candidates": 10671,
+      "matrix_bytes": 164970139,
+      "task_index": 184,
+      "library_id": "EasySci_070"
+    },
+    {
+      "n_candidates": 10601,
+      "matrix_bytes": 154903497,
+      "task_index": 148,
+      "library_id": "EasySci_016"
+    },
+    {
+      "n_candidates": 10580,
+      "matrix_bytes": 167075119,
+      "task_index": 142,
+      "library_id": "EasySci_135"
+    },
+    {
+      "n_candidates": 10510,
+      "matrix_bytes": 170286379,
+      "task_index": 36,
+      "library_id": "EasySci_096"
+    },
+    {
+      "n_candidates": 10468,
+      "matrix_bytes": 168384497,
+      "task_index": 96,
+      "library_id": "EasySci_041"
+    },
+    {
+      "n_candidates": 10383,
+      "matrix_bytes": 165226035,
+      "task_index": 152,
+      "library_id": "EasySci_190"
+    },
+    {
+      "n_candidates": 10319,
+      "matrix_bytes": 166114414,
+      "task_index": 59,
+      "library_id": "EasySci_015"
+    },
+    {
+      "n_candidates": 10317,
+      "matrix_bytes": 153735140,
+      "task_index": 101,
+      "library_id": "EasySci_079"
+    },
+    {
+      "n_candidates": 10251,
+      "matrix_bytes": 152890823,
+      "task_index": 73,
+      "library_id": "EasySci_018"
+    },
+    {
+      "n_candidates": 10215,
+      "matrix_bytes": 156659417,
+      "task_index": 125,
+      "library_id": "EasySci_147"
+    },
+    {
+      "n_candidates": 10186,
+      "matrix_bytes": 157936866,
+      "task_index": 85,
+      "library_id": "EasySci_182"
+    },
+    {
+      "n_candidates": 10171,
+      "matrix_bytes": 164008108,
+      "task_index": 63,
+      "library_id": "EasySci_180"
+    },
+    {
+      "n_candidates": 10159,
+      "matrix_bytes": 159272472,
+      "task_index": 140,
+      "library_id": "EasySci_121"
+    },
+    {
+      "n_candidates": 10145,
+      "matrix_bytes": 154060258,
+      "task_index": 57,
+      "library_id": "EasySci_144"
+    },
+    {
+      "n_candidates": 10072,
+      "matrix_bytes": 169087960,
+      "task_index": 55,
+      "library_id": "EasySci_126"
+    },
+    {
+      "n_candidates": 10055,
+      "matrix_bytes": 139685624,
+      "task_index": 157,
+      "library_id": "EasySci_033"
+    },
+    {
+      "n_candidates": 9809,
+      "matrix_bytes": 140815031,
+      "task_index": 43,
+      "library_id": "EasySci_152"
+    },
+    {
+      "n_candidates": 9772,
+      "matrix_bytes": 139387016,
+      "task_index": 17,
+      "library_id": "EasySci_019"
+    },
+    {
+      "n_candidates": 9757,
+      "matrix_bytes": 140059312,
+      "task_index": 178,
+      "library_id": "EasySci_055"
+    },
+    {
+      "n_candidates": 9606,
+      "matrix_bytes": 144001798,
+      "task_index": 33,
+      "library_id": "EasySci_088"
+    },
+    {
+      "n_candidates": 9590,
+      "matrix_bytes": 131082028,
+      "task_index": 83,
+      "library_id": "EasySci_087"
+    },
+    {
+      "n_candidates": 9586,
+      "matrix_bytes": 239137620,
+      "task_index": 65,
+      "library_id": "EasySci_032"
+    },
+    {
+      "n_candidates": 9378,
+      "matrix_bytes": 124348660,
+      "task_index": 56,
+      "library_id": "EasySci_136"
+    },
+    {
+      "n_candidates": 9361,
+      "matrix_bytes": 149078779,
+      "task_index": 15,
+      "library_id": "EasySci_179"
+    },
+    {
+      "n_candidates": 9186,
+      "matrix_bytes": 243325829,
+      "task_index": 182,
+      "library_id": "EasySci_062"
+    },
+    {
+      "n_candidates": 9160,
+      "matrix_bytes": 158709340,
+      "task_index": 45,
+      "library_id": "EasySci_164"
+    },
+    {
+      "n_candidates": 9144,
+      "matrix_bytes": 238255807,
+      "task_index": 123,
+      "library_id": "EasySci_142"
+    },
+    {
+      "n_candidates": 9114,
+      "matrix_bytes": 243290663,
+      "task_index": 44,
+      "library_id": "EasySci_159"
+    },
+    {
+      "n_candidates": 8929,
+      "matrix_bytes": 132365426,
+      "task_index": 87,
+      "library_id": "EasySci_184"
+    },
+    {
+      "n_candidates": 8887,
+      "matrix_bytes": 137939267,
+      "task_index": 138,
+      "library_id": "EasySci_178"
+    },
+    {
+      "n_candidates": 8846,
+      "matrix_bytes": 219455585,
+      "task_index": 121,
+      "library_id": "EasySci_139"
+    },
+    {
+      "n_candidates": 8700,
+      "matrix_bytes": 241729802,
+      "task_index": 115,
+      "library_id": "EasySci_124"
+    },
+    {
+      "n_candidates": 8641,
+      "matrix_bytes": 245237181,
+      "task_index": 100,
+      "library_id": "EasySci_077"
+    },
+    {
+      "n_candidates": 8586,
+      "matrix_bytes": 195467672,
+      "task_index": 139,
+      "library_id": "EasySci_120"
+    },
+    {
+      "n_candidates": 8553,
+      "matrix_bytes": 240799432,
+      "task_index": 18,
+      "library_id": "EasySci_191"
+    },
+    {
+      "n_candidates": 8467,
+      "matrix_bytes": 221186337,
+      "task_index": 113,
+      "library_id": "EasySci_119"
+    },
+    {
+      "n_candidates": 8459,
+      "matrix_bytes": 244256823,
+      "task_index": 72,
+      "library_id": "EasySci_175"
+    },
+    {
+      "n_candidates": 8316,
+      "matrix_bytes": 139856598,
+      "task_index": 128,
+      "library_id": "EasySci_162"
+    },
+    {
+      "n_candidates": 8282,
+      "matrix_bytes": 250371876,
+      "task_index": 64,
+      "library_id": "EasySci_158"
+    },
+    {
+      "n_candidates": 8281,
+      "matrix_bytes": 153989979,
+      "task_index": 130,
+      "library_id": "EasySci_163"
+    },
+    {
+      "n_candidates": 8247,
+      "matrix_bytes": 158217470,
+      "task_index": 30,
+      "library_id": "EasySci_069"
+    },
+    {
+      "n_candidates": 8110,
+      "matrix_bytes": 128877243,
+      "task_index": 48,
+      "library_id": "EasySci_168"
+    },
+    {
+      "n_candidates": 8076,
+      "matrix_bytes": 211632056,
+      "task_index": 49,
+      "library_id": "EasySci_172"
+    },
+    {
+      "n_candidates": 7831,
+      "matrix_bytes": 198410831,
+      "task_index": 58,
+      "library_id": "EasySci_148"
+    },
+    {
+      "n_candidates": 7729,
+      "matrix_bytes": 219028098,
+      "task_index": 151,
+      "library_id": "EasySci_189"
+    },
+    {
+      "n_candidates": 7452,
+      "matrix_bytes": 204423047,
+      "task_index": 8,
+      "library_id": "EasySci_125"
+    },
+    {
+      "n_candidates": 7452,
+      "matrix_bytes": 179243975,
+      "task_index": 50,
+      "library_id": "EasySci_174"
+    },
+    {
+      "n_candidates": 7398,
+      "matrix_bytes": 136808547,
+      "task_index": 66,
+      "library_id": "EasySci_165"
+    },
+    {
+      "n_candidates": 7353,
+      "matrix_bytes": 213132452,
+      "task_index": 109,
+      "library_id": "EasySci_108"
+    },
+    {
+      "n_candidates": 7271,
+      "matrix_bytes": 181911545,
+      "task_index": 90,
+      "library_id": "EasySci_192"
+    },
+    {
+      "n_candidates": 7059,
+      "matrix_bytes": 192299881,
+      "task_index": 54,
+      "library_id": "EasySci_123"
+    },
+    {
+      "n_candidates": 6507,
+      "matrix_bytes": 174481848,
+      "task_index": 69,
+      "library_id": "EasySci_173"
+    },
+    {
+      "n_candidates": 5964,
+      "matrix_bytes": 137030861,
+      "task_index": 13,
+      "library_id": "EasySci_176"
+    },
+    {
+      "n_candidates": 5019,
+      "matrix_bytes": 142659497,
+      "task_index": 47,
+      "library_id": "EasySci_167"
+    },
+    {
+      "n_candidates": 4726,
+      "matrix_bytes": 137913746,
+      "task_index": 46,
+      "library_id": "EasySci_166"
+    }
+  ],
+  "selection_rule": "descending provisional candidate count; descending raw matrix bytes; ascending task index",
+  "all192_source_and_input_stat_receipt_proofs_validated": true,
+  "normalization_ready": false
+}

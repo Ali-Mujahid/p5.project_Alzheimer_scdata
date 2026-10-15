@@ -1,0 +1,480 @@
+{
+  "completed_utc": "2026-10-14T13:02:06.278963+00:00",
+  "job_id": "7466270",
+  "source": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270",
+  "destination": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270",
+  "files": 34,
+  "bytes": 1742588165,
+  "all_expected_products_present": true,
+  "LiSC_originals_preserved": true,
+  "records": [
+    {
+      "relative_path": "embedding/atac_initial_atlas.h5ad",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/atac_initial_atlas.h5ad",
+      "bytes": 1627723675,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/atac_initial_atlas.h5ad",
+        "bytes": 1627723675,
+        "inode": 642043062,
+        "mtime_ns": 1791966079459724674
+      },
+      "small_table_sha256_verified": false,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/correction_batch_by_animal.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/correction_batch_by_animal.tsv",
+      "bytes": 10656,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/correction_batch_by_animal.tsv",
+        "bytes": 10656,
+        "inode": 1095764323,
+        "mtime_ns": 1791961875190142000,
+        "sha256": "0ebbb0ad84d10e8bdee4f1f55f103b767a9f94c462ccb33a270962b40119087b"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/correction_batch_by_condition.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/correction_batch_by_condition.tsv",
+      "bytes": 4214,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/correction_batch_by_condition.tsv",
+        "bytes": 4214,
+        "inode": 1070486447,
+        "mtime_ns": 1791961875188810000,
+        "sha256": "f4548c7aacc2f1eca9ddb3cb10fe34010b3eb9d83b5be54ac2b09b9faac241d2"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/doublet_review_plan.json",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/doublet_review_plan.json",
+      "bytes": 1724,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/doublet_review_plan.json",
+        "bytes": 1724,
+        "inode": 985799897,
+        "mtime_ns": 1791965831200629618,
+        "sha256": "2a9bc6d63ce0ab06e670d835b7b9e28ef5b891380713cef71710cb3f4d2a7edf"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/initial_cell_metadata.tsv.gz",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/initial_cell_metadata.tsv.gz",
+      "bytes": 38863301,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/initial_cell_metadata.tsv.gz",
+        "bytes": 38863301,
+        "inode": 927671943,
+        "mtime_ns": 1791966097655419910
+      },
+      "small_table_sha256_verified": false,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/initial_cluster_by_animal_id.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/initial_cluster_by_animal_id.tsv",
+      "bytes": 1380,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/initial_cluster_by_animal_id.tsv",
+        "bytes": 1380,
+        "inode": 433528492,
+        "mtime_ns": 1791965830767772356,
+        "sha256": "20e9516c9da8c0245436b6e9daee115609acd46df07f2003bb20eb462d49cbb5"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/initial_cluster_by_condition.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/initial_cluster_by_condition.tsv",
+      "bytes": 370,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/initial_cluster_by_condition.tsv",
+        "bytes": 370,
+        "inode": 902394098,
+        "mtime_ns": 1791965830707682955,
+        "sha256": "c13687b53dc4f654816802b7b21026a112601bd0506c0a77ab103dee7df801c5"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/initial_cluster_by_library_id.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/initial_cluster_by_library_id.tsv",
+      "bytes": 6436,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/initial_cluster_by_library_id.tsv",
+        "bytes": 6436,
+        "inode": 475231375,
+        "mtime_ns": 1791965830833137000,
+        "sha256": "3542892e316197dc2af1b8f8fdec36ff485a6688a564fdfc70d8f65e1e67c3c6"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/initial_cluster_by_published_cell_type.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/initial_cluster_by_published_cell_type.tsv",
+      "bytes": 1727,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/initial_cluster_by_published_cell_type.tsv",
+        "bytes": 1727,
+        "inode": 1070486433,
+        "mtime_ns": 1791965830889121375,
+        "sha256": "dae1049f7f86948ebbdeabb4e440cc7d2ce06b8e18da348c3ddf6963d0155f90"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/initial_cluster_review_summary.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/initial_cluster_review_summary.tsv",
+      "bytes": 2672,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/initial_cluster_review_summary.tsv",
+        "bytes": 2672,
+        "inode": 685026687,
+        "mtime_ns": 1791965831198072007,
+        "sha256": "27570fe8e13e8692206a49428d187a370f185b7af087f1c5671305fa68f3b8c4"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/initial_embedding_complete.json",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/initial_embedding_complete.json",
+      "bytes": 689,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/initial_embedding_complete.json",
+        "bytes": 689,
+        "inode": 499228575,
+        "mtime_ns": 1791966097662520026,
+        "sha256": "d20d5e4e16c9c4589dded736c8b8cf32f14fac3bf0a04ae6a259add77614912c"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/library_by_animal_id.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/library_by_animal_id.tsv",
+      "bytes": 10656,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/library_by_animal_id.tsv",
+        "bytes": 10656,
+        "inode": 1012358516,
+        "mtime_ns": 1791961874767698000,
+        "sha256": "0ebbb0ad84d10e8bdee4f1f55f103b767a9f94c462ccb33a270962b40119087b"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/library_by_condition.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/library_by_condition.tsv",
+      "bytes": 4214,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/library_by_condition.tsv",
+        "bytes": 4214,
+        "inode": 1011077803,
+        "mtime_ns": 1791961874817575000,
+        "sha256": "f4548c7aacc2f1eca9ddb3cb10fe34010b3eb9d83b5be54ac2b09b9faac241d2"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/qc_cells.tsv.gz",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/qc_cells.tsv.gz",
+      "bytes": 15775820,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/qc_cells.tsv.gz",
+        "bytes": 15775820,
+        "inode": 1070486443,
+        "mtime_ns": 1791961868532267517
+      },
+      "small_table_sha256_verified": false,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/qc_overview.pdf",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/qc_overview.pdf",
+      "bytes": 21141,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/qc_overview.pdf",
+        "bytes": 21141,
+        "inode": 1086911442,
+        "mtime_ns": 1791961869448446000
+      },
+      "small_table_sha256_verified": false,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/qc_quantiles_by_animal_id.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/qc_quantiles_by_animal_id.tsv",
+      "bytes": 12125,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/qc_quantiles_by_animal_id.tsv",
+        "bytes": 12125,
+        "inode": 1019930676,
+        "mtime_ns": 1791961868723967000,
+        "sha256": "3745404d80e7098b1204347114f99a94a7b13a4631ad78f2b5fdf84189cc447f"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/qc_quantiles_by_condition.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/qc_quantiles_by_condition.tsv",
+      "bytes": 2803,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/qc_quantiles_by_condition.tsv",
+        "bytes": 2803,
+        "inode": 995933443,
+        "mtime_ns": 1791961868829915342,
+        "sha256": "ab8f3dbef531601ecde9d6200223678293458472a15b2f2c42b84e88020cb135"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/qc_quantiles_by_library_id.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/qc_quantiles_by_library_id.tsv",
+      "bytes": 66455,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/qc_quantiles_by_library_id.tsv",
+        "bytes": 66455,
+        "inode": 995933470,
+        "mtime_ns": 1791961868619078000,
+        "sha256": "5caacfc2826dc6f8fae4faa064c3d4f91c17c051ef2f0a570f4f0fb2cda0ca26"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/raw_preservation.json",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/raw_preservation.json",
+      "bytes": 261,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/raw_preservation.json",
+        "bytes": 261,
+        "inode": 869544057,
+        "mtime_ns": 1791965974167576110,
+        "sha256": "34f0965a5367784a9731fc36b105088d9ad8e49e609767912485949eb6d7737d"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/technical_overlap.json",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/technical_overlap.json",
+      "bytes": 7421,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/technical_overlap.json",
+        "bytes": 7421,
+        "inode": 927671936,
+        "mtime_ns": 1791961875194733000,
+        "sha256": "88166ec35aa9aea4393b8839539809266bc2797409dae5b13d6fd7ef976f6d02"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/umap_initial_diagnostic_animals_libraries.pdf",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/umap_initial_diagnostic_animals_libraries.pdf",
+      "bytes": 15566025,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/umap_initial_diagnostic_animals_libraries.pdf",
+        "bytes": 15566025,
+        "inode": 524506455,
+        "mtime_ns": 1791965932976339670
+      },
+      "small_table_sha256_verified": false,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/umap_initial_diagnostic_calibration_labels.pdf",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/umap_initial_diagnostic_calibration_labels.pdf",
+      "bytes": 8417270,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/umap_initial_diagnostic_calibration_labels.pdf",
+        "bytes": 8417270,
+        "inode": 969374864,
+        "mtime_ns": 1791965966533856868
+      },
+      "small_table_sha256_verified": false,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/umap_initial_diagnostic_clusters_conditions.pdf",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/umap_initial_diagnostic_clusters_conditions.pdf",
+      "bytes": 16127813,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/umap_initial_diagnostic_clusters_conditions.pdf",
+        "bytes": 16127813,
+        "inode": 249011113,
+        "mtime_ns": 1791965882624186907
+      },
+      "small_table_sha256_verified": false,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/umap_uncorrected_same_LSI_clusters_conditions.pdf",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/umap_uncorrected_same_LSI_clusters_conditions.pdf",
+      "bytes": 16095527,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/umap_uncorrected_same_LSI_clusters_conditions.pdf",
+        "bytes": 16095527,
+        "inode": 508081471,
+        "mtime_ns": 1791963980191454353
+      },
+      "small_table_sha256_verified": false,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/uncorrected_initial_cluster_by_animal_id.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/uncorrected_initial_cluster_by_animal_id.tsv",
+      "bytes": 1234,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/uncorrected_initial_cluster_by_animal_id.tsv",
+        "bytes": 1234,
+        "inode": 1112189348,
+        "mtime_ns": 1791963926271507368,
+        "sha256": "b95e7df2568c05f39653994d46779af862882517a6e6fc9dd011b174bad25877"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/uncorrected_initial_cluster_by_condition.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/uncorrected_initial_cluster_by_condition.tsv",
+      "bytes": 328,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/uncorrected_initial_cluster_by_condition.tsv",
+        "bytes": 328,
+        "inode": 987080623,
+        "mtime_ns": 1791963926214912466,
+        "sha256": "ecfac4d3aada181da357a37a940866ae961947bb2594c3ef41d0d6b7465c4464"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/uncorrected_initial_cluster_by_library_id.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/uncorrected_initial_cluster_by_library_id.tsv",
+      "bytes": 5796,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/uncorrected_initial_cluster_by_library_id.tsv",
+        "bytes": 5796,
+        "inode": 626898701,
+        "mtime_ns": 1791963926338158000,
+        "sha256": "cee645f4915ea48f05e59b25698276dd798403fda5fd0675d7d9c1c507a86645"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "embedding/uncorrected_initial_cluster_by_published_cell_type.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/uncorrected_initial_cluster_by_published_cell_type.tsv",
+      "bytes": 1546,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/uncorrected_initial_cluster_by_published_cell_type.tsv",
+        "bytes": 1546,
+        "inode": 650895899,
+        "mtime_ns": 1791963926391778170,
+        "sha256": "8659514fd6848a76cc2f57049836e0d1a35d9fc9073b89c007bf3c1d627853b3"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "marker_review/cluster_coverage.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/marker_review/cluster_coverage.tsv",
+      "bytes": 1108640,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/marker_review/cluster_coverage.tsv",
+        "bytes": 1108640,
+        "inode": 146898804,
+        "mtime_ns": 1791966155502527831,
+        "sha256": "6c875e7eec472a9cdfca4017a4c60710458e55256ee3ee5c28e1931e7599ee0b"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "marker_review/cluster_library_QC_quantiles.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/marker_review/cluster_library_QC_quantiles.tsv",
+      "bytes": 654100,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/marker_review/cluster_library_QC_quantiles.tsv",
+        "bytes": 654100,
+        "inode": 273288203,
+        "mtime_ns": 1791966155685965222,
+        "sha256": "b5bf7dfaed23340ed76b8c9e1411764409600f94df29443e4e0bfd158337d816"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "marker_review/complete.json",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/marker_review/complete.json",
+      "bytes": 517,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/marker_review/complete.json",
+        "bytes": 517,
+        "inode": 566489293,
+        "mtime_ns": 1791966156592554157,
+        "sha256": "ea71b4d7a90d08f1a7f494b2ee92bf373b4c56b32824465fc0d131237c880d83"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "marker_review/equal_animal_markers.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/marker_review/equal_animal_markers.tsv",
+      "bytes": 74559,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/marker_review/equal_animal_markers.tsv",
+        "bytes": 74559,
+        "inode": 356694069,
+        "mtime_ns": 1791966155437416000,
+        "sha256": "6431f910ece87e7804af38f53d7f2c988928bb42ff40438a4b1e59d14f5e76da"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "marker_review/markers_by_cluster_animal.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/marker_review/markers_by_cluster_animal.tsv",
+      "bytes": 2015661,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/marker_review/markers_by_cluster_animal.tsv",
+        "bytes": 2015661,
+        "inode": 617045102,
+        "mtime_ns": 1791966155419407659,
+        "sha256": "0908b539316899c410e7905671849215c8a2bdce56cbdd3f5b4b93171d5b428e"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    },
+    {
+      "relative_path": "marker_review/symbol_audit.tsv",
+      "local_path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/marker_review/symbol_audit.tsv",
+      "bytes": 1409,
+      "remote_identity": {
+        "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/marker_review/symbol_audit.tsv",
+        "bytes": 1409,
+        "inode": 491936343,
+        "mtime_ns": 1791966107064650463,
+        "sha256": "cdbfd8d2b682119d05196e7b7f72fa6a51502c9af7933ab9921f66031c6013c2"
+      },
+      "small_table_sha256_verified": true,
+      "transfer_integrity": "SSH protected stream and exact expected length; no new large matrix content hash"
+    }
+  ]
+}

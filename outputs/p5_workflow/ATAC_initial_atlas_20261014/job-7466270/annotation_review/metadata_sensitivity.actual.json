@@ -1,0 +1,62 @@
+{
+  "created_utc": "2026-10-14T19:40:22.707104+00:00",
+  "input": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/initial_cell_metadata.tsv.gz",
+  "input_bytes": 38863301,
+  "input_inode": 97354273,
+  "input_mtime_ns": 1791982918931568601,
+  "n_cells": 456472,
+  "scope": "existing per-cell metadata only; no matrix or graph rerun",
+  "elapsed_seconds": 3.1094108520192094,
+  "cluster8_baseline_counts": {
+    "0": 334,
+    "1": 35,
+    "2": 8,
+    "3": 69,
+    "4": 63,
+    "5": 67,
+    "6": 11017,
+    "7": 11,
+    "8": 2
+  },
+  "cluster7_baseline_counts": {
+    "0": 0,
+    "1": 9819,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 1792
+  },
+  "cluster1_baseline_counts": {
+    "0": 1927,
+    "1": 93227,
+    "2": 9,
+    "3": 13,
+    "4": 31,
+    "5": 1,
+    "6": 75,
+    "7": 4,
+    "8": 5
+  },
+  "cluster7_vs1_detected_peak_median_ratio_across_animals": {
+    "min": 3.180722891566265,
+    "median": 3.6200979879345816,
+    "max": 4.271739130434782
+  },
+  "cells_excluded": 0,
+  "atlas_modified": false,
+  "genotype_effect_established": false,
+  "cluster8_5xFAD_animal_fraction_range": [
+    0.0962975261497592,
+    0.1266377672787492
+  ],
+  "cluster8_other_animal_fraction_range": [
+    0.0036172654864178,
+    0.0080747022735474
+  ],
+  "cluster8_majority_uncorrected_cluster": "6",
+  "cluster8_fraction_from_uncorrected6": 0.9492503877304842,
+  "figure": "animal_depth_sensitivity.png"
+}

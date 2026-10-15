@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-10-14T13:10:13.468243+00:00",
+  "job_id": "7466270",
+  "review_scope": "manual provisional cluster activity/QC/coverage review from accepted small tables",
+  "inputs": [
+    {
+      "path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/marker_review/equal_animal_markers.tsv",
+      "bytes": 74559,
+      "sha256": "6431f910ece87e7804af38f53d7f2c988928bb42ff40438a4b1e59d14f5e76da"
+    },
+    {
+      "path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/marker_review/cluster_coverage.tsv",
+      "bytes": 1108640,
+      "sha256": "6c875e7eec472a9cdfca4017a4c60710458e55256ee3ee5c28e1931e7599ee0b"
+    },
+    {
+      "path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/initial_cluster_review_summary.tsv",
+      "bytes": 2672,
+      "sha256": "27570fe8e13e8692206a49428d187a370f185b7af087f1c5671305fa68f3b8c4"
+    },
+    {
+      "path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/initial_cluster_by_published_cell_type.tsv",
+      "bytes": 1727,
+      "sha256": "dae1049f7f86948ebbdeabb4e440cc7d2ce06b8e18da348c3ddf6963d0155f90"
+    }
+  ],
+  "all_clusters_reviewed": 11,
+  "cell_types_final": false,
+  "cells_excluded": 0,
+  "atlas_modified": false,
+  "new_job_submitted": false,
+  "priority_review_clusters": [
+    7,
+    8,
+    9
+  ],
+  "cluster8_5xFAD_cells": 9557,
+  "cluster8_total_cells": 11606,
+  "cluster8_condition_fraction": 0.8234533861795623
+}

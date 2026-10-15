@@ -1,0 +1,64 @@
+{
+  "all_cell_types": true,
+  "microglia_extra_view": true,
+  "assays": [
+    "RNA genes",
+    "ATAC peaks/activity",
+    "RNA TE expression",
+    "ATAC TE accessibility"
+  ],
+  "filters": [
+    "cell_type",
+    "cluster",
+    "genotype",
+    "condition",
+    "animal",
+    "sex",
+    "QC_status"
+  ],
+  "views": [
+    "UMAP per assay, all or selected groups",
+    "multiple representative-marker UMAPs per supported cell type",
+    "dotplot builder with 10\u201320 ranked markers and canonical panels",
+    "per-animal genotype boxplots with points",
+    "gene TSS/TES/gene-body and TE coverage",
+    "cell-type and genotype ATAC tracks",
+    "TE UMAPs and dotplots"
+  ],
+  "color_palettes": [
+    "colorblind-safe categorical",
+    "viridis",
+    "magma",
+    "diverging blue-red"
+  ],
+  "expression_display_modes": [
+    "raw counts",
+    "log1p library-normalized counts",
+    "gene-wise z-score",
+    "SCT residuals when available"
+  ],
+  "ATAC_display_modes": [
+    "raw accessibility",
+    "log1p normalized activity",
+    "gene-wise z-score",
+    "normalized coverage"
+  ],
+  "edits": "display cluster rename/merge mappings with export/import, never modify raw counts",
+  "inference_unit": "animal",
+  "status": "requirements recorded; final filtered atlas awaits scientific outputs",
+  "plot_export_formats": [
+    "PDF"
+  ],
+  "default_plot_export_format": "PDF",
+  "PNG_plot_download_option": false,
+  "data_export_formats": [
+    "TSV",
+    "JSON"
+  ],
+  "PDF_export_preference_source": "User14October2026: download/save options from HTML page should bePDF notPNG",
+  "Leiden_resolutions": [
+    0.6,
+    1.0
+  ],
+  "resolution_1_status": "actual job7470007submitted; queuedPriority at21:41UTC; labels/markers pending"
+}

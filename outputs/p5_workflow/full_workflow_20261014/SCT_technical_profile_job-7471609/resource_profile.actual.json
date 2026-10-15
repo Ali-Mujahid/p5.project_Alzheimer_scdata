@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-15T08:02:15.121262+00:00",
+  "selection_rule": "descending provisional candidate count; descending raw matrix bytes; ascending task index",
+  "largest_provisional_candidate_library": "EasySci_090",
+  "n_candidates": 17081,
+  "prepare_plus_profile_wall_seconds": 134.47033450193703,
+  "R_child_wall_seconds": 117.09643073007464,
+  "direct_children_max_RSS_KiB": 2067112,
+  "child_resource_scope": "Linux getrusage RUSAGE_CHILDREN maximum over serial monitored Python/R children; scheduler batch MaxRSS checked separately at terminal review",
+  "child_user_CPU_seconds": 146.349563,
+  "child_system_CPU_seconds": 19.653706,
+  "n_fitted_gene_models": 26511,
+  "n_missing_gene_models": 28976,
+  "requested_profile_HVGs": 3000,
+  "available_profile_HVGs": 3000,
+  "residual_values_per_second": 9661909.853204744,
+  "raw_R_sparse_snapshot_SHA256": "07937334ee9a044dedba22578d7ce28956accbe1c28ea06ba0fe577ebaf9a43b",
+  "raw_original_inputs_modified": false,
+  "all_library_or_final_normalization_resource_claim": false,
+  "normalization_ready": false
+}

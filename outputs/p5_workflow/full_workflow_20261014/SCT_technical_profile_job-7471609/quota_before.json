@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-15T07:59:21.118037+00:00",
+  "available_bytes": 765289037824,
+  "available_inodes": 231963,
+  "reserved": false,
+  "includes_in_doubt": true,
+  "raw": "mmlsquota:user:HEADER:version:reserved:reserved:filesystemName:quotaType:id:name:blockUsage:blockQuota:blockLimit:blockInDoubt:blockGrace:filesUsage:filesQuota:filesLimit:filesInDoubt:filesGrace:remarks:fid:filesetname:\nmmlsquota:user:0:1:::data:USR:10796:mujahid:949206272:1073741824:1610612736:0:none:5701:200000:300000:0:none:lisc-sss.lisc:1:work:\nmmlsquota:user:0:1:::data:USR:10796:mujahid:3546320384:4294967296:6442450944:1294336:none:767608:1000000:1500000:429:none:lisc-sss.lisc:2:scratch:\n"
+}

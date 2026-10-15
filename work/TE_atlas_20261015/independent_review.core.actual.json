@@ -1,0 +1,63 @@
+{
+  "utc": "2026-10-15T08:13:27.383Z",
+  "scope": "Independent pure function edge case tests; no browser or input matrix read",
+  "checks": [
+    {
+      "name": "Age matched comparison excludes older WT",
+      "passed": true
+    },
+    {
+      "name": "All conditions retain separate WT ages",
+      "passed": true
+    },
+    {
+      "name": "Female filter retains six age matched animals",
+      "passed": true
+    },
+    {
+      "name": "Primary scope excludes uncertain and nonTE native classes",
+      "passed": true
+    },
+    {
+      "name": "Callable zero contributes to overlap mean",
+      "passed": true
+    },
+    {
+      "name": "Missing and noncallable groups remain null",
+      "passed": true
+    },
+    {
+      "name": "Zero expected fold is NA independently of zero overlap",
+      "passed": true
+    },
+    {
+      "name": "All missing condition mean remains null",
+      "passed": true
+    },
+    {
+      "name": "Sex filter changes expected animal denominator",
+      "passed": true
+    },
+    {
+      "name": "Duplicate animal category is rejected",
+      "passed": true
+    },
+    {
+      "name": "Constant zero zscore stays zero while missing remains null",
+      "passed": true
+    },
+    {
+      "name": "Boxplot animal quantiles match linear interpolation",
+      "passed": true
+    },
+    {
+      "name": "TSV missing serializes as NA",
+      "passed": true
+    },
+    {
+      "name": "PDF provenance states scoped producer metric and no inference",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

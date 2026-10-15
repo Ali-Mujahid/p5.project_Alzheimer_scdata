@@ -1,0 +1,46 @@
+{
+  "utc": "2026-10-15T08:14:04.922800+00:00",
+  "status": "independent scientific data, JSON, pure-function and static PDF review passed; root real-browser export review remains separate",
+  "checks": {
+    "subfamily_labels_include_native_family": true,
+    "family_labels_include_native_class": true,
+    "heatmap_disambiguates_category": true,
+    "boxplot_disambiguates_category": true,
+    "select_disambiguates_category": true,
+    "both_tsv_exports_include_native_taxonomy": true,
+    "tiny_positive_numbers_not_false_zero": true,
+    "depth_background_limitation_visible": true,
+    "native_vector_pdf_and_pagination": true
+  },
+  "artifacts": {
+    "independent_review.actual.json": {
+      "sha256": "ecb50b879bbbaf0a8b998734c47e3612a60fc6ecf2377d418f7e77352ab2fe9b",
+      "checks": 502
+    },
+    "independent_review.core.actual.json": {
+      "sha256": "12a498dffc3603e4120a9cad9aa489690a8233d9e6a09a76574e0202ba0115ad",
+      "checks": 14
+    },
+    "independent_review.adapter.actual.json": {
+      "sha256": "955c1ad39ae297ee56cef39f2d0a62528f946c94fa8e23f752a5b54fa5c33c55",
+      "checks": 120
+    },
+    "independent_review.pdf.actual.json": {
+      "sha256": "1490223030249944ead58764e4c864db69eb140d04aa202cff7884bc343b561f",
+      "checks": 18
+    }
+  },
+  "source_hashes": {
+    "te_overlap.js": "1c42df8ebbe21409d8a2a8a8d4aa5fd8106df7dbe751d4149d681be96f757f08",
+    "te_overlap_core.js": "c67c4b7159c6abef6808df850f517c4e3102d6f15e4e67e381efc41faa63cb41",
+    "te_overlap.css": "2aa56a337ae90d6f6a91aa70e9b1fd677fe1da8f3f18b9d70174b35aa08d3130"
+  },
+  "visual_review": {
+    "viewed_final_pngs": [
+      "microglia_TE_genotype_animal_boxplots_3mo.png",
+      "microglia_TE_class_by_condition_heatmap.png"
+    ],
+    "finding": "Readable titles, conditions, animal shapes, color legend, n=4, nonzero tiny RC values and scoped footers; no clipping or numerical contradiction identified."
+  },
+  "methodological_limits": "Coordinate overlap of initial calibration peak sets only. Animal units; age matched 3mo comparison; older WT separate; no TE expression, depth-matched accessibility inference or genotype effect test."
+}

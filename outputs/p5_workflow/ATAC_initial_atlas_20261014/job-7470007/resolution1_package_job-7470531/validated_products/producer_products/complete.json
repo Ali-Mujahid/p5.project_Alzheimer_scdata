@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-14T23:21:43.397155+00:00",
+  "job_id": "7470007",
+  "returncode": 0,
+  "resolution": 1,
+  "source_manifest_sha256": "f880a8ce236dc558d03693c2bc0e4c5a2067841746fb0ac2e731dce3535e6d1c",
+  "n_cells": 456472,
+  "corrected_and_uncorrected_saved_graph_clustering_complete": true,
+  "new_107_gene_activity_markers_complete": true,
+  "original_0_6_atlas_preserved": true,
+  "TFIDF_LSI_Harmony_UMAP_rerun": false,
+  "raw_peak_X_read": false,
+  "final_cell_selection": false,
+  "final_annotations_pending": true,
+  "no_automatic_retry": true
+}

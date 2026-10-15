@@ -1,0 +1,491 @@
+{
+  "utc": "2026-10-15T08:11:11.718724+00:00",
+  "scope": "Independent generated JSON metrics, nulls and denominators vs saved accepted producer tables",
+  "checks": [
+    {
+      "name": "Accepted producer and coordinate scope",
+      "passed": true
+    },
+    {
+      "name": "All 28 calibration types remain in manifest",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Astrocytes",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Astrocytes",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Astrocytes",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Astrocytes",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Bergmann glia",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Bergmann glia",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Bergmann glia",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Bergmann glia",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Cerebellum granule neurons",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Cerebellum granule neurons",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Cerebellum granule neurons",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Cerebellum granule neurons",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Cerebellum interneurons",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Cerebellum interneurons",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Cerebellum interneurons",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Cerebellum interneurons",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Choroid plexus epithelial cells",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Choroid plexus epithelial cells",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Choroid plexus epithelial cells",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Choroid plexus epithelial cells",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Cortical projection neurons 1",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Cortical projection neurons 1",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Cortical projection neurons 1",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Cortical projection neurons 1",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Cortical projection neurons 2",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Cortical projection neurons 2",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Cortical projection neurons 2",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Cortical projection neurons 2",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Cortical projection neurons 3",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Cortical projection neurons 3",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Cortical projection neurons 3",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Cortical projection neurons 3",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Dentate gyrus neurons",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Dentate gyrus neurons",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Dentate gyrus neurons",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Dentate gyrus neurons",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Endothelial cells",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Endothelial cells",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Endothelial cells",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Endothelial cells",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Habenula neurons",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Habenula neurons",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Habenula neurons",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Habenula neurons",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Hindbrain neurons 1",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Hindbrain neurons 1",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Hindbrain neurons 1",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Hindbrain neurons 1",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Hindbrain neurons 2",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Hindbrain neurons 2",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Hindbrain neurons 2",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Hindbrain neurons 2",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Interbrain and midbrain neurons 1",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Interbrain and midbrain neurons 1",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Interbrain and midbrain neurons 1",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Interbrain and midbrain neurons 1",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Interbrain and midbrain neurons 2",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Interbrain and midbrain neurons 2",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Interbrain and midbrain neurons 2",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Interbrain and midbrain neurons 2",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Interneurons 1",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Interneurons 1",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Interneurons 1",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Interneurons 1",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Interneurons 2",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Interneurons 2",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Interneurons 2",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Interneurons 2",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Microglia",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Microglia",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Microglia",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Microglia",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest OB neurons 1",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata OB neurons 1",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories OB neurons 1",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute OB neurons 1",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest OB neurons 2",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata OB neurons 2",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories OB neurons 2",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute OB neurons 2",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest OB neurons 3",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata OB neurons 3",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories OB neurons 3",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute OB neurons 3",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Oligodendrocyte progenitor cells",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Oligodendrocyte progenitor cells",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Oligodendrocyte progenitor cells",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Oligodendrocyte progenitor cells",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Oligodendrocytes",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Oligodendrocytes",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Oligodendrocytes",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Oligodendrocytes",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Pituitary cells",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Pituitary cells",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Pituitary cells",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Pituitary cells",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Purkinje neurons",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Purkinje neurons",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Purkinje neurons",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Purkinje neurons",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Striatal neurons 1",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Striatal neurons 1",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Striatal neurons 1",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Striatal neurons 1",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Striatal neurons 2",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Striatal neurons 2",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Striatal neurons 2",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Striatal neurons 2",
+      "passed": true
+    },
+    {
+      "name": "Adapter bytes and digest Vascular leptomeningeal cells",
+      "passed": true
+    },
+    {
+      "name": "Exact cell type and metadata Vascular leptomeningeal cells",
+      "passed": true
+    },
+    {
+      "name": "1147 unique taxonomy categories Vascular leptomeningeal cells",
+      "passed": true
+    },
+    {
+      "name": "Condition summaries independently recompute Vascular leptomeningeal cells",
+      "passed": true
+    },
+    {
+      "name": "All 535649 individual animal category rows match producer",
+      "passed": true
+    },
+    {
+      "name": "All empty group fractions remain null",
+      "passed": true
+    },
+    {
+      "name": "Callable rows with zero expected coverage keep fold null",
+      "passed": true
+    },
+    {
+      "name": "Conditions are age-separated and animal balanced",
+      "passed": true
+    },
+    {
+      "name": "Limits distinguish peak overlap from depth-matched or inferential analysis",
+      "passed": true
+    },
+    {
+      "name": "All static download choices are PDF",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "matched_animal_category_rows": 535649,
+  "empty_group_null_fraction_rows": 45880,
+  "callable_zero_expected_background_null_fold_rows": 2568,
+  "manifest_sha256": "962a5db5903e90c05c27faac4812ddc54f6911606c0d8eb027478b5bfe0078ce"
+}

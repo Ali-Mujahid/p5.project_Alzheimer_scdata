@@ -1,0 +1,50 @@
+{
+  "utc": "2026-10-14T21:45:39.515631+00:00",
+  "job_id": "7470007",
+  "controller": "JobId=7470007 JobName=p5-ATAC-res1 UserId=mujahid(10796) GroupId=login(11000) MCS_label=N/A Priority=1232 Nice=0 Account=molecular_neurosciences QOS=cpu-24h JobState=RUNNING Reason=None Dependency=(null) Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:00 TimeLimit=02:00:00 TimeMin=N/A SubmitTime=2026-10-14T23:41:14 EligibleTime=2026-10-14T23:41:14 AccrueTime=2026-10-14T23:41:14 StartTime=2026-10-14T23:45:36 EndTime=2026-10-15T01:45:36 Deadline=N/A PreemptEligibleTime=2026-10-14T23:45:36 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-14T23:45:36 Scheduler=Backfill Partition=xeon_0384 AllocNode:Sid=0.0.0.0:1113902 ReqNodeList=(null) ExcNodeList=(null) NodeList=node-b08 BatchHost=node-b08 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=16G,node=1,billing=2 AllocTRES=cpu=2,mem=16G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryNode=16G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=NO Exclusive=NO Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null) Command=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_source/ATAC_resolution1_20261014_v1/resolution1.sbatch SubmitLine=sbatch --parsable --chdir=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_resolution1_20261014_v1 /lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_source/ATAC_resolution1_20261014_v1/resolution1.sbatch WorkDir=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_resolution1_20261014_v1 StdErr=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_resolution1_20261014_v1/ATAC-res1-7470007.err StdIn=/dev/null StdOut=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_resolution1_20261014_v1/ATAC-res1-7470007.out TresPerTask=cpu=2\n",
+  "source_manifest_sha256": "f880a8ce236dc558d03693c2bc0e4c5a2067841746fb0ac2e731dce3535e6d1c",
+  "inputs": [
+    {
+      "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/atac_initial_atlas.h5ad",
+      "bytes": 1627723675,
+      "inode": 642043062,
+      "mtime_ns": 1791966079459724674
+    },
+    {
+      "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_LiSC_parallel_prepare_20261013_v2/run-AAv4sN3T/atlas/atac_activity_mm10.h5ad",
+      "bytes": 3155453193,
+      "inode": 106644169,
+      "mtime_ns": 1791957267901942011
+    }
+  ],
+  "explicit_Leiden_parameters": {
+    "resolution": 1.0,
+    "random_state": 1729,
+    "flavor": "leidenalg",
+    "directed": true,
+    "use_weights": true,
+    "n_iterations": -1,
+    "partition_type": "leidenalg.RBConfigurationVertexPartition"
+  },
+  "runtime_versions": {
+    "igraph": "0.11.9",
+    "leidenalg": "0.10.2",
+    "scanpy": "1.11.5",
+    "anndata": "0.11.4",
+    "h5py": "3.14.0",
+    "scipy": "1.15.3",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3"
+  },
+  "shared_usage": {
+    "utc": "2026-10-14T21:45:39.493821+00:00",
+    "bytes_including_child_unlinked": 215440160356,
+    "inodes": 5458,
+    "cap_bytes": 500000000000,
+    "cap_inodes": 40000
+  },
+  "raw_peak_X_will_not_be_read": true,
+  "new_marker_activity_counts_will_be_read_in_blocks": true,
+  "TFIDF_LSI_Harmony_UMAP_rerun": false,
+  "initial_diagnostic_only": true
+}

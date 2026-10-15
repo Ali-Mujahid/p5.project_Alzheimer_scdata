@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-14T23:40:49.866692+00:00",
+  "status": "validated_initial_resolution1_package",
+  "upstream_job_id": "7470007",
+  "package_job_id": "7470531",
+  "package_published": true,
+  "validated_manifest_sha256": "07fb6736f0304ca87225dd8449a548a579072a4223092d2c2589ad58e288cc02",
+  "normalization_ready": false,
+  "final_QC_or_annotation_adopted": false,
+  "HTML_resolution1_enabled": false
+}

@@ -1,0 +1,11 @@
+{
+  "README.md": "8eb95d278159ac39add7bf979fd7017a634117e566084ebc1a261ddda69a5ca0",
+  "common.py": "cc1356c74705718b52511ec476ca12ea60c93ff7b8c144671eff17a987e6f24c",
+  "marker_panels.json": "7802bd950bdcbb67b904b99685f7d5abe37e0c7fb79254b6d06a9447b8952901",
+  "package.sbatch": "d165db506bc9b3efa8bd168bbd7215d692d80a571a1cf3d7cb603589c04548a5",
+  "package_entry.py": "448b579614a16179163839449221410e08df9504bb7a27e9f6fb557d0b227337",
+  "package_policy.json": "c4f996892ce6baeae0cd28a0e8545b3357fee53329c23715c7ebb24cd078af54",
+  "package_results.py": "30ae04c84f340f2ce886d3284b66f8052dc204c486c589b4fcada56215b35176",
+  "test_package.py": "8baf5b80921418776d80f185e54c9a1cd2a69d843077202ebcc8938f9c8fcda1",
+  "test_source_manifest.py": "ae1f5d89113f78067cba6a9f1ac11c25a02daecbda87a54fb407f70c00260c7e"
+}

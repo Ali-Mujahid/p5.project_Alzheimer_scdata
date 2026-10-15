@@ -1,0 +1,10 @@
+{
+  "n_cells": 456472,
+  "resolution": 1.0,
+  "branches": [
+    "corrected",
+    "uncorrected"
+  ],
+  "new_membership_activity_aggregation_complete": true,
+  "final_annotations_pending": true
+}

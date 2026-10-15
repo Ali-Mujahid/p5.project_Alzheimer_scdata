@@ -1,0 +1,377 @@
+{
+  "utc": "2026-10-15T09:56:38.491107+00:00",
+  "read_only": true,
+  "arrays": {
+    "7471575": {
+      "array_id": "7471575",
+      "output": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575",
+      "source_manifest_sha256": "b661e69d88d3595ee10de3f5d695eb3a9e953ed61dcd19531710f3a202bf70e2",
+      "source_checks": {
+        "README.md": true,
+        "allocated_science_fixture.py": true,
+        "barcode_contract.py": true,
+        "doublets.R": true,
+        "entry.py": true,
+        "narrow_science_diff.json": true,
+        "original_failure_roster.json": true,
+        "policy.json": true,
+        "qc_task.py": true,
+        "recovery.sbatch": true,
+        "tasks.json": true,
+        "test_barcode_contract.py": true,
+        "test_failure_gate.py": true
+      },
+      "queue": {
+        "rc": 0,
+        "stdout": "7471575_202|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_203|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_204|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_205|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_206|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_207|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_208|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_209|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_210|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_211|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_212|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_213|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_214|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_215|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_216|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_217|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_218|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_219|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_220|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_221|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_222|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_223|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_224|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_225|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_226|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_227|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_228|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_229|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_230|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_231|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_232|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_233|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_234|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_235|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_236|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_237|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_238|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_239|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_240|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_241|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_242|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_243|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_244|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_245|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_246|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_247|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_248|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_249|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_250|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_251|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_252|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_253|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_254|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_255|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_256|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_257|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_258|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_259|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_260|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_261|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_262|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_263|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_264|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_265|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_266|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_267|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_268|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_269|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_270|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_271|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_272|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_273|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_274|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_275|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_276|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_277|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_278|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_279|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_280|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_281|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_282|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_283|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_284|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_285|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_286|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_287|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_288|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_289|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_290|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_291|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_292|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_293|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_294|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7471575_295|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n",
+        "stderr": ""
+      },
+      "queue_counts": {
+        "PENDING": 94
+      },
+      "accounting": {
+        "rc": 0,
+        "stdout": "7471575_192|COMPLETED|0:0|00:03:04|2026-10-15T08:11:45|2026-10-15T08:14:49|\n7471575_192.batch|COMPLETED|0:0|00:03:04|2026-10-15T08:11:45|2026-10-15T08:14:49|2448328K\n7471575_193|COMPLETED|0:0|00:03:04|2026-10-15T08:11:45|2026-10-15T08:14:49|\n7471575_193.batch|COMPLETED|0:0|00:03:04|2026-10-15T08:11:45|2026-10-15T08:14:49|2530216K\n7471575_194|FAILED|1:0|00:00:53|2026-10-15T08:11:45|2026-10-15T08:12:38|\n7471575_194.batch|FAILED|1:0|00:00:53|2026-10-15T08:11:45|2026-10-15T08:12:38|92748K\n7471575_195|FAILED|1:0|00:00:42|2026-10-15T08:19:31|2026-10-15T08:20:13|\n7471575_195.batch|FAILED|1:0|00:00:42|2026-10-15T08:19:31|2026-10-15T08:20:13|106616K\n7471575_196|COMPLETED|0:0|00:03:26|2026-10-15T08:20:33|2026-10-15T08:23:59|\n7471575_196.batch|COMPLETED|0:0|00:03:26|2026-10-15T08:20:33|2026-10-15T08:23:59|2492072K\n7471575_197|COMPLETED|0:0|00:02:52|2026-10-15T08:29:27|2026-10-15T08:32:19|\n7471575_197.batch|COMPLETED|0:0|00:02:52|2026-10-15T08:29:27|2026-10-15T08:32:19|2466364K\n7471575_198|COMPLETED|0:0|00:02:52|2026-10-15T08:29:27|2026-10-15T08:32:19|\n7471575_198.batch|COMPLETED|0:0|00:02:52|2026-10-15T08:29:27|2026-10-15T08:32:19|2484136K\n7471575_199|COMPLETED|0:0|00:17:53|2026-10-15T09:21:19|2026-10-15T09:39:12|\n7471575_199.batch|COMPLETED|0:0|00:17:53|2026-10-15T09:21:19|2026-10-15T09:39:12|2448672K\n7471575_200|COMPLETED|0:0|00:02:52|2026-10-15T09:46:48|2026-10-15T09:49:40|\n7471575_200.batch|COMPLETED|0:0|00:02:52|2026-10-15T09:46:48|2026-10-15T09:49:40|2517200K\n7471575_201|COMPLETED|0:0|00:02:52|2026-10-15T09:46:48|2026-10-15T09:49:40|\n7471575_201.batch|COMPLETED|0:0|00:02:52|2026-10-15T09:46:48|2026-10-15T09:49:40|2537676K\n7471575_[202-295%16]|PENDING|0:0|00:00:00|Unknown|Unknown|\n",
+        "stderr": ""
+      },
+      "accounting_counts": {
+        "whole:COMPLETED": 8,
+        "batch:COMPLETED": 8,
+        "whole:FAILED": 2,
+        "batch:FAILED": 2
+      },
+      "unique_whole_batch_successes": [
+        192,
+        193,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201
+      ],
+      "task_details": [
+        {
+          "task": 194,
+          "receipts": {
+            "started.json": {
+              "utc": "2026-10-15T08:12:04.471475+00:00",
+              "job_id": "7471694",
+              "array_id": "7471575",
+              "task": 194,
+              "record": {
+                "assay": "atac",
+                "library_id": "Novaseq_220316_003",
+                "matrix": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/atac_initial_atlas.h5ad",
+                "identities": [
+                  {
+                    "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_embedding_20261014_v2/job-7466270/embedding/atac_initial_atlas.h5ad",
+                    "bytes": 1627723675,
+                    "inode": 642043062,
+                    "mtime_ns": 1791966079459724674
+                  }
+                ]
+              },
+              "controller": "JobId=7471694 ArrayJobId=7471575 ArrayTaskId=194 ArrayTaskThrottle=16 JobName=p5-ATAC-QC-barcode UserId=mujahid(10796) GroupId=login(11000) MCS_label=N/A Priority=7622 Nice=0 Account=molecular_neurosciences QOS=cpu-24h JobState=RUNNING Reason=None Dependency=(null) Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:10 TimeLimit=12:00:00 TimeMin=N/A SubmitTime=2026-10-15T09:38:40 EligibleTime=2026-10-15T09:38:41 AccrueTime=2026-10-15T09:38:41 StartTime=2026-10-15T10:11:45 EndTime=2026-10-15T22:11:45 Deadline=N/A PreemptEligibleTime=2026-10-15T10:11:45 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-15T10:11:45 Scheduler=Backfill Partition=xeon_0768_t4x1 AllocNode:Sid=0.0.0.0:435949 ReqNodeList=(null) ExcNodeList=(null) NodeList=node-c04 BatchHost=node-c04 NumNodes=1 NumCPUs=8 NumTasks=1 CPUs/Task=8 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=8,mem=64G,node=1,billing=8 AllocTRES=cpu=8,mem=64G,node=1,billing=8 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=8 MinMemoryNode=64G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=NO Exclusive=NO Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null) Command=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_source/ATAC_QC_barcode_recovery_20261015_v1/recovery.sbatch SubmitLine=sbatch --parsable --chdir=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1 /lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_source/ATAC_QC_barcode_recovery_20261015_v1/recovery.sbatch b661e69d88d3595ee10de3f5d695eb3a9e953ed61dcd19531710f3a202bf70e2 WorkDir=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1 StdErr=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/ATAC-QC-barcode-7471575_194.err StdIn=/dev/null StdOut=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/ATAC-QC-barcode-7471575_194.out TresPerTask=cpu=8\n",
+              "source_manifest_sha256": "b661e69d88d3595ee10de3f5d695eb3a9e953ed61dcd19531710f3a202bf70e2",
+              "original_array_id": "7469911",
+              "original_physical_job_id": "7470933",
+              "shared_usage": {
+                "utc": "2026-10-15T08:12:04.468675+00:00",
+                "bytes_including_child_unlinked": 223638553982,
+                "inodes": 11610,
+                "cap_bytes": 500000000000,
+                "cap_inodes": 40000,
+                "own_attempt_bytes": 271013,
+                "own_attempt_inodes": 4,
+                "FD_sample": {
+                  "unlinked_bytes": 0,
+                  "unlinked_inodes": 0,
+                  "new_inode_keys": [],
+                  "maximum_observed_new_inode_charges": [],
+                  "observed_unlinked_charge_deltas": [],
+                  "process_results": [],
+                  "scope": "sampled supplied PID/starttime identities; not atomic full-allocation FD census",
+                  "already_seen_semantics": "explicit prior bytes; charge only observed growth above credit"
+                },
+                "known_live_identities": [
+                  {
+                    "pid": 280182,
+                    "starttime_ticks": 1113294
+                  }
+                ],
+                "scope": "sampled supplied PID/starttime identities; not atomic full-allocation FD census"
+              },
+              "original_failures_remain_failures": true,
+              "final_296_adoption": false,
+              "normalization_ready": false
+            },
+            "FD_deterministic.actual.json": {
+              "status": "passed_all_deterministic_FD_regressions",
+              "tests_run": 38,
+              "failures": 0,
+              "errors": 0,
+              "skips": 0,
+              "adapter_checks": {
+                "named_to_unlinked_growth_uses_exact_existing_byte_credit": true,
+                "nested_identity_results_are_JSON_serializable": true,
+                "known_identity_removed_only_after_positive_exit_and_retirement_result_serializes": true
+              },
+              "synthetic_only": true,
+              "study_science_executed": false
+            },
+            "FD_Linux_smoke/linux_smoke_complete.json": {
+              "status": "passed_synthetic_linux_FD_smoke",
+              "synthetic_only": true,
+              "study_data_read": false,
+              "checks": {
+                "acknowledged_child_and_grandchild_READY": true,
+                "immediate_root_pin_exact_owned_descendants_and_process_group": true,
+                "exact_two_inode_dedup_and_max_logical_allocated_charge": true,
+                "global_seen_inode_dedup": true,
+                "explicit_measured_inode_byte_credit_dedup": true,
+                "both_workers_orderly_stopped_and_reaped": true,
+                "audited_positive_retirement_of_both_original_identities": true,
+                "finite_process_time_output_limits": true
+              },
+              "child": {
+                "pid": 290991,
+                "ppid": 290869,
+                "pgrp": 290991,
+                "starttime_ticks": 1116421
+              },
+              "grandchild": {
+                "pid": 291027,
+                "ppid": 290991,
+                "pgrp": 290991,
+                "starttime_ticks": 1116433
+              },
+              "known_unlinked_files": [
+                {
+                  "device": 52,
+                  "inode": 131281747,
+                  "logical_bytes": 65537,
+                  "blocks": 0,
+                  "nlink": 0,
+                  "mode": 33152
+                },
+                {
+                  "device": 52,
+                  "inode": 131281748,
+                  "logical_bytes": 1,
+                  "blocks": 1,
+                  "nlink": 0,
+                  "mode": 33152
+                }
+              ],
+              "expected_unlinked_bytes": 66049,
+              "observed_unlinked_bytes": 66049,
+              "observed_unlinked_inodes": 2,
+              "retirement_proofs": [
+                {
+                  "identity": {
+                    "pid": 290991,
+                    "starttime_ticks": 1116421
+                  },
+                  "skipped_with_positive_proof": true,
+                  "lifecycle": {
+                    "status": "retired",
+                    "proof": "positive_PID_probe_ESRCH",
+                    "stat_errno": 2
+                  }
+                },
+                {
+                  "identity": {
+                    "pid": 291027,
+                    "starttime_ticks": 1116433
+                  },
+                  "skipped_with_positive_proof": true,
+                  "lifecycle": {
+                    "status": "retired",
+                    "proof": "positive_PID_probe_ESRCH",
+                    "stat_errno": 2
+                  }
+                }
+              ],
+              "maximum_owned_workers": 2,
+              "timeout_seconds": 20.0,
+              "elapsed_seconds": 0.25556832599977497,
+              "source_sha256": {
+                "linux_fd_smoke.py": "b849200e8ddeffd8e8fa72feba8d275df758f80ad003b45065d6956a53334a00",
+                "proc_fd_monitor.py": "9fa8434a8693908ed04bf82cf15d0a95f61378dd677130aa943a6c1399999a74"
+              }
+            },
+            "barcode_fixture.actual.json": {
+              "status": "passed_exact22_protocol_fixture",
+              "tests_run": 26,
+              "failures": 0,
+              "errors": 0,
+              "skips": 0,
+              "synthetic_only": true,
+              "study_data_read": false
+            },
+            "failed.json": {
+              "utc": "2026-10-15T08:12:38.269085+00:00",
+              "job_id": "7471694",
+              "array_id": "7471575",
+              "task": 194,
+              "error": "FileNotFoundError(2, 'No such file or directory')",
+              "traceback": "Traceback (most recent call last):\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_source/ATAC_QC_barcode_recovery_20261015_v1/entry.py\", line 177, in main\n    g.monitored([sys.executable, '-B', str(SRC / 'test_barcode_contract.py'), str(out / 'barcode_fixture.actual.json')],\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_FD_recovery_20261015_v1/guard.py\", line 311, in monitored\n    wait_retired(root, out, registry, policy)\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_FD_recovery_20261015_v1/guard.py\", line 286, in wait_retired\n    value = sample(root, out, registry, policy, 'root_exited_wait_for_known_descendants')\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_FD_recovery_20261015_v1/guard.py\", line 278, in sample\n    value = {'utc': utc(), 'phase': phase, 'quota': quota(policy), 'shared_usage': usage(root, out, registry, policy)}\n                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_FD_recovery_20261015_v1/guard.py\", line 257, in usage\n    credits, size, count = named_tree_usage([root / 'pre_processed_RNA/analysis_runs', root / 'pre_processed_ATAC/analysis_runs'])\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_FD_recovery_20261015_v1/guard.py\", line 162, in named_tree_usage\n    for directory, dirs, files in os.walk(root, onerror=walk_error, followlinks=False):\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen os>\", line 369, in walk\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_FD_recovery_20261015_v1/guard.py\", line 159, in walk_error\n    raise error\n  File \"<frozen os>\", line 366, in walk\nFileNotFoundError: [Errno 2] No such file or directory: '/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-192/tmp/tmpczke_uc2/pre_processed_RNA'\n",
+              "original_failures_remain_failures": true,
+              "normalization_ready": false
+            }
+          },
+          "science_log_tail": null,
+          "guard_fixture_log_tail": null,
+          "batch_stderr_tail": "Traceback (most recent call last):\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_source/ATAC_QC_barcode_recovery_20261015_v1/entry.py\", line 244, in <module>\n    if __name__ == '__main__': main()\n                               ^^^^^^\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_source/ATAC_QC_barcode_recovery_20261015_v1/entry.py\", line 177, in main\n    g.monitored([sys.executable, '-B', str(SRC / 'test_barcode_contract.py'), str(out / 'barcode_fixture.actual.json')],\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_FD_recovery_20261015_v1/guard.py\", line 311, in monitored\n    wait_retired(root, out, registry, policy)\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_FD_recovery_20261015_v1/guard.py\", line 286, in wait_retired\n    value = sample(root, out, registry, policy, 'root_exited_wait_for_known_descendants')\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_FD_recovery_20261015_v1/guard.py\", line 278, in sample\n    value = {'utc': utc(), 'phase': phase, 'quota': quota(policy), 'shared_usage': usage(root, out, registry, policy)}\n                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_FD_recovery_20261015_v1/guard.py\", line 257, in usage\n    credits, size, count = named_tree_usage([root / 'pre_processed_RNA/analysis_runs', root / 'pre_processed_ATAC/analysis_runs'])\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_FD_recovery_20261015_v1/guard.py\", line 162, in named_tree_usage\n    for directory, dirs, files in os.walk(root, onerror=walk_error, followlinks=False):\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen os>\", line 369, in walk\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_FD_recovery_20261015_v1/guard.py\", line 159, in walk_error\n    raise error\n  File \"<frozen os>\", line 366, in walk\nFileNotFoundError: [Errno 2] No such file or directory: '/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_barcode_recovery_20261015_v1/array-7471575/task-192/tmp/tmpczke_uc2/pre_processed_RNA'\n"
+        },
+        {
+          "task": 195,
+          "receipts": {
+            "failed.json": {
+              "utc": "2026-10-15T08:20:12.060088+00:00",
+              "job_id": "7471713",
+              "array_id": "7471575",
+              "task": 195,
+              "error": "TimeoutExpired(['/usr/lpp/mmfs/bin/mmlsquota', '-Y', '-u', 'mujahid', 'data'], 30)",
+              "traceback": "Traceback (most recent call last):\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_source/ATAC_QC_barcode_recovery_20261015_v1/entry.py\", line 162, in main\n    registry = g.OwnedFDRegistry(out, policy); g.save(out / 'quota_before.json', g.quota(policy))\n                                                                                 ^^^^^^^^^^^^^^^\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_FD_recovery_20261015_v1/guard.py\", line 130, in quota\n    result = subprocess.run(['/usr/lpp/mmfs/bin/mmlsquota', '-Y', '-u', 'mujahid', 'data'],\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib64/python3.12/subprocess.py\", line 550, in run\n    stdout, stderr = process.communicate(input, timeout=timeout)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib64/python3.12/subprocess.py\", line 1209, in communicate\n    stdout, stderr = self._communicate(input, endtime, timeout)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib64/python3.12/subprocess.py\", line 2116, in _communicate\n    self._check_timeout(endtime, orig_timeout, stdout, stderr)\n  File \"/usr/lib64/python3.12/subprocess.py\", line 1253, in _check_timeout\n    raise TimeoutExpired(\nsubprocess.TimeoutExpired: Command '['/usr/lpp/mmfs/bin/mmlsquota', '-Y', '-u', 'mujahid', 'data']' timed out after 30 seconds\n",
+              "original_failures_remain_failures": true,
+              "normalization_ready": false
+            }
+          },
+          "science_log_tail": null,
+          "guard_fixture_log_tail": null,
+          "batch_stderr_tail": "Traceback (most recent call last):\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_source/ATAC_QC_barcode_recovery_20261015_v1/entry.py\", line 244, in <module>\n    if __name__ == '__main__': main()\n                               ^^^^^^\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_source/ATAC_QC_barcode_recovery_20261015_v1/entry.py\", line 162, in main\n    registry = g.OwnedFDRegistry(out, policy); g.save(out / 'quota_before.json', g.quota(policy))\n                                                                                 ^^^^^^^^^^^^^^^\n  File \"/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/Full_QC_FD_recovery_20261015_v1/guard.py\", line 130, in quota\n    result = subprocess.run(['/usr/lpp/mmfs/bin/mmlsquota', '-Y', '-u', 'mujahid', 'data'],\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib64/python3.12/subprocess.py\", line 550, in run\n    stdout, stderr = process.communicate(input, timeout=timeout)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib64/python3.12/subprocess.py\", line 1209, in communicate\n    stdout, stderr = self._communicate(input, endtime, timeout)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib64/python3.12/subprocess.py\", line 2116, in _communicate\n    self._check_timeout(endtime, orig_timeout, stdout, stderr)\n  File \"/usr/lib64/python3.12/subprocess.py\", line 1253, in _check_timeout\n    raise TimeoutExpired(\nsubprocess.TimeoutExpired: Command '['/usr/lpp/mmfs/bin/mmlsquota', '-Y', '-u', 'mujahid', 'data']' timed out after 30 seconds\n"
+        }
+      ],
+      "receipt_counts": {
+        "started.json": 9,
+        "FD_deterministic.actual.json": 9,
+        "FD_Linux_smoke/linux_smoke_complete.json": 9,
+        "barcode_fixture.actual.json": 9,
+        "failure_join_fixture.actual.json": 8,
+        "generated_ATAC22_science_fixture/fixture_complete.json": 8,
+        "study_science_admission.json": 8,
+        "complete.json": 8,
+        "execution_complete.json": 8,
+        "recovery_complete.json": 8,
+        "storage_complete.json": 8,
+        "failed.json": 2
+      }
+    },
+    "7472294": {
+      "array_id": "7472294",
+      "output": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_QC_operational_recovery_20261015_v1/array-7472294",
+      "source_manifest_sha256": "39c975db376d13b512047a93101e84abfc5ec3f8ef24877e1afd065a4065de83",
+      "source_checks": {
+        "GUARD_INTEGRATION.md": true,
+        "README.md": true,
+        "allocated_deterministic_gate.py": true,
+        "allocated_guard_fixture.py": true,
+        "allocated_parent_gate.py": true,
+        "allocated_science_fixture.py": true,
+        "barcode_contract.py": true,
+        "doublets.R": true,
+        "entry.py": true,
+        "guard.py": true,
+        "linux_fd_smoke.py": true,
+        "managed_quota.py": true,
+        "narrow_science_diff.json": true,
+        "operational_failure_roster.json": true,
+        "operational_parent.py": true,
+        "original_failure_roster.json": true,
+        "policy.json": true,
+        "proc_fd_monitor.py": true,
+        "qc_task.py": true,
+        "quota_worker.py": true,
+        "recovery.sbatch": true,
+        "synthetic_quota_command.py": true,
+        "tasks.json": true,
+        "test_barcode_contract.py": true,
+        "test_failure_gate.py": true,
+        "test_guard_integration.py": true,
+        "test_operational_parent.py": true,
+        "test_proc_fd_monitor.py": true,
+        "test_transient_storage.py": true,
+        "transient_storage.py": true
+      },
+      "queue": {
+        "rc": 0,
+        "stdout": "7472294_194|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n7472294_195|PENDING|(ReqNodeNotAvail, May be reserved for other job)|0:00|8|64G\n",
+        "stderr": ""
+      },
+      "queue_counts": {
+        "PENDING": 2
+      },
+      "accounting": {
+        "rc": 0,
+        "stdout": "7472294_[194-195%2]|PENDING|0:0|00:00:00|Unknown|Unknown|\n",
+        "stderr": ""
+      },
+      "accounting_counts": {},
+      "unique_whole_batch_successes": [],
+      "task_details": [
+        {
+          "task": 194,
+          "receipts": {},
+          "science_log_tail": null,
+          "guard_fixture_log_tail": null,
+          "batch_stderr_tail": null
+        },
+        {
+          "task": 195,
+          "receipts": {},
+          "science_log_tail": null,
+          "guard_fixture_log_tail": null,
+          "batch_stderr_tail": null
+        }
+      ],
+      "receipt_counts": {}
+    }
+  },
+  "original_gather7471604": {
+    "accounting": {
+      "rc": 0,
+      "stdout": "7471604|PENDING|0:0|00:00:00|Unknown|Unknown\n",
+      "stderr": ""
+    },
+    "queue": {
+      "rc": 0,
+      "stdout": "7471604|PENDING|(Dependency)\n",
+      "stderr": ""
+    }
+  },
+  "operational_gather7472372": {
+    "source_manifest_sha256": "d2d718a0921441309809f17129cafcdea8c6fa2df292e7213cb4668800df17a7",
+    "source_checks": {
+      "README.md": true,
+      "audit_decision_axes.py": true,
+      "common.py": true,
+      "entry.py": true,
+      "expected_animals.json": true,
+      "operational_binding.py": true,
+      "operational_parent.py": true,
+      "policy.json": true,
+      "reconcile.py": true,
+      "reconcile.sbatch": true,
+      "review.py": true,
+      "test_binding.py": true,
+      "test_operational_binding.py": true,
+      "test_operational_parent.py": true,
+      "test_review_compact.py": true,
+      "validate_atac.py": true,
+      "validate_operational.py": true
+    },
+    "accounting": {
+      "rc": 0,
+      "stdout": "7472372|PENDING|0:0|00:00:00|Unknown|Unknown\n",
+      "stderr": ""
+    },
+    "queue": {
+      "rc": 0,
+      "stdout": "7472372|PENDING|(Dependency)|afterany:7471575_*(unfulfilled),afterany:7472294_*(unfulfilled)\n",
+      "stderr": ""
+    },
+    "receipts": {}
+  }
+}

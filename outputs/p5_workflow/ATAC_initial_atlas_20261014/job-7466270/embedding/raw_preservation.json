@@ -1,0 +1,6 @@
+{
+  "before": "9cb1f8f0053381bcb99e863c31739200a50541a036b34756e47ecba94e323d69",
+  "after": "9cb1f8f0053381bcb99e863c31739200a50541a036b34756e47ecba94e323d69",
+  "equal": true,
+  "scope": "allocated producer in-memory integer CSR; source input H5 unchanged"
+}

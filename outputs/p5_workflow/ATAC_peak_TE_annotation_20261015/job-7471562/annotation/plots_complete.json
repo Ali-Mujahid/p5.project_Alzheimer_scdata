@@ -1,0 +1,12 @@
+{
+  "status": "descriptive_animal_level_peak_repeat_plots_complete",
+  "all_cell_types_preserved": true,
+  "microglia_extra_view": true,
+  "replicates": "animals; no nuclei treated as biological replicates",
+  "heatmap_selection": "all classes; top45families/top65subfamilies plus microglia top20; full tables preserve all categories",
+  "category_fractions_nonexclusive": true,
+  "missing_or_empty_groups_imputed_as_zero": false,
+  "inferential_genotype_effect_claim": false,
+  "TE_expression_claim": false,
+  "normalization_ready": false
+}

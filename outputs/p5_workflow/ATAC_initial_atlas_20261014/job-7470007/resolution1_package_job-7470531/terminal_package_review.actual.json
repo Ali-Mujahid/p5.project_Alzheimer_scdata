@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-14T23:43:07.832203+00:00",
+  "producer_job_id": "7470007",
+  "package_job_id": "7470531",
+  "checks": {
+    "actual_unique_successful_whole_batch": true,
+    "current_source_pins": true,
+    "no_failed_or_review_needed": true,
+    "complete_source": true,
+    "execution_complete": true,
+    "storage_complete": true,
+    "stage_result_SHA_match": true,
+    "manifest_SHA_match": true,
+    "package_published": true,
+    "all47_downloaded_hashes": true
+  },
+  "checks_passed": 10,
+  "initial_diagnostics_accepted": true,
+  "final_retention_or_annotation_adopted": false,
+  "normalization_ready": false,
+  "HTML_adapter_import_authorized": true,
+  "actual_HTML_import_complete": false,
+  "source_observation": "/Users/mujahidali/Documents/Codex/2026-09-30/a/work/overnight_LiSC_20261015/overnight_observation_20261014T234143Z.actual.json"
+}

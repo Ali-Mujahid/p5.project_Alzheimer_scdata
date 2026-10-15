@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-10-14T13:04:34.987366+00:00",
+  "job_id": "7466270",
+  "source": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/marker_review/equal_animal_markers.tsv",
+  "source_sha256": "6431f910ece87e7804af38f53d7f2c988928bb42ff40438a4b1e59d14f5e76da",
+  "n_clusters": 11,
+  "n_cells": 456472,
+  "n_unique_panel_genes": 107,
+  "missing_genes": [
+    "mt-Nd1",
+    "mt-Nd5",
+    "mt-Co1",
+    "mt-Rnr1",
+    "mt-Rnr2"
+  ],
+  "dot_area": "equal-animal fraction with nonzero raw gene-body activity",
+  "scaled_color": "Within-gene z-score across clusters of equal-animal mean log1p activity per10k; population SD, zero variance mapped to0, color clipped at +/-2.5",
+  "absolute_color": "equal-animal mean log1p activity per10k; full activity count denominator",
+  "cell_types_assigned": false,
+  "counts_modified": false,
+  "files": [
+    "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/dotplots/ATAC_activity_all_markers_within_gene_scaled.png",
+    "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/dotplots/ATAC_activity_all_markers_within_gene_scaled.pdf",
+    "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/dotplots/ATAC_activity_glial_myeloid_within_gene_scaled.png",
+    "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/dotplots/ATAC_activity_glial_myeloid_within_gene_scaled.pdf",
+    "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/dotplots/ATAC_activity_neuronal_within_gene_scaled.png",
+    "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/dotplots/ATAC_activity_neuronal_within_gene_scaled.pdf",
+    "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/dotplots/ATAC_activity_vascular_epithelial_within_gene_scaled.png",
+    "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/dotplots/ATAC_activity_vascular_epithelial_within_gene_scaled.pdf",
+    "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/dotplots/ATAC_activity_reactivity_mitochondrial_within_gene_scaled.png",
+    "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/dotplots/ATAC_activity_reactivity_mitochondrial_within_gene_scaled.pdf",
+    "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/dotplots/ATAC_activity_all_markers_absolute.png",
+    "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/dotplots/ATAC_activity_all_markers_absolute.pdf"
+  ]
+}

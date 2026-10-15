@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-14T23:21:39.546595+00:00",
+  "shared_usage": {
+    "utc": "2026-10-14T23:21:43.383074+00:00",
+    "bytes_including_child_unlinked": 221743194822,
+    "inodes": 8877,
+    "cap_bytes": 500000000000,
+    "cap_inodes": 40000
+  },
+  "own_stage": {
+    "bytes_including_child_unlinked": 13951187,
+    "inodes": 51,
+    "cap_bytes": 1000000000,
+    "cap_inodes": 4000
+  }
+}

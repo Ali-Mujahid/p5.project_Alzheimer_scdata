@@ -1,0 +1,155 @@
+{
+  "astrocyte": [
+    "Aldh1l1",
+    "Aqp4",
+    "Slc1a3",
+    "Slc1a2",
+    "Sox9",
+    "Gfap",
+    "Gpc5"
+  ],
+  "microglia": [
+    "P2ry12",
+    "Tmem119",
+    "Csf1r",
+    "Cx3cr1",
+    "Aif1",
+    "Hexb",
+    "Inpp5d",
+    "Sall1"
+  ],
+  "macrophage": [
+    "Lyz2",
+    "Mrc1",
+    "Lyve1",
+    "Pf4",
+    "Cd163"
+  ],
+  "OPC": [
+    "Pdgfra",
+    "Cspg4",
+    "Vcan",
+    "Olig1",
+    "Olig2"
+  ],
+  "oligodendrocyte": [
+    "Mbp",
+    "Mog",
+    "Plp1",
+    "Mobp",
+    "Mag",
+    "Cnp"
+  ],
+  "neuronal": [
+    "Snap25",
+    "Syt1",
+    "Rbfox3",
+    "Tubb3"
+  ],
+  "glutamatergic": [
+    "Slc17a7",
+    "Slc17a6",
+    "Slc17a8"
+  ],
+  "GABAergic": [
+    "Gad1",
+    "Gad2",
+    "Slc32a1"
+  ],
+  "interneuron_subtype": [
+    "Pvalb",
+    "Sst",
+    "Vip",
+    "Reln",
+    "Ndnf"
+  ],
+  "granule": [
+    "Gabra6",
+    "Cbln3",
+    "Prox1"
+  ],
+  "Purkinje": [
+    "Pcp2",
+    "Calb1",
+    "Car8",
+    "Itpr1",
+    "Grid2"
+  ],
+  "striatal": [
+    "Ppp1r1b",
+    "Drd1",
+    "Drd2",
+    "Adora2a",
+    "Rgs9",
+    "Adcy5"
+  ],
+  "endothelial": [
+    "Pecam1",
+    "Cldn5",
+    "Kdr",
+    "Flt1",
+    "Esam",
+    "Ptprb"
+  ],
+  "pericyte": [
+    "Pdgfrb",
+    "Rgs5",
+    "Cspg4",
+    "Abcc9",
+    "Kcnj8"
+  ],
+  "smooth_muscle": [
+    "Acta2",
+    "Tagln",
+    "Myh11"
+  ],
+  "fibroblast_VLMC": [
+    "Col1a1",
+    "Col1a2",
+    "Dcn",
+    "Lum",
+    "Col3a1"
+  ],
+  "ependymal": [
+    "Foxj1",
+    "Pifo",
+    "Tppp3",
+    "Dnah12",
+    "Hydin"
+  ],
+  "choroid_epithelium": [
+    "Ttr",
+    "Krt8",
+    "Krt18",
+    "Aqp1",
+    "Otx2"
+  ],
+  "pituitary": [
+    "Prl",
+    "Gh",
+    "Pou1f1",
+    "Tshb",
+    "Pomc"
+  ],
+  "oligo_differentiating": [
+    "Bcas1",
+    "Enpp6",
+    "Tcf7l2"
+  ],
+  "reactivity_review": [
+    "Apoe",
+    "Lpl",
+    "Spp1",
+    "Cst7",
+    "Trem2",
+    "Gfap",
+    "Serpina3n"
+  ],
+  "mitochondrial_review": [
+    "mt-Nd1",
+    "mt-Nd5",
+    "mt-Co1",
+    "mt-Rnr1",
+    "mt-Rnr2"
+  ]
+}

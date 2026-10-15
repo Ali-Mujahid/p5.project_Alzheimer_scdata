@@ -1,0 +1,45 @@
+{
+  "utc": "2026-10-14T21:35:07.000810+00:00",
+  "browser_controls_downloaded_all_four_plot_types": true,
+  "formats": [
+    "PDF"
+  ],
+  "PNG_plot_download_visible": false,
+  "real_harmony_scatter_loaded": 456472,
+  "real_genotype_filter_test": {
+    "genotype": "5xFAD",
+    "nuclei": 86417,
+    "animals": 4
+  },
+  "resolution1_UI": "visible pending actual calculation",
+  "files": [
+    {
+      "path": "/Users/mujahidali/Downloads/ATAC_activity_dotplot.pdf",
+      "project_copy": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/full_workflow_20261014/atlas_preview/export_validation/ATAC_activity_dotplot.pdf",
+      "bytes": 449894,
+      "sha256": "6464f5e0da3eb62d9a83948319c1c44bb8eebb74846ff7773bf0f2f1f435e2b7",
+      "pdfinfo": "Title:           ATAC gene-body activity dotplot\nSubject:         Provisional GSE212606 initial ATAC atlas; source job 7466270\nKeywords:        ATAC,provisional,animal-balanced,7466270\nAuthor:          GSE212606 project\nProducer:        jsPDF 4.2.1\nCreationDate:    Wed Oct 14 23:30:20 2026 CEST\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           1\nEncrypted:       no\nPage size:       1190.55 x 841.89 pts (A3)\nPage rot:        0\nFile size:       449894 bytes\nOptimized:       no\nPDF version:     1.3\n"
+    },
+    {
+      "path": "/Users/mujahidali/Downloads/ATAC_initial_harmony_UMAP.pdf",
+      "project_copy": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/full_workflow_20261014/atlas_preview/export_validation/ATAC_initial_harmony_UMAP.pdf",
+      "bytes": 443172,
+      "sha256": "546070e94c81801a33c7dae81f6247dfa8b3e7050456f303804edc6c54918653",
+      "pdfinfo": "Title:           Initial ATAC PCR Harmony UMAP\nSubject:         Provisional GSE212606 initial ATAC atlas; source job 7466270\nKeywords:        ATAC,provisional,animal-balanced,7466270\nAuthor:          GSE212606 project\nProducer:        jsPDF 4.2.1\nCreationDate:    Wed Oct 14 23:32:19 2026 CEST\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           1\nEncrypted:       no\nPage size:       1190.55 x 841.89 pts (A3)\nPage rot:        0\nFile size:       443172 bytes\nOptimized:       no\nPDF version:     1.3\n"
+    },
+    {
+      "path": "/Users/mujahidali/Downloads/ATAC_animal_activity.pdf",
+      "project_copy": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/full_workflow_20261014/atlas_preview/export_validation/ATAC_animal_activity.pdf",
+      "bytes": 86831,
+      "sha256": "fdfc1ab786357f545d8c82119643387c7370e5cbd06c53ab3afc084eca64d00e",
+      "pdfinfo": "Title:           ATAC activity by animal\nSubject:         Provisional GSE212606 initial ATAC atlas; source job 7466270\nKeywords:        ATAC,provisional,animal-balanced,7466270\nAuthor:          GSE212606 project\nProducer:        jsPDF 4.2.1\nCreationDate:    Wed Oct 14 23:33:51 2026 CEST\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           1\nEncrypted:       no\nPage size:       1190.55 x 841.89 pts (A3)\nPage rot:        0\nFile size:       86831 bytes\nOptimized:       no\nPDF version:     1.3\n"
+    },
+    {
+      "path": "/Users/mujahidali/Downloads/ATAC_initial_cluster_composition.pdf",
+      "project_copy": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/full_workflow_20261014/atlas_preview/export_validation/ATAC_initial_cluster_composition.pdf",
+      "bytes": 111586,
+      "sha256": "0339a715623231bf7b8feee391b72d42b6cf9ba24708f17a8b10d9b1f76cb767",
+      "pdfinfo": "Title:           Initial cluster composition by condition\nSubject:         Provisional GSE212606 initial ATAC atlas; source job 7466270\nKeywords:        ATAC,provisional,animal-balanced,7466270\nAuthor:          GSE212606 project\nProducer:        jsPDF 4.2.1\nCreationDate:    Wed Oct 14 23:34:47 2026 CEST\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           1\nEncrypted:       no\nPage size:       1190.55 x 841.89 pts (A3)\nPage rot:        0\nFile size:       111586 bytes\nOptimized:       no\nPDF version:     1.3\n"
+    }
+  ]
+}

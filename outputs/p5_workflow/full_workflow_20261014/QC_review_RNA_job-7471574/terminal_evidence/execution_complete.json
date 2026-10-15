@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-15T07:42:30.188363+00:00",
+  "job_id": "7471574",
+  "source_manifest_sha256": "ad55a1c8e48519a02c5c00d525af33eb2d8d0d50ab50c87c55dc37cf8e651a0e",
+  "returncode": 0,
+  "QC_certificate_sha256": "b8cf20fd64750dab1443d7ec3e51688f8f1f6c80596a2553e69180c48c4efbdf",
+  "chosen_attempts_sha256": "d64694e5e7ba2cd77404f47bbaf9672ef8292efa264e61b5bff22d3434deaef8",
+  "logical_libraries": 192,
+  "RNA_libraries": 192,
+  "ATAC_libraries": 0,
+  "RNA_only_scope": true,
+  "full_296_QC_complete_claimed": false,
+  "normalization_ready": false,
+  "final_retention_complete": false
+}

@@ -1,0 +1,3732 @@
+{
+  "utc": "2026-10-15T08:08:24.485632+00:00",
+  "scope": "Independent saved-group table validation only; no original peak/matrix/BAM read",
+  "producer_job_id": "7471562",
+  "checks": [
+    {
+      "name": "download local digest available_animal_type_groups.tsv",
+      "passed": true
+    },
+    {
+      "name": "download local digest group_coverage_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "download local digest peak_repeat_genomic_coverage_by_group.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "download local digest equal_animal_calibration_type_repeat_coverage.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "download local digest microglia_all_repeat_coverage_animal_details.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "download local digest reference_taxonomy_rows.tsv",
+      "passed": true
+    },
+    {
+      "name": "download local digest coordinate_complete.json",
+      "passed": true
+    },
+    {
+      "name": "467 unique available animal type groups",
+      "passed": true
+    },
+    {
+      "name": "468 unique group summaries including consensus",
+      "passed": true
+    },
+    {
+      "name": "28 calibration types",
+      "passed": true
+    },
+    {
+      "name": "all available animal type groups have a summary",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata 5xFAD_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata APOE4_TREM2_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_21mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_3mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_female_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_1",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "consistent metadata WT_6mo_male_2",
+      "passed": true
+    },
+    {
+      "name": "20 biological animals",
+      "passed": true
+    },
+    {
+      "name": "five age genotype conditions",
+      "passed": true
+    },
+    {
+      "name": "four animals and two of each sex WT_3mo",
+      "passed": true
+    },
+    {
+      "name": "four animals and two of each sex 5xFAD_3mo",
+      "passed": true
+    },
+    {
+      "name": "four animals and two of each sex APOE4_TREM2_3mo",
+      "passed": true
+    },
+    {
+      "name": "four animals and two of each sex WT_6mo",
+      "passed": true
+    },
+    {
+      "name": "four animals and two of each sex WT_21mo",
+      "passed": true
+    },
+    {
+      "name": "40 empty/noncallable groups",
+      "passed": true
+    },
+    {
+      "name": "empty groups have zero callable bases and peaks",
+      "passed": true
+    },
+    {
+      "name": "native primary class set",
+      "passed": true
+    },
+    {
+      "name": "536796 coverage rows exact group category grid",
+      "passed": true
+    },
+    {
+      "name": "all 45880 empty rows use NA fractions/folds",
+      "passed": true
+    },
+    {
+      "name": "microglia extract source values agree within serialized float tolerance",
+      "passed": true
+    },
+    {
+      "name": "all32116 saved equal animal categories independently reproduce",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals any_primary_TEALLWT_3mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals any_primary_TEALL5xFAD_3mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals any_primary_TEALLAPOE4_TREM2_3mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals any_primary_TEALLWT_6mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals any_primary_TEALLWT_21mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classDNAWT_3mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classDNA5xFAD_3mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classDNAAPOE4_TREM2_3mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classDNAWT_6mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classDNAWT_21mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classLINEWT_3mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classLINE5xFAD_3mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classLINEAPOE4_TREM2_3mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classLINEWT_6mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classLINEWT_21mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classLTRWT_3mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classLTR5xFAD_3mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classLTRAPOE4_TREM2_3mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classLTRWT_6mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classLTRWT_21mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classRCWT_3mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classRC5xFAD_3mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classRCAPOE4_TREM2_3mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classRCWT_6mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classRCWT_21mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classSINEWT_3mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classSINE5xFAD_3mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classSINEAPOE4_TREM2_3mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classSINEWT_6mo",
+      "passed": true
+    },
+    {
+      "name": "microglia four callable animals classSINEWT_21mo",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "available_groups": 467,
+  "callable_groups": 427,
+  "empty_groups": 40,
+  "absent_animal_type_combinations": 93,
+  "cell_types": 28,
+  "animals": [
+    {
+      "animal_id": "5xFAD_3mo_female_1",
+      "condition": "5xFAD_3mo",
+      "genotype": "5xFAD",
+      "age": "3mo",
+      "sex": "female",
+      "replicate": "R1"
+    },
+    {
+      "animal_id": "5xFAD_3mo_female_2",
+      "condition": "5xFAD_3mo",
+      "genotype": "5xFAD",
+      "age": "3mo",
+      "sex": "female",
+      "replicate": "R2"
+    },
+    {
+      "animal_id": "5xFAD_3mo_male_1",
+      "condition": "5xFAD_3mo",
+      "genotype": "5xFAD",
+      "age": "3mo",
+      "sex": "male",
+      "replicate": "R1"
+    },
+    {
+      "animal_id": "5xFAD_3mo_male_2",
+      "condition": "5xFAD_3mo",
+      "genotype": "5xFAD",
+      "age": "3mo",
+      "sex": "male",
+      "replicate": "R2"
+    },
+    {
+      "animal_id": "APOE4_TREM2_3mo_female_1",
+      "condition": "APOE4_TREM2_3mo",
+      "genotype": "APOE4_TREM2",
+      "age": "3mo",
+      "sex": "female",
+      "replicate": "R1"
+    },
+    {
+      "animal_id": "APOE4_TREM2_3mo_female_2",
+      "condition": "APOE4_TREM2_3mo",
+      "genotype": "APOE4_TREM2",
+      "age": "3mo",
+      "sex": "female",
+      "replicate": "R2"
+    },
+    {
+      "animal_id": "APOE4_TREM2_3mo_male_1",
+      "condition": "APOE4_TREM2_3mo",
+      "genotype": "APOE4_TREM2",
+      "age": "3mo",
+      "sex": "male",
+      "replicate": "R1"
+    },
+    {
+      "animal_id": "APOE4_TREM2_3mo_male_2",
+      "condition": "APOE4_TREM2_3mo",
+      "genotype": "APOE4_TREM2",
+      "age": "3mo",
+      "sex": "male",
+      "replicate": "R2"
+    },
+    {
+      "animal_id": "WT_21mo_female_1",
+      "condition": "WT_21mo",
+      "genotype": "WT",
+      "age": "21mo",
+      "sex": "female",
+      "replicate": "R1"
+    },
+    {
+      "animal_id": "WT_21mo_female_2",
+      "condition": "WT_21mo",
+      "genotype": "WT",
+      "age": "21mo",
+      "sex": "female",
+      "replicate": "R2"
+    },
+    {
+      "animal_id": "WT_21mo_male_1",
+      "condition": "WT_21mo",
+      "genotype": "WT",
+      "age": "21mo",
+      "sex": "male",
+      "replicate": "R1"
+    },
+    {
+      "animal_id": "WT_21mo_male_2",
+      "condition": "WT_21mo",
+      "genotype": "WT",
+      "age": "21mo",
+      "sex": "male",
+      "replicate": "R2"
+    },
+    {
+      "animal_id": "WT_3mo_female_1",
+      "condition": "WT_3mo",
+      "genotype": "WT",
+      "age": "3mo",
+      "sex": "female",
+      "replicate": "R1"
+    },
+    {
+      "animal_id": "WT_3mo_female_2",
+      "condition": "WT_3mo",
+      "genotype": "WT",
+      "age": "3mo",
+      "sex": "female",
+      "replicate": "R2"
+    },
+    {
+      "animal_id": "WT_3mo_male_1",
+      "condition": "WT_3mo",
+      "genotype": "WT",
+      "age": "3mo",
+      "sex": "male",
+      "replicate": "R1"
+    },
+    {
+      "animal_id": "WT_3mo_male_2",
+      "condition": "WT_3mo",
+      "genotype": "WT",
+      "age": "3mo",
+      "sex": "male",
+      "replicate": "R2"
+    },
+    {
+      "animal_id": "WT_6mo_female_1",
+      "condition": "WT_6mo",
+      "genotype": "WT",
+      "age": "6mo",
+      "sex": "female",
+      "replicate": "R1"
+    },
+    {
+      "animal_id": "WT_6mo_female_2",
+      "condition": "WT_6mo",
+      "genotype": "WT",
+      "age": "6mo",
+      "sex": "female",
+      "replicate": "R2"
+    },
+    {
+      "animal_id": "WT_6mo_male_1",
+      "condition": "WT_6mo",
+      "genotype": "WT",
+      "age": "6mo",
+      "sex": "male",
+      "replicate": "R1"
+    },
+    {
+      "animal_id": "WT_6mo_male_2",
+      "condition": "WT_6mo",
+      "genotype": "WT",
+      "age": "6mo",
+      "sex": "male",
+      "replicate": "R2"
+    }
+  ],
+  "coverage_rows": 536796,
+  "native_primary_classes": [
+    "DNA",
+    "LINE",
+    "LTR",
+    "RC",
+    "SINE"
+  ],
+  "native_primary_families": 42,
+  "native_primary_subfamilies": 1082,
+  "type_callable_coverage": [
+    {
+      "cell_type": "Astrocytes",
+      "n_available_animals": 20,
+      "n_callable_animals": 20
+    },
+    {
+      "cell_type": "Bergmann glia",
+      "n_available_animals": 20,
+      "n_callable_animals": 20
+    },
+    {
+      "cell_type": "Cerebellum granule neurons",
+      "n_available_animals": 20,
+      "n_callable_animals": 20
+    },
+    {
+      "cell_type": "Cerebellum interneurons",
+      "n_available_animals": 20,
+      "n_callable_animals": 20
+    },
+    {
+      "cell_type": "Choroid plexus epithelial cells",
+      "n_available_animals": 9,
+      "n_callable_animals": 1
+    },
+    {
+      "cell_type": "Cortical projection neurons 1",
+      "n_available_animals": 20,
+      "n_callable_animals": 20
+    },
+    {
+      "cell_type": "Cortical projection neurons 2",
+      "n_available_animals": 20,
+      "n_callable_animals": 20
+    },
+    {
+      "cell_type": "Cortical projection neurons 3",
+      "n_available_animals": 19,
+      "n_callable_animals": 17
+    },
+    {
+      "cell_type": "Dentate gyrus neurons",
+      "n_available_animals": 20,
+      "n_callable_animals": 20
+    },
+    {
+      "cell_type": "Endothelial cells",
+      "n_available_animals": 20,
+      "n_callable_animals": 17
+    },
+    {
+      "cell_type": "Habenula neurons",
+      "n_available_animals": 3,
+      "n_callable_animals": 2
+    },
+    {
+      "cell_type": "Hindbrain neurons 1",
+      "n_available_animals": 10,
+      "n_callable_animals": 10
+    },
+    {
+      "cell_type": "Hindbrain neurons 2",
+      "n_available_animals": 11,
+      "n_callable_animals": 6
+    },
+    {
+      "cell_type": "Interbrain and midbrain neurons 1",
+      "n_available_animals": 20,
+      "n_callable_animals": 20
+    },
+    {
+      "cell_type": "Interbrain and midbrain neurons 2",
+      "n_available_animals": 20,
+      "n_callable_animals": 20
+    },
+    {
+      "cell_type": "Interneurons 1",
+      "n_available_animals": 20,
+      "n_callable_animals": 20
+    },
+    {
+      "cell_type": "Interneurons 2",
+      "n_available_animals": 20,
+      "n_callable_animals": 20
+    },
+    {
+      "cell_type": "Microglia",
+      "n_available_animals": 20,
+      "n_callable_animals": 20
+    },
+    {
+      "cell_type": "OB neurons 1",
+      "n_available_animals": 19,
+      "n_callable_animals": 19
+    },
+    {
+      "cell_type": "OB neurons 2",
+      "n_available_animals": 15,
+      "n_callable_animals": 10
+    },
+    {
+      "cell_type": "OB neurons 3",
+      "n_available_animals": 7,
+      "n_callable_animals": 6
+    },
+    {
+      "cell_type": "Oligodendrocyte progenitor cells",
+      "n_available_animals": 20,
+      "n_callable_animals": 20
+    },
+    {
+      "cell_type": "Oligodendrocytes",
+      "n_available_animals": 20,
+      "n_callable_animals": 20
+    },
+    {
+      "cell_type": "Pituitary cells",
+      "n_available_animals": 1,
+      "n_callable_animals": 1
+    },
+    {
+      "cell_type": "Purkinje neurons",
+      "n_available_animals": 19,
+      "n_callable_animals": 19
+    },
+    {
+      "cell_type": "Striatal neurons 1",
+      "n_available_animals": 20,
+      "n_callable_animals": 20
+    },
+    {
+      "cell_type": "Striatal neurons 2",
+      "n_available_animals": 14,
+      "n_callable_animals": 13
+    },
+    {
+      "cell_type": "Vascular leptomeningeal cells",
+      "n_available_animals": 20,
+      "n_callable_animals": 6
+    }
+  ],
+  "microglia": {
+    "any_primary_TE:ALL": {
+      "WT_3mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 5.743437014570508,
+        "min_percent": 5.1071640775749705,
+        "max_percent": 6.349633569550581,
+        "mean_descriptive_genomic_fold": 0.1470479125990387,
+        "animals": [
+          {
+            "animal_id": "WT_3mo_female_1",
+            "sex": "female",
+            "n_peaks": 10725,
+            "callable_peak_union_bp": 2808855,
+            "overlap_union_bp": 178352,
+            "percent": 6.349633569550581,
+            "descriptive_genomic_fold": 0.1626190501475413
+          },
+          {
+            "animal_id": "WT_3mo_female_2",
+            "sex": "female",
+            "n_peaks": 9090,
+            "callable_peak_union_bp": 2393246,
+            "overlap_union_bp": 122227,
+            "percent": 5.1071640775749705,
+            "descriptive_genomic_fold": 0.1307773748375587
+          },
+          {
+            "animal_id": "WT_3mo_male_1",
+            "sex": "male",
+            "n_peaks": 8924,
+            "callable_peak_union_bp": 2325422,
+            "overlap_union_bp": 133022,
+            "percent": 5.72033807197145,
+            "descriptive_genomic_fold": 0.1464362903583554
+          },
+          {
+            "animal_id": "WT_3mo_male_2",
+            "sex": "male",
+            "n_peaks": 5550,
+            "callable_peak_union_bp": 1374872,
+            "overlap_union_bp": 79696,
+            "percent": 5.79661233918503,
+            "descriptive_genomic_fold": 0.1483589350526995
+          }
+        ]
+      },
+      "5xFAD_3mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 6.463042739255146,
+        "min_percent": 6.152893095476,
+        "max_percent": 6.8886605722205605,
+        "mean_descriptive_genomic_fold": 0.16554495063428215,
+        "animals": [
+          {
+            "animal_id": "5xFAD_3mo_female_1",
+            "sex": "female",
+            "n_peaks": 7275,
+            "callable_peak_union_bp": 1843458,
+            "overlap_union_bp": 113426,
+            "percent": 6.152893095476,
+            "descriptive_genomic_fold": 0.1576194552585126
+          },
+          {
+            "animal_id": "5xFAD_3mo_female_2",
+            "sex": "female",
+            "n_peaks": 5869,
+            "callable_peak_union_bp": 1440954,
+            "overlap_union_bp": 88676,
+            "percent": 6.1539785447696405,
+            "descriptive_genomic_fold": 0.1574559886300629
+          },
+          {
+            "animal_id": "5xFAD_3mo_male_1",
+            "sex": "male",
+            "n_peaks": 9956,
+            "callable_peak_union_bp": 2601403,
+            "overlap_union_bp": 173166,
+            "percent": 6.65663874455438,
+            "descriptive_genomic_fold": 0.1706235748518908
+          },
+          {
+            "animal_id": "5xFAD_3mo_male_2",
+            "sex": "male",
+            "n_peaks": 4829,
+            "callable_peak_union_bp": 1160182,
+            "overlap_union_bp": 79921,
+            "percent": 6.8886605722205605,
+            "descriptive_genomic_fold": 0.1764807837966623
+          }
+        ]
+      },
+      "APOE4_TREM2_3mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 6.6264849314587195,
+        "min_percent": 5.798885089546,
+        "max_percent": 7.567966274983549,
+        "mean_descriptive_genomic_fold": 0.16965902673827832,
+        "animals": [
+          {
+            "animal_id": "APOE4_TREM2_3mo_female_1",
+            "sex": "female",
+            "n_peaks": 7559,
+            "callable_peak_union_bp": 1922627,
+            "overlap_union_bp": 114943,
+            "percent": 5.97843471458582,
+            "descriptive_genomic_fold": 0.1530039365042459
+          },
+          {
+            "animal_id": "APOE4_TREM2_3mo_female_2",
+            "sex": "female",
+            "n_peaks": 5243,
+            "callable_peak_union_bp": 1260681,
+            "overlap_union_bp": 90273,
+            "percent": 7.16065364671951,
+            "descriptive_genomic_fold": 0.1833686947537042
+          },
+          {
+            "animal_id": "APOE4_TREM2_3mo_male_1",
+            "sex": "male",
+            "n_peaks": 8898,
+            "callable_peak_union_bp": 2324671,
+            "overlap_union_bp": 134805,
+            "percent": 5.798885089546,
+            "descriptive_genomic_fold": 0.1483658890390395
+          },
+          {
+            "animal_id": "APOE4_TREM2_3mo_male_2",
+            "sex": "male",
+            "n_peaks": 4930,
+            "callable_peak_union_bp": 1190333,
+            "overlap_union_bp": 90084,
+            "percent": 7.567966274983549,
+            "descriptive_genomic_fold": 0.1938975866561236
+          }
+        ]
+      },
+      "WT_6mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 6.27833500741086,
+        "min_percent": 6.15450803228798,
+        "max_percent": 6.48035097158702,
+        "mean_descriptive_genomic_fold": 0.16075958537809418,
+        "animals": [
+          {
+            "animal_id": "WT_6mo_female_1",
+            "sex": "female",
+            "n_peaks": 11679,
+            "callable_peak_union_bp": 3136530,
+            "overlap_union_bp": 195075,
+            "percent": 6.21945270729117,
+            "descriptive_genomic_fold": 0.1591703805100192
+          },
+          {
+            "animal_id": "WT_6mo_female_2",
+            "sex": "female",
+            "n_peaks": 5543,
+            "callable_peak_union_bp": 1375533,
+            "overlap_union_bp": 86095,
+            "percent": 6.259028318477269,
+            "descriptive_genomic_fold": 0.1602442607748164
+          },
+          {
+            "animal_id": "WT_6mo_male_1",
+            "sex": "male",
+            "n_peaks": 10909,
+            "callable_peak_union_bp": 2896186,
+            "overlap_union_bp": 178246,
+            "percent": 6.15450803228798,
+            "descriptive_genomic_fold": 0.1576328928175493
+          },
+          {
+            "animal_id": "WT_6mo_male_2",
+            "sex": "male",
+            "n_peaks": 6873,
+            "callable_peak_union_bp": 1739628,
+            "overlap_union_bp": 112734,
+            "percent": 6.48035097158702,
+            "descriptive_genomic_fold": 0.1659908074099918
+          }
+        ]
+      },
+      "WT_21mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 6.23400563677083,
+        "min_percent": 5.91910222118513,
+        "max_percent": 6.50002444347948,
+        "mean_descriptive_genomic_fold": 0.15953043083670948,
+        "animals": [
+          {
+            "animal_id": "WT_21mo_female_1",
+            "sex": "female",
+            "n_peaks": 10502,
+            "callable_peak_union_bp": 2759878,
+            "overlap_union_bp": 163360,
+            "percent": 5.91910222118513,
+            "descriptive_genomic_fold": 0.1515337154442083
+          },
+          {
+            "animal_id": "WT_21mo_female_2",
+            "sex": "female",
+            "n_peaks": 7096,
+            "callable_peak_union_bp": 1790809,
+            "overlap_union_bp": 109436,
+            "percent": 6.110981126407109,
+            "descriptive_genomic_fold": 0.1562616822113377
+          },
+          {
+            "animal_id": "WT_21mo_male_1",
+            "sex": "male",
+            "n_peaks": 10582,
+            "callable_peak_union_bp": 2762447,
+            "overlap_union_bp": 176960,
+            "percent": 6.405914756011601,
+            "descriptive_genomic_fold": 0.1638984853675083
+          },
+          {
+            "animal_id": "WT_21mo_male_2",
+            "sex": "male",
+            "n_peaks": 5633,
+            "callable_peak_union_bp": 1390964,
+            "overlap_union_bp": 90413,
+            "percent": 6.50002444347948,
+            "descriptive_genomic_fold": 0.1664278403237836
+          }
+        ]
+      }
+    },
+    "class:DNA": {
+      "WT_3mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 0.219854363385685,
+        "min_percent": 0.18890661469819,
+        "max_percent": 0.24739618100613,
+        "mean_descriptive_genomic_fold": 0.1888966195874295,
+        "animals": [
+          {
+            "animal_id": "WT_3mo_female_1",
+            "sex": "female",
+            "n_peaks": 10725,
+            "callable_peak_union_bp": 2808855,
+            "overlap_union_bp": 6949,
+            "percent": 0.24739618100613,
+            "descriptive_genomic_fold": 0.2124056526053151
+          },
+          {
+            "animal_id": "WT_3mo_female_2",
+            "sex": "female",
+            "n_peaks": 9090,
+            "callable_peak_union_bp": 2393246,
+            "overlap_union_bp": 4521,
+            "percent": 0.18890661469819,
+            "descriptive_genomic_fold": 0.1623233585982734
+          },
+          {
+            "animal_id": "WT_3mo_male_1",
+            "sex": "male",
+            "n_peaks": 8924,
+            "callable_peak_union_bp": 2325422,
+            "overlap_union_bp": 4694,
+            "percent": 0.20185583519894001,
+            "descriptive_genomic_fold": 0.1735949356462598
+          },
+          {
+            "animal_id": "WT_3mo_male_2",
+            "sex": "male",
+            "n_peaks": 5550,
+            "callable_peak_union_bp": 1374872,
+            "overlap_union_bp": 3317,
+            "percent": 0.24125882263947998,
+            "descriptive_genomic_fold": 0.2072625314998697
+          }
+        ]
+      },
+      "5xFAD_3mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 0.2599849333800225,
+        "min_percent": 0.23580683693363,
+        "max_percent": 0.30072867877626,
+        "mean_descriptive_genomic_fold": 0.22349340487989405,
+        "animals": [
+          {
+            "animal_id": "5xFAD_3mo_female_1",
+            "sex": "female",
+            "n_peaks": 7275,
+            "callable_peak_union_bp": 1843458,
+            "overlap_union_bp": 4347,
+            "percent": 0.23580683693363,
+            "descriptive_genomic_fold": 0.2026221339339732
+          },
+          {
+            "animal_id": "5xFAD_3mo_female_2",
+            "sex": "female",
+            "n_peaks": 5869,
+            "callable_peak_union_bp": 1440954,
+            "overlap_union_bp": 3557,
+            "percent": 0.24685035053166002,
+            "descriptive_genomic_fold": 0.2123929612082217
+          },
+          {
+            "animal_id": "5xFAD_3mo_male_1",
+            "sex": "male",
+            "n_peaks": 9956,
+            "callable_peak_union_bp": 2601403,
+            "overlap_union_bp": 6674,
+            "percent": 0.25655386727854,
+            "descriptive_genomic_fold": 0.220315162165843
+          },
+          {
+            "animal_id": "5xFAD_3mo_male_2",
+            "sex": "male",
+            "n_peaks": 4829,
+            "callable_peak_union_bp": 1160182,
+            "overlap_union_bp": 3489,
+            "percent": 0.30072867877626,
+            "descriptive_genomic_fold": 0.2586433622115384
+          }
+        ]
+      },
+      "APOE4_TREM2_3mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 0.25112418632035,
+        "min_percent": 0.23733152608383998,
+        "max_percent": 0.27535079157437004,
+        "mean_descriptive_genomic_fold": 0.21591085551229688,
+        "animals": [
+          {
+            "animal_id": "APOE4_TREM2_3mo_female_1",
+            "sex": "female",
+            "n_peaks": 7559,
+            "callable_peak_union_bp": 1922627,
+            "overlap_union_bp": 4563,
+            "percent": 0.23733152608383998,
+            "descriptive_genomic_fold": 0.2041225571278604
+          },
+          {
+            "animal_id": "APOE4_TREM2_3mo_female_2",
+            "sex": "female",
+            "n_peaks": 5243,
+            "callable_peak_union_bp": 1260681,
+            "overlap_union_bp": 3132,
+            "percent": 0.24843715420475002,
+            "descriptive_genomic_fold": 0.213751799057824
+          },
+          {
+            "animal_id": "APOE4_TREM2_3mo_male_1",
+            "sex": "male",
+            "n_peaks": 8898,
+            "callable_peak_union_bp": 2324671,
+            "overlap_union_bp": 6401,
+            "percent": 0.27535079157437004,
+            "descriptive_genomic_fold": 0.2365645657401046
+          },
+          {
+            "animal_id": "APOE4_TREM2_3mo_male_2",
+            "sex": "male",
+            "n_peaks": 4930,
+            "callable_peak_union_bp": 1190333,
+            "overlap_union_bp": 2897,
+            "percent": 0.24337727341844,
+            "descriptive_genomic_fold": 0.2092045001233985
+          }
+        ]
+      },
+      "WT_6mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 0.2570023116116475,
+        "min_percent": 0.23413551477702,
+        "max_percent": 0.27313048832707,
+        "mean_descriptive_genomic_fold": 0.22090301417793767,
+        "animals": [
+          {
+            "animal_id": "WT_6mo_female_1",
+            "sex": "female",
+            "n_peaks": 11679,
+            "callable_peak_union_bp": 3136530,
+            "overlap_union_bp": 8209,
+            "percent": 0.26172234922031,
+            "descriptive_genomic_fold": 0.2249846667587217
+          },
+          {
+            "animal_id": "WT_6mo_female_2",
+            "sex": "female",
+            "n_peaks": 5543,
+            "callable_peak_union_bp": 1375533,
+            "overlap_union_bp": 3757,
+            "percent": 0.27313048832707,
+            "descriptive_genomic_fold": 0.2349243928254256
+          },
+          {
+            "animal_id": "WT_6mo_male_1",
+            "sex": "male",
+            "n_peaks": 10909,
+            "callable_peak_union_bp": 2896186,
+            "overlap_union_bp": 6781,
+            "percent": 0.23413551477702,
+            "descriptive_genomic_fold": 0.2011800008052718
+          },
+          {
+            "animal_id": "WT_6mo_male_2",
+            "sex": "male",
+            "n_peaks": 6873,
+            "callable_peak_union_bp": 1739628,
+            "overlap_union_bp": 4506,
+            "percent": 0.25902089412219,
+            "descriptive_genomic_fold": 0.2225229963223316
+          }
+        ]
+      },
+      "WT_21mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 0.24678323994486,
+        "min_percent": 0.21562547329989998,
+        "max_percent": 0.27837638151971,
+        "mean_descriptive_genomic_fold": 0.21226581100756065,
+        "animals": [
+          {
+            "animal_id": "WT_21mo_female_1",
+            "sex": "female",
+            "n_peaks": 10502,
+            "callable_peak_union_bp": 2759878,
+            "overlap_union_bp": 5951,
+            "percent": 0.21562547329989998,
+            "descriptive_genomic_fold": 0.1854558091497003
+          },
+          {
+            "animal_id": "WT_21mo_female_2",
+            "sex": "female",
+            "n_peaks": 7096,
+            "callable_peak_union_bp": 1790809,
+            "overlap_union_bp": 4482,
+            "percent": 0.25027794700607003,
+            "descriptive_genomic_fold": 0.2153218110025067
+          },
+          {
+            "animal_id": "WT_21mo_male_1",
+            "sex": "male",
+            "n_peaks": 10582,
+            "callable_peak_union_bp": 2762447,
+            "overlap_union_bp": 7690,
+            "percent": 0.27837638151971,
+            "descriptive_genomic_fold": 0.2393430878004159
+          },
+          {
+            "animal_id": "WT_21mo_male_2",
+            "sex": "male",
+            "n_peaks": 5633,
+            "callable_peak_union_bp": 1390964,
+            "overlap_union_bp": 3378,
+            "percent": 0.24285315795376,
+            "descriptive_genomic_fold": 0.2089425360776197
+          }
+        ]
+      }
+    },
+    "class:LINE": {
+      "WT_3mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 1.507969447166365,
+        "min_percent": 1.31390588347374,
+        "max_percent": 1.79859764922005,
+        "mean_descriptive_genomic_fold": 0.0811983248414012,
+        "animals": [
+          {
+            "animal_id": "WT_3mo_female_1",
+            "sex": "female",
+            "n_peaks": 10725,
+            "callable_peak_union_bp": 2808855,
+            "overlap_union_bp": 50520,
+            "percent": 1.79859764922005,
+            "descriptive_genomic_fold": 0.0968753635014043
+          },
+          {
+            "animal_id": "WT_3mo_female_2",
+            "sex": "female",
+            "n_peaks": 9090,
+            "callable_peak_union_bp": 2393246,
+            "overlap_union_bp": 31445,
+            "percent": 1.31390588347374,
+            "descriptive_genomic_fold": 0.0707661786248488
+          },
+          {
+            "animal_id": "WT_3mo_male_1",
+            "sex": "male",
+            "n_peaks": 8924,
+            "callable_peak_union_bp": 2325422,
+            "overlap_union_bp": 30708,
+            "percent": 1.3205345094352698,
+            "descriptive_genomic_fold": 0.0710406238560324
+          },
+          {
+            "animal_id": "WT_3mo_male_2",
+            "sex": "male",
+            "n_peaks": 5550,
+            "callable_peak_union_bp": 1374872,
+            "overlap_union_bp": 21982,
+            "percent": 1.5988397465364,
+            "descriptive_genomic_fold": 0.0861111333833193
+          }
+        ]
+      },
+      "5xFAD_3mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 1.89201986697386,
+        "min_percent": 1.76027878042244,
+        "max_percent": 2.12518380736815,
+        "mean_descriptive_genomic_fold": 0.10188370090749393,
+        "animals": [
+          {
+            "animal_id": "5xFAD_3mo_female_1",
+            "sex": "female",
+            "n_peaks": 7275,
+            "callable_peak_union_bp": 1843458,
+            "overlap_union_bp": 32450,
+            "percent": 1.76027878042244,
+            "descriptive_genomic_fold": 0.0948607393535852
+          },
+          {
+            "animal_id": "5xFAD_3mo_female_2",
+            "sex": "female",
+            "n_peaks": 5869,
+            "callable_peak_union_bp": 1440954,
+            "overlap_union_bp": 25630,
+            "percent": 1.7786827337999598,
+            "descriptive_genomic_fold": 0.0956049066208115
+          },
+          {
+            "animal_id": "5xFAD_3mo_male_1",
+            "sex": "male",
+            "n_peaks": 9956,
+            "callable_peak_union_bp": 2601403,
+            "overlap_union_bp": 49529,
+            "percent": 1.90393414630489,
+            "descriptive_genomic_fold": 0.1028175751631018
+          },
+          {
+            "animal_id": "5xFAD_3mo_male_2",
+            "sex": "male",
+            "n_peaks": 4829,
+            "callable_peak_union_bp": 1160182,
+            "overlap_union_bp": 24656,
+            "percent": 2.12518380736815,
+            "descriptive_genomic_fold": 0.1142515824924772
+          }
+        ]
+      },
+      "APOE4_TREM2_3mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 1.9372070647063626,
+        "min_percent": 1.50640671303595,
+        "max_percent": 2.30574133456772,
+        "mean_descriptive_genomic_fold": 0.10427629992297074,
+        "animals": [
+          {
+            "animal_id": "APOE4_TREM2_3mo_female_1",
+            "sex": "female",
+            "n_peaks": 7559,
+            "callable_peak_union_bp": 1922627,
+            "overlap_union_bp": 33277,
+            "percent": 1.73080894005961,
+            "descriptive_genomic_fold": 0.0929711438528525
+          },
+          {
+            "animal_id": "APOE4_TREM2_3mo_female_2",
+            "sex": "female",
+            "n_peaks": 5243,
+            "callable_peak_union_bp": 1260681,
+            "overlap_union_bp": 27809,
+            "percent": 2.20587127116217,
+            "descriptive_genomic_fold": 0.1187634472606193
+          },
+          {
+            "animal_id": "APOE4_TREM2_3mo_male_1",
+            "sex": "male",
+            "n_peaks": 8898,
+            "callable_peak_union_bp": 2324671,
+            "overlap_union_bp": 35019,
+            "percent": 1.50640671303595,
+            "descriptive_genomic_fold": 0.0810358019377985
+          },
+          {
+            "animal_id": "APOE4_TREM2_3mo_male_2",
+            "sex": "male",
+            "n_peaks": 4930,
+            "callable_peak_union_bp": 1190333,
+            "overlap_union_bp": 27446,
+            "percent": 2.30574133456772,
+            "descriptive_genomic_fold": 0.1243348066406127
+          }
+        ]
+      },
+      "WT_6mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 1.703387055699975,
+        "min_percent": 1.50245653636343,
+        "max_percent": 2.02658269469104,
+        "mean_descriptive_genomic_fold": 0.0916693755695994,
+        "animals": [
+          {
+            "animal_id": "WT_6mo_female_1",
+            "sex": "female",
+            "n_peaks": 11679,
+            "callable_peak_union_bp": 3136530,
+            "overlap_union_bp": 47125,
+            "percent": 1.50245653636343,
+            "descriptive_genomic_fold": 0.0807997161427714
+          },
+          {
+            "animal_id": "WT_6mo_female_2",
+            "sex": "female",
+            "n_peaks": 5543,
+            "callable_peak_union_bp": 1375533,
+            "overlap_union_bp": 22867,
+            "percent": 1.662410134835,
+            "descriptive_genomic_fold": 0.0892585032936639
+          },
+          {
+            "animal_id": "WT_6mo_male_1",
+            "sex": "male",
+            "n_peaks": 10909,
+            "callable_peak_union_bp": 2896186,
+            "overlap_union_bp": 46979,
+            "percent": 1.62209885691043,
+            "descriptive_genomic_fold": 0.087435110407599
+          },
+          {
+            "animal_id": "WT_6mo_male_2",
+            "sex": "male",
+            "n_peaks": 6873,
+            "callable_peak_union_bp": 1739628,
+            "overlap_union_bp": 35255,
+            "percent": 2.02658269469104,
+            "descriptive_genomic_fold": 0.1091841724343633
+          }
+        ]
+      },
+      "WT_21mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 1.5999489165084575,
+        "min_percent": 1.3816552760665501,
+        "max_percent": 1.87553380245642,
+        "mean_descriptive_genomic_fold": 0.086005658045762,
+        "animals": [
+          {
+            "animal_id": "WT_21mo_female_1",
+            "sex": "female",
+            "n_peaks": 10502,
+            "callable_peak_union_bp": 2759878,
+            "overlap_union_bp": 38132,
+            "percent": 1.3816552760665501,
+            "descriptive_genomic_fold": 0.0743174221754332
+          },
+          {
+            "animal_id": "WT_21mo_female_2",
+            "sex": "female",
+            "n_peaks": 7096,
+            "callable_peak_union_bp": 1790809,
+            "overlap_union_bp": 28444,
+            "percent": 1.5883324240608498,
+            "descriptive_genomic_fold": 0.0853082627549257
+          },
+          {
+            "animal_id": "WT_21mo_male_1",
+            "sex": "male",
+            "n_peaks": 10582,
+            "callable_peak_union_bp": 2762447,
+            "overlap_union_bp": 42936,
+            "percent": 1.5542741634500101,
+            "descriptive_genomic_fold": 0.0834767094046101
+          },
+          {
+            "animal_id": "WT_21mo_male_2",
+            "sex": "male",
+            "n_peaks": 5633,
+            "callable_peak_union_bp": 1390964,
+            "overlap_union_bp": 26088,
+            "percent": 1.87553380245642,
+            "descriptive_genomic_fold": 0.100920237848079
+          }
+        ]
+      }
+    },
+    "class:LTR": {
+      "WT_3mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 2.360103578778105,
+        "min_percent": 2.17996812697064,
+        "max_percent": 2.51575843008279,
+        "mean_descriptive_genomic_fold": 0.21249782695009037,
+        "animals": [
+          {
+            "animal_id": "WT_3mo_female_1",
+            "sex": "female",
+            "n_peaks": 10725,
+            "callable_peak_union_bp": 2808855,
+            "overlap_union_bp": 68580,
+            "percent": 2.4415642672904,
+            "descriptive_genomic_fold": 0.2200098054598381
+          },
+          {
+            "animal_id": "WT_3mo_female_2",
+            "sex": "female",
+            "n_peaks": 9090,
+            "callable_peak_union_bp": 2393246,
+            "overlap_union_bp": 52172,
+            "percent": 2.17996812697064,
+            "descriptive_genomic_fold": 0.1963349171428275
+          },
+          {
+            "animal_id": "WT_3mo_male_1",
+            "sex": "male",
+            "n_peaks": 8924,
+            "callable_peak_union_bp": 2325422,
+            "overlap_union_bp": 58502,
+            "percent": 2.51575843008279,
+            "descriptive_genomic_fold": 0.2264736545481038
+          },
+          {
+            "animal_id": "WT_3mo_male_2",
+            "sex": "male",
+            "n_peaks": 5550,
+            "callable_peak_union_bp": 1374872,
+            "overlap_union_bp": 31665,
+            "percent": 2.30312349076859,
+            "descriptive_genomic_fold": 0.2071729306495921
+          }
+        ]
+      },
+      "5xFAD_3mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 2.4531352140362124,
+        "min_percent": 2.35801412345711,
+        "max_percent": 2.57123451320568,
+        "mean_descriptive_genomic_fold": 0.22096360506538426,
+        "animals": [
+          {
+            "animal_id": "5xFAD_3mo_female_1",
+            "sex": "female",
+            "n_peaks": 7275,
+            "callable_peak_union_bp": 1843458,
+            "overlap_union_bp": 43469,
+            "percent": 2.35801412345711,
+            "descriptive_genomic_fold": 0.2123824516189543
+          },
+          {
+            "animal_id": "5xFAD_3mo_female_2",
+            "sex": "female",
+            "n_peaks": 5869,
+            "callable_peak_union_bp": 1440954,
+            "overlap_union_bp": 34330,
+            "percent": 2.38244940504693,
+            "descriptive_genomic_fold": 0.2144459364023598
+          },
+          {
+            "animal_id": "5xFAD_3mo_male_1",
+            "sex": "male",
+            "n_peaks": 9956,
+            "callable_peak_union_bp": 2601403,
+            "overlap_union_bp": 65057,
+            "percent": 2.50084281443513,
+            "descriptive_genomic_fold": 0.2253702449257059
+          },
+          {
+            "animal_id": "5xFAD_3mo_male_2",
+            "sex": "male",
+            "n_peaks": 4829,
+            "callable_peak_union_bp": 1160182,
+            "overlap_union_bp": 29831,
+            "percent": 2.57123451320568,
+            "descriptive_genomic_fold": 0.231655787314517
+          }
+        ]
+      },
+      "APOE4_TREM2_3mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 2.59789127181133,
+        "min_percent": 2.25238696845513,
+        "max_percent": 2.92968438243751,
+        "mean_descriptive_genomic_fold": 0.23392356945534684,
+        "animals": [
+          {
+            "animal_id": "APOE4_TREM2_3mo_female_1",
+            "sex": "female",
+            "n_peaks": 7559,
+            "callable_peak_union_bp": 1922627,
+            "overlap_union_bp": 43305,
+            "percent": 2.25238696845513,
+            "descriptive_genomic_fold": 0.2027970535932488
+          },
+          {
+            "animal_id": "APOE4_TREM2_3mo_female_2",
+            "sex": "female",
+            "n_peaks": 5243,
+            "callable_peak_union_bp": 1260681,
+            "overlap_union_bp": 35934,
+            "percent": 2.85036420791619,
+            "descriptive_genomic_fold": 0.2567774040037862
+          },
+          {
+            "animal_id": "APOE4_TREM2_3mo_male_1",
+            "sex": "male",
+            "n_peaks": 8898,
+            "callable_peak_union_bp": 2324671,
+            "overlap_union_bp": 54842,
+            "percent": 2.35912952843649,
+            "descriptive_genomic_fold": 0.2123112905050762
+          },
+          {
+            "animal_id": "APOE4_TREM2_3mo_male_2",
+            "sex": "male",
+            "n_peaks": 4930,
+            "callable_peak_union_bp": 1190333,
+            "overlap_union_bp": 34873,
+            "percent": 2.92968438243751,
+            "descriptive_genomic_fold": 0.2638085297192762
+          }
+        ]
+      },
+      "WT_6mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 2.4924078760914625,
+        "min_percent": 2.40604914604011,
+        "max_percent": 2.61170784274341,
+        "mean_descriptive_genomic_fold": 0.22441634981116004,
+        "animals": [
+          {
+            "animal_id": "WT_6mo_female_1",
+            "sex": "female",
+            "n_peaks": 11679,
+            "callable_peak_union_bp": 3136530,
+            "overlap_union_bp": 81917,
+            "percent": 2.61170784274341,
+            "descriptive_genomic_fold": 0.2350897333376113
+          },
+          {
+            "animal_id": "WT_6mo_female_2",
+            "sex": "female",
+            "n_peaks": 5543,
+            "callable_peak_union_bp": 1375533,
+            "overlap_union_bp": 33096,
+            "percent": 2.40604914604011,
+            "descriptive_genomic_fold": 0.21662469372123
+          },
+          {
+            "animal_id": "WT_6mo_male_1",
+            "sex": "male",
+            "n_peaks": 10909,
+            "callable_peak_union_bp": 2896186,
+            "overlap_union_bp": 71325,
+            "percent": 2.46272166221368,
+            "descriptive_genomic_fold": 0.2217061142964487
+          },
+          {
+            "animal_id": "WT_6mo_male_2",
+            "sex": "male",
+            "n_peaks": 6873,
+            "callable_peak_union_bp": 1739628,
+            "overlap_union_bp": 43302,
+            "percent": 2.48915285336865,
+            "descriptive_genomic_fold": 0.2242448578893501
+          }
+        ]
+      },
+      "WT_21mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 2.558709600237765,
+        "min_percent": 2.41778994856514,
+        "max_percent": 2.67816902912526,
+        "mean_descriptive_genomic_fold": 0.23012880807786515,
+        "animals": [
+          {
+            "animal_id": "WT_21mo_female_1",
+            "sex": "female",
+            "n_peaks": 10502,
+            "callable_peak_union_bp": 2759878,
+            "overlap_union_bp": 69457,
+            "percent": 2.51666921508849,
+            "descriptive_genomic_fold": 0.2263429258324556
+          },
+          {
+            "animal_id": "WT_21mo_female_2",
+            "sex": "female",
+            "n_peaks": 7096,
+            "callable_peak_union_bp": 1790809,
+            "overlap_union_bp": 43298,
+            "percent": 2.41778994856514,
+            "descriptive_genomic_fold": 0.2172508173680488
+          },
+          {
+            "animal_id": "WT_21mo_male_1",
+            "sex": "male",
+            "n_peaks": 10582,
+            "callable_peak_union_bp": 2762447,
+            "overlap_union_bp": 73983,
+            "percent": 2.67816902912526,
+            "descriptive_genomic_fold": 0.2409458605136634
+          },
+          {
+            "animal_id": "WT_21mo_male_2",
+            "sex": "male",
+            "n_peaks": 5633,
+            "callable_peak_union_bp": 1390964,
+            "overlap_union_bp": 36474,
+            "percent": 2.62221020817217,
+            "descriptive_genomic_fold": 0.2359756285972928
+          }
+        ]
+      }
+    },
+    "class:RC": {
+      "WT_3mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 0.0015944616062070387,
+        "min_percent": 0.0,
+        "max_percent": 0.004846973524660649,
+        "mean_descriptive_genomic_fold": 0.5880309330447478,
+        "animals": [
+          {
+            "animal_id": "WT_3mo_female_1",
+            "sex": "female",
+            "n_peaks": 10725,
+            "callable_peak_union_bp": 2808855,
+            "overlap_union_bp": 43,
+            "percent": 0.0015308729001675058,
+            "descriptive_genomic_fold": 0.5631720737103562
+          },
+          {
+            "animal_id": "WT_3mo_female_2",
+            "sex": "female",
+            "n_peaks": 9090,
+            "callable_peak_union_bp": 2393246,
+            "overlap_union_bp": 116,
+            "percent": 0.004846973524660649,
+            "descriptive_genomic_fold": 1.7889516584686351
+          },
+          {
+            "animal_id": "WT_3mo_male_1",
+            "sex": "male",
+            "n_peaks": 8924,
+            "callable_peak_union_bp": 2325422,
+            "overlap_union_bp": 0,
+            "percent": 0.0,
+            "descriptive_genomic_fold": 0.0
+          },
+          {
+            "animal_id": "WT_3mo_male_2",
+            "sex": "male",
+            "n_peaks": 5550,
+            "callable_peak_union_bp": 1374872,
+            "overlap_union_bp": 0,
+            "percent": 0.0,
+            "descriptive_genomic_fold": 0.0
+          }
+        ]
+      },
+      "5xFAD_3mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 0.0,
+        "min_percent": 0.0,
+        "max_percent": 0.0,
+        "mean_descriptive_genomic_fold": 0.0,
+        "animals": [
+          {
+            "animal_id": "5xFAD_3mo_female_1",
+            "sex": "female",
+            "n_peaks": 7275,
+            "callable_peak_union_bp": 1843458,
+            "overlap_union_bp": 0,
+            "percent": 0.0,
+            "descriptive_genomic_fold": 0.0
+          },
+          {
+            "animal_id": "5xFAD_3mo_female_2",
+            "sex": "female",
+            "n_peaks": 5869,
+            "callable_peak_union_bp": 1440954,
+            "overlap_union_bp": 0,
+            "percent": 0.0,
+            "descriptive_genomic_fold": 0.0
+          },
+          {
+            "animal_id": "5xFAD_3mo_male_1",
+            "sex": "male",
+            "n_peaks": 9956,
+            "callable_peak_union_bp": 2601403,
+            "overlap_union_bp": 0,
+            "percent": 0.0,
+            "descriptive_genomic_fold": 0.0
+          },
+          {
+            "animal_id": "5xFAD_3mo_male_2",
+            "sex": "male",
+            "n_peaks": 4829,
+            "callable_peak_union_bp": 1160182,
+            "overlap_union_bp": 0,
+            "percent": 0.0,
+            "descriptive_genomic_fold": 0.0
+          }
+        ]
+      },
+      "APOE4_TREM2_3mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 0.0021615301571134967,
+        "min_percent": 0.0,
+        "max_percent": 0.008646120628453987,
+        "mean_descriptive_genomic_fold": 0.797017348154573,
+        "animals": [
+          {
+            "animal_id": "APOE4_TREM2_3mo_female_1",
+            "sex": "female",
+            "n_peaks": 7559,
+            "callable_peak_union_bp": 1922627,
+            "overlap_union_bp": 0,
+            "percent": 0.0,
+            "descriptive_genomic_fold": 0.0
+          },
+          {
+            "animal_id": "APOE4_TREM2_3mo_female_2",
+            "sex": "female",
+            "n_peaks": 5243,
+            "callable_peak_union_bp": 1260681,
+            "overlap_union_bp": 109,
+            "percent": 0.008646120628453987,
+            "descriptive_genomic_fold": 3.188069392618292
+          },
+          {
+            "animal_id": "APOE4_TREM2_3mo_male_1",
+            "sex": "male",
+            "n_peaks": 8898,
+            "callable_peak_union_bp": 2324671,
+            "overlap_union_bp": 0,
+            "percent": 0.0,
+            "descriptive_genomic_fold": 0.0
+          },
+          {
+            "animal_id": "APOE4_TREM2_3mo_male_2",
+            "sex": "male",
+            "n_peaks": 4930,
+            "callable_peak_union_bp": 1190333,
+            "overlap_union_bp": 0,
+            "percent": 0.0,
+            "descriptive_genomic_fold": 0.0
+          }
+        ]
+      },
+      "WT_6mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 0.0,
+        "min_percent": 0.0,
+        "max_percent": 0.0,
+        "mean_descriptive_genomic_fold": 0.0,
+        "animals": [
+          {
+            "animal_id": "WT_6mo_female_1",
+            "sex": "female",
+            "n_peaks": 11679,
+            "callable_peak_union_bp": 3136530,
+            "overlap_union_bp": 0,
+            "percent": 0.0,
+            "descriptive_genomic_fold": 0.0
+          },
+          {
+            "animal_id": "WT_6mo_female_2",
+            "sex": "female",
+            "n_peaks": 5543,
+            "callable_peak_union_bp": 1375533,
+            "overlap_union_bp": 0,
+            "percent": 0.0,
+            "descriptive_genomic_fold": 0.0
+          },
+          {
+            "animal_id": "WT_6mo_male_1",
+            "sex": "male",
+            "n_peaks": 10909,
+            "callable_peak_union_bp": 2896186,
+            "overlap_union_bp": 0,
+            "percent": 0.0,
+            "descriptive_genomic_fold": 0.0
+          },
+          {
+            "animal_id": "WT_6mo_male_2",
+            "sex": "male",
+            "n_peaks": 6873,
+            "callable_peak_union_bp": 1739628,
+            "overlap_union_bp": 0,
+            "percent": 0.0,
+            "descriptive_genomic_fold": 0.0
+          }
+        ]
+      },
+      "WT_21mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 0.001140293370334345,
+        "min_percent": 0.0,
+        "max_percent": 0.00456117348133738,
+        "mean_descriptive_genomic_fold": 0.4226951981370556,
+        "animals": [
+          {
+            "animal_id": "WT_21mo_female_1",
+            "sex": "female",
+            "n_peaks": 10502,
+            "callable_peak_union_bp": 2759878,
+            "overlap_union_bp": 0,
+            "percent": 0.0,
+            "descriptive_genomic_fold": 0.0
+          },
+          {
+            "animal_id": "WT_21mo_female_2",
+            "sex": "female",
+            "n_peaks": 7096,
+            "callable_peak_union_bp": 1790809,
+            "overlap_union_bp": 0,
+            "percent": 0.0,
+            "descriptive_genomic_fold": 0.0
+          },
+          {
+            "animal_id": "WT_21mo_male_1",
+            "sex": "male",
+            "n_peaks": 10582,
+            "callable_peak_union_bp": 2762447,
+            "overlap_union_bp": 126,
+            "percent": 0.00456117348133738,
+            "descriptive_genomic_fold": 1.6907807925482223
+          },
+          {
+            "animal_id": "WT_21mo_male_2",
+            "sex": "male",
+            "n_peaks": 5633,
+            "callable_peak_union_bp": 1390964,
+            "overlap_union_bp": 0,
+            "percent": 0.0,
+            "descriptive_genomic_fold": 0.0
+          }
+        ]
+      }
+    },
+    "class:SINE": {
+      "WT_3mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 1.665611745674545,
+        "min_percent": 1.42312992479669,
+        "max_percent": 1.8826176502525,
+        "mean_descriptive_genomic_fold": 0.20133206320121666,
+        "animals": [
+          {
+            "animal_id": "WT_3mo_female_1",
+            "sex": "female",
+            "n_peaks": 10725,
+            "callable_peak_union_bp": 2808855,
+            "overlap_union_bp": 52880,
+            "percent": 1.8826176502525,
+            "descriptive_genomic_fold": 0.227509657038489
+          },
+          {
+            "animal_id": "WT_3mo_female_2",
+            "sex": "female",
+            "n_peaks": 9090,
+            "callable_peak_union_bp": 2393246,
+            "overlap_union_bp": 34059,
+            "percent": 1.42312992479669,
+            "descriptive_genomic_fold": 0.1719667023602527
+          },
+          {
+            "animal_id": "WT_3mo_male_1",
+            "sex": "male",
+            "n_peaks": 8924,
+            "callable_peak_union_bp": 2325422,
+            "overlap_union_bp": 39418,
+            "percent": 1.69509018148103,
+            "descriptive_genomic_fold": 0.2051903689314912
+          },
+          {
+            "animal_id": "WT_3mo_male_2",
+            "sex": "male",
+            "n_peaks": 5550,
+            "callable_peak_union_bp": 1374872,
+            "overlap_union_bp": 22845,
+            "percent": 1.66160922616796,
+            "descriptive_genomic_fold": 0.2006615244746337
+          }
+        ]
+      },
+      "5xFAD_3mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 1.868600412216735,
+        "min_percent": 1.7599451474509202,
+        "max_percent": 2.00226570047009,
+        "mean_descriptive_genomic_fold": 0.2261181546666264,
+        "animals": [
+          {
+            "animal_id": "5xFAD_3mo_female_1",
+            "sex": "female",
+            "n_peaks": 7275,
+            "callable_peak_union_bp": 1843458,
+            "overlap_union_bp": 33279,
+            "percent": 1.8052486142890098,
+            "descriptive_genomic_fold": 0.2182718131078244
+          },
+          {
+            "animal_id": "5xFAD_3mo_female_2",
+            "sex": "female",
+            "n_peaks": 5869,
+            "callable_peak_union_bp": 1440954,
+            "overlap_union_bp": 25360,
+            "percent": 1.7599451474509202,
+            "descriptive_genomic_fold": 0.2129556597789101
+          },
+          {
+            "animal_id": "5xFAD_3mo_male_1",
+            "sex": "male",
+            "n_peaks": 9956,
+            "callable_peak_union_bp": 2601403,
+            "overlap_union_bp": 52087,
+            "percent": 2.00226570047009,
+            "descriptive_genomic_fold": 0.2414616376457018
+          },
+          {
+            "animal_id": "5xFAD_3mo_male_2",
+            "sex": "male",
+            "n_peaks": 4829,
+            "callable_peak_union_bp": 1160182,
+            "overlap_union_bp": 22124,
+            "percent": 1.90694218665692,
+            "descriptive_genomic_fold": 0.2317835081340693
+          }
+        ]
+      },
+      "APOE4_TREM2_3mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 1.847297878465505,
+        "min_percent": 1.6670315928576498,
+        "max_percent": 2.09697622430025,
+        "mean_descriptive_genomic_fold": 0.2234495270383257,
+        "animals": [
+          {
+            "animal_id": "APOE4_TREM2_3mo_female_1",
+            "sex": "female",
+            "n_peaks": 7559,
+            "callable_peak_union_bp": 1922627,
+            "overlap_union_bp": 34157,
+            "percent": 1.7765796485745802,
+            "descriptive_genomic_fold": 0.2154820481910082
+          },
+          {
+            "animal_id": "APOE4_TREM2_3mo_female_2",
+            "sex": "female",
+            "n_peaks": 5243,
+            "callable_peak_union_bp": 1260681,
+            "overlap_union_bp": 23305,
+            "percent": 1.8486040481295403,
+            "descriptive_genomic_fold": 0.2234953660392545
+          },
+          {
+            "animal_id": "APOE4_TREM2_3mo_male_1",
+            "sex": "male",
+            "n_peaks": 8898,
+            "callable_peak_union_bp": 2324671,
+            "overlap_union_bp": 38753,
+            "percent": 1.6670315928576498,
+            "descriptive_genomic_fold": 0.2013994241614493
+          },
+          {
+            "animal_id": "APOE4_TREM2_3mo_male_2",
+            "sex": "male",
+            "n_peaks": 4930,
+            "callable_peak_union_bp": 1190333,
+            "overlap_union_bp": 24961,
+            "percent": 2.09697622430025,
+            "descriptive_genomic_fold": 0.2534212697615909
+          }
+        ]
+      },
+      "WT_6mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 1.8357260310503776,
+        "min_percent": 1.71778104284364,
+        "max_percent": 1.9231090784445002,
+        "mean_descriptive_genomic_fold": 0.22229931233941636,
+        "animals": [
+          {
+            "animal_id": "WT_6mo_female_1",
+            "sex": "female",
+            "n_peaks": 11679,
+            "callable_peak_union_bp": 3136530,
+            "overlap_union_bp": 58201,
+            "percent": 1.8555856312549202,
+            "descriptive_genomic_fold": 0.2245452974661312
+          },
+          {
+            "animal_id": "WT_6mo_female_2",
+            "sex": "female",
+            "n_peaks": 5543,
+            "callable_peak_union_bp": 1375533,
+            "overlap_union_bp": 26453,
+            "percent": 1.9231090784445002,
+            "descriptive_genomic_fold": 0.2339072306970401
+          },
+          {
+            "animal_id": "WT_6mo_male_1",
+            "sex": "male",
+            "n_peaks": 10909,
+            "callable_peak_union_bp": 2896186,
+            "overlap_union_bp": 53476,
+            "percent": 1.8464283716584502,
+            "descriptive_genomic_fold": 0.2230887149588616
+          },
+          {
+            "animal_id": "WT_6mo_male_2",
+            "sex": "male",
+            "n_peaks": 6873,
+            "callable_peak_union_bp": 1739628,
+            "overlap_union_bp": 29883,
+            "percent": 1.71778104284364,
+            "descriptive_genomic_fold": 0.2076560062356325
+          }
+        ]
+      },
+      "WT_21mo": {
+        "n_animals": 4,
+        "mean_peak_bp_coverage_percent": 1.8372976835031174,
+        "min_percent": 1.7653943595952097,
+        "max_percent": 1.89871516087005,
+        "mean_descriptive_genomic_fold": 0.22271840354169892,
+        "animals": [
+          {
+            "animal_id": "WT_21mo_female_1",
+            "sex": "female",
+            "n_peaks": 10502,
+            "callable_peak_union_bp": 2759878,
+            "overlap_union_bp": 50142,
+            "percent": 1.81681943912013,
+            "descriptive_genomic_fold": 0.2203426951767585
+          },
+          {
+            "animal_id": "WT_21mo_female_2",
+            "sex": "female",
+            "n_peaks": 7096,
+            "callable_peak_union_bp": 1790809,
+            "overlap_union_bp": 33457,
+            "percent": 1.86826177442708,
+            "descriptive_genomic_fold": 0.2263398337738611
+          },
+          {
+            "animal_id": "WT_21mo_male_1",
+            "sex": "male",
+            "n_peaks": 10582,
+            "callable_peak_union_bp": 2762447,
+            "overlap_union_bp": 52451,
+            "percent": 1.89871516087005,
+            "descriptive_genomic_fold": 0.230315450052452
+          },
+          {
+            "animal_id": "WT_21mo_male_2",
+            "sex": "male",
+            "n_peaks": 5633,
+            "callable_peak_union_bp": 1390964,
+            "overlap_union_bp": 24556,
+            "percent": 1.7653943595952097,
+            "descriptive_genomic_fold": 0.2138756351637241
+          }
+        ]
+      }
+    }
+  },
+  "microglia_RC_nonzero_animals": [
+    {
+      "animal_id": "APOE4_TREM2_3mo_female_2",
+      "overlap_union_bp": 109,
+      "descriptive_genomic_fold": 3.188069392618292
+    },
+    {
+      "animal_id": "WT_21mo_male_1",
+      "overlap_union_bp": 126,
+      "descriptive_genomic_fold": 1.6907807925482223
+    },
+    {
+      "animal_id": "WT_3mo_female_1",
+      "overlap_union_bp": 43,
+      "descriptive_genomic_fold": 0.5631720737103562
+    },
+    {
+      "animal_id": "WT_3mo_female_2",
+      "overlap_union_bp": 116,
+      "descriptive_genomic_fold": 1.7889516584686351
+    }
+  ],
+  "interpretation_limits": [
+    "Calibration types are initial published-seed peak groups, not final independent labels.",
+    "Overlap fraction is category-union bp divided by callable peak-union bp, not fraction of nuclei or reads.",
+    "Classes/families/subfamilies can overlap; category fractions need not sum to 100%.",
+    "Genome coverage fold is descriptive chromosome weighted background, unmatched for GC, TSS/gene context or mappability.",
+    "No disease effect test, p-value or FDR; animal points are the biological units.",
+    "Genotype comparisons are age matched at 3mo; WT6mo and WT21mo remain separate aging conditions.",
+    "Peak calls and widths differ by animal, with no fragment-depth or peak-number matched inference.",
+    "No TE expression, TE fragment accessibility quantification, or final retention certification.",
+    "Zero callable or absent groups are unavailable/NA; callable no-overlap categories are true zero."
+  ]
+}

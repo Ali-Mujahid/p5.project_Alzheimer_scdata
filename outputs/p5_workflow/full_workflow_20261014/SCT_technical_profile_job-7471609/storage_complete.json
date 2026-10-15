@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-15T08:02:27.337709+00:00",
+  "bytes_including_child_unlinked": 223637729679,
+  "inodes": 11588,
+  "cap_bytes": 500000000000,
+  "cap_inodes": 40000,
+  "own_attempt_bytes": 617115721,
+  "own_attempt_inodes": 35,
+  "FD_sample": {
+    "unlinked_bytes": 0,
+    "unlinked_inodes": 0,
+    "new_inode_keys": [],
+    "maximum_observed_new_inode_charges": [],
+    "observed_unlinked_charge_deltas": [],
+    "process_results": [],
+    "scope": "sampled supplied PID/starttime identities; not atomic full-allocation FD census",
+    "already_seen_semantics": "explicit prior bytes; charge only observed growth above credit"
+  },
+  "known_live_identities": [
+    {
+      "pid": 3748373,
+      "starttime_ticks": 614541075
+    }
+  ],
+  "scope": "sampled supplied PID/starttime identities; not atomic full-allocation FD census"
+}

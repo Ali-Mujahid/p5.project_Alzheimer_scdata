@@ -1,0 +1,32 @@
+{
+  "source_marker_summaries_recomputed_from_cluster_animal_tables": true,
+  "all456472cells_reconcile": true,
+  "integer_nonnegative_activity_sums": true,
+  "n_animals_each_cluster": {
+    "0": 20,
+    "1": 20,
+    "10": 20,
+    "2": 20,
+    "3": 20,
+    "4": 20,
+    "5": 20,
+    "6": 20,
+    "7": 20,
+    "8": 20,
+    "9": 20
+  },
+  "n_libraries_each_cluster": {
+    "0": 104,
+    "1": 104,
+    "2": 104,
+    "3": 104,
+    "4": 104,
+    "5": 104,
+    "6": 104,
+    "7": 104,
+    "8": 104,
+    "9": 104,
+    "10": 104
+  },
+  "all34_downloaded_products_verified": true
+}

@@ -1,0 +1,14 @@
+{
+  "n_cells": 456472,
+  "resolution": 1.0,
+  "branch": "uncorrected",
+  "panel_genes": 107,
+  "zero_total_activity_cells": 0,
+  "counts_source": "raw integer GENCODE M25 gene-body accessibility; not RNA expression",
+  "normalization": "log1p activity per10k using all gene-body activity counts; equal observed animal weights",
+  "aggregate_helper_sha256": "94b19f68de6fbee6438efd4a07d31593bd36418051475bd534e2eb93c5ddbbe6",
+  "unmapped_markers_are_NA": true,
+  "cell_types_assigned": false,
+  "exclusions_applied": false,
+  "final_annotation_complete": false
+}

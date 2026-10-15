@@ -1,0 +1,37 @@
+{
+  "all_cell_types_TE_class_by_condition_heatmaps.pdf": {
+    "pages": 6,
+    "producer_job_on_every_page": true,
+    "coordinate_scope_on_every_page": true,
+    "no_expression_or_differential_claim_on_every_page": true,
+    "sha256": "3021ff7ffb8f9666a702017217ae69a24c9b0799cc6de252e132daae23452d97"
+  },
+  "microglia_TE_class_by_condition_heatmap.pdf": {
+    "pages": 1,
+    "producer_job_on_every_page": true,
+    "coordinate_scope_on_every_page": true,
+    "no_expression_or_differential_claim_on_every_page": true,
+    "sha256": "395a65cc0fdbb3f4b35cf9c70f36961e9f58fc9909d8fceac68375f28e34b066"
+  },
+  "microglia_TE_family_top20_by_condition_heatmap.pdf": {
+    "pages": 1,
+    "producer_job_on_every_page": true,
+    "coordinate_scope_on_every_page": true,
+    "no_expression_or_differential_claim_on_every_page": true,
+    "sha256": "dea8ec5bcdde318ab41d85a8c679cd908824ae09582b3665a8f8771fcc76baaa"
+  },
+  "microglia_TE_genotype_animal_boxplots_3mo.pdf": {
+    "pages": 1,
+    "producer_job_on_every_page": true,
+    "coordinate_scope_on_every_page": true,
+    "no_expression_or_differential_claim_on_every_page": true,
+    "sha256": "f31b6f298ccbe3ccd98a94ed6676033101b58fcc82ef60671d913b37a5081ced"
+  },
+  "microglia_TE_subfamily_top20_by_condition_heatmap.pdf": {
+    "pages": 1,
+    "producer_job_on_every_page": true,
+    "coordinate_scope_on_every_page": true,
+    "no_expression_or_differential_claim_on_every_page": true,
+    "sha256": "d408f9b4562a4f9f5507d400393838ec62c240ab69a7c4b8c78f62ff964706cf"
+  }
+}

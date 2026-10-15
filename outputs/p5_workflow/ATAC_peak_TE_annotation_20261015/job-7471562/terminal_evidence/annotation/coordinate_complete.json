@@ -1,0 +1,27 @@
+{
+  "status": "coordinate_annotation_complete_descriptive_coverage_only",
+  "assembly": "mm10",
+  "peak_groups": 467,
+  "common_consensus_peaks": 68126,
+  "all_repeat_overlaps_preserved": true,
+  "subclass_definition": "native repFamily alias; no invented taxonomy",
+  "genomic_background": "per-chromosome union repeat coverage over blacklist-excluded canonical nuclear bases; weighted by each group callable peak-union bp",
+  "background_unmatched_covariates": [
+    "GC",
+    "TSS/gene context",
+    "mappability"
+  ],
+  "inferential_enrichment": false,
+  "p_values_or_FDR": false,
+  "TE_expression_measured": false,
+  "TE_fragment_accessibility_measured": false,
+  "raw_matrix_read": false,
+  "final_cell_types_assigned": false,
+  "labels": "producer published calibration cell types only; rare/novel final labels and refined peaks remain pending",
+  "category_denominators": "union bp within each category; categories may overlap so sums across classes/families/subfamilies can exceed100%; one peak can occur in multiple categories",
+  "empty_groups": "preserved with NA fractions/folds, not fabricated zero coverage",
+  "excluded_reference_rows": {
+    "rmsk_non_nuclear_rows": 5
+  },
+  "normalization_ready": false
+}

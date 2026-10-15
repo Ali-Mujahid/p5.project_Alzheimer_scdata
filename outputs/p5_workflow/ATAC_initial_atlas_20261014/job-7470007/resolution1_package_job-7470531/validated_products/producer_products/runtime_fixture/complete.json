@@ -1,0 +1,27 @@
+{
+  "synthetic_only": true,
+  "status": "passed",
+  "cells": 12,
+  "checks": {
+    "exact_obs_order": true,
+    "corrected_expected_disconnected_partition": true,
+    "corrected_seed_repeat_exact": true,
+    "corrected_graph_preserved": true,
+    "uncorrected_expected_disconnected_partition": true,
+    "uncorrected_seed_repeat_exact": true,
+    "uncorrected_graph_preserved": true,
+    "actual_frozen_marker_aggregate_integer_sum": true,
+    "actual_frozen_marker_aggregate_detection": true,
+    "actual_frozen_marker_aggregate_finite": true,
+    "marker_raw_sparse_preserved": true,
+    "whitelist_never_read_X": true
+  },
+  "accessed_input_groups": [
+    "/obs",
+    "/obsp/initial_connectivities",
+    "/obsp/uncorrected_initial_connectivities"
+  ],
+  "resolution": 1.0,
+  "seed": 1729,
+  "study_clustering_completed": false
+}

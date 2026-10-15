@@ -1,0 +1,144 @@
+{
+  "built_utc": "2026-10-14T23:50:06.571702+00:00",
+  "entry": "index.html",
+  "scope": "source-backed provisional offline initial ATAC explorer with actual resolutions0.6 and1.0",
+  "asset_count": 22,
+  "bytes": 13550133,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8682,
+      "sha256": "424cb09889986d240e72e5f6a11805f20ffee08e28ce5ddceeb8d8d8a59ec79d"
+    },
+    {
+      "path": "adapter_contract.json",
+      "bytes": 6585,
+      "sha256": "79b19f7e0ebaf39ea2c080a967dc9c4a83ed365904c0a43ad87cfca93c9c9c65"
+    },
+    {
+      "path": "app.js",
+      "bytes": 37148,
+      "sha256": "61c6eb4efbd47a9ea7d21465fb80743815f0b8d51ee66804b1d9846b960ab46e"
+    },
+    {
+      "path": "atlas_core.js",
+      "bytes": 4475,
+      "sha256": "9bd30b3b7754d81c52c0635ae6473ed8a2f30d5728825d9e386038b35182cdd7"
+    },
+    {
+      "path": "build_provenance.actual.json",
+      "bytes": 3078,
+      "sha256": "c70002b78e5a0bc7d033b5791e3c0ea2cb7308ae3d277144533c3479416645e8"
+    },
+    {
+      "path": "coordinate_provenance.actual.json",
+      "bytes": 1965,
+      "sha256": "4498edffc84763ee20362004449e25934eb03d3574bce5db6a9c5dfa526729f9"
+    },
+    {
+      "path": "coordinates_harmony.js",
+      "bytes": 4869269,
+      "sha256": "24a93a07e7cdfd25ed8c8f6e23578de4ddd21471ac977eedc345127b31da6627"
+    },
+    {
+      "path": "coordinates_uncorrected.js",
+      "bytes": 4869273,
+      "sha256": "f4fb83b58f029a57995170644289c65471462dbcad6f75364acee2c1e006e55c"
+    },
+    {
+      "path": "core_tests.actual.json",
+      "bytes": 510,
+      "sha256": "2f3bb06fda1eea8812fd1237c86f90cc273854926a9c2db4b83dd1bec0bbf368"
+    },
+    {
+      "path": "data_adapter.js",
+      "bytes": 1834967,
+      "sha256": "a754479c73a444fc22f45a8a8630bf7cf17913095fb3511e63bca3bfd320b16a"
+    },
+    {
+      "path": "index.html",
+      "bytes": 13854,
+      "sha256": "b849c77e89646a85b95ef9befb0d4176927f9d7d45f257a9fd8a30e3c580bf9b"
+    },
+    {
+      "path": "leiden_resolution1_import_plan.md",
+      "bytes": 1979,
+      "sha256": "57964f70aa5a8d0895544da55f2693664052f8fbf7dae764f07f7a87d79ea1d0"
+    },
+    {
+      "path": "leiden_resolution_adapter_contract.json",
+      "bytes": 6242,
+      "sha256": "98f80b88a71a100c36479ec7923b666f5da5a2537da56937f2638a8d15c8e464"
+    },
+    {
+      "path": "pdf_export_tests.actual.json",
+      "bytes": 328,
+      "sha256": "9aa98c49885ad843afb7fd68574c6c3f5cd4b104700e478b641a1a9f9637dc52"
+    },
+    {
+      "path": "pdf_native_legend_tests.actual.json",
+      "bytes": 1242,
+      "sha256": "19a79ec366a6c31da9a3bc4279993d42bb40c8c41a49bb88629ec84c8c26ace6"
+    },
+    {
+      "path": "point_attributes.js",
+      "bytes": 1826423,
+      "sha256": "14d505e5cc6a2bff8c01f8de849402b49549719ab746f06c0042dc590fe196db"
+    },
+    {
+      "path": "resolution1_import_provenance.actual.json",
+      "bytes": 17185,
+      "sha256": "21a7817ad17fb75d6b78e448955dd9a1bfac8c5a93c8b7c0ffa425ac6fca4e5c"
+    },
+    {
+      "path": "resolution_datasets.js",
+      "bytes": 2267,
+      "sha256": "923587cedfa3e34147d4459d27532fc0a18d5ddc9d3b862cf0781a3ead1ff993"
+    },
+    {
+      "path": "resolution_registry.js",
+      "bytes": 33448,
+      "sha256": "78802698a19b1108ab77882d5141bd7d0aab783539ce51bc182fcd31d2980b08"
+    },
+    {
+      "path": "resolution_selector_tests.actual.json",
+      "bytes": 709,
+      "sha256": "d7e4968ab581fafaaa636c354d2378d0f85cdfbc37167ecdc57e3debaeb55520"
+    },
+    {
+      "path": "resolution_ui_state_tests.actual.json",
+      "bytes": 226,
+      "sha256": "e367a6f8def3432ad907d078208f7b3b5f82b85ebd99ad3d658e139c2300457c"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 10278,
+      "sha256": "fdfc45b864614d43fb504c3563a6f70af9c93ce9d943281aacbe6caec4c1b5c7"
+    }
+  ],
+  "external_data_scripts": {
+    "directory": "../../ATAC_initial_atlas_20261014/job-7470007/resolution1_package_job-7470531/validated_products/",
+    "members": [
+      "corrected_activity_adapter.js",
+      "uncorrected_activity_adapter.js",
+      "resolution1_labels.js"
+    ],
+    "SHA_bound_by": "resolution1_import_provenance.actual.json"
+  },
+  "vendored_libraries_unchanged": true,
+  "plot_export": "PDF only; TSV/JSON for data/display labels",
+  "external_CDN_requests": false,
+  "publishing_performed": false,
+  "raw_CSR_graph_or_H5_read": false,
+  "clustering_resolutions": {
+    "0.6_corrected": 11,
+    "0.6_uncorrected": 9,
+    "1.0_corrected": 12,
+    "1.0_uncorrected": 12
+  },
+  "source_job": "7470007",
+  "validated_package_job": "7470531",
+  "initial_coordinate_source_job": "7466270",
+  "final_QC_or_celltypes_adopted": false,
+  "previous_inventory_archived": "work/final_multimodal_20261014/atlas_local_scaffold/before_resolution1_import/asset_inventory.actual.json"
+}

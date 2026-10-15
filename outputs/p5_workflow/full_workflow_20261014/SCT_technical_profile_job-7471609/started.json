@@ -1,0 +1,62 @@
+{
+  "utc": "2026-10-15T07:59:28.843784+00:00",
+  "job_id": "7471609",
+  "controller": "JobId=7471609 JobName=p5-RNA-SCT-profile UserId=mujahid(10796) GroupId=login(11000) MCS_label=N/A Priority=4425 Nice=0 Account=molecular_neurosciences QOS=cpu-24h JobState=RUNNING Reason=None Dependency=(null) Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:11 TimeLimit=04:00:00 TimeMin=N/A SubmitTime=2026-10-15T09:58:58 EligibleTime=2026-10-15T09:58:58 AccrueTime=2026-10-15T09:58:58 StartTime=2026-10-15T09:59:09 EndTime=2026-10-15T13:59:09 Deadline=N/A PreemptEligibleTime=2026-10-15T09:59:09 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-15T09:59:09 Scheduler=Backfill Partition=zen2_0512_l40sx2 AllocNode:Sid=0.0.0.0:1002726 ReqNodeList=(null) ExcNodeList=(null) NodeList=node-g02 BatchHost=node-g02 NumNodes=1 NumCPUs=8 NumTasks=1 CPUs/Task=8 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=8,mem=64G,node=1,billing=8 AllocTRES=cpu=8,mem=64G,node=1,billing=8 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=8 MinMemoryNode=64G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=NO Exclusive=NO Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null) Command=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/RNA_SCT_profile_20261015_v1/profile.sbatch SubmitLine=sbatch --parsable --chdir=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_SCT_profile_20261015_v1 /lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/RNA_SCT_profile_20261015_v1/profile.sbatch WorkDir=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_SCT_profile_20261015_v1 StdErr=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_SCT_profile_20261015_v1/RNA-SCT-profile-7471609.err StdIn=/dev/null StdOut=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_SCT_profile_20261015_v1/RNA-SCT-profile-7471609.out TresPerTask=cpu=8\n",
+  "source_manifest_sha256": "215679dbe4f9ce5145b086f181ddebcb11f73c00c5a7ef369b67c46742387f7d",
+  "parent_job_id": "7471574",
+  "parent_source_manifest_sha256": "ad55a1c8e48519a02c5c00d525af33eb2d8d0d50ab50c87c55dc37cf8e651a0e",
+  "runtime_manifest_sha256": "c4d0d1825bc26f021c2c63c48f51e3126b159e680bd7fdfa512b34b401c9d722",
+  "runtime_proof": {
+    "runtime_manifest_path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/SCT_runtime_20261014_v2/job-7470000/runtime_manifest.json",
+    "runtime_manifest_sha256": "c4d0d1825bc26f021c2c63c48f51e3126b159e680bd7fdfa512b34b401c9d722",
+    "setup_accounting": {
+      "job_id": "7470000",
+      "source": "actual_sacct",
+      "raw": "7470000|COMPLETED|0:0\n7470000.batch|COMPLETED|0:0\n",
+      "rows": [
+        [
+          "7470000",
+          "COMPLETED",
+          "0:0"
+        ],
+        [
+          "7470000.batch",
+          "COMPLETED",
+          "0:0"
+        ]
+      ]
+    },
+    "prior_fixture_job_id": "7470060",
+    "prior_fixture_source_manifest_sha256": "71a0290834f5d8885a75b52129a4e373f3234f3e2f05b599743de3f74980dcaa"
+  },
+  "selected_library_id": "EasySci_090",
+  "selected_task_index": 189,
+  "shared_usage": {
+    "utc": "2026-10-15T07:59:26.633496+00:00",
+    "bytes_including_child_unlinked": 223020622827,
+    "inodes": 11556,
+    "cap_bytes": 500000000000,
+    "cap_inodes": 40000,
+    "own_attempt_bytes": 8869,
+    "own_attempt_inodes": 3,
+    "FD_sample": {
+      "unlinked_bytes": 0,
+      "unlinked_inodes": 0,
+      "new_inode_keys": [],
+      "maximum_observed_new_inode_charges": [],
+      "observed_unlinked_charge_deltas": [],
+      "process_results": [],
+      "scope": "sampled supplied PID/starttime identities; not atomic full-allocation FD census",
+      "already_seen_semantics": "explicit prior bytes; charge only observed growth above credit"
+    },
+    "known_live_identities": [
+      {
+        "pid": 3748373,
+        "starttime_ticks": 614541075
+      }
+    ],
+    "scope": "sampled supplied PID/starttime identities; not atomic full-allocation FD census"
+  },
+  "technical_profile_only": true,
+  "normalization_ready": false
+}

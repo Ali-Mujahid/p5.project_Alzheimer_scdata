@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "built_utc": "2026-10-15T09:58:59.583883+00:00",
+  "scope": "Actual dated QC progress and accepted candidate/technical reports; initial atlas views unchanged",
+  "full_QC_complete": false,
+  "final_retention_complete": false,
+  "normalization_ready": false,
+  "rna": {
+    "job_id": 7471574,
+    "status": "Candidate QC reports verified",
+    "completed_libraries": 192,
+    "total_libraries": 192,
+    "completed_receipt_utc": "2026-10-15T07:42:30.188363+00:00",
+    "accepted_utc": "2026-10-15T08:01:14.838564+00:00",
+    "candidate_cells": 2190200,
+    "basic_supported_cells": 2318796,
+    "doublet_unresolved_basic": 1469390,
+    "libraries_without_automatic_mt_threshold": 167,
+    "source_manifest_sha256": "ad55a1c8e48519a02c5c00d525af33eb2d8d0d50ab50c87c55dc37cf8e651a0e",
+    "report_pdf": "../QC_review_RNA_job-7471574/review/QC_animal_review.pdf",
+    "library_tsv": "../QC_review_RNA_job-7471574/review/QC_by_library.tsv",
+    "review_json": "../QC_review_RNA_job-7471574/review/review_needed.json",
+    "certificate_json": "../QC_review_RNA_job-7471574/summary/validated_QC_certificate.json"
+  },
+  "atac": {
+    "array_id": 7471575,
+    "observed_utc": "2026-10-15T09:56:38.491107+00:00",
+    "accepted_completed": 8,
+    "failed_attempts": 2,
+    "failed_tasks": [
+      194,
+      195
+    ],
+    "running": 0,
+    "pending": 94,
+    "total_libraries": 104,
+    "source_manifest_sha256": "b661e69d88d3595ee10de3f5d695eb3a9e953ed61dcd19531710f3a202bf70e2",
+    "completion_rule": "Unique successful whole and batch accounting plus matching execution, recovery and storage receipts",
+    "strict_route_review": {
+      "accepted_utc": "2026-10-15T09:57:08.572420+00:00",
+      "accepted_indices": [
+        192,
+        193,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201
+      ],
+      "source_sha256": "73285106a532b32dfcedd34468bc9b902c28de0f129e3d4bcd908d05ecfa20dc",
+      "sources": [
+        {
+          "workspace_path": "work/ATAC_QC_operational_recovery_20261015/six_terminal_QC_routes_review.actual.json",
+          "bytes": 91643,
+          "sha256": "73285106a532b32dfcedd34468bc9b902c28de0f129e3d4bcd908d05ecfa20dc",
+          "accepted_utc": "2026-10-15T09:46:45.390814+00:00",
+          "accepted_indices": [
+            192,
+            193,
+            196,
+            197,
+            198,
+            199
+          ]
+        },
+        {
+          "workspace_path": "work/ATAC_QC_operational_recovery_20261015/two_new_terminal_QC_routes_200_201_review.actual.json",
+          "bytes": 30710,
+          "sha256": "170c1f70cc6e61f2730c946b21afbf497124f31366c148eb42e75a4766102a02",
+          "accepted_utc": "2026-10-15T09:57:08.572420+00:00",
+          "accepted_indices": [
+            200,
+            201
+          ]
+        }
+      ],
+      "source_inputs_fixtures_storage_and_nonce_joined": true,
+      "scope": "Provisional QC candidate routes only; failed originals preserved; no full-104/full-296 or final-retention adoption"
+    },
+    "new_recovery": {
+      "array_id": 7472294,
+      "tasks": [
+        194,
+        195
+      ],
+      "submitter": "Codex",
+      "submitted_utc": "2026-10-15T09:33:37.747878+00:00",
+      "observed_utc": "2026-10-15T09:56:38.491107+00:00",
+      "queue_counts": {
+        "PENDING": 2
+      },
+      "accounting_counts": {},
+      "source_manifest_sha256": "39c975db376d13b512047a93101e84abfc5ec3f8ef24877e1afd065a4065de83",
+      "started_receipts": 0,
+      "accepted_completed": 0,
+      "scope": "Operational storage-check repair only; scientific QC code and inputs preserved"
+    }
+  },
+  "sct_technical_profile": {
+    "job_id": 7471609,
+    "status": "Single-library technical profile verified",
+    "completed_receipt_utc": "2026-10-15T08:02:16.865585+00:00",
+    "accepted_utc": "2026-10-15T08:35:01.120893+00:00",
+    "independent_checks_passed": 119,
+    "library_id": "EasySci_090",
+    "candidate_cells": 17081,
+    "unresolved_candidate_cells": 6995,
+    "fitted_gene_models": 26511,
+    "unmodeled_genes": 28976,
+    "candidate_HVG_count": 3000,
+    "max_RSS_GiB": 2.0624465942382812,
+    "source_manifest_sha256": "215679dbe4f9ce5145b086f181ddebcb11f73c00c5a7ef369b67c46742387f7d",
+    "profile_json": "../SCT_technical_profile_job-7471609/profile/complete.json",
+    "review_json": "../SCT_technical_profile_job-7471609/terminal_adoption.actual.json",
+    "candidate_features_tsv": "../SCT_technical_profile_job-7471609/profile/profile_top3000_HVG_candidates.tsv",
+    "limitations": "One provisional candidate library, including unresolved flags. Missing models remain NA. No final study normalization, PCA, Harmony or clustering performed."
+  },
+  "gather": {
+    "job_id": 7472372,
+    "submitted_utc": "2026-10-15T09:42:57.921973+00:00",
+    "submitter": "Codex",
+    "dependency": "afterany:7471575:7472294",
+    "source_manifest_sha256": "d2d718a0921441309809f17129cafcdea8c6fa2df292e7213cb4668800df17a7",
+    "status": "Queued on both whole-array prerequisites; completion not yet accepted",
+    "observed_utc": "2026-10-15T09:56:38.491107+00:00",
+    "scheduler_state": "PENDING"
+  },
+  "interpretation": [
+    "Candidate counts do not certify singlets or final retention.",
+    "Both failed attempts remain FAILED in their original accounting. Separate recoveries cannot overwrite that history.",
+    "Full 296-library reconciliation and documented retention decisions precede final normalization and embeddings.",
+    "Every supported cell type and unknown candidate remains in scope; cell type is not a QC filter."
+  ]
+}

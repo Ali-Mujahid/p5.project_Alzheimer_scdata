@@ -1,0 +1,63 @@
+{
+  "built_utc": "2026-10-14T21:22:50.509511+00:00",
+  "dataset": "ATAC_initial_7466270",
+  "n_cells": 456472,
+  "n_unique_cluster_animal_gene_records": 23540,
+  "identical_duplicate_panel_rows_collapsed": 440,
+  "n_genes": 107,
+  "n_unmapped_genes": 5,
+  "animals": 20,
+  "clusters": 11,
+  "equal_animal_saved_summary_parity": true,
+  "metadata_header_only_read": true,
+  "metadata_coordinates_present": false,
+  "raw_CSR_read": false,
+  "inputs": [
+    {
+      "path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/marker_review/markers_by_cluster_animal.tsv",
+      "bytes": 2015661,
+      "sha256": "0908b539316899c410e7905671849215c8a2bdce56cbdd3f5b4b93171d5b428e"
+    },
+    {
+      "path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/marker_review/equal_animal_markers.tsv",
+      "bytes": 74559,
+      "sha256": "6431f910ece87e7804af38f53d7f2c988928bb42ff40438a4b1e59d14f5e76da"
+    },
+    {
+      "path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/marker_review/symbol_audit.tsv",
+      "bytes": 1409,
+      "sha256": "cdbfd8d2b682119d05196e7b7f72fa6a51502c9af7933ab9921f66031c6013c2"
+    },
+    {
+      "path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/marker_review/cluster_coverage.tsv",
+      "bytes": 1108640,
+      "sha256": "6c875e7eec472a9cdfca4017a4c60710458e55256ee3ee5c28e1931e7599ee0b"
+    },
+    {
+      "path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/annotation_review/provisional_cluster_annotation.tsv",
+      "bytes": 5212,
+      "sha256": "2495e78e83c991270a394363cd6405525d7261b0639c43edcf13528d1a68c2c2"
+    },
+    {
+      "path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/annotation_review/cluster8_animal_denominators.tsv",
+      "bytes": 1358,
+      "sha256": "d775784e9a0ff323441240c5e540471056d5225e3769fe3d376567b1929711e4"
+    },
+    {
+      "path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/download_manifest.actual.json",
+      "bytes": 28967,
+      "sha256": "4527297fd2dd4a1ab31a2ff4c4b5be4f323075de5e7ef50c09850b33889f1804"
+    },
+    {
+      "path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/product_header_review.actual.json",
+      "bytes": 22357,
+      "sha256": "dcd169cb8b649a202e309e2190f8f9104e70c975b58dff013d682b4a7ea724d1"
+    },
+    {
+      "path": "/Users/mujahidali/Documents/Codex/2026-09-30/a/outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/terminal_observation.actual.json",
+      "bytes": 59020,
+      "sha256": "3cf23f7d950f34c5bbd077652630451e5788b78fc947a2303f61a422160ba8dc"
+    }
+  ],
+  "data_adapter_sha256": "a754479c73a444fc22f45a8a8630bf7cf17913095fb3511e63bca3bfd320b16a"
+}

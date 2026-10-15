@@ -1,0 +1,5 @@
+# Largest-library SCT technical profile — job 7471609
+
+Accepted only as a provisional-candidate technical/resource profile: successful whole+batch0 and119 independent evidence/numerical checks. Library EasySci_090 has17,081 candidates, including6,995 unresolved doublet flags. The producer fitted26,511 genes, left28,976 unsupported models asNA, and ranked3,000 candidate HVGs. Raw sparse before/after allocated-producer hashes and axes match. No final retained-cell set, all-library normalization, PCA, Harmony, clustering or biological inference is certified.
+
+The22 downloaded small reports total9,471,588 bytes. `download_manifest.actual.json` records remote file byte/inode/mtime identity before/after transfer and localSHA, checked against allocated producerSHA where supplied. Raw count matrices and raw/modelRDS files remain onLiSC and were not copied. `terminal_adoption.actual.json` and the work-directory review bind source/runtime/fixtures/completion/storage/resource evidence. Missing models areNA, notzero. Technical performance of this library is not a full-study resource guarantee.

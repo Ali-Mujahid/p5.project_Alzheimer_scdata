@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-14T23:40:43.773269+00:00",
+  "job_id": "7470531",
+  "controller": "JobId=7470531 JobName=p5-ATAC-res1-package UserId=mujahid(10796) GroupId=login(11000) MCS_label=N/A Priority=2463 Nice=0 Account=molecular_neurosciences QOS=cpu-24h JobState=RUNNING Reason=None Dependency=(null) Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:02 TimeLimit=00:30:00 TimeMin=N/A SubmitTime=2026-10-15T01:40:34 EligibleTime=2026-10-15T01:40:34 AccrueTime=2026-10-15T01:40:34 StartTime=2026-10-15T01:40:38 EndTime=2026-10-15T02:10:38 Deadline=N/A PreemptEligibleTime=2026-10-15T01:40:38 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-15T01:40:38 Scheduler=Main Partition=zen4_0768_rtxx2 AllocNode:Sid=0.0.0.0:1274586 ReqNodeList=(null) ExcNodeList=(null) NodeList=node-g06 BatchHost=node-g06 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=8G,node=1,billing=2 AllocTRES=cpu=2,mem=8G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryNode=8G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=NO Exclusive=NO Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null) Command=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_source/ATAC_resolution1_package_20261015_v2/package.sbatch SubmitLine=sbatch --parsable --chdir=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_resolution1_package_20261015_v2 /lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_source/ATAC_resolution1_package_20261015_v2/package.sbatch WorkDir=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_resolution1_package_20261015_v2 StdErr=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_resolution1_package_20261015_v2/ATAC-res1-package-7470531.err StdIn=/dev/null StdOut=/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_ATAC/analysis_runs/ATAC_resolution1_package_20261015_v2/ATAC-res1-package-7470531.out TresPerTask=cpu=2\n",
+  "source_manifest_sha256": "b59eb54179a1f65bcfd1170f6f565a870a34cd4c83388282f2fdd9d72108d774",
+  "upstream_job_id": "7470007",
+  "strict_guard_dependency_manifest_sha256": "a6c907c903351ff3636abfd239aada8fd13849f010d240d283a6676567e7f395",
+  "shared_usage": {
+    "utc": "2026-10-14T23:40:43.770946+00:00",
+    "bytes_including_child_unlinked": 222050249217,
+    "inodes": 9173,
+    "cap_bytes": 500000000000,
+    "cap_inodes": 40000,
+    "own_attempt_bytes": 8869,
+    "own_attempt_inodes": 3,
+    "FD_sample": {
+      "unlinked_bytes": 0,
+      "unlinked_inodes": 0,
+      "new_inode_keys": [],
+      "maximum_observed_new_inode_charges": [],
+      "observed_unlinked_charge_deltas": [],
+      "process_results": [],
+      "scope": "sampled supplied PID/starttime identities; not atomic full-allocation FD census",
+      "already_seen_semantics": "explicit prior bytes; charge only observed growth above credit"
+    },
+    "known_live_identities": [
+      {
+        "pid": 2015862,
+        "starttime_ticks": 369830099
+      }
+    ],
+    "scope": "sampled supplied PID/starttime identities; not atomic full-allocation FD census"
+  },
+  "raw_matrix_or_graph_read": false,
+  "new_clustering_executed": false,
+  "HTML_resolution1_enabled": false
+}

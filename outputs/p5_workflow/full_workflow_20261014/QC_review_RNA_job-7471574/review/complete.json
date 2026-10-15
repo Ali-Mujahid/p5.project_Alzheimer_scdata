@@ -1,0 +1,18 @@
+{
+  "status": "complete_QC_review_candidate_ID_exports_pending_scientific_retention",
+  "logical_libraries": 192,
+  "RNA_libraries": 192,
+  "ATAC_libraries": 0,
+  "RNA_only_scope": true,
+  "full_296_QC_complete_claimed": false,
+  "candidate_counts": {
+    "rna": 2190200
+  },
+  "doublet_unresolved_basic": 1469390,
+  "libraries_without_automatic_mt_threshold": 167,
+  "source_counts_modified": false,
+  "final_labels_assigned": false,
+  "normalization_ready": false,
+  "cell_type_used_as_filter": false,
+  "next": "Review capture-aware doublet sensitivity, unresolved thresholds and per-animal/type retention before final retained IDs/SCT/LSI"
+}

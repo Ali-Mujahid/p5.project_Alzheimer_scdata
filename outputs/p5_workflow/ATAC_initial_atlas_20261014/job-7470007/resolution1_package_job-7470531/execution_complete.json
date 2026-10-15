@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-14T23:40:53.453716+00:00",
+  "job_id": "7470531",
+  "returncode": 0,
+  "source_manifest_sha256": "b59eb54179a1f65bcfd1170f6f565a870a34cd4c83388282f2fdd9d72108d774",
+  "stage_result_sha256": "5be400c7058bac91fdccb8b2e591072a95dad53309cb8835c202854a182011ae",
+  "upstream_result_status": "validated_initial_resolution1_package",
+  "package_published": true
+}

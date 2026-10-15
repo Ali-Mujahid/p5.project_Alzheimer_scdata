@@ -1,0 +1,72 @@
+{
+  "utc": "2026-10-15T08:02:16.865585+00:00",
+  "job_id": "7471609",
+  "source_manifest_sha256": "215679dbe4f9ce5145b086f181ddebcb11f73c00c5a7ef369b67c46742387f7d",
+  "returncode": 0,
+  "parent_job_id": "7471574",
+  "selected_library_id": "EasySci_090",
+  "provisional_candidate_cells": 17081,
+  "runtime_manifest_sha256": "c4d0d1825bc26f021c2c63c48f51e3126b159e680bd7fdfa512b34b401c9d722",
+  "technical_profile_only": true,
+  "final_normalization_complete": false,
+  "normalization_ready": false,
+  "all192_study_normalization_complete": false,
+  "outputs": {
+    "prepared/prepare_complete.json": {
+      "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_SCT_profile_20261015_v1/job-7471609/prepared/prepare_complete.json",
+      "bytes": 1506,
+      "sha256": "f02dc6055bb62f6e62254071bc2c73e9b7532cc263069af983fd1fbbbe026d5f"
+    },
+    "prepared/gene_axis.tsv": {
+      "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_SCT_profile_20261015_v1/job-7471609/prepared/gene_axis.tsv",
+      "bytes": 2553959,
+      "sha256": "f25d5d0018a0566aff19171623ebae623800cf604c656334476544504c477fe1"
+    },
+    "prepared/candidate_cells.tsv": {
+      "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_SCT_profile_20261015_v1/job-7471609/prepared/candidate_cells.tsv",
+      "bytes": 2420706,
+      "sha256": "0c47a50e09e1cae4f26fffcf495e8790263f9749b8ff27b84b4e3e1fe8954b4c"
+    },
+    "prepared/candidate_integer_counts.mtx": {
+      "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_SCT_profile_20261015_v1/job-7471609/prepared/candidate_integer_counts.mtx",
+      "bytes": 211715550,
+      "sha256": "e82802fc502216b55f2a44d8c0a53747383b8b2e8da3d6d7334487b4298f3cd4"
+    },
+    "profile/all_gene_model_support_and_profile_variance.tsv": {
+      "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_SCT_profile_20261015_v1/job-7471609/profile/all_gene_model_support_and_profile_variance.tsv",
+      "bytes": 3238287,
+      "sha256": "12073e8d98bc05c04ce7ff4f26cdf17700a73fbbe2f058ca308865a8b9659008"
+    },
+    "profile/SCTv2_model_fit.rds": {
+      "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_SCT_profile_20261015_v1/job-7471609/profile/SCTv2_model_fit.rds",
+      "bytes": 1317928,
+      "sha256": "0d3f6e6add4009d98356aa6262b5f6c8c68006b41bf4b60126546cce569a61bb"
+    },
+    "profile/complete.json": {
+      "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_SCT_profile_20261015_v1/job-7471609/profile/complete.json",
+      "bytes": 7670,
+      "sha256": "309f36fd0ada9eefb7498a324832c24719347c5ced8c6379cfdf74e8dcd7cedf"
+    },
+    "profile/all_candidate_model_cell_attributes.tsv": {
+      "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_SCT_profile_20261015_v1/job-7471609/profile/all_candidate_model_cell_attributes.tsv",
+      "bytes": 929292,
+      "sha256": "2d6e79e4175b0d8a64b1da037c509eba3426b40409735e48b67c52839d0ffe74"
+    },
+    "profile/raw_sparse_before.rds": {
+      "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_SCT_profile_20261015_v1/job-7471609/profile/raw_sparse_before.rds",
+      "bytes": 195508802,
+      "sha256": "07937334ee9a044dedba22578d7ce28956accbe1c28ea06ba0fe577ebaf9a43b"
+    },
+    "profile/profile_top3000_HVG_candidates.tsv": {
+      "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_SCT_profile_20261015_v1/job-7471609/profile/profile_top3000_HVG_candidates.tsv",
+      "bytes": 234870,
+      "sha256": "964a7a959704b25eb1943dcce9e59ddff687a0f9affa6d10e72b6cd556961f4f"
+    },
+    "profile/raw_sparse_after.rds": {
+      "path": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_SCT_profile_20261015_v1/job-7471609/profile/raw_sparse_after.rds",
+      "bytes": 195508802,
+      "sha256": "07937334ee9a044dedba22578d7ce28956accbe1c28ea06ba0fe577ebaf9a43b"
+    }
+  },
+  "resource_profile_sha256": "9dd16c52eb701c4d923ba058cf73308c74149406b7ee63e22e0dba74cc87ca1f"
+}

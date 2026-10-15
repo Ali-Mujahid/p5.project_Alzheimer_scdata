@@ -1,0 +1,546 @@
+{
+  "utc": "2026-10-15T08:35:01.120893+00:00",
+  "reviewer": "independent_subagent_sct_profile_terminal_review",
+  "job_id": "7471609",
+  "scope": "read-only actual observation, frozen local sources,22small downloaded source-bound artifacts; no SSH/raw matrix/RDS/fit reread",
+  "status": "accepted_terminal_single_largest_library_provisional_SCTv2_technical_profile",
+  "observation_review": "work/overnight_LiSC_20261015/SCT7471609_terminal_review/bounded_observation_review.actual.json",
+  "observation_review_SHA256": "16f510d2cf7f02748276b9e2bae94da6b5678083bd9e7a29483ccd9922647019",
+  "download_manifest": "outputs/p5_workflow/full_workflow_20261014/SCT_technical_profile_job-7471609/download_manifest.actual.json",
+  "download_manifest_SHA256": "90e5470d9e14e06f656bf3f2f2b18ba2dc6080e1087b864e18607281d3f3aaee",
+  "source_manifest_SHA256": "215679dbe4f9ce5145b086f181ddebcb11f73c00c5a7ef369b67c46742387f7d",
+  "checks": [
+    {
+      "check": "unique terminal accounting 7471609",
+      "passed": true
+    },
+    {
+      "check": "unique terminal accounting 7471609.batch",
+      "passed": true
+    },
+    {
+      "check": "successful actual accounting command",
+      "passed": true
+    },
+    {
+      "check": "local frozen source manifest matches accepted source SHA",
+      "passed": true
+    },
+    {
+      "check": "local immutable member README.md",
+      "passed": true
+    },
+    {
+      "check": "local immutable member common.py",
+      "passed": true
+    },
+    {
+      "check": "local immutable member entry.py",
+      "passed": true
+    },
+    {
+      "check": "local immutable member policy.json",
+      "passed": true
+    },
+    {
+      "check": "local immutable member prepare.py",
+      "passed": true
+    },
+    {
+      "check": "local immutable member profile.R",
+      "passed": true
+    },
+    {
+      "check": "local immutable member profile.sbatch",
+      "passed": true
+    },
+    {
+      "check": "local immutable member profile_helpers.R",
+      "passed": true
+    },
+    {
+      "check": "local immutable member proof.py",
+      "passed": true
+    },
+    {
+      "check": "local immutable member residual_block.R",
+      "passed": true
+    },
+    {
+      "check": "local immutable member test_prepare.py",
+      "passed": true
+    },
+    {
+      "check": "local immutable member tiny_fixture.R",
+      "passed": true
+    },
+    {
+      "check": "remote source manifest verified in actual observation",
+      "passed": true
+    },
+    {
+      "check": "all12 remote source member checks verified",
+      "passed": true
+    },
+    {
+      "check": "started.json own job/source joins",
+      "passed": true
+    },
+    {
+      "check": "started.json actual pinned runtime SHA",
+      "passed": true
+    },
+    {
+      "check": "complete.json own job/source joins",
+      "passed": true
+    },
+    {
+      "check": "complete.json actual pinned runtime SHA",
+      "passed": true
+    },
+    {
+      "check": "execution_complete.json own job/source joins",
+      "passed": true
+    },
+    {
+      "check": "execution_complete.json actual pinned runtime SHA",
+      "passed": true
+    },
+    {
+      "check": "study_profile_admission.json own job/source joins",
+      "passed": true
+    },
+    {
+      "check": "study_profile_admission.json actual pinned runtime SHA",
+      "passed": true
+    },
+    {
+      "check": "complete.json no claim normalization_ready",
+      "passed": true
+    },
+    {
+      "check": "complete.json no claim final_normalization_complete",
+      "passed": true
+    },
+    {
+      "check": "complete.json no claim all192_study_normalization_complete",
+      "passed": true
+    },
+    {
+      "check": "complete.json success code",
+      "passed": true
+    },
+    {
+      "check": "execution_complete.json no claim normalization_ready",
+      "passed": true
+    },
+    {
+      "check": "execution_complete.json no claim final_normalization_complete",
+      "passed": true
+    },
+    {
+      "check": "execution_complete.json no claim all192_study_normalization_complete",
+      "passed": true
+    },
+    {
+      "check": "execution_complete.json success code",
+      "passed": true
+    },
+    {
+      "check": "failure receipt absent from bounded observer result",
+      "passed": true
+    },
+    {
+      "check": "review-needed receipt absent",
+      "passed": true
+    },
+    {
+      "check": "admission exact accepted RNA parent certificate",
+      "passed": true
+    },
+    {
+      "check": "admission full provisional candidate selection",
+      "passed": true
+    },
+    {
+      "check": "prior fixture/runtime successful proof",
+      "passed": true
+    },
+    {
+      "check": "actual11 allocated R caller fixtures all pass",
+      "passed": true
+    },
+    {
+      "check": "actual study profile technical status",
+      "passed": true
+    },
+    {
+      "check": "all17081 candidates trained including6995 unresolved",
+      "passed": true
+    },
+    {
+      "check": "55487 raw genes preserved in offset",
+      "passed": true
+    },
+    {
+      "check": "model support counts reconcile",
+      "passed": true
+    },
+    {
+      "check": "missing models remain NA",
+      "passed": true
+    },
+    {
+      "check": "3000 available candidate feature ranks",
+      "passed": true
+    },
+    {
+      "check": "fixed fullpopulation clip sqrt(n/30)",
+      "passed": true
+    },
+    {
+      "check": "allgene depth only technical model",
+      "passed": true
+    },
+    {
+      "check": "model-only SCTv2 exact estimator",
+      "passed": true
+    },
+    {
+      "check": "finite512x2000 block processing",
+      "passed": true
+    },
+    {
+      "check": "study profile no PCA Harmony clustering or biology",
+      "passed": true
+    },
+    {
+      "check": "producer declares raw slots axes preserved",
+      "passed": true
+    },
+    {
+      "check": "producer raw beforeafter same byte count and actual SHA",
+      "passed": true
+    },
+    {
+      "check": "resource joins raw producer SHA",
+      "passed": true
+    },
+    {
+      "check": "storage output caps preserved",
+      "passed": true
+    },
+    {
+      "check": "completion storage receipt ordering",
+      "passed": true
+    },
+    {
+      "check": "download transport verified current remote byte inode mtime beforeafter",
+      "passed": true
+    },
+    {
+      "check": "exact22 small artifacts941kB identity inventory",
+      "passed": true
+    },
+    {
+      "check": "local transport identity started.json",
+      "passed": true
+    },
+    {
+      "check": "local transport identity complete.json",
+      "passed": true
+    },
+    {
+      "check": "local transport identity execution_complete.json",
+      "passed": true
+    },
+    {
+      "check": "local transport identity storage_complete.json",
+      "passed": true
+    },
+    {
+      "check": "local transport identity study_profile_admission.json",
+      "passed": true
+    },
+    {
+      "check": "local transport identity tiny_fixture/complete.json",
+      "passed": true
+    },
+    {
+      "check": "local transport identity resource_profile.actual.json",
+      "passed": true
+    },
+    {
+      "check": "local transport identity profile/complete.json",
+      "passed": true
+    },
+    {
+      "check": "allocated producer SHA profile/complete.json",
+      "passed": true
+    },
+    {
+      "check": "local transport identity prepared/prepare_complete.json",
+      "passed": true
+    },
+    {
+      "check": "allocated producer SHA prepared/prepare_complete.json",
+      "passed": true
+    },
+    {
+      "check": "local transport identity selected_largest_library.actual.json",
+      "passed": true
+    },
+    {
+      "check": "local transport identity immutable_R_library_before.json",
+      "passed": true
+    },
+    {
+      "check": "local transport identity immutable_R_library_after.json",
+      "passed": true
+    },
+    {
+      "check": "local transport identity python_fixture.log",
+      "passed": true
+    },
+    {
+      "check": "local transport identity tiny_R_fixture.log",
+      "passed": true
+    },
+    {
+      "check": "local transport identity profile.log",
+      "passed": true
+    },
+    {
+      "check": "local transport identity prepared/gene_axis.tsv",
+      "passed": true
+    },
+    {
+      "check": "allocated producer SHA prepared/gene_axis.tsv",
+      "passed": true
+    },
+    {
+      "check": "local transport identity prepared/candidate_cells.tsv",
+      "passed": true
+    },
+    {
+      "check": "allocated producer SHA prepared/candidate_cells.tsv",
+      "passed": true
+    },
+    {
+      "check": "local transport identity profile/all_gene_model_support_and_profile_variance.tsv",
+      "passed": true
+    },
+    {
+      "check": "allocated producer SHA profile/all_gene_model_support_and_profile_variance.tsv",
+      "passed": true
+    },
+    {
+      "check": "local transport identity profile/profile_top3000_HVG_candidates.tsv",
+      "passed": true
+    },
+    {
+      "check": "allocated producer SHA profile/profile_top3000_HVG_candidates.tsv",
+      "passed": true
+    },
+    {
+      "check": "local transport identity profile/all_candidate_model_cell_attributes.tsv",
+      "passed": true
+    },
+    {
+      "check": "allocated producer SHA profile/all_candidate_model_cell_attributes.tsv",
+      "passed": true
+    },
+    {
+      "check": "local transport identity quota_before.json",
+      "passed": true
+    },
+    {
+      "check": "local transport identity quota_after.json",
+      "passed": true
+    },
+    {
+      "check": "complete receipt product checksum prepared/prepare_complete.json",
+      "passed": true
+    },
+    {
+      "check": "complete receipt product checksum prepared/gene_axis.tsv",
+      "passed": true
+    },
+    {
+      "check": "complete receipt product checksum prepared/candidate_cells.tsv",
+      "passed": true
+    },
+    {
+      "check": "complete receipt product checksum profile/all_gene_model_support_and_profile_variance.tsv",
+      "passed": true
+    },
+    {
+      "check": "complete receipt product checksum profile/complete.json",
+      "passed": true
+    },
+    {
+      "check": "complete receipt product checksum profile/all_candidate_model_cell_attributes.tsv",
+      "passed": true
+    },
+    {
+      "check": "complete receipt product checksum profile/profile_top3000_HVG_candidates.tsv",
+      "passed": true
+    },
+    {
+      "check": "resource checksum linked to completion",
+      "passed": true
+    },
+    {
+      "check": "fixture Python9 actual success text and hash",
+      "passed": true
+    },
+    {
+      "check": "R11 fixture hash matches science admission",
+      "passed": true
+    },
+    {
+      "check": "isolated R library exact beforeafter identities",
+      "passed": true
+    },
+    {
+      "check": "prepare all candidate integer axis receipts",
+      "passed": true
+    },
+    {
+      "check": "prepared gene and candidate axes exact producer checksums",
+      "passed": true
+    },
+    {
+      "check": "selected logical RNA route identical admission",
+      "passed": true
+    },
+    {
+      "check": "actual192 ranking unique exact indices",
+      "passed": true
+    },
+    {
+      "check": "actual largest ranking deterministic sorting",
+      "passed": true
+    },
+    {
+      "check": "candidate axes unique exact17081",
+      "passed": true
+    },
+    {
+      "check": "model cell axes and order exact candidates",
+      "passed": true
+    },
+    {
+      "check": "all model depths exact raw counts",
+      "passed": true
+    },
+    {
+      "check": "explicit unresolved6995 kept",
+      "passed": true
+    },
+    {
+      "check": "full gene axis same55487 ordered unique",
+      "passed": true
+    },
+    {
+      "check": "all gene totals exact preparation metadata",
+      "passed": true
+    },
+    {
+      "check": "crossaxis integer total UMI sums equal",
+      "passed": true
+    },
+    {
+      "check": "crossaxis raw detection nnz sums equal selectednnz",
+      "passed": true
+    },
+    {
+      "check": "model support exact26511",
+      "passed": true
+    },
+    {
+      "check": "support iff at least5 candidate nuclei",
+      "passed": true
+    },
+    {
+      "check": "every modeled residual finite nonnegative sample variance",
+      "passed": true
+    },
+    {
+      "check": "every missing residual mean variance rank NA",
+      "passed": true
+    },
+    {
+      "check": "exact complete rank1to26511 coverage",
+      "passed": true
+    },
+    {
+      "check": "full ranks nonincreasing at exported TSV precision",
+      "passed": true
+    },
+    {
+      "check": "top3000 exact rank ordered rows",
+      "passed": true
+    },
+    {
+      "check": "full population fixedclip numerically correct",
+      "passed": true
+    }
+  ],
+  "n_checks": 119,
+  "all_checks_passed": true,
+  "summary": {
+    "all_genes": 55487,
+    "fitted_genes": 26511,
+    "missing_gene_models": 28976,
+    "missing_zero_detection_genes": 19042,
+    "missing_1to4_detection_genes": 9934,
+    "unmodeled_5plus_detection_genes": 0,
+    "unmodeled_total_UMI": 20172,
+    "all_gene_total_UMI": 37718613,
+    "unmodeled_total_UMI_fraction": 0.0005348022738800072,
+    "supported_total_UMI_fraction": 0.99946519772612,
+    "candidate_cells": 17081,
+    "unresolved_cells": 6995,
+    "unresolved_fraction": 0.4095193489842515,
+    "conditions": {
+      "WT_21mo": 3213,
+      "APOE4_TREM2_3mo": 4431,
+      "WT_3mo": 4109,
+      "5xFAD_3mo": 1973,
+      "WT_6mo": 3355
+    },
+    "animals": 20,
+    "candidate_HVG_count": 3000,
+    "scheduler_batch_MaxRSS_KiB": 2162632,
+    "scheduler_batch_MaxRSS_GiB": 2.0624465942382812,
+    "single_allocation_total_elapsed_seconds": 198
+  },
+  "raw_producer_hashes": {
+    "selected_integer_CSC_digest": "8ad54ee053fb3cd3a20ae4858d354b494db859e816856cdf070064d1f5d151b8",
+    "raw_sparse_before_after_RDS_SHA256": "07937334ee9a044dedba22578d7ce28956accbe1c28ea06ba0fe577ebaf9a43b",
+    "raw_original_content_SHA256": {
+      "matrix": "69d44281e268d3e2f49016ea89d1541af052d4a67fbe159dd4c2c83fc53725ac",
+      "cells": "a6c8b30cfa567ec0170ae7c74ddc00d3bcda218b3c58a3538948ad5697ba8c9c",
+      "genes": "46c8b20e2957b3e9f067410684f32b2c103bde51df4f17ec07422e180b9d6813",
+      "audit": "c4a71d630f8d8b714cc9219a438a69eff6af3eb343fa2e2c982653460ab87881"
+    },
+    "scope": "Exact producer allocation hash/equality evidence rechecked within wrapper; only small saved receipts/tables hashed locally. No new raw-content hash performed by reviewer."
+  },
+  "normalization_ready": false,
+  "final_normalization_complete": false,
+  "PCA_Harmony_clustering_or_biology_performed": false,
+  "next_gates": [
+    "Resolve/document source-bound final candidate retention and doublet/mitochondrial uncertainty before production normalization;6995 of17081 selected candidates remain unresolved.",
+    "Full296 ATAC/RNA reconciliation remains independently pending.",
+    "After exact final IDs are chosen, determine per-library fitted-gene coverage and consensus3000 features across all192 libraries; this library-only top3000 is technical.",
+    "Preserve NA for missing models. Actual missing models here are exactly19042 genes withzero detection and9934 detected in1to4 candidates, accounting for20172 UMIs; no expressed-in5plus unsupported genes.",
+    "Use bounded residual/covariance/PCA/Harmony implementation and same-PC uncorrected comparator with actual version and design gates.",
+    "2.06GiB largest-candidate-library model/profile evidence supports this stage only; full-atlas PCA, consensus-feature support, other libraries and final retained set have different resources.",
+    "Reuse this fitted model only if final IDs, raw counts/axes, runtime and model settings remain exactly identical; otherwise recompute as necessary in separately accepted production."
+  ],
+  "producer_inputs_modified": false,
+  "reviewer_inputs_modified": false,
+  "raw_matrix_or_RDS_downloaded_for_review": false,
+  "TSV_numeric_precision_note": "Initial strict re-sorting by exported decimal variance produced14 swapped rank entries in7 identical-at-exported-precision pairs beyond rank23875. Original R source sorts full precision before TSV serialization; no distinct exported variance inversion exists, exact rank coverage and top3000 rows match. Full precision tie ordering cannot be independently reconstructed from rounded TSV; initial literal check preserved separately."
+}

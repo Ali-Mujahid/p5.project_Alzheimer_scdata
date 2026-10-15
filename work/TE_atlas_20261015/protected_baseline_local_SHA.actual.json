@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-15T08:09:39.115897+00:00",
+  "scope": "protected_initial_UMAP_and_activity_adapter_bytes_before_TE_module_import",
+  "files": {
+    "atlas_core.js": "9bd30b3b7754d81c52c0635ae6473ed8a2f30d5728825d9e386038b35182cdd7",
+    "data_adapter.js": "a754479c73a444fc22f45a8a8630bf7cf17913095fb3511e63bca3bfd320b16a",
+    "resolution_registry.js": "78802698a19b1108ab77882d5141bd7d0aab783539ce51bc182fcd31d2980b08",
+    "resolution_datasets.js": "923587cedfa3e34147d4459d27532fc0a18d5ddc9d3b862cf0781a3ead1ff993",
+    "point_attributes.js": "14d505e5cc6a2bff8c01f8de849402b49549719ab746f06c0042dc590fe196db",
+    "coordinates_harmony.js": "24a93a07e7cdfd25ed8c8f6e23578de4ddd21471ac977eedc345127b31da6627",
+    "coordinates_uncorrected.js": "f4fb83b58f029a57995170644289c65471462dbcad6f75364acee2c1e006e55c"
+  }
+}

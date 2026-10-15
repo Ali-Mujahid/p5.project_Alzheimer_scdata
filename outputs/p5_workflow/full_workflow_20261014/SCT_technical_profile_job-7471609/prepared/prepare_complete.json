@@ -1,0 +1,36 @@
+{
+  "status": "prepared_exact_all_provisional_candidates_for_technical_SCT_profile",
+  "selected_library_id": "EasySci_090",
+  "selected_task_index": 189,
+  "n_candidates": 17081,
+  "n_doublet_unresolved_candidates": 6995,
+  "all_provisional_candidates_included": true,
+  "original_matrix_shape": [
+    55487,
+    73574
+  ],
+  "original_nnz": 22101325,
+  "selected_matrix_shape": [
+    55487,
+    17081
+  ],
+  "selected_nnz": 16099341,
+  "raw_count_dtype": "int64",
+  "canonical_selected_integer_CSC_sha256": "8ad54ee053fb3cd3a20ae4858d354b494db859e816856cdf070064d1f5d151b8",
+  "original_allocated_content_SHA256": {
+    "matrix": "69d44281e268d3e2f49016ea89d1541af052d4a67fbe159dd4c2c83fc53725ac",
+    "cells": "a6c8b30cfa567ec0170ae7c74ddc00d3bcda218b3c58a3538948ad5697ba8c9c",
+    "genes": "46c8b20e2957b3e9f067410684f32b2c103bde51df4f17ec07422e180b9d6813",
+    "audit": "c4a71d630f8d8b714cc9219a438a69eff6af3eb343fa2e2c982653460ab87881"
+  },
+  "selected_MatrixMarket_sha256": "e82802fc502216b55f2a44d8c0a53747383b8b2e8da3d6d7334487b4298f3cd4",
+  "candidate_cells_sha256": "0c47a50e09e1cae4f26fffcf495e8790263f9749b8ff27b84b4e3e1fe8954b4c",
+  "gene_axis_sha256": "f25d5d0018a0566aff19171623ebae623800cf604c656334476544504c477fe1",
+  "raw_MatrixMarket_read_seconds": 0.8825292894616723,
+  "elapsed_seconds": 9.27691382355988,
+  "preparation_max_RSS_KiB": 871560,
+  "biological_regression_variables": [],
+  "technical_profile_only": true,
+  "normalization_ready": false,
+  "raw_inputs_modified": false
+}

@@ -1,0 +1,25 @@
+TE coordinate-overlap boxplot | producer 7471562 | page 1 / 1
+Microglia | All primary TEs
+0.00
+1.74
+3.48
+5.22
+6.96
+8.70
+Callable peak overlap (%)
+WT | 3 mo
+4/4 animals available
+5xFAD | 3 mo
+4/4 animals available
+APOE4/TREM2 | 3 mo
+4/4 animals available
+Female Male Boxes: Q1 / median / Q3 | whiskers: 1.5x IQR | all observations shown
+Animal-level descriptive values | ages kept separate | no genotype effect test
+Producer job 7471562 | mm10 / GRCm38 | boxplot
+Cell type: Microglia (initial published calibration; not final annotation)
+Conditions: WT_3mo, 5xFAD_3mo, APOE4_TREM2_3mo | Sex: all | Taxonomy: class
+Units: % of callable peak union overlapping category
+One point = one animal; equal-animal condition means. Missing/noncallable groups = NA.
+Coordinate overlap only; no TE expression, fragment accessibility counts or inferential enrichment. Categories can overlap.
+Category: All primary TEs | ALL / ALL / ALL
+Native-vector plot and legend | exported 2026-10-15T08:15:43.647Z

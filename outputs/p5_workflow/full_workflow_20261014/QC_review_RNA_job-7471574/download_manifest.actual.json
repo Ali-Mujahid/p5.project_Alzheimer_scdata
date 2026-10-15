@@ -1,0 +1,210 @@
+{
+  "utc": "2026-10-15T07:48:21.559149+00:00",
+  "job_id": "7471574",
+  "remote_output": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_QC_review_20261015_v1/job-7471574",
+  "files": {
+    "summary/original_failures.actual.json": {
+      "bytes": 235730,
+      "local_content_sha256": "3ab6bef5b62bad464b5b281eeb8527f23bb3eb8748184bc246fd6668995a8a73",
+      "matches_allocated_producer_SHA": true,
+      "remote_identity": {
+        "bytes": 235730,
+        "inode": 14012135,
+        "mtime_ns": 1792049939449856000,
+        "producer_sha256": "3ab6bef5b62bad464b5b281eeb8527f23bb3eb8748184bc246fd6668995a8a73"
+      }
+    },
+    "summary/chosen_attempts.actual.json": {
+      "bytes": 1130578,
+      "local_content_sha256": "d64694e5e7ba2cd77404f47bbaf9672ef8292efa264e61b5bff22d3434deaef8",
+      "matches_allocated_producer_SHA": true,
+      "remote_identity": {
+        "bytes": 1130578,
+        "inode": 14012134,
+        "mtime_ns": 1792049939441604820,
+        "producer_sha256": "d64694e5e7ba2cd77404f47bbaf9672ef8292efa264e61b5bff22d3434deaef8"
+      }
+    },
+    "summary/validated_QC_certificate.json": {
+      "bytes": 20549,
+      "local_content_sha256": "b8cf20fd64750dab1443d7ec3e51688f8f1f6c80596a2553e69180c48c4efbdf",
+      "matches_allocated_producer_SHA": true,
+      "remote_identity": {
+        "bytes": 20549,
+        "inode": 14012137,
+        "mtime_ns": 1792049940034696000,
+        "producer_sha256": "b8cf20fd64750dab1443d7ec3e51688f8f1f6c80596a2553e69180c48c4efbdf"
+      }
+    },
+    "summary/all_192_RNA_library_QC_summary.tsv": {
+      "bytes": 7966,
+      "local_content_sha256": "2a627e9c6c3b8fe846d1ab0001698469ce416aa306389e2523a3ad857682ebc1",
+      "matches_allocated_producer_SHA": true,
+      "remote_identity": {
+        "bytes": 7966,
+        "inode": 14012125,
+        "mtime_ns": 1792049939365637000,
+        "producer_sha256": "2a627e9c6c3b8fe846d1ab0001698469ce416aa306389e2523a3ad857682ebc1"
+      }
+    },
+    "summary/calibration_type_retention_summary.tsv": {
+      "bytes": 1200,
+      "local_content_sha256": "389b7126ff97f8db63f2a5bff31d436f183511a5c00c1b86bf8a6b7c4f5c6c4d",
+      "matches_allocated_producer_SHA": true,
+      "remote_identity": {
+        "bytes": 1200,
+        "inode": 14012127,
+        "mtime_ns": 1792049939411085939,
+        "producer_sha256": "389b7126ff97f8db63f2a5bff31d436f183511a5c00c1b86bf8a6b7c4f5c6c4d"
+      }
+    },
+    "summary/routing.actual.json": {
+      "bytes": 99248,
+      "local_content_sha256": "c542051dd621427f8008eb1194cadec4199c0ed1994587c0c103d01ba88d8c6b",
+      "matches_allocated_producer_SHA": true,
+      "remote_identity": {
+        "bytes": 99248,
+        "inode": 14012136,
+        "mtime_ns": 1792049940027564000,
+        "producer_sha256": "c542051dd621427f8008eb1194cadec4199c0ed1994587c0c103d01ba88d8c6b"
+      }
+    },
+    "summary/animal_retention_summary.tsv": {
+      "bytes": 1273,
+      "local_content_sha256": "6c6d8920473d0dc4f71ae4c051cb536a0f84e477eb6e21d707ac21fbb2907ee9",
+      "matches_allocated_producer_SHA": true,
+      "remote_identity": {
+        "bytes": 1273,
+        "inode": 14012124,
+        "mtime_ns": 1792049939391270376,
+        "producer_sha256": "6c6d8920473d0dc4f71ae4c051cb536a0f84e477eb6e21d707ac21fbb2907ee9"
+      }
+    },
+    "summary/all_animal_library_retention.tsv": {
+      "bytes": 234194,
+      "local_content_sha256": "b5105857e444ba502c58b6633ffe6cd8b894c180d947f309a73f5a2afa1186fa",
+      "matches_allocated_producer_SHA": true,
+      "remote_identity": {
+        "bytes": 234194,
+        "inode": 14012131,
+        "mtime_ns": 1792049939386796000,
+        "producer_sha256": "b5105857e444ba502c58b6633ffe6cd8b894c180d947f309a73f5a2afa1186fa"
+      }
+    },
+    "summary/calibration_type_retention_all_libraries.tsv": {
+      "bytes": 268656,
+      "local_content_sha256": "cd816fbb8c33da9c4518963f76796527cd8e7036b32ca1d70ab7cdec357f18fe",
+      "matches_allocated_producer_SHA": true,
+      "remote_identity": {
+        "bytes": 268656,
+        "inode": 14012129,
+        "mtime_ns": 1792049939408535000,
+        "producer_sha256": "cd816fbb8c33da9c4518963f76796527cd8e7036b32ca1d70ab7cdec357f18fe"
+      }
+    },
+    "summary/actual_accounting_all_attempts.json": {
+      "bytes": 161353,
+      "local_content_sha256": "f74531e8ef73748050e647c406c51fa84b440c30d66f49a6bd039ef8a84e74b1",
+      "matches_allocated_producer_SHA": true,
+      "remote_identity": {
+        "bytes": 161353,
+        "inode": 14012133,
+        "mtime_ns": 1792049935876109000,
+        "producer_sha256": "f74531e8ef73748050e647c406c51fa84b440c30d66f49a6bd039ef8a84e74b1"
+      }
+    },
+    "review/basic_supported_QC_quantiles_by_animal.tsv": {
+      "bytes": 5777,
+      "local_content_sha256": "48c784d00a3c10727699b6c6e63fc5cddf92df8195cf05199b1d4ee920acadaf",
+      "matches_allocated_producer_SHA": true,
+      "remote_identity": {
+        "bytes": 5777,
+        "inode": 113695261,
+        "mtime_ns": 1792050142525322000,
+        "producer_sha256": "48c784d00a3c10727699b6c6e63fc5cddf92df8195cf05199b1d4ee920acadaf"
+      }
+    },
+    "review/review_needed.json": {
+      "bytes": 646,
+      "local_content_sha256": "4ab08b1bff2542d94b5148d23b20ffc907305e30ad74ebf5777c26ecbdc97157",
+      "matches_allocated_producer_SHA": true,
+      "remote_identity": {
+        "bytes": 646,
+        "inode": 113695256,
+        "mtime_ns": 1792050144363180145,
+        "producer_sha256": "4ab08b1bff2542d94b5148d23b20ffc907305e30ad74ebf5777c26ecbdc97157"
+      }
+    },
+    "review/QC_animal_review.pdf": {
+      "bytes": 27407,
+      "local_content_sha256": "2e39a01728c92229508146d86e3b455e164051a1e5157fff5142ece7e7b23120",
+      "matches_allocated_producer_SHA": true,
+      "remote_identity": {
+        "bytes": 27407,
+        "inode": 113695258,
+        "mtime_ns": 1792050144362253000,
+        "producer_sha256": "2e39a01728c92229508146d86e3b455e164051a1e5157fff5142ece7e7b23120"
+      }
+    },
+    "review/complete.json": {
+      "bytes": 646,
+      "local_content_sha256": "4ab08b1bff2542d94b5148d23b20ffc907305e30ad74ebf5777c26ecbdc97157",
+      "matches_allocated_producer_SHA": true,
+      "remote_identity": {
+        "bytes": 646,
+        "inode": 113695257,
+        "mtime_ns": 1792050144363700095,
+        "producer_sha256": "4ab08b1bff2542d94b5148d23b20ffc907305e30ad74ebf5777c26ecbdc97157"
+      }
+    },
+    "review/QC_by_animal_condition.tsv": {
+      "bytes": 1686,
+      "local_content_sha256": "8d54ed32beab57a245b6f225ebc5c6b15266a1f68173b92d56eb91615ae7b845",
+      "matches_allocated_producer_SHA": true,
+      "remote_identity": {
+        "bytes": 1686,
+        "inode": 113695262,
+        "mtime_ns": 1792050142336503603,
+        "producer_sha256": "8d54ed32beab57a245b6f225ebc5c6b15266a1f68173b92d56eb91615ae7b845"
+      }
+    },
+    "review/all_library_thresholds.json": {
+      "bytes": 158869,
+      "local_content_sha256": "0368d6191a4027268bb6390a7a1b5c6e31b3df717cf7bda8ea40cbd7c8ddda37",
+      "matches_allocated_producer_SHA": true,
+      "remote_identity": {
+        "bytes": 158869,
+        "inode": 113695260,
+        "mtime_ns": 1792050142531840000,
+        "producer_sha256": "0368d6191a4027268bb6390a7a1b5c6e31b3df717cf7bda8ea40cbd7c8ddda37"
+      }
+    },
+    "review/QC_by_library.tsv": {
+      "bytes": 11165,
+      "local_content_sha256": "29b834f7aa1477fe98515db387d74c4f4c8363cebdb49a00f67202fcdc0f307d",
+      "matches_allocated_producer_SHA": true,
+      "remote_identity": {
+        "bytes": 11165,
+        "inode": 113695264,
+        "mtime_ns": 1792050142338938000,
+        "producer_sha256": "29b834f7aa1477fe98515db387d74c4f4c8363cebdb49a00f67202fcdc0f307d"
+      }
+    },
+    "review/rna_candidate_retained_IDs.tsv.gz": {
+      "bytes": 11744777,
+      "local_content_sha256": "31afe5a77b729e072975a19844a08df88ccca85ddccd7eb4d3b524ba5bd8db02",
+      "matches_allocated_producer_SHA": true,
+      "remote_identity": {
+        "bytes": 11744777,
+        "inode": 113695259,
+        "mtime_ns": 1792050142332245677,
+        "producer_sha256": "31afe5a77b729e072975a19844a08df88ccca85ddccd7eb4d3b524ba5bd8db02"
+      }
+    }
+  },
+  "total_bytes": 14111720,
+  "remote_expected_byte_inode_mtime_before_after_verified": true,
+  "new_remote_large_content_hash": false,
+  "TE_remote_producer_content_SHA_available": null,
+  "protected_remote_originals_unchanged": true
+}

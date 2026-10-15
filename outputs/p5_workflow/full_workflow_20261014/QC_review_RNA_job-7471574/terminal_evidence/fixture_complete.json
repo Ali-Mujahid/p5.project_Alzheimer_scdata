@@ -1,0 +1,24 @@
+{
+  "status": "all_required_46_fixture_checks_passed",
+  "fixtures": [
+    {
+      "fixture": "test_binder.py",
+      "tests": 11,
+      "log_sha256": "ef59fe800b72689e35e695a437c4f1924f024773054223e4c7fa05ac21e5f394"
+    },
+    {
+      "fixture": "test_repair_evidence.py",
+      "tests": 29,
+      "log_sha256": "9b5870270fafff385ce39079b06b64476091953c6af94f6cd73d15b1c96575f3"
+    },
+    {
+      "fixture": "test_review.py",
+      "tests": 6,
+      "log_sha256": "608ba9125ffcceb0c8d11dcf48399d6d61c7c6e5ffe6bc7fb8f541e4b9423e7a"
+    }
+  ],
+  "generated_streaming_fixture_only": true,
+  "small_existing_repair_proof_mutations_in_private_copies": true,
+  "raw_study_matrix_read": false,
+  "normalization_ready": false
+}

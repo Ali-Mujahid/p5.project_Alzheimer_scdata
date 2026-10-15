@@ -1,0 +1,7 @@
+# Not required for serving/viewing the saved atlas.
+# Optional adapter/plot rebuild and PDF validation dependencies.
+numpy
+pandas
+matplotlib
+h5py
+pypdf

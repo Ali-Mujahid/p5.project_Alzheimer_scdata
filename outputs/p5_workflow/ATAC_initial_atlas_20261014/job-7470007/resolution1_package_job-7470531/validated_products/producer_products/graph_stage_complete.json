@@ -1,0 +1,46 @@
+{
+  "resolution": 1.0,
+  "seed": 1729,
+  "n_cells": 456472,
+  "summaries": {
+    "corrected": {
+      "n_clusters": 12,
+      "n_cells": 456472,
+      "old_cluster_key": "initial_cluster",
+      "new_cluster_key": "initial_cluster_resolution1"
+    },
+    "uncorrected": {
+      "n_clusters": 12,
+      "n_cells": 456472,
+      "old_cluster_key": "initial_cluster_uncorrected",
+      "new_cluster_key": "initial_cluster_uncorrected_resolution1"
+    }
+  },
+  "graphs": {
+    "corrected": {
+      "key": "initial_connectivities",
+      "nnz": 25131608,
+      "before_sha256": "74c9acc5bc67707ef01bed5134c05f5517e18534bc219d935d24c43a1a5c746d",
+      "after_sha256": "74c9acc5bc67707ef01bed5134c05f5517e18534bc219d935d24c43a1a5c746d",
+      "unchanged": true
+    },
+    "uncorrected": {
+      "key": "uncorrected_initial_connectivities",
+      "nnz": 25050706,
+      "before_sha256": "debe0969daf71af7fe5aa1e767867ea1e08f900e5588eb80cc9fe72420bae7f4",
+      "after_sha256": "debe0969daf71af7fe5aa1e767867ea1e08f900e5588eb80cc9fe72420bae7f4",
+      "unchanged": true
+    }
+  },
+  "accessed_peak_atlas_groups": [
+    "/obs",
+    "/obsp/initial_connectivities",
+    "/obsp/uncorrected_initial_connectivities"
+  ],
+  "raw_peak_X_read": false,
+  "all_initial_cells_retained": true,
+  "original_0_6_labels_preserved": true,
+  "TFIDF_LSI_Harmony_UMAP_rerun": false,
+  "source_atlas_modified": false,
+  "final_annotations_pending": true
+}

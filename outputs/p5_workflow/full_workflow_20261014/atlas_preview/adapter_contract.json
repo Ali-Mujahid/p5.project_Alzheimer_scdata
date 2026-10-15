@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "current_dataset_id": "ATAC_initial_7466270",
+  "current_status": "provisional initial ATAC snapshot; final QC and identities pending",
+  "local_entry": "index.html",
+  "delivery": "offline local directory; HTML, scripts, lazy coordinate files and vendor library stay together",
+  "source_integrity": {
+    "required": [
+      "producer job and terminal proof",
+      "source manifest",
+      "input identities",
+      "output axes",
+      "explicit assay and units",
+      "final/provisional status",
+      "build provenance"
+    ],
+    "no_placeholder_biology": true,
+    "no_inferred_cross_assay_barcode_pairing": true
+  },
+  "activity_records": {
+    "key": [
+      "cluster",
+      "animal",
+      "gene"
+    ],
+    "columns": [
+      "cluster",
+      "animal",
+      "gene",
+      "n_cells",
+      "raw_integer_activity_sum",
+      "fraction_activity_detected",
+      "mean_log1p_activity_per10k"
+    ],
+    "duplicates": "Identical rows repeated across canonical panels are collapsed; conflicting values fail build.",
+    "aggregation": "Merge selected source clusters with n_cells weighting within each animal, then take an unweighted mean across represented animals. Raw display is mean integer activity sum / nucleus within animal, then equal-animal mean. Normalized display uses saved mean log1p(activity / full-cell activity total * 10000).",
+    "zscore": "Population SD of the displayed equal-animal normalized means for each gene across currently displayed groups; zero variance gives 0. Color clipped at +/-2.5, exported numeric z is unclipped.",
+    "missing": "Unmapped feature values are NA, never evidence of absent biology. Exports have null / blank numeric plot values and mapped=false.",
+    "ranking": "Descriptive differences within the preselected 107-gene activity panel only. Genome-wide top markers await final filtered analysis.",
+    "inference": "No p-values or disease effects inferred from interactive plots. Animal is the biological replicate."
+  },
+  "coordinate_adapter": {
+    "n": 456472,
+    "dimensions": 2,
+    "dtype": "float32-little-endian",
+    "files": [
+      "coordinates_harmony.js",
+      "coordinates_uncorrected.js"
+    ],
+    "attributes": "point_attributes.js: row-major uint8 [corrected_cluster, uncorrected_cluster, animal_index]",
+    "axis_validation": "Exact producer H5 cell index equality with streamed metadata; matching exported row order.",
+    "read_scope": "Only /obsm/X_umap_initial, /obsm/X_umap_initial_uncorrected and /obs/cell_id were read from the atlas. Raw X CSR and LSI matrices were not scanned.",
+    "sampling": "All initial atlas points are exported and drawn; no synthetic or sampled coordinates.",
+    "feature_overlays": "Require separate cell-axis-bound feature vectors with source and normalization semantics. Gene-body activity must never be labeled RNA expression."
+  },
+  "display_labels": {
+    "export": {
+      "schema_version": "1.0",
+      "dataset_id": "ATAC_initial_7466270",
+      "display_only": true,
+      "labels": {
+        "6": "Example display label only"
+      }
+    },
+    "validation": "Known source cluster IDs and strings of 1-80 characters; imports from other datasets rejected.",
+    "merge": "Repeated display labels combine plotted summaries only; original source cluster and raw matrices are immutable.",
+    "final_annotation": "Must be provided by independently reviewed scientific output; browser display labels do not become final metadata."
+  },
+  "future_adapters": {
+    "final_QC": "Reviewed retained cell IDs, all pass/fail flags and thresholds, doublet/mitochondrial/empty sensitivity, animal/type retention and exact source axes.",
+    "RNA_SCT": "Raw integer counts stay separate from SCT residuals. Include actual runtime and fit/transform provenance, feature coverage, clipping/floor semantics, PCA/Harmony and matched uncorrected embeddings.",
+    "cell_types": "Reviewed identity, confidence/evidence/unknown state, 10-20 supported top markers per type, no required forced labels.",
+    "RNA_ATAC_transfer": "Validated independent RNA labels, cross-assay mapping method, prediction scores and unknown/low-confidence states. These nuclei are not one-to-one paired.",
+    "TE": "Explicit RNA expression versus ATAC accessibility feature dictionary at locus/subfamily/family, raw assignment mode, multimapping/ambiguity policy, denominator and count-conservation proofs, cell axis and raw integer pseudobulk where applicable.",
+    "differential": "Raw animal x reviewed cluster/type feature counts, sample metadata, design rank, age-matched genotype contrasts, sex term, effect size, uncertainty, filtering and multiple-testing metadata. Expected fractional sensitivity counts are distinct from integer observed-count models.",
+    "coverage": "Genome build, exact gene/TE intervals, assay, animal/type/genotype group, strand/cut/fragment policy, blacklist/mappability, normalization denominator, scaled track values and source identity. TSS/TES/gene-body windows defined explicitly.",
+    "atlas_expansion": "New adapters must declare available/absent features; the UI must not populate unavailable RNA, TE or track views with initial ATAC values."
+  },
+  "figure_exports": {
+    "format": "PDF",
+    "visible_PNG_plot_exports": false,
+    "library": "jsPDF 4.2.1 (local vendored MIT)",
+    "context": [
+      "title",
+      "filters",
+      "units",
+      "source job",
+      "provisional state",
+      "export UTC"
+    ],
+    "rendering": "canvas figure embedded as high-resolution raster image in PDF; context text is PDF text; not fully vector",
+    "data_exports": [
+      "TSV",
+      "display-only labels JSON"
+    ],
+    "native_legends": {
+      "dotplot": [
+        "numeric color gradient",
+        "selected-value min/max for raw and normalized",
+        "z-score +/-2.5 clip",
+        "25/50/100 percent area keys",
+        "NA unmapped cross"
+      ],
+      "UMAP": [
+        "UMAP1 and UMAP2 axis labels",
+        "full selected-color category legend with matching palette"
+      ],
+      "composition": "legend in chart canvas",
+      "animal_boxplot": "condition axis in canvas plus explicit point and quartile/range explanation"
+    }
+  },
+  "cluster_resolution_adapters": {
+    "current_resolution": 0.6,
+    "available": [
+      0.6
+    ],
+    "pending": [
+      1.0
+    ],
+    "contract": "leiden_resolution_adapter_contract.json",
+    "marker_summary_policy": "Never reuse resolution-0.6 cluster summaries for resolution-1.0 labels. UMAP coordinates may be reused with actual new per-cell labels."
+  }
+}

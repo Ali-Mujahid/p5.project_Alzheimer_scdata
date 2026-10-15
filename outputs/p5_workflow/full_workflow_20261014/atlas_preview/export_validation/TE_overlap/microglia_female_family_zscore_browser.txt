@@ -1,0 +1,246 @@
+TE coordinate-overlap heatmap | producer 7471562 | page 1 / 2
+Microglia | TE family / subclass alias
+Within-category condition z-score; n = available / expected animals
+WT | 3 mo 5xFAD | 3 mo APOE4/TREM2 | 3 mo
+L1 [LINE] -1.32
+2/2 animals
+0.23
+2/2 animals
+1.09
+2/2 animals
+ERVL-MaLR [LTR] -1.37
+2/2 animals
+0.40
+2/2 animals
+0.98
+2/2 animals
+ERVK [LTR] -0.83
+2/2 animals
+-0.58
+2/2 animals
+1.41
+2/2 animals
+Alu [SINE] -1.33
+2/2 animals
+1.08
+2/2 animals
+0.26
+2/2 animals
+B4 [SINE] -1.33
+2/2 animals
+0.25
+2/2 animals
+1.08
+2/2 animals
+B2 [SINE] 0.66
+2/2 animals
+0.76
+2/2 animals
+-1.41
+2/2 animals
+ERVL [LTR] -0.16
+2/2 animals
+-1.14
+2/2 animals
+1.30
+2/2 animals
+MIR [SINE] 0.26
+2/2 animals
+-1.33
+2/2 animals
+1.08
+2/2 animals
+L2 [LINE] 1.30
+2/2 animals
+-1.13
+2/2 animals
+-0.17
+2/2 animals
+ERV1 [LTR] -0.60
+2/2 animals
+1.41
+2/2 animals
+-0.81
+2/2 animals
+hAT-Charlie [DNA] 0.66
+2/2 animals
+-1.41
+2/2 animals
+0.75
+2/2 animals
+ID [SINE] 1.37
+2/2 animals
+-0.37
+2/2 animals
+-0.99
+2/2 animals
+CR1 [LINE] -0.44
+2/2 animals
+-0.94
+2/2 animals
+1.38
+2/2 animals
+TcMar-Tigger [DNA] -1.29
+2/2 animals
+1.14
+2/2 animals
+0.15
+2/2 animals
+hAT-Tip100 [DNA] 0.27
+2/2 animals
+-1.34
+2/2 animals
+1.07
+2/2 animals
+Deu [SINE] 1.18
+2/2 animals
+0.08
+2/2 animals
+-1.26
+2/2 animals
+Gypsy [LTR] -0.26
+2/2 animals
+-1.07
+2/2 animals
+1.33
+2/2 animals
+hAT-Blackjack [DNA] -0.85
+2/2 animals
+1.40
+2/2 animals
+-0.55
+2/2 animals
+-2.50 2.50
+Z-score (color clipped +/-2.5) NA | missing / noncallable
+Equal-animal means | initial calibration peak groups | coordinate overlap only
+Producer job 7471562 | mm10 / GRCm38 | heatmap
+Cell type: Microglia (initial published calibration; not final annotation)
+Conditions: WT_3mo, 5xFAD_3mo, APOE4_TREM2_3mo | Sex: female | Taxonomy: family
+Units: % of callable peak union overlapping category | Heatmap: within-category condition z-score (population SD; color clipped +/-2.5)
+One point = one animal; equal-animal condition means. Missing/noncallable groups = NA.
+Coordinate overlap only; no TE expression, fragment accessibility counts or inferential enrichment. Categories can overlap.
+Displayed categories: 36 | Search: none | Primary TE only: true
+Native-vector plot and legend | exported 2026-10-15T08:16:28.300Z
+TE coordinate-overlap heatmap | producer 7471562 | page 2 / 2
+Microglia | TE family / subclass alias
+Within-category condition z-score; n = available / expected animals
+WT | 3 mo 5xFAD | 3 mo APOE4/TREM2 | 3 mo
+RTE-X [LINE] -0.44
+2/2 animals
+1.38
+2/2 animals
+-0.95
+2/2 animals
+ERVL? [LTR] 0.04
+2/2 animals
+1.20
+2/2 animals
+-1.24
+2/2 animals
+ERVK? [LTR] -1.20
+2/2 animals
+1.24
+2/2 animals
+-0.04
+2/2 animals
+DNA [DNA] -0.49
+2/2 animals
+1.39
+2/2 animals
+-0.90
+2/2 animals
+TcMar-Tc2 [DNA] -1.34
+2/2 animals
+1.05
+2/2 animals
+0.29
+2/2 animals
+tRNA [SINE] 0.94
+2/2 animals
+0.45
+2/2 animals
+-1.39
+2/2 animals
+Gypsy? [LTR] 1.40
+2/2 animals
+-0.89
+2/2 animals
+-0.50
+2/2 animals
+Helitron [RC] 0.37
+2/2 animals
+-1.37
+2/2 animals
+0.99
+2/2 animals
+LTR [LTR] -0.64
+2/2 animals
+1.41
+2/2 animals
+-0.77
+2/2 animals
+RTE-BovB [LINE] 0.07
+2/2 animals
+-1.26
+2/2 animals
+1.19
+2/2 animals
+MuDR [DNA] 1.41
+2/2 animals
+-0.71
+2/2 animals
+-0.71
+2/2 animals
+hAT [DNA] 1.41
+2/2 animals
+-0.71
+2/2 animals
+-0.71
+2/2 animals
+ERV1? [LTR] -0.71
+2/2 animals
+1.41
+2/2 animals
+-0.71
+2/2 animals
+Dong-R4 [LINE] 0.00
+2/2 animals
+0.00
+2/2 animals
+0.00
+2/2 animals
+hAT-Tip100? [DNA] 0.00
+2/2 animals
+0.00
+2/2 animals
+0.00
+2/2 animals
+hAT? [DNA] 0.00
+2/2 animals
+0.00
+2/2 animals
+0.00
+2/2 animals
+L1? [LINE] 0.00
+2/2 animals
+0.00
+2/2 animals
+0.00
+2/2 animals
+MULE-MuDR [DNA] 0.00
+2/2 animals
+0.00
+2/2 animals
+0.00
+2/2 animals
+-2.50 2.50
+Z-score (color clipped +/-2.5) NA | missing / noncallable
+Equal-animal means | initial calibration peak groups | coordinate overlap only
+Producer job 7471562 | mm10 / GRCm38 | heatmap
+Cell type: Microglia (initial published calibration; not final annotation)
+Conditions: WT_3mo, 5xFAD_3mo, APOE4_TREM2_3mo | Sex: female | Taxonomy: family
+Units: % of callable peak union overlapping category | Heatmap: within-category condition z-score (population SD; color clipped +/-2.5)
+One point = one animal; equal-animal condition means. Missing/noncallable groups = NA.
+Coordinate overlap only; no TE expression, fragment accessibility counts or inferential enrichment. Categories can overlap.
+Displayed categories: 36 | Search: none | Primary TE only: true
+Native-vector plot and legend | exported 2026-10-15T08:16:28.312Z
