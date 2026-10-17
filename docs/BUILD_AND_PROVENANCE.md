@@ -1,6 +1,6 @@
 # GSE212606 mouse RNA / ATAC / TE atlas
 
-This repository preserves the current working atlas, its accepted display data, linked PDF reports, build/validation scripts and source-bound provenance. It is a **provisional research explorer**, not a completed final filtered atlas. All supported cell types and unknown/rare populations remain in scope; Microglia has additional views.
+This repository preserves the immutable 15 October atlas and an explicit 17 October reviewed RNA/Microglia display overlay, with accepted tables, linked PDF reports and source-bound provenance. It is a **provisional research explorer**, not a completed final filtered atlas. All supported cell types and unknown/rare populations remain in scope; Microglia has additional views.
 
 ## Open the atlas on another computer
 
@@ -12,9 +12,19 @@ python3 start_atlas.py --open
 
 Then open:
 
-<http://127.0.0.1:56404/full_workflow_20261014/atlas_preview/index.html#qc-progress>
+<http://127.0.0.1:56404/full_workflow_20261014/atlas_preview/index.html#rna>
 
-The launcher verifies and restores the included archive parts before serving `outputs/p5_workflow` as the HTTP document root. The existing app loads a sibling resolution-1 package and links sibling producer reports; TE report links start at the server root. Opening `index.html` with a `file:` URL does not support lazy JSON loading.
+The launcher validates the declared overlay, verifies/restores the included original snapshot when needed, and serves `outputs/p5_workflow` with only the explicitly declared overlay routes. The original app loads a sibling resolution-1 package and links sibling producer reports; TE report links start at the server root. Opening `index.html` with a `file:` URL does not support lazy JSON loading. `python3 start_atlas.py --base-snapshot --open` selects the original interface without reading the overlay.
+
+## Reviewed overlay and portable verification
+
+`updates/current.json` uses schema_version 2, update_id `rna_microglia_20261017`, the SHA-256 of `snapshot/FILES.json`, and an explicit `files` list. Every row has exactly `http_path`, `path`, `bytes` and `sha256`. HTTP paths stay under `/full_workflow_20261014/atlas_preview/`; their suffixes mirror `updates/rna_microglia_20261017/atlas/`. The required routes are `index.html`, `rna_microglia.js`, `rna_microglia.css`, `data/rna_microglia.json` and `data/microglia_coordinates.json`. Download files are separately listed; listing a directory never publishes unlisted files.
+
+The standard-library loader rejects duplicate keys/routes/paths, path aliases/traversal, symlinks, unsupported route classes, wrong base bindings, missing files and byte/hash mismatches. It has finite manifest, file-count, per-file and aggregate-byte limits. All overlay files are validated before the large base-payload check; each overlay GET/HEAD rechecks the exact bytes before sending headers. Original unrelated routes continue to use the base document root. A failed overlay is fatal unless the user explicitly selects `--base-snapshot`. All relative paths remain portable after moving or extracting the repository on another computer.
+
+The 17 October RNA and Microglia annotations remain provisional. The dated ATAC observation is 100 of 104 QC libraries; it is not a live scheduler report. Coordinate data contains an explicit availability state: a failed transfer leaves a reason and no synthetic points. RNA TE counts, Allen fine identity, disease-state claims, final singlets and RNA–ATAC pairing/transfer are not supplied by this update. Source/download provenance belongs to the new overlay; the 59 archives and original FILES inventory remain unchanged.
+
+Small local verification uses `python3 -B -m unittest discover -s tests -v`. Tests build generated overlays and a tiny two-file split archive, exercise portable restoration and local HTTP error handling, and do not rehash the real 425 MB payload, download protected data or run a scientific producer. `python3 start_atlas.py --check` performs the actual complete user-facing base-plus-overlay verification; `--base-snapshot --check` checks the original base only.
 
 The ready-to-view copy needs a modern browser and a local HTTP server. It does not need LiSC, Slurm, R, raw BAM/FASTQ, Python scientific packages, npm packages, a CDN, or Internet after download. Plot save buttons produce PDF; TSV/JSON exports remain available. Running this server does not submit processing jobs or change source data.
 

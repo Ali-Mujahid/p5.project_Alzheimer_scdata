@@ -2,7 +2,9 @@
 
 A complete, portable snapshot of the interactive atlas and the files needed to operate it. It includes the browser source, all offline libraries and licenses, UMAP coordinates, Leiden0.6/1.0 labels and marker adapters, all28 TE-overlap views, downloadable PDF/TSV reports, build and validation scripts, archived producer source and provenance.
 
-**Snapshot:**15October2026. The latest independently verified ATAC QC import contains8 completed library results. Repair tasks194/195 and the remaining libraries were queued at the recorded observation. Final retention, study-wide normalization, final cell types, RNA–ATAC transfer and count-based TE differential analyses remain pending. The page distinguishes these from the verified initial results.
+**Reviewed update: 17 October 2026.** The default view adds the accepted RNA broad-label review and Microglia review tables. Labels and core-analysis membership remain provisional. Saved-coordinate availability is stated by the adapter; unavailable points are not replaced or synthesized. RNA TE counts have not been generated for this update. The dated ATAC QC observation is 100 of 104 libraries; this does not establish final retention or a current scheduler state.
+
+The complete **15 October 2026 base snapshot** remains immutable and can be opened separately with `--base-snapshot`. Its historical QC observations are dated archival evidence, including the earlier 8-library import; they are not the 17 October status. Final labels, RNA–ATAC transfer and count-based TE inference remain pending.
 
 ## Open the atlas on another computer
 
@@ -23,11 +25,13 @@ A complete, portable snapshot of the interactive atlas and the files needed to o
 
 3. The launcher restores the included data, checks SHA-256 identities and serves:
 
-   **http://127.0.0.1:56404/full_workflow_20261014/atlas_preview/index.html#qc-progress**
+   **http://127.0.0.1:56404/full_workflow_20261014/atlas_preview/index.html#rna**
 
    If that port is already in use: `python3 start_atlas.py --port 56405 --open`. Press Ctrl+C in the terminal to stop.
 
 Static viewing uses only Python's standard library and a modern browser. No R, scientific Python packages, cluster login, Internet/CDN or additional data download is needed after obtaining the repository. Opening the HTML with `file://` does not support its lazy JSON loading; use the launcher. GitHub stores the portable package; this repository URL itself is not a hosted interactive website.
+
+To view the original archived interface, run `python3 start_atlas.py --base-snapshot --open`. This explicitly ignores the overlay, including a damaged overlay, and uses the unchanged original files. Without that option, an invalid overlay stops startup; it never silently falls back to old scientific status.
 
 ## What is included
 
@@ -35,6 +39,8 @@ Static viewing uses only Python's standard library and a modern browser. No R, s
 - **224 source/small-metadata files** are directly browsable under `work/` and `outputs/`.
 - The complete snapshot is losslessly compressed into59 ordered parts under `snapshot/` (246,629,796bytes). This keeps individual GitHub objects small. The launcher reconstructs every original path automatically; no Git LFS or external storage account is required.
 - `snapshot/FILES.json` lists every file's relative path, byte size and SHA-256. `snapshot/manifest.json` binds that inventory and every archive part.
+- `updates/current.json` is the explicit schema 2 overlay manifest. It binds the original `snapshot/FILES.json` hash and lists every updated HTML, JavaScript, stylesheet, data and download route with its exact relative path, byte size and SHA-256. These additive files are separate from the 59 base archives and original file inventory.
+- The RNA label-code `.npy` download preserves the original accepted source-cell order. Its codebook/provenance bind the exact source metadata hash; use that same metadata before joining labels to cells. NumPy is not needed to view the atlas. Original preview PNGs and clearly identified raster-preview PDFs preserve the saved diagnostic pixels; they do not rerun a plot or create new annotations.
 - `outputs/p5_workflow/` is the original HTTP document root. Relative layout and original scientific source manifests are preserved. Four original producer source sets include every42 manifest member, including their archival Slurm scripts.
 - `work/` contains the initial adapter/coordinate/Leiden import scripts, TE plot/adapters, QC status builder, tests and related scientific source. Original scientific scripts retain their actual historical cluster paths; they are archival code, not portable reruns of the full biological analysis.
 
@@ -46,13 +52,15 @@ Raw FASTQ/BAM files and the unused1.63GB H5AD are outside the browser's dependen
 python3 atlas_snapshot.py --restore
 python3 atlas_snapshot.py
 python3 start_atlas.py --check
+python3 start_atlas.py --base-snapshot --check
 ```
 
-Restoration checks every compressed part and every extracted file, rejects unexpected paths and preserves any existing file whose contents differ. The verification command reports missing or changed files. A later reviewed atlas snapshot should be committed as an explicit update; this repository is not a live connection to LiSC.
+Restoration checks every compressed part and every extracted file, rejects unexpected paths and preserves any existing file whose contents differ. The verification command reports missing or changed files. The launcher verifies the complete declared overlay before serving; each overlay response is checked again and served from the verified byte string. Changed overlay bytes cause an error response rather than exposing an old base asset at that route. No original archive or inventory is rewritten. This repository is not a live connection to LiSC.
 
 ## Scientific interpretation
 
 - Initial ATAC contains456,472nuclei,20animals and104libraries. All supported, rare and unknown cell types remain in scope; Microglia has additional views.
+- RNA broad labels, the10-group Microglia review and the core-analysis selection are accepted provisional review products. Display edits do not modify original labels, counts or analysis membership. Mixed/BAM-like and other conflicting identities stay visible; Allen fine labels, disease states and final singlet certification are not established.
 - Gene-body activity measures accessibility, not RNA expression. The107-gene panel is descriptive, not genome-wide differential marker discovery.
 - TE heatmaps/animal boxplots describe RepeatMasker coordinate overlap with initial calibration-type peak sets. They do not establish TE expression, fragment-count accessibility, matched-background enrichment or genotype significance.
 - Candidate QC is not final singlet certification. Unsupported mitochondrial/doublet thresholds remain explicit. New filtered biological views are unavailable until their actual gates pass.

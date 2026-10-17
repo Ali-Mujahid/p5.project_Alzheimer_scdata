@@ -1,0 +1,9 @@
+# Scientific snapshot and reviewed overlay checksums bind exact file bytes.
+# Preserve them when cloning on systems configured to convert line endings.
+/snapshot/** -text
+/outputs/** -text
+/work/** -text
+/updates/** -text
+*.pdf binary
+*.png binary
+*.npy binary

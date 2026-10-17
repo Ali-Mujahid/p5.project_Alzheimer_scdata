@@ -1,0 +1,233 @@
+{
+  "schema": "rna_microglia_public_provenance_v1",
+  "RNA_label_job_id": "7485617",
+  "Microglia_clustering_job_id": "7485781",
+  "RNA_cells": 2281619,
+  "RNA_clusters": 27,
+  "Microglia_seed_cells": 52016,
+  "Microglia_seed_groups": 10,
+  "selected_provisional_core_cells": 22251,
+  "source_libraries": 192,
+  "mice": 20,
+  "RNA_source_cell_metadata_sha256": "9b7814f82b9618e0ed748d0465f4b0de154bd81d84ef32febbb5ee52e7835e21",
+  "label_code_array_axis": "Original accepted initial RNA source cell order; no copied full RNA cell-ID axis; use exact source metadata SHA.",
+  "Microglia_producer_source_manifest_sha256": "3444a874701fd36e63a5f962edd956b0124fd334928fa71d620d897f27eb82f0",
+  "accepted_microglia_npz_pins": {
+    "coordinates_and_labels.npz": {
+      "bytes": 12948265,
+      "sha256": "023e44e98395936a98a8903d8843bb574390437ca27ed66fe61710733a077b9f"
+    },
+    "selected_source_metadata.npz": {
+      "bytes": 998709,
+      "sha256": "7ffcf3ce4be91528b9c0d1feb4e49056d8d12cd99dd49cb30fb706a983ee3396"
+    }
+  },
+  "files": [
+    {
+      "source_basename": "RNA_27_cluster_labels.applied_provisional.tsv",
+      "download_name": "RNA_27_cluster_labels.applied_provisional.tsv",
+      "bytes": 23532,
+      "sha256": "73fd6de7816a2f01e32f457504edd3cade85dab44d4666628a49ad5ba2c196f9",
+      "transformation": "exact original bytes"
+    },
+    {
+      "source_basename": "RNA_all_cells_primary_label_codebook.actual.json",
+      "download_name": "RNA_all_cells_primary_label_codebook.json",
+      "bytes": 41790,
+      "sha256": "9bc13e43ed2552a2c13794f322b340ba1b90428935da5a293ee314a90652c520",
+      "transformation": "exact original bytes"
+    },
+    {
+      "source_basename": "RNA_primary_label_codes.all2281619.uint8.npy",
+      "download_name": "RNA_primary_label_codes.all2281619.uint8.npy",
+      "bytes": 2281747,
+      "sha256": "f5ef951e5a96b629adfba28f8cae540b26a81d2b3e9a5e1f7a559fb8df24c0cf",
+      "transformation": "exact original bytes"
+    },
+    {
+      "source_basename": "RNA_primary_labels_marker_review.diagnostic.pdf",
+      "download_name": "RNA_primary_labels_marker_review.diagnostic.pdf",
+      "bytes": 283352,
+      "sha256": "7492ccea434b7cb6f1b638b402d8db17fbec0f9c3d4ce732d69f1cc7d0188613",
+      "transformation": "exact original bytes"
+    },
+    {
+      "source_basename": "RNA_marker_review.equal_mouse.tsv",
+      "download_name": "RNA_marker_review.equal_mouse.tsv",
+      "bytes": 342354,
+      "sha256": "a9cfd1c1e58da5f34ba56cd41a5a8711434eecc7f90ba6908a9dba12a0aa3f7d",
+      "transformation": "exact original bytes"
+    },
+    {
+      "source_basename": "reviewed_primary_labels10.provisional.tsv",
+      "download_name": "Microglia_seed10_reviewed_primary_labels.provisional.tsv",
+      "bytes": 5970,
+      "sha256": "09a4d86b4ebaaf90cd1bb15afe4d56cfb0f1bb3010ac114bc122b11fe5bf6b60",
+      "transformation": "exact original bytes"
+    },
+    {
+      "source_basename": "RNA_Microglia_like_core22251.provisional.tsv",
+      "download_name": "RNA_Microglia_like_core22251.provisional.tsv",
+      "bytes": 6365169,
+      "sha256": "90c9dd4ab0ef7a37ca2d1a90d009aa43143d14ba78f4b2df5695e8dc05906753",
+      "transformation": "exact original bytes"
+    },
+    {
+      "source_basename": "subcluster_equal_mouse_top20.json",
+      "download_name": "Microglia_equal_mouse_allgene_top20.json",
+      "bytes": 132156,
+      "sha256": "d37ab7f050ad567aad6a3ace04f7a9a645f78a4fd2ac7cfb73d87448ba9af3d9",
+      "transformation": "exact original bytes"
+    },
+    {
+      "source_basename": "Microglia_initial_provisional_subcluster_by_mouse.tsv",
+      "download_name": "Microglia_initial_provisional_subcluster_by_mouse.tsv",
+      "bytes": 27147,
+      "sha256": "2a75ede4dac0a81f62a9a3c5051f55a46060d36ca86619950ff62847ef1365fe",
+      "transformation": "exact original bytes"
+    },
+    {
+      "source_basename": "Microglia_initial_provisional_subcluster_equal_mouse_condition_summary.tsv",
+      "download_name": "Microglia_initial_provisional_subcluster_equal_mouse_condition_summary.tsv",
+      "bytes": 6095,
+      "sha256": "30fa46748eee0124254a0c63b3b2e235829fde391926afdc129f4ccdf1038e71",
+      "transformation": "exact original bytes"
+    },
+    {
+      "source_basename": "umap_clusters_conditions_preview.png",
+      "download_name": "umap_clusters_conditions_preview.png",
+      "bytes": 572398,
+      "sha256": "4e10edeec6763a1d89271aa3e913bd0a6b61bf17f505697cf1745948c636fb9f",
+      "transformation": "exact original bytes"
+    },
+    {
+      "source_basename": "umap_clusters_conditions_preview.png",
+      "download_name": "umap_clusters_conditions_raster_preview.pdf",
+      "bytes": 751071,
+      "sha256": "bb3ce68cb2e4b9c9cecfbc6b283b1fe8e0edbf0aaa9d991ed74525b47eae36a0",
+      "transformation": "ReportLab PDF wrapper around unchanged original preview pixels; no plot recomputation"
+    },
+    {
+      "source_basename": "umap_published_annotation_preview.png",
+      "download_name": "umap_published_annotation_preview.png",
+      "bytes": 1261553,
+      "sha256": "f85be0205fc1a56858bc4cb80e8bded8effcd31068bfab3b47b60536bd6e439f",
+      "transformation": "exact original bytes"
+    },
+    {
+      "source_basename": "umap_published_annotation_preview.png",
+      "download_name": "umap_published_annotation_raster_preview.pdf",
+      "bytes": 1446659,
+      "sha256": "93a7ef3b6c0bad52fad47ad7769a6441f90c23f19fce96d98bd1e31f41bc67d0",
+      "transformation": "ReportLab PDF wrapper around unchanged original preview pixels; no plot recomputation"
+    }
+  ],
+  "original_vector_diagnostics_not_copied": [
+    {
+      "basename": "umap_clusters_conditions.pdf",
+      "bytes": 82865508,
+      "sha256": "ad0b02222dd38d514c878d53cbf1e3cfed427f247171801bc4bc96d744818275",
+      "public_download_included": false,
+      "reason": "Original vector diagnostic remains local; compact exact-pixel preview provided."
+    },
+    {
+      "basename": "umap_published_annotation.pdf",
+      "bytes": 41538226,
+      "sha256": "2221d28189e4743dad2c5d4fe981127ef0266267a6b661ff00cbb189f74c5deb",
+      "public_download_included": false,
+      "reason": "Original vector diagnostic remains local; compact exact-pixel preview provided."
+    },
+    {
+      "basename": "umap_uncorrected_same_PC_uncorrected.pdf",
+      "bytes": 82968957,
+      "sha256": "58eacf3fdd5e7d3c1b9c228b758455f95704fb3f3a5122b6e3bfe55141095878",
+      "public_download_included": false,
+      "reason": "Original vector diagnostic remains local; compact exact-pixel preview provided."
+    }
+  ],
+  "scientific_limits": [
+    "Broad provisional primary best matches retain confidence, conflicts and forced-assignment flags.",
+    "Initial seed contains neuronal, oligodendroglial, astrocytic and immune-associated groups; these are not10 Microglia states.",
+    "Core membership is selected provisional metadata, not final retention or singlet certification.",
+    "All-gene marker contrasts and mouse composition are descriptive; no genotype effect, P value or FDR is inferred.",
+    "No actual Allen fine mapping, TE counts, physical-molecule truth or final normalization is claimed."
+  ],
+  "saved_coordinates_import": {
+    "status": "ACTUAL_ACCEPTED_SAVED_COORDINATES_IMPORTED_NO_RECOMPUTATION",
+    "producer_job_id": "7485781",
+    "actual_download_utc": "2026-10-17T08:56:28.278487+00:00",
+    "accepted_NPZ_pins": {
+      "coordinates_and_labels.npz": {
+        "bytes": 12948265,
+        "sha256": "023e44e98395936a98a8903d8843bb574390437ca27ed66fe61710733a077b9f"
+      },
+      "selected_source_metadata.npz": {
+        "bytes": 998709,
+        "sha256": "7ffcf3ce4be91528b9c0d1feb4e49056d8d12cd99dd49cb30fb706a983ee3396"
+      }
+    },
+    "cell_axis_rows": 52016,
+    "ordered_cell_axis_sha256": "ed7d685806fccc2e9a3203fe79f4d6aa2171ce8dc0b2a9afd6895e6f45587bad",
+    "axis_serialization": "UTF8 cell_id header newline then each canonical cell ID newline, in saved producer row order",
+    "coordinate_metadata_cell_axes_exactly_equal": true,
+    "subcluster_counts": {
+      "0": 9205,
+      "2": 437,
+      "3": 11907,
+      "4": 9158,
+      "1": 11945,
+      "6": 2843,
+      "5": 3759,
+      "7": 1376,
+      "8": 722,
+      "9": 664
+    },
+    "core_cells": 22251,
+    "core_whitelist_sha256": "90c9dd4ab0ef7a37ca2d1a90d009aa43143d14ba78f4b2df5695e8dc05906753",
+    "core_assignment": "Exact accepted whitelist cell-ID/source-row/subcluster/animal/condition/genotype/sex/library joins",
+    "metadata_fields": [
+      "cell_id",
+      "subcluster",
+      "animal",
+      "condition",
+      "genotype",
+      "sex",
+      "core",
+      "selected_global_rows",
+      "animal_id",
+      "library_id",
+      "donor_id",
+      "cluster",
+      "doublet_call",
+      "age_months",
+      "predicted_doublet",
+      "pass_source_basic_qc",
+      "doublet_score",
+      "animal_id_missing",
+      "condition_missing",
+      "genotype_missing",
+      "sex_missing",
+      "library_id_missing",
+      "donor_id_missing",
+      "cluster_missing",
+      "doublet_call_missing",
+      "cell_identity_confidence",
+      "program_support_confidence",
+      "competing_lineage_signal_flag",
+      "singlet_certified",
+      "biological_final",
+      "Allen_fine_assigned"
+    ],
+    "both_finite_saved_coordinate_sets": {
+      "harmony": "UMAP_PCR_Harmony",
+      "uncorrected": "UMAP_uncorrected"
+    },
+    "full_QC_and_missing_fields_retained": true,
+    "no_graph_recompute_or_subsampling": true,
+    "no_TE_counts": true,
+    "no_final_singlet_or_Allen_claim": true,
+    "lossless_JSON_compaction": true,
+    "coordinate_JSON_bytes": 19140534,
+    "coordinate_JSON_sha256": "694333856e91972415ea90e0b6760a469ce6b1ddbdc9787de87a79a15f6ae6b1"
+  }
+}
