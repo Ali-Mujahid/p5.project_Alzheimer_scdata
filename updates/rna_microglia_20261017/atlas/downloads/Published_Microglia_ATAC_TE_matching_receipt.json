@@ -1,0 +1,66 @@
+{
+  "status": "matching_failed_no_P_values",
+  "assembly": "mm10",
+  "measured_covariate_features": 335397,
+  "excluded_features": 4338,
+  "full_Microglia_primary_callable_peaks": 62956,
+  "complete_covariate_query_peaks": 62950,
+  "matched_query_peaks": 53607,
+  "query_retained_fraction_of_complete_covariates": 0.851580619539317,
+  "matching": {
+    "seed": 20261017,
+    "exact": [
+      "chromosome",
+      "gene_context"
+    ],
+    "quantile_cuts": {
+      "gc": [
+        0.4291417165668663,
+        0.48198757763975153
+      ],
+      "log2_length": [
+        9.052568050804153
+      ],
+      "mappability": [
+        1.0
+      ],
+      "log1p_tss_distance": [
+        8.66561319653451,
+        10.018956802342242
+      ],
+      "log1p_other_prevalence": [
+        0.002341870426671049,
+        0.004629423824651256
+      ]
+    },
+    "maximum_absolute_SMD": 0.2,
+    "control_pool": "complete-covariate nonquery published accessible peaks; pairs disjoint; no TE annotation used in matching"
+  },
+  "tests": 1131,
+  "p_values_reported": false,
+  "multiple_testing": "BH over any-primary-TE plus all class/family/subfamily features, including zero-observed features",
+  "test": "Two-sided exact paired label swap, binomial discordant-pair/McNemar form",
+  "limitations": [
+    "Exploratory annotation association conditional on matched subset, not all Microglia peaks",
+    "Assumes within-pair genomic feature exchangeability; local genomic correlation may inflate significance",
+    "Not an animal condition test, TE fragment count, RNA expression or autonomous TE activity"
+  ],
+  "input_sha256": {
+    "peak_summary": "6d93bf5b42dfd77ad825d60f37f4fe4684e57c3bb5d45e3a8cdb9aaa73e2c879",
+    "animals": "c7fe79b93657459619d14938d08e49ff94554d8f00625a65dd486e543bb2d97f",
+    "fasta": "767f48e8ae5bda117ad519fb694cbf7e24f161bf094c274bbbcd16e52aedf802",
+    "fai": "7dd015748c3679080358151fbc2721dc3f8c797ed6d88c9d8b194c8707e2b09a",
+    "gtf": "0b0cb02ee1b25cf635844e9b409193c27b18be3e9a7403ce9869c7d00f30f6bc",
+    "mappability": "ca35db510e0210f5291a1651bce547742059692998e8c50d25e9736c253fa785",
+    "genmap_receipt": "f51ded4bf9328963a519b56796f40c9f8bba6df1b4e627703e80e29ff8d3e3ec"
+  },
+  "annotation_receipt_sha256": "b8a5e7bdb7edcb55e77f858f45e425660d174b163431336b07bb696b69a1876a",
+  "output_sha256": {
+    "exploratory_matched_TE_association.tsv": "d88d70c6eb36a46ff80a81511d58c2fdbb82989b32a970286323ccae2e21162d",
+    "measured_peak_covariates.tsv.gz": "8e0d0a92b05274156326f609c0575ce227812746d74c16fb3872f548f9c91e52",
+    "matching_balance.tsv": "3b2e0d4f3ef51c7dadbfcab26ea83bcb9cc944c2d6a2d02563456d3211c6e9b7",
+    "matched_pairs.tsv": "edfcdae8eae9e7bf1bbe0962e4e60e8a4cf767cd075364d9e1089473a82d05a1",
+    "covariate_exclusions.tsv": "f1efc85f1aa07546c4135c66c5b25ca325e2f605a1a3e2ad7f871dd998d5c657",
+    "matching_strata.tsv": "8833daa2f4067977e2a587e4506d4a0182971d8a47e674cb687983971ebe4a7a"
+  }
+}

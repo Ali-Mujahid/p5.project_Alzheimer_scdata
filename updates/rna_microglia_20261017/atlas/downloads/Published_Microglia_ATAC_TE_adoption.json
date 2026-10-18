@@ -1,0 +1,23 @@
+{
+  "accepted": true,
+  "scientific_review_complete": true,
+  "scientific_review_passed": true,
+  "job_id": "8769240",
+  "source_manifest_sha256": "0c9df95531dc8923ed83a71d3425e0e9687ca67897208b7c1cc737ac37bf2314",
+  "nonce": "45ceace3f0bd464c9a34d9833dc718d7",
+  "analysis_summary_sha256": "7f914e5792487e7e6df4652b93a5f2502dd0733222e2418cb07d210e266b8998",
+  "science": "published_Microglia_ATAC_peak_TE",
+  "unique_terminal_completed_zero": true,
+  "state": "COMPLETED",
+  "exit_code": "0:0",
+  "numeric_step_state": "COMPLETED",
+  "numeric_step_exit_code": "0:0",
+  "accepted_scope": "descriptive_peak_TE_coordinate_overlap_only",
+  "statistical_enrichment_accepted": false,
+  "RNA_TE_expression_produced": false,
+  "matched_background_balance_passed": false,
+  "P_values_reported": false,
+  "utc": "2026-10-18T10:58:17.349633+00:00",
+  "operational_review_sha256": "11a853b10dd0ba6a948cdc07a042013668442a41ea8de3a2565dc22d621523fe",
+  "scientific_review_sha256": "ee6819a9c81f2b94937ac3125f564288aae1cfd7a1dc5b99f723dd881df62d1e"
+}

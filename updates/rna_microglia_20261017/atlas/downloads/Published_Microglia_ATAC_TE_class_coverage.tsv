@@ -1,0 +1,13 @@
+peak_set	repClass	callable_peak_features	TE_overlapping_peak_features	fraction_peak_features_overlapping_TE
+Microglia_primary	DNA	62956	3400	0.054005972425185844
+all_published_callable	DNA	335407	18938	0.056462745261726795
+Microglia_primary	LINE	62956	7870	0.12500794205476842
+all_published_callable	LINE	335407	48927	0.14587352082693564
+Microglia_primary	SINE	62956	24251	0.38520554037740645
+all_published_callable	SINE	335407	96223	0.2868842928144016
+Microglia_primary	LTR	62956	10110	0.1605883474172438
+all_published_callable	LTR	335407	56862	0.16953134549964669
+Microglia_primary	RC	62956	7	0.00011118876675773556
+all_published_callable	RC	335407	48	0.00014310971446630512
+Microglia_primary	Retroposon	62956	0	0.0
+all_published_callable	Retroposon	335407	0	0.0

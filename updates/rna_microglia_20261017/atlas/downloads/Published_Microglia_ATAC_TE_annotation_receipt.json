@@ -1,0 +1,38 @@
+{
+  "status": "coordinate_annotation_and_accessible_peak_summaries_complete_descriptive_only",
+  "assembly": "mm10",
+  "source_peak_rows": 339951,
+  "mapped_peak_rows": 339735,
+  "source_rows_excluded_by_mapping": 216,
+  "noncallable_mapped_peaks": 4010,
+  "blacklist_overlapping_features_excluded_entirely_from_accessible_summaries": 4328,
+  "Microglia_cells": 9511,
+  "animals": 20,
+  "primary_definition": ">=max(3,ceil(0.01*n_Microglia_cells_animal)) positive cells per animal; >=2 qualifying animals",
+  "primary_callable_peaks": 62956,
+  "any_detected_callable_peaks": 335145,
+  "formal_enrichment": "NOT_TESTED; coordinate fractions and relative folds are descriptive with no P values",
+  "base_pair_semantics": "Sum over peak features, not a unique genomic base-pair union if feature intervals overlap",
+  "blacklist_policy": "Any blacklist overlap excludes the entire peak feature from all accessible-region summaries; clipped geometry retained only in annotation audit",
+  "count_semantics": "Deposited counts within accessible regions; not molecule-conserving TE fragment counts or RNA expression",
+  "reference_rows_retained_for_peak_intersection": 405107,
+  "reference_exclusions": {
+    "noncanonical_repeat_rows": 5
+  },
+  "input_sha256": {
+    "peaks": "3d178655950b749b548e407d427a2e63a199af6c1d2e5b53835305a5afd7aaf4",
+    "rmsk": "fcacfcc31ceb7a70f48462f45af07f4503840bb02e3a38b9064f136463199f42",
+    "chrom_sizes": "a11e0cc2756321fc0dcb487ccd8f5ecdc16963bb8fc7dd073cffe5f9b0e183cb",
+    "blacklist": "9638bbeb4be8d99ddf56f1b70700f6a9336ce7f54d87032bd262465ecf3bfac7",
+    "peak_summary": "6d93bf5b42dfd77ad825d60f37f4fe4684e57c3bb5d45e3a8cdb9aaa73e2c879",
+    "per_animal": "e8cf1fa652d46368282525da411fe2edd403a5deb9bd95e026f14409b7e927d4",
+    "animals": "c7fe79b93657459619d14938d08e49ff94554d8f00625a65dd486e543bb2d97f"
+  },
+  "output_sha256": {
+    "Microglia_peak_animal_support.tsv.gz": "125eabdb09ca9e18268c6e700bea7e3961fcc8d4395ea1adb9a7104efa0bb793",
+    "peak_annotation.tsv.gz": "5e9f0885a3a78ede147465735db2d1fa4723b56d656cf572888154511e8b453d",
+    "animals.tsv": "86b7452e9fd15ead659ee2f0b0369fd8ea7100017eab543dc36efe19aa4cce0d",
+    "peak_TE_categories.tsv.gz": "709252332cd9e09587da6ac5e0330c0ae14596e2c21873f41bca90aa7068aae1",
+    "TE_accessible_peak_summary.tsv": "aba10251fd70a901b5e9940e1a32eb9be8d4d17cf549ad16b438e0abcfce084c"
+  }
+}

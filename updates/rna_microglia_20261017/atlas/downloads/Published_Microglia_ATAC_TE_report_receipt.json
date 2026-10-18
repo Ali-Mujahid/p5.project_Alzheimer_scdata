@@ -1,0 +1,23 @@
+{
+  "status": "report_built_from_actual_independently_accepted_scientific_tables",
+  "job_id": "8769240",
+  "published_ATAC_Microglia_cells": 9511,
+  "animals": 20,
+  "RNA_selected_cells_different_endpoint": 22251,
+  "primary_callable_peaks": 62956,
+  "primary_TE_overlapping_peaks": 35694,
+  "matched_query_peaks": 53607,
+  "complete_covariate_query_peaks": 62950,
+  "maximum_absolute_SMD": 0.37847628440383385,
+  "P_values_reported": false,
+  "exploratory_matched_tests": 1131,
+  "acceptance_sha256": "32e8f616a4093a01659370fa50c89b535577e53ce39fbdf12a6c14181745ffaf",
+  "analysis_summary_sha256": "7f914e5792487e7e6df4652b93a5f2502dd0733222e2418cb07d210e266b8998",
+  "source_manifest_sha256": "0c9df95531dc8923ed83a71d3425e0e9687ca67897208b7c1cc737ac37bf2314",
+  "output_sha256": {
+    "twenty_mouse_TE_accessible_region_points.tsv": "2ea38449b0c5fb8ec33bf025475b55dc358046aa9ad0a1f9eb92b64535627743",
+    "equal_mouse_TE_accessible_region_summary.tsv": "0a11f7a143bc34dd5e6773a5463d2668b0e1fb4ab363b3d471472ba799995729",
+    "RESULTS_AND_METHODS.md": "1a0de0d0cf2d470a458cf20527cee5ee3f38c0457f5ef9152986dd12c4019fac",
+    "published_Microglia_ATAC_TE_report.pdf": "a04e6c04f1c625458c0108d22523cf6fc2d9382cec3744409874e77e6b3443c4"
+  }
+}
