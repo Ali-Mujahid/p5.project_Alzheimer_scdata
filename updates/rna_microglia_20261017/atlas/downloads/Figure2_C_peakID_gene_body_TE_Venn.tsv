@@ -1,0 +1,9 @@
+dataset	category	n_peaks	fraction
+Native mm10	Neither	24630	0.361535977453542
+Native mm10	Gene body only	37762	0.554296450694302
+Native mm10	Canonical TE only	2878	0.0422452514458503
+Native mm10	Gene body and canonical TE	2856	0.041922320406306
+Published reciprocal95 mm10	Neither	107478	0.316358338116473
+Published reciprocal95 mm10	Gene body only	178066	0.52413204409319
+Published reciprocal95 mm10	Canonical TE only	24310	0.0715557714100696
+Published reciprocal95 mm10	Gene body and canonical TE	29881	0.087953846380267

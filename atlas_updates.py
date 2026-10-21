@@ -22,7 +22,7 @@ REQUIRED = {PREFIX + name for name in (
 )}
 MAX_FILE_BYTES = 128 * 1024 * 1024
 MAX_TOTAL_BYTES = 256 * 1024 * 1024
-MAX_FILES = 128
+MAX_FILES = 160
 
 
 def _need(condition, message):
@@ -153,7 +153,8 @@ def load_update(root):
         relative = _relative(suffix)
         allowed_download = (len(relative.parts) == 2 and relative.parts[0] == "downloads" and
                             (relative.suffix in {".pdf", ".png", ".npy", ".tsv", ".csv", ".json", ".md", ".txt"} or
-                             relative.name.endswith((".tsv.gz", ".tsv.xz"))))
+                             relative.name.endswith((".tsv.gz", ".tsv.xz")) or
+                             relative.name == "Figure2_BCDE_reviewed_tables_and_PDFs.zip"))
         _need(route in REQUIRED or allowed_download, "Unreviewed overlay route class: " + route)
         expected_path = "updates/" + UPDATE_ID + "/atlas/" + suffix
         _need(row["path"] == expected_path, "Overlay disk and HTTP paths must match exactly")

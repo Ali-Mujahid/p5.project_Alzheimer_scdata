@@ -1,0 +1,56 @@
+dataset	subset	context	n_intervals	denominator	fraction
+canonical_TE_reference	All TE-copy midpoint proxies	Promoter <=1 kb	98440	3651522	0.0269586216377719
+canonical_TE_reference	All TE-copy midpoint proxies	Promoter 1-2 kb	125880	3651522	0.0344732963405397
+canonical_TE_reference	All TE-copy midpoint proxies	Promoter 2-3 kb	120489	3651522	0.032996925665517
+canonical_TE_reference	All TE-copy midpoint proxies	5' UTR	407	3651522	0.000111460371866854
+canonical_TE_reference	All TE-copy midpoint proxies	3' UTR	19811	3651522	0.00542540891168121
+canonical_TE_reference	All TE-copy midpoint proxies	First exon	15351	3651522	0.00420400041407391
+canonical_TE_reference	All TE-copy midpoint proxies	Other exon	20771	3651522	0.00568831298291507
+canonical_TE_reference	All TE-copy midpoint proxies	First intron	436731	3651522	0.119602456181286
+canonical_TE_reference	All TE-copy midpoint proxies	Other intron	896015	3651522	0.245381241027714
+canonical_TE_reference	All TE-copy midpoint proxies	Downstream <=300 bp	2680	3651522	0.000733940532194521
+canonical_TE_reference	All TE-copy midpoint proxies	Distal intergenic	1914947	3651522	0.524424335934441
+Native mm10	All peak midpoint proxies	Promoter <=1 kb	18351	68126	0.269368523030855
+Native mm10	All peak midpoint proxies	Promoter 1-2 kb	2312	68126	0.0339371165193905
+Native mm10	All peak midpoint proxies	Promoter 2-3 kb	1728	68126	0.025364765287849
+Native mm10	All peak midpoint proxies	5' UTR	49	68126	0.000719255497167014
+Native mm10	All peak midpoint proxies	3' UTR	884	68126	0.0129759563162376
+Native mm10	All peak midpoint proxies	First exon	557	68126	0.00817602677391892
+Native mm10	All peak midpoint proxies	Other exon	1199	68126	0.0175997416551684
+Native mm10	All peak midpoint proxies	First intron	6855	68126	0.100622376185304
+Native mm10	All peak midpoint proxies	Other intron	16101	68126	0.236341484895635
+Native mm10	All peak midpoint proxies	Downstream <=300 bp	50	68126	0.000733934180782667
+Native mm10	All peak midpoint proxies	Distal intergenic	20040	68126	0.294160819657693
+Native mm10	Canonical-TE-positive midpoint proxies	Promoter <=1 kb	262	5734	0.045692361353331
+Native mm10	Canonical-TE-positive midpoint proxies	Promoter 1-2 kb	163	5734	0.0284269271014998
+Native mm10	Canonical-TE-positive midpoint proxies	Promoter 2-3 kb	146	5734	0.0254621555633066
+Native mm10	Canonical-TE-positive midpoint proxies	5' UTR	3	5734	0.000523194977328218
+Native mm10	Canonical-TE-positive midpoint proxies	3' UTR	46	5734	0.00802232298569934
+Native mm10	Canonical-TE-positive midpoint proxies	First exon	39	5734	0.00680153470526683
+Native mm10	Canonical-TE-positive midpoint proxies	Other exon	53	5734	0.00924311126613185
+Native mm10	Canonical-TE-positive midpoint proxies	First intron	768	5734	0.133937914196024
+Native mm10	Canonical-TE-positive midpoint proxies	Other intron	1722	5734	0.300313916986397
+Native mm10	Canonical-TE-positive midpoint proxies	Downstream <=300 bp	5	5734	0.000871991628880363
+Native mm10	Canonical-TE-positive midpoint proxies	Distal intergenic	2527	5734	0.440704569236135
+Published reciprocal95 mm10	All peak midpoint proxies	Promoter <=1 kb	29315	339735	0.0862878419944957
+Published reciprocal95 mm10	All peak midpoint proxies	Promoter 1-2 kb	12519	339735	0.0368493090202658
+Published reciprocal95 mm10	All peak midpoint proxies	Promoter 2-3 kb	10922	339735	0.0321485863982221
+Published reciprocal95 mm10	All peak midpoint proxies	5' UTR	171	339735	0.000503333480506866
+Published reciprocal95 mm10	All peak midpoint proxies	3' UTR	5294	339735	0.0155827336011892
+Published reciprocal95 mm10	All peak midpoint proxies	First exon	2827	339735	0.0083211915169176
+Published reciprocal95 mm10	All peak midpoint proxies	Other exon	6671	339735	0.0196358926810602
+Published reciprocal95 mm10	All peak midpoint proxies	First intron	48025	339735	0.141360177785627
+Published reciprocal95 mm10	All peak midpoint proxies	Other intron	110729	339735	0.325927561187396
+Published reciprocal95 mm10	All peak midpoint proxies	Downstream <=300 bp	288	339735	0.000847719546116827
+Published reciprocal95 mm10	All peak midpoint proxies	Distal intergenic	112974	339735	0.332535652788203
+Published reciprocal95 mm10	Canonical-TE-positive midpoint proxies	Promoter <=1 kb	1605	54191	0.0296174641545644
+Published reciprocal95 mm10	Canonical-TE-positive midpoint proxies	Promoter 1-2 kb	1638	54191	0.0302264213614807
+Published reciprocal95 mm10	Canonical-TE-positive midpoint proxies	Promoter 2-3 kb	1595	54191	0.0294329316676201
+Published reciprocal95 mm10	Canonical-TE-positive midpoint proxies	5' UTR	12	54191	0.000221438984333192
+Published reciprocal95 mm10	Canonical-TE-positive midpoint proxies	3' UTR	318	54191	0.00586813308482959
+Published reciprocal95 mm10	Canonical-TE-positive midpoint proxies	First exon	349	54191	0.006440183794357
+Published reciprocal95 mm10	Canonical-TE-positive midpoint proxies	Other exon	407	54191	0.00751047221863409
+Published reciprocal95 mm10	Canonical-TE-positive midpoint proxies	First intron	8394	54191	0.154896569541068
+Published reciprocal95 mm10	Canonical-TE-positive midpoint proxies	Other intron	18076	54191	0.333560923400565
+Published reciprocal95 mm10	Canonical-TE-positive midpoint proxies	Downstream <=300 bp	44	54191	0.000811942942555037
+Published reciprocal95 mm10	Canonical-TE-positive midpoint proxies	Distal intergenic	21753	54191	0.401413518849994

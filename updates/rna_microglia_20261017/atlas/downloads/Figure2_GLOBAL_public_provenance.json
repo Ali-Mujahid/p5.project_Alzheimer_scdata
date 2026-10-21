@@ -1,0 +1,180 @@
+{
+  "schema": "public_Figure2_global_small_asset_provenance_v1",
+  "scope": "global_native68126_and_published339735_mm10_peaks_not_Microglia_only",
+  "BCD_source_job": "7518091",
+  "CATlas_source_job": "7518190",
+  "E_original_source_job": "7518112",
+  "E_corrected_source_job": "7518312",
+  "A_status": "pending_no_motif_or31type_results_displayed",
+  "geometry": {
+    "BCD_and_E": "1bp_lower_midpoint_proxy_NOT_MACS_summit",
+    "CATlas": "full_BED0_regions_any_overlap",
+    "C_Venn": "schematic_not_area_proportional"
+  },
+  "assets_before_this_provenance": [
+    {
+      "name": "Figure2_B_genomic_context.pdf",
+      "bytes": 71111,
+      "sha256": "3c8b29584ddcdeef9e568e697c665c1285dee379759430b308b4c0e8f405ca57",
+      "source_basename": "Figure2_B_genomic_context.pdf"
+    },
+    {
+      "name": "Figure2_B_genomic_context.png",
+      "bytes": 98397,
+      "sha256": "470a61a583745531c28a350232283f94a1fb4dde3c0a9e8c31c86f03e733ddbc",
+      "source_basename": "Figure2_B_genomic_context.png"
+    },
+    {
+      "name": "Figure2_C_gene_body_TE_membership.pdf",
+      "bytes": 45807,
+      "sha256": "e591481fcc6f43ab8e4a5660929c9e5aef851b2a1be17fc7c63e275a2e34a842",
+      "source_basename": "Figure2_C_gene_body_TE_membership.pdf"
+    },
+    {
+      "name": "Figure2_C_gene_body_TE_membership.png",
+      "bytes": 116046,
+      "sha256": "d33aa3030b4199b3ffe044e342894d6c3ee7555b20a926b11a690a9df75b29a1",
+      "source_basename": "Figure2_C_gene_body_TE_membership.png"
+    },
+    {
+      "name": "Figure2_D_TE_family_architecture.pdf",
+      "bytes": 78450,
+      "sha256": "7be3b95a09e2d8dda1d2064ef8c27a941ba5aef564dbda68edf4811f138f9881",
+      "source_basename": "Figure2_D_TE_family_architecture.pdf"
+    },
+    {
+      "name": "Figure2_D_TE_family_architecture.png",
+      "bytes": 237443,
+      "sha256": "e01e89912aef306c44b5f9544b8ce30b6e73eb6e11c706be928d3fd623856471",
+      "source_basename": "Figure2_D_TE_family_architecture.png"
+    },
+    {
+      "name": "Figure2_B_genomic_context_fractions.tsv",
+      "bytes": 5355,
+      "sha256": "af2573c7436c907eb79bdf8eb18f6094ffc9b391f019302cfcebfe871d901425",
+      "source_basename": "B_genomic_context_fractions.tsv"
+    },
+    {
+      "name": "Figure2_C_peakID_gene_body_TE_Venn.tsv",
+      "bytes": 523,
+      "sha256": "09bf9eda626c3878e9d6f69515cc4737b7a77a62519168dac4d7c2709bf1286d",
+      "source_basename": "C_peakID_gene_body_TE_Venn.tsv"
+    },
+    {
+      "name": "Figure2_D_canonical_TE_family_midpoint_counts.tsv",
+      "bytes": 7785,
+      "sha256": "555fb74f47d7c0f2b7550a3bd26349979b354dbf70f0f17909a04a448c84b4a5",
+      "source_basename": "D_canonical_TE_family_midpoint_counts.tsv"
+    },
+    {
+      "name": "Figure2_D_canonical_TE_class_midpoint_counts.tsv",
+      "bytes": 564,
+      "sha256": "0745ee2117af7090fa6939dc9c35f4f1ac1c6af8162eaa10a0b7da595b2cc035",
+      "source_basename": "D_canonical_TE_class_midpoint_counts.tsv"
+    },
+    {
+      "name": "Figure2_BCD_METHODS.md",
+      "bytes": 2102,
+      "sha256": "f651ba4aa9cc563841b02e0508deb63dcbb4bf4eb4f1004c51125f23166189e1",
+      "source_basename": "METHODS.md"
+    },
+    {
+      "name": "Figure2_CATlas_full_region_overlap.pdf",
+      "bytes": 4917,
+      "sha256": "4578e975515700b54a7eeb7db8e1248631624ba7f7008f589edf78cfd7f46acc",
+      "source_basename": "B_CATlas_full_region_overlap.pdf"
+    },
+    {
+      "name": "Figure2_CATlas_full_region_overlap.png",
+      "bytes": 113495,
+      "sha256": "fa00fcd9c67cd9c315c7cdf3e134320a1626fc051e3e52ddf56495e326acd37b",
+      "source_basename": "B_CATlas_full_region_overlap.pdf",
+      "presentation": "PDF raster preview only"
+    },
+    {
+      "name": "Figure2_CATlas_full_region_overlap_summary.tsv",
+      "bytes": 460,
+      "sha256": "aa75f1b57fe351c0b305493cb2439cbb4cdf8d7d2cc191113c6c5cf7e7c37bc5",
+      "source_basename": "CATlas_full_region_overlap_summary.tsv"
+    },
+    {
+      "name": "Figure2_CATlas_per_catalog_input_QC.tsv",
+      "bytes": 6554,
+      "sha256": "1a42146c42841e469a6c9a59176bd875331e5982585249d47481acd2c1ca30ca",
+      "source_basename": "CATlas_per_catalog_input_QC.tsv"
+    },
+    {
+      "name": "Figure2_CATlas_METHODS.md",
+      "bytes": 1159,
+      "sha256": "7c7a29d500d838554176c460ace3bb2954e26dc9f434f51eabfb5e1d3d8e6231",
+      "source_basename": "METHODS.md"
+    },
+    {
+      "name": "Figure2_E_TE_family_enrichment.pdf",
+      "bytes": 109137,
+      "sha256": "4bf6a45f59116211999cdee2765b5274d7e6fcbface95f86ad3d7de7fc677c84",
+      "source_basename": "Figure2_E_TE_family_enrichment.pdf"
+    },
+    {
+      "name": "Figure2_E_TE_family_enrichment.png",
+      "bytes": 329521,
+      "sha256": "c9e46fb8ab4f5ae3763cc621ac3cdf9d541dbe3cc250519a803da1d7ca7d9b3a",
+      "source_basename": "Figure2_E_TE_family_enrichment.png"
+    },
+    {
+      "name": "Figure2_CORRECTED_E_family_copy_enrichment_both_peak_sets.tsv",
+      "bytes": 43067,
+      "sha256": "b19de61ae3e482a1ff0e83ff2db404699d24019d63209b624616f35aa30bddb2",
+      "source_basename": "E_family_copy_enrichment_both_peak_sets.tsv"
+    },
+    {
+      "name": "Figure2_CORRECTED_native_peaks.TE_family_copy_enrichment.tsv",
+      "bytes": 21586,
+      "sha256": "6a19ff73125c19bafd36a05053dc67bec4ee34a8844f6df8b3b83aa2836cdb1c",
+      "source_basename": "native_peaks.TE_family_copy_enrichment.tsv"
+    },
+    {
+      "name": "Figure2_CORRECTED_published_peaks.TE_family_copy_enrichment.tsv",
+      "bytes": 22208,
+      "sha256": "2bdfb328a6fd268ec2fe1782e75ebb0adbc4ee3eb4a8e10476a1e8621cbaf38c",
+      "source_basename": "published_peaks.TE_family_copy_enrichment.tsv"
+    },
+    {
+      "name": "Figure2_CORRECTED_native_peaks.TE_subfamily_copy_enrichment_SECONDARY.tsv",
+      "bytes": 506354,
+      "sha256": "3ab35429dbc014ec6177c03c17b2aee639bd96144f0d21d8c5ff85b8429edf51",
+      "source_basename": "native_peaks.TE_subfamily_copy_enrichment_SECONDARY.tsv"
+    },
+    {
+      "name": "Figure2_CORRECTED_published_peaks.TE_subfamily_copy_enrichment_SECONDARY.tsv",
+      "bytes": 551862,
+      "sha256": "729e464f4ac04675e928ff84e5c4c305ea91ca121b4947327785abc7779435dd",
+      "source_basename": "published_peaks.TE_subfamily_copy_enrichment_SECONDARY.tsv"
+    },
+    {
+      "name": "Figure2_E_CORRECTED_METHODS.md",
+      "bytes": 1488,
+      "sha256": "51d6a2a5b125a3fc1578139b16f25359a12c6c1ea4ba8c556246a3b18efe200e",
+      "source_basename": "METHODS.md"
+    },
+    {
+      "name": "Figure2_BCDE_reviewed_report.pdf",
+      "bytes": 307581,
+      "sha256": "ba966edcf4ddbe19c802d5c3eb39418c4d01c404063116353a5c9f6188ce81fe",
+      "source_basename": "Figure2_reviewed_BCDE_native_and_published.pdf"
+    },
+    {
+      "name": "Figure2_BCDE_reviewed_tables_and_PDFs.zip",
+      "bytes": 500180,
+      "sha256": "b1bd12660b5c6fab5eef06322338b1485ad11dc47554efe140212e106eeeec25",
+      "source_basename": "Figure2_reviewed_BCDE_tables_and_PDFs.zip"
+    },
+    {
+      "name": "Figure2_GLOBAL_RESULTS_AND_METHODS.md",
+      "bytes": 17358,
+      "sha256": "c48f4a231ffca996684b38d4c62aba565084a43e27f22c8e5dfda489549019a0",
+      "source_basename": "FIGURE2_PUBLIC_METHODS_AND_RESULTS.reviewed_BCDE_CATlas.md"
+    }
+  ],
+  "statistical_claims": "E_per_peakset_BH43_family_and_separate1075secondary;coordinateassociation_not_TEactivation_or_qualityrank"
+}

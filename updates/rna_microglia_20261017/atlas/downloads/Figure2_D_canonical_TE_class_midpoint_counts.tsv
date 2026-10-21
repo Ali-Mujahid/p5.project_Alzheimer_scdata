@@ -1,0 +1,13 @@
+dataset	te_class	n_unique_peaks	denominator	nonexclusive_across_classes
+Native mm10	DNA	474	68126	TRUE
+Native mm10	LINE	1524	68126	TRUE
+Native mm10	LTR	2426	68126	TRUE
+Native mm10	RC	3	68126	TRUE
+Native mm10	Retroposon	0	68126	TRUE
+Native mm10	SINE	1309	68126	TRUE
+Published reciprocal95 mm10	DNA	4131	339735	TRUE
+Published reciprocal95 mm10	LINE	15856	339735	TRUE
+Published reciprocal95 mm10	LTR	19828	339735	TRUE
+Published reciprocal95 mm10	RC	8	339735	TRUE
+Published reciprocal95 mm10	Retroposon	0	339735	TRUE
+Published reciprocal95 mm10	SINE	14413	339735	TRUE
