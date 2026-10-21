@@ -1,0 +1,24 @@
+{
+  "status": "presentation_only_from_verified_summaries",
+  "model_refit": false,
+  "originals_modified": false,
+  "source_tables": {
+    "equal_mouse_condition_mean_rates.tsv": {
+      "sha256": "5a7b7aea098926b752e978b08118ffc01a297c5ecfdc354f38f46493bdfcf557",
+      "bytes": 4202
+    },
+    "condition_fraction_animals_detected.tsv": {
+      "sha256": "0eebf20d8dbe1500ac5128c2bedcb10b7df3985f51447d31b1b6149829716530",
+      "bytes": 994
+    }
+  },
+  "original_pdf_sha256": "693d1b7eff85741ff89d3f684b341bac01ab497f7a3bc7957202f36a53ddc6c5",
+  "output": {
+    "name": "family_condition_rate_dotplot.readable.pdf",
+    "sha256": "ef7ac718855be2bc82dbf97b2bf6aeafa1ca88bb4ba57c4f54baa1fa1d7e372c"
+  },
+  "rows": 43,
+  "conditions": 5,
+  "color": "log2(1+equal_mouse_mean_family_fragments_per_million_all_admitted_fragments)",
+  "circle_area": "130 * fraction_of_4_animals_detected"
+}

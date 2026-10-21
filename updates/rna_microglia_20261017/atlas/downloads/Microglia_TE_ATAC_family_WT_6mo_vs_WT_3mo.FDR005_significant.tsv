@@ -1,0 +1,1 @@
+feature_id	repClass	repFamily	n_subfamilies	subfamilies	taxonomy_ambiguous	taxonomy_status	family_count_semantics	count_ge10_mice	eligible	contrast	baseMean	log2FC	lfcSE	CI95_lower	CI95_upper	stat	PValue	FDR_alpha005	EXPLORATORY_FDR_alpha010	not_tested_reason	endpoint	FDR_scope

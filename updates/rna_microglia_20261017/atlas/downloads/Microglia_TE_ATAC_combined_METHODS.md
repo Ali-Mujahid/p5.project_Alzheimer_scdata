@@ -1,0 +1,13 @@
+# Combined mm10 peak-set TE coordinate associations
+
+Accepted actual results use a common union of 335,546 nonoverlapping mm10 regions constructed from the native own and lifted published peak sets, recounted from the same 9,152 provisionally labeled Microglia cells, 104 libraries and 20 mice (38,409,129 admitted fragments). These are changed interval boundaries; old peak matrices were not added together. Each unshifted half-open fragment counts once per overlapping region.
+
+DESeq2 uses raw integer mouse pseudobulks, sex + condition, condition-blind count >=10 in >=4 mice, median-ratio normalization and the recorded actual dispersion fit. Four condition contrasts versus WT_3mo retain independent filtering and BH within each contrast/common universe. q<0.05 is primary; alpha=0.10 with q<0.10 is exploratory. The two alpha-specific selections need not be nested. Public lists therefore retain their exact union with both FDR/flag columns. Summary tables retain separate threshold counts. The exploratory heatmap is a per-contrast q10 union selected for display, not a globally adjusted discovery list. Unshrunk fold changes and color thresholds are stated in the producer plots.
+
+TE annotation is direct coordinate overlap with canonical-chromosome mm10 RepeatMasker TE loci. Any positive base overlap qualifies; overlapping TE bases are unioned. A TE-associated peak is not proof of autonomous TE activity, TE RNA expression or TE-driven regulation. No retained TE overlap does not mean gene-only. Width/GC/baseMean-stratified descriptive overlap ratios are not formal enrichment significance; mappability is not measured. Only uniquely aligned MAPQ>=30, NH=1, blacklist-filtered unshifted deduplicated fragments were counted, with no multimapper recovery.
+
+The separate family endpoint models exclusive-primary TE fragment rates per all admitted fragments; peak DA uses median-ratio normalization. These test different quantities. Mice remain the independent replicates. Provisional labels are not final singlet or retention certification.
+
+The two 5xFAD hits UNION0319992 and UNION0319993 fall in prior chr9 Thy1-region candidate windows. Thy1 regulatory sequences in the 5xFAD construct are a candidate mapping/copy-number confound; this has not been proven to be an artifact. These peaks do not establish endogenous TE activation. The APOE4_TREM2 primary hit UNION0167018 is a separate chr19 region overlapping ID_B1/PB1D10. WT21 primary/exploratory hits have no retained TE overlap.
+
+Only part of each discovered region overlaps retained TEs: 19.0% for UNION0319992, 4.3% for UNION0319993 and 6.7% for UNION0167018. Peak-level count changes therefore are not TE-specific measurements.

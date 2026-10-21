@@ -152,7 +152,8 @@ def load_update(root):
         suffix = route[len(PREFIX):]
         relative = _relative(suffix)
         allowed_download = (len(relative.parts) == 2 and relative.parts[0] == "downloads" and
-                            relative.suffix in {".pdf", ".png", ".npy", ".tsv", ".csv", ".json", ".md", ".txt"})
+                            (relative.suffix in {".pdf", ".png", ".npy", ".tsv", ".csv", ".json", ".md", ".txt"} or
+                             relative.name.endswith((".tsv.gz", ".tsv.xz"))))
         _need(route in REQUIRED or allowed_download, "Unreviewed overlay route class: " + route)
         expected_path = "updates/" + UPDATE_ID + "/atlas/" + suffix
         _need(row["path"] == expected_path, "Overlay disk and HTTP paths must match exactly")
@@ -195,7 +196,7 @@ def handler_factory(directory, routes):
                 self.send_error(503, "Reviewed atlas overlay asset failed verification")
                 return None
             self.send_response(200)
-            self.send_header("Content-Type", self.guess_type(asset.path))
+            self.send_header("Content-Type", "application/x-xz" if str(asset.path).endswith(".tsv.xz") else "application/gzip" if str(asset.path).endswith(".tsv.gz") else self.guess_type(asset.path))
             self.send_header("Content-Length", str(len(raw)))
             self.send_header("Last-Modified", self.date_time_string(info.st_mtime))
             self.end_headers()

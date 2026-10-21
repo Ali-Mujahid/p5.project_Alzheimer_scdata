@@ -1,0 +1,25 @@
+method	feature_level	contrast	features	tested	FDR_below_0_05	combined_contrast_FDR_below_0_05	robust	endpoint
+primary_exposure_rate	subfamily	5xFAD_3mo_vs_WT_3mo	1075	972	0	0	TRUE	TE fragment rate per all admitted unique ATAC fragments
+primary_exposure_rate	subfamily	APOE4_TREM2_3mo_vs_WT_3mo	1075	972	0	0	TRUE	TE fragment rate per all admitted unique ATAC fragments
+primary_exposure_rate	subfamily	WT_6mo_vs_WT_3mo	1075	972	0	0	TRUE	TE fragment rate per all admitted unique ATAC fragments
+primary_exposure_rate	subfamily	WT_21mo_vs_WT_3mo	1075	972	0	0	TRUE	TE fragment rate per all admitted unique ATAC fragments
+te_composition_TMM	subfamily	5xFAD_3mo_vs_WT_3mo	1075	972	0	0	TRUE	Composition within the filtered primary TE fragment counts
+te_composition_TMM	subfamily	APOE4_TREM2_3mo_vs_WT_3mo	1075	972	0	0	TRUE	Composition within the filtered primary TE fragment counts
+te_composition_TMM	subfamily	WT_6mo_vs_WT_3mo	1075	972	0	0	TRUE	Composition within the filtered primary TE fragment counts
+te_composition_TMM	subfamily	WT_21mo_vs_WT_3mo	1075	972	0	0	TRUE	Composition within the filtered primary TE fragment counts
+primary_exposure_rate	family	5xFAD_3mo_vs_WT_3mo	43	41	0	0	TRUE	TE fragment rate per all admitted unique ATAC fragments
+primary_exposure_rate	family	APOE4_TREM2_3mo_vs_WT_3mo	43	41	0	0	TRUE	TE fragment rate per all admitted unique ATAC fragments
+primary_exposure_rate	family	WT_6mo_vs_WT_3mo	43	41	0	0	TRUE	TE fragment rate per all admitted unique ATAC fragments
+primary_exposure_rate	family	WT_21mo_vs_WT_3mo	43	41	0	0	TRUE	TE fragment rate per all admitted unique ATAC fragments
+te_composition_TMM	family	5xFAD_3mo_vs_WT_3mo	43	41	0	0	TRUE	Composition within the filtered primary TE fragment counts
+te_composition_TMM	family	APOE4_TREM2_3mo_vs_WT_3mo	43	41	0	0	TRUE	Composition within the filtered primary TE fragment counts
+te_composition_TMM	family	WT_6mo_vs_WT_3mo	43	41	0	0	TRUE	Composition within the filtered primary TE fragment counts
+te_composition_TMM	family	WT_21mo_vs_WT_3mo	43	41	0	0	TRUE	Composition within the filtered primary TE fragment counts
+primary_exposure_rate	class	5xFAD_3mo_vs_WT_3mo	6	5	0	0	TRUE	TE fragment rate per all admitted unique ATAC fragments
+primary_exposure_rate	class	APOE4_TREM2_3mo_vs_WT_3mo	6	5	0	0	TRUE	TE fragment rate per all admitted unique ATAC fragments
+primary_exposure_rate	class	WT_6mo_vs_WT_3mo	6	5	0	0	TRUE	TE fragment rate per all admitted unique ATAC fragments
+primary_exposure_rate	class	WT_21mo_vs_WT_3mo	6	5	0	0	TRUE	TE fragment rate per all admitted unique ATAC fragments
+te_composition_TMM	class	5xFAD_3mo_vs_WT_3mo	6	5	0	0	TRUE	Composition within the filtered primary TE fragment counts
+te_composition_TMM	class	APOE4_TREM2_3mo_vs_WT_3mo	6	5	0	0	TRUE	Composition within the filtered primary TE fragment counts
+te_composition_TMM	class	WT_6mo_vs_WT_3mo	6	5	0	0	TRUE	Composition within the filtered primary TE fragment counts
+te_composition_TMM	class	WT_21mo_vs_WT_3mo	6	5	0	0	TRUE	Composition within the filtered primary TE fragment counts

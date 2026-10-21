@@ -1,0 +1,37 @@
+{
+  "status": "validated",
+  "cells": 9152,
+  "mice": 20,
+  "libraries": 104,
+  "subfamilies": 1075,
+  "admitted_unique_fragments": 38409129,
+  "primary_unambiguous_TE_fragments": 13264975,
+  "ambiguous_TE_fragments": 4664558,
+  "no_TE_fragments": 20479596,
+  "all_hit_descriptive_subfamily_overlap_assignments": 24228635,
+  "zero_depth_cells": 0,
+  "zero_primary_TE_cells": 0,
+  "zero_any_TE_cells": 0,
+  "automatic_exclusions": 0,
+  "matrix_column_conservation": true,
+  "cell_count_conservation": true,
+  "cells_per_mouse_min": 282,
+  "cells_per_mouse_max": 568,
+  "fragments_per_mouse_min": 1032197,
+  "fragments_per_mouse_max": 3023039,
+  "taxonomy_status_counts": {
+    "as_provided": 1068,
+    "harmonized_family": 5,
+    "ambiguous_family": 2
+  },
+  "PCA_variance_percent": [
+    19.56150736948721,
+    7.737207854034881
+  ],
+  "minimum_between_mouse_lograte_correlation": 0.9824276028575084,
+  "identity_label_scope": [
+    "initial_published_calibration_not_final_identity"
+  ],
+  "all_hit_semantics": "Nonexclusive descriptive subfamily overlap assignments; not an independent fragment burden",
+  "methods_scope": "MAPQ>=30, NH=1, blacklist-filtered, unshifted deduplicated fragments; no multimapper recovery"
+}

@@ -1,0 +1,209 @@
+{
+  "schema": "accepted_actual_common_peak_TE_atlas_v1",
+  "job_id": "7517231",
+  "source_manifest_sha256": "d3f3fee09fc9fdd110774d3fbe19a54efea00f60f7fd9331f3535b820ed46d51",
+  "review_sha256": "fc2a56fb4aced1bb2d08670ed7828ff9f051d034697a726bb23d7084fab381eb",
+  "result_download_manifest_sha256": "b6f6b23e6f6e963b8c03b94922ab4f386c742becf830db5e0e92fcbddbb4611a",
+  "source_products": {
+    "DESeq2/DA_summary.tsv": {
+      "bytes": 631,
+      "sha256": "9c6b7de3f3f98ecbda94a44c6641cbc612dee430222ca76a24181fbd654a665a"
+    },
+    "DESeq2/model_fit_summary.tsv": {
+      "bytes": 586,
+      "sha256": "7d77bf43eb468ba3da25763b913cc122eb12dfc7a0db2557e7a36ed27df362d6"
+    },
+    "TE_annotation/TE_overlap_DESCRIPTIVE_summary.tsv": {
+      "bytes": 8693,
+      "sha256": "2101e981ca09c6376f998b69929ae93f765f6f3665a37ad2e452a194acf2d312"
+    },
+    "TE_annotation/combined_peak_TE_annotation.tsv": {
+      "bytes": 67444070,
+      "sha256": "2e07cbf7be3f5bad9f548412c9050e6452da2c19c787fcf9b67b6142e20e2763"
+    },
+    "TE_plots/5xFAD_3mo_vs_WT_3mo.TE_overlap_volcano.pdf": {
+      "bytes": 1450632,
+      "sha256": "b6a8d856ec2cc43a4a462059fb929687286583fe56956381504fc55439e5b2ff"
+    },
+    "TE_plots/APOE4_TREM2_3mo_vs_WT_3mo.TE_overlap_volcano.pdf": {
+      "bytes": 1496429,
+      "sha256": "dd9063f7422b089be7359b1195b10b12fdde3d0db6abf5932ec38ddecf732aec"
+    },
+    "TE_plots/EXPLORATORY_q10_TE_peak_heatmap.pdf": {
+      "bytes": 6732,
+      "sha256": "86631fc503ba16e5795d90e354ec27197f7a98ecc1a4ab3ee230522a03ce0e5c"
+    },
+    "TE_plots/EXPLORATORY_q10_TE_peak_selection.tsv": {
+      "bytes": 394,
+      "sha256": "a2d4e0a79fd44fb99fe0bcbee82e7e7a1f277c1439e3387e80aa6be97b68f501"
+    },
+    "TE_plots/TE_overlap_fraction_DESCRIPTIVE.pdf": {
+      "bytes": 4960,
+      "sha256": "7d535715af75fdfce62faa32848b3a7809dafda360347270522bca708c3e3740"
+    },
+    "TE_plots/WT_21mo_vs_WT_3mo.TE_overlap_volcano.pdf": {
+      "bytes": 1491760,
+      "sha256": "ca411e9189c5eb0541be85a52e062211c9a6b87a94be95e2c71aeb0f5444428b"
+    },
+    "TE_plots/WT_6mo_vs_WT_3mo.TE_overlap_volcano.pdf": {
+      "bytes": 1504126,
+      "sha256": "dd854d29434b84bcbc7f33bf35037c062a4db738444cd320a15fa0684b667056"
+    },
+    "TE_plots/plot_interpretation.txt": {
+      "bytes": 367,
+      "sha256": "f4afb9339c85e072921fb0b063fa604b1297ac8fca482e5a470c2e9f67161539"
+    },
+    "TE_plots/plots_complete.tsv": {
+      "bytes": 92,
+      "sha256": "c9fb32ea49a2fa252fd815a34bb878bb574e8369e2cc5de7d58267caa1829899"
+    }
+  },
+  "per_contrast_unions": [
+    {
+      "contrast": "5xFAD_3mo_vs_WT_3mo",
+      "union_all_DA": 2,
+      "union_TE_overlapping": 2,
+      "source_TSV_SHA256": {
+        "5xFAD_3mo_vs_WT_3mo.q05.tsv": "bc4946f81af7008b578f434795124d5dc10d35254171a3baffc330c0920385d9",
+        "5xFAD_3mo_vs_WT_3mo.q10_EXPLORATORY.tsv": "bc4946f81af7008b578f434795124d5dc10d35254171a3baffc330c0920385d9"
+      },
+      "derived_all_DA_sha256": "bc4946f81af7008b578f434795124d5dc10d35254171a3baffc330c0920385d9",
+      "derived_TE_sha256": "a288a1d1a4cda99946b24e5cb19e8226f4cfbe86a25e99e9feaa42be2c909b1b"
+    },
+    {
+      "contrast": "APOE4_TREM2_3mo_vs_WT_3mo",
+      "union_all_DA": 1,
+      "union_TE_overlapping": 1,
+      "source_TSV_SHA256": {
+        "APOE4_TREM2_3mo_vs_WT_3mo.q05.tsv": "468fd79c5cb3a303bf095a0406f310efc01fdc94e0d8f4e356fa22c5dcd3e01c",
+        "APOE4_TREM2_3mo_vs_WT_3mo.q10_EXPLORATORY.tsv": "468fd79c5cb3a303bf095a0406f310efc01fdc94e0d8f4e356fa22c5dcd3e01c"
+      },
+      "derived_all_DA_sha256": "468fd79c5cb3a303bf095a0406f310efc01fdc94e0d8f4e356fa22c5dcd3e01c",
+      "derived_TE_sha256": "dcea29c4ccdb409b5d7791d07b77047b6613898ece00b146ea898dc528a56e03"
+    },
+    {
+      "contrast": "WT_6mo_vs_WT_3mo",
+      "union_all_DA": 0,
+      "union_TE_overlapping": 0,
+      "source_TSV_SHA256": {
+        "WT_6mo_vs_WT_3mo.q05.tsv": "2b16d39aa992d5e70beef94d7c4093c26c46d9913f79d27fe7eb8929d64cff06",
+        "WT_6mo_vs_WT_3mo.q10_EXPLORATORY.tsv": "2b16d39aa992d5e70beef94d7c4093c26c46d9913f79d27fe7eb8929d64cff06"
+      },
+      "derived_all_DA_sha256": "2b16d39aa992d5e70beef94d7c4093c26c46d9913f79d27fe7eb8929d64cff06",
+      "derived_TE_sha256": "b81bf249549c2cc655d9402234d7b50e8bca9492a52d9dfa1833d884702f0daa"
+    },
+    {
+      "contrast": "WT_21mo_vs_WT_3mo",
+      "union_all_DA": 2,
+      "union_TE_overlapping": 0,
+      "source_TSV_SHA256": {
+        "WT_21mo_vs_WT_3mo.q05.tsv": "528acbf5a8ebb6c30539ed3905460da33b8b4fa2c32a4b08088915387640594d",
+        "WT_21mo_vs_WT_3mo.q10_EXPLORATORY.tsv": "172bb245687890cdf4f1548114d499bc4c34e24c30da11c9a20aa690853075e9"
+      },
+      "derived_all_DA_sha256": "5876d5d7c8c1640f7429deb813ed782c26d30154994aa9111a84b024ab90d754",
+      "derived_TE_sha256": "b81bf249549c2cc655d9402234d7b50e8bca9492a52d9dfa1833d884702f0daa"
+    }
+  ],
+  "source_annotation_sha256": "2e07cbf7be3f5bad9f548412c9050e6452da2c19c787fcf9b67b6142e20e2763",
+  "model_refit": false,
+  "count_recalculation": false,
+  "derived_list_rule": "Exact union of actual per-contrast primaryq05 and exploratoryq10; preserve both original FDRs/flags; TE lists filter union by actual annotation TE_overlap",
+  "DA_summary": [
+    {
+      "contrast": "5xFAD_3mo_vs_WT_3mo",
+      "level": "q05",
+      "all_peaks": "335546",
+      "eligible": "26590",
+      "wald_tested": "26590",
+      "fdr_evaluated": "26590",
+      "discoveries": "2",
+      "higher": "2",
+      "lower": "0",
+      "exploratory": "FALSE"
+    },
+    {
+      "contrast": "5xFAD_3mo_vs_WT_3mo",
+      "level": "q10_EXPLORATORY",
+      "all_peaks": "335546",
+      "eligible": "26590",
+      "wald_tested": "26590",
+      "fdr_evaluated": "26590",
+      "discoveries": "2",
+      "higher": "2",
+      "lower": "0",
+      "exploratory": "TRUE"
+    },
+    {
+      "contrast": "APOE4_TREM2_3mo_vs_WT_3mo",
+      "level": "q05",
+      "all_peaks": "335546",
+      "eligible": "26590",
+      "wald_tested": "26590",
+      "fdr_evaluated": "26590",
+      "discoveries": "1",
+      "higher": "1",
+      "lower": "0",
+      "exploratory": "FALSE"
+    },
+    {
+      "contrast": "APOE4_TREM2_3mo_vs_WT_3mo",
+      "level": "q10_EXPLORATORY",
+      "all_peaks": "335546",
+      "eligible": "26590",
+      "wald_tested": "26590",
+      "fdr_evaluated": "26590",
+      "discoveries": "1",
+      "higher": "1",
+      "lower": "0",
+      "exploratory": "TRUE"
+    },
+    {
+      "contrast": "WT_6mo_vs_WT_3mo",
+      "level": "q05",
+      "all_peaks": "335546",
+      "eligible": "26590",
+      "wald_tested": "26590",
+      "fdr_evaluated": "26590",
+      "discoveries": "0",
+      "higher": "0",
+      "lower": "0",
+      "exploratory": "FALSE"
+    },
+    {
+      "contrast": "WT_6mo_vs_WT_3mo",
+      "level": "q10_EXPLORATORY",
+      "all_peaks": "335546",
+      "eligible": "26590",
+      "wald_tested": "26590",
+      "fdr_evaluated": "26590",
+      "discoveries": "0",
+      "higher": "0",
+      "lower": "0",
+      "exploratory": "TRUE"
+    },
+    {
+      "contrast": "WT_21mo_vs_WT_3mo",
+      "level": "q05",
+      "all_peaks": "335546",
+      "eligible": "26590",
+      "wald_tested": "26590",
+      "fdr_evaluated": "26590",
+      "discoveries": "1",
+      "higher": "1",
+      "lower": "0",
+      "exploratory": "FALSE"
+    },
+    {
+      "contrast": "WT_21mo_vs_WT_3mo",
+      "level": "q10_EXPLORATORY",
+      "all_peaks": "335546",
+      "eligible": "26590",
+      "wald_tested": "26590",
+      "fdr_evaluated": "26590",
+      "discoveries": "2",
+      "higher": "2",
+      "lower": "0",
+      "exploratory": "TRUE"
+    }
+  ]
+}

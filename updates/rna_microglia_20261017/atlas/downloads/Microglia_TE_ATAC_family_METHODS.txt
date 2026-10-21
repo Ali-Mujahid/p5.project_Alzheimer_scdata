@@ -1,0 +1,6 @@
+Full mm10 RMSK; no peak intersection or recount. Forty-three analysis bins include41 resolved biological-family bins and2 explicitly unresolved per-subfamily bins.
+Only exclusive one-subfamily fragments are summed. A fragment spanning multiple subfamilies is excluded from primary even if their family agrees; all-hit descriptive counts are not modeled.
+Biological replicates20mice, four per condition, two of each sex. Design~sex+condition. Fixed raw count>=10 in>=4mice; all43 bins retained in result tables.
+DESeq2 fixed size factors proportional to all admitted unique ATAC fragments: rate endpoint, not within-TE composition or absolute openness. No rounding, cell replication or hit-driven fit selection.
+FDR0.05 is primary,0.10 explicitly exploratory. Both BH within contrast/family universe. Existing edgeR results remain a separate method baseline.
+Dot size denotes fraction of ANIMALS detected. Heatmaps/UMAP overlays are descriptive; no autonomous TE or RNA-expression claim.
