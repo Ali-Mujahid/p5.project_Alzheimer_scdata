@@ -756,8 +756,8 @@
     {
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
       "path": "updates/rna_microglia_20261017/atlas/index.html",
-      "bytes": 72587,
-      "sha256": "b14c80abbe2ba502b6b8c45260a5cfa621eb0459dd46396ee3b73e5f3aca9049"
+      "bytes": 77221,
+      "sha256": "7c741def90ecd5d883aedad7d7a26a0a2b34866ff1f10f369db49a3033391146"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/rna_microglia.css",
@@ -938,6 +938,30 @@
       "path": "updates/rna_microglia_20261017/atlas/downloads/Figure2_GLOBAL_public_provenance.json",
       "bytes": 7295,
       "sha256": "dc158633b40f2500ca1adef1df5b7c377d0206116d88fdaca3b7f3ab8d6a606f"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_RNA_TE_Figure1.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_RNA_TE_Figure1.pdf",
+      "bytes": 2674339,
+      "sha256": "e623f78b0753e4ca9ea42a0e13b82c42a55ed84e420c513449763858856820ad"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_RNA_TE_Figure1_preview.jpg",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_RNA_TE_Figure1_preview.jpg",
+      "bytes": 315689,
+      "sha256": "072ca363134ed3621c115706d5b1e2fa635dc9d8858ea0896262779f476a97de"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_RNA_TE_QC_panels_and_tables.zip",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_RNA_TE_QC_panels_and_tables.zip",
+      "bytes": 7283884,
+      "sha256": "40e76d7c88a4d6ba72d4b36674eaf95c30a6f6ecabcfb78629163b3dda7b5cfd"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_RNA_TE_QC_report.md",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_RNA_TE_QC_report.md",
+      "bytes": 4523,
+      "sha256": "291f38566f7c723900951b8621d86d3bfbe931ebf4b91cfdd727ce446f967c89"
     }
   ]
 }
