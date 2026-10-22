@@ -17,12 +17,12 @@ from urllib.parse import unquote, urlsplit
 PREFIX = "/full_workflow_20261014/atlas_preview/"
 UPDATE_ID = "rna_microglia_20261017"
 REQUIRED = {PREFIX + name for name in (
-    "index.html", "rna_microglia.js", "rna_microglia.css",
+    "index.html", "app.js", "rna_microglia.js", "te_group_trends.js", "rna_microglia.css",
     "data/rna_microglia.json", "data/microglia_coordinates.json",
 )}
 MAX_FILE_BYTES = 128 * 1024 * 1024
 MAX_TOTAL_BYTES = 256 * 1024 * 1024
-MAX_FILES = 164
+MAX_FILES = 171
 
 
 def _need(condition, message):

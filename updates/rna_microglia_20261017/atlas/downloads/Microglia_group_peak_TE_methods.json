@@ -1,0 +1,41 @@
+{
+  "reference_copies": 3644307,
+  "major_subfamily_threshold_strictly_greater_than": 2000,
+  "major_subfamilies": 233,
+  "excluded_raw_rows_by_class": {
+    "Simple_repeat": 1013987,
+    "Low_complexity": 385854,
+    "snRNA": 3004,
+    "Other": 19409,
+    "Satellite": 36699,
+    "LTR": 5631,
+    "Unknown": 9633,
+    "SINE?": 274,
+    "srpRNA": 437,
+    "tRNA": 4758,
+    "LTR?": 941,
+    "RNA": 691,
+    "scRNA": 8320,
+    "DNA": 1532,
+    "rRNA": 1564,
+    "DNA?": 1027,
+    "RC?": 74,
+    "LINE": 52,
+    "LINE?": 42
+  },
+  "peak_files": {
+    "WT_3mo": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/te-atac/WT_3mo_peaks.narrowPeak.bed",
+    "WT_6mo": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/te-atac/WT_6mo_peaks.narrowPeak.bed",
+    "WT_21mo": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/te-atac/WT_21mo_peaks.narrowPeak.bed",
+    "5xFAD_3mo": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/te-atac/5xFAD_3mo_peaks.narrowPeak.bed",
+    "APOE4_3mo": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/te-atac/APOE4_3mo_peaks.narrowPeak.bed"
+  },
+  "peak_counts": {
+    "WT_3mo": 38893,
+    "WT_6mo": 40042,
+    "WT_21mo": 40382,
+    "5xFAD_3mo": 36400,
+    "APOE4_3mo": 35507
+  },
+  "analysis_scope": "summit coordinate association; no read counts or mappability matching"
+}

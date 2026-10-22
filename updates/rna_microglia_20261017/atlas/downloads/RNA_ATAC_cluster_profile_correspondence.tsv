@@ -1,0 +1,39 @@
+query_assay	query_cluster	original_reviewed_primary_or_candidate	best_cross_assay_cluster	alternative_cross_assay_cluster	coarse_best_match_label	eligible_held_out_mice	best_match_vote_fraction	median_best_similarity	median_margin	confidence_category_NOT_probability	forced_provisional_assignment	alternative_conflict	original_cell_labels_rewritten	independent_cell_annotation_accuracy_established
+ATAC	0	heterogeneous neuronal candidate	4	NA	Neuron	20	1.0	0.6558741861562101	0.12959621590499953	supported_coarse_profile_correspondence	True	False	False	False
+ATAC	1	granule-neuron-associated candidate	0	NA	Granule neuron	20	1.0	0.8706730928436619	0.6346031053845891	supported_coarse_profile_correspondence	True	False	False	False
+ATAC	2	glutamatergic neuronal candidate	3	NA	Glutamatergic neuron	20	1.0	0.7817568644407771	0.12033485136868682	supported_coarse_profile_correspondence	True	False	False	False
+ATAC	3	oligodendrocyte-associated candidate	2	NA	Oligodendrocyte	20	1.0	0.8382095329000784	0.5654896659881128	supported_coarse_profile_correspondence	True	False	False	False
+ATAC	4	astrocyte-associated candidate	5	NA	Astrocyte	20	1.0	0.8182332863742694	0.15129881271161533	supported_coarse_profile_correspondence	True	False	False	False
+ATAC	5	striatal-neuron-associated candidate	7	NA	Striatal neuron	20	1.0	0.8452805620474855	0.3900384503560844	supported_coarse_profile_correspondence	True	False	False	False
+ATAC	6	microglia-associated candidate	11	NA	Microglia	20	1.0	0.5876608557750234	0.3001578064199444	supported_coarse_profile_correspondence	True	False	False	False
+ATAC	7	granule-neuron-associated candidate; depth review	0	NA	Granule neuron	20	1.0	0.8744487723537231	0.6437297928730077	supported_coarse_profile_correspondence	True	False	False	False
+ATAC	8	unresolved neuronal candidate; condition/QC review	4	8	Neuron	20	0.9	0.49972140967804757	0.06983829922748819	supported_coarse_profile_correspondence	True	True	False	False
+ATAC	9	unresolved vascular/stromal mixed candidate	24	NA	Ciliated epithelial cell	20	1.0	0.312396897470342	0.06237750316501246	supported_coarse_profile_correspondence	True	False	False	False
+ATAC	10	unresolved neuronal candidate; low-count review	4	1	Neuron	20	0.6	0.3652042570862859	0.03989688382592137	low_or_unavailable_profile_support	True	True	False	False
+RNA	0	Granule neuron	7	NA	granule-neuron-associated candidate; depth review	20	1.0	0.8758818105544266	0.003498694749862863	low_or_unavailable_profile_support	True	False	False	False
+RNA	1	Neuron	2	NA	glutamatergic neuronal candidate	20	1.0	0.6112306469388431	0.11478002283859592	supported_coarse_profile_correspondence	True	False	False	False
+RNA	2	Oligodendrocyte	3	NA	oligodendrocyte-associated candidate	20	1.0	0.8457830381036688	0.6790510311528397	supported_coarse_profile_correspondence	True	False	False	False
+RNA	3	Glutamatergic neuron	2	NA	glutamatergic neuronal candidate	20	1.0	0.778441511322441	0.41056317516687113	supported_coarse_profile_correspondence	True	False	False	False
+RNA	4	Neuron	0	8	heterogeneous neuronal candidate	20	0.95	0.6608516236068712	0.016070940248869903	low_or_unavailable_profile_support	True	True	False	False
+RNA	5	Astrocyte	4	NA	astrocyte-associated candidate	20	1.0	0.820939502407491	0.6589255322347897	supported_coarse_profile_correspondence	True	False	False	False
+RNA	6	Glial cell	2	5	glutamatergic neuronal candidate	20	0.85	0.3867063230324207	0.044083888110429126	low_or_unavailable_profile_support	True	True	False	False
+RNA	7	Striatal neuron	5	NA	striatal-neuron-associated candidate	20	1.0	0.84709531312592	0.5490653124990739	supported_coarse_profile_correspondence	True	False	False	False
+RNA	8	GABAergic neuron	8	0	unresolved neuronal candidate; condition/QC review	20	0.75	0.5389990471296773	0.009613781589674741	low_or_unavailable_profile_support	True	True	False	False
+RNA	9	GABAergic neuron	0	1	heterogeneous neuronal candidate	20	0.95	0.20268860695058938	0.035754638620985435	low_or_unavailable_profile_support	True	True	False	False
+RNA	10	Glutamatergic neuron	2	NA	glutamatergic neuronal candidate	20	1.0	0.5973095279096468	0.3243439024746314	supported_coarse_profile_correspondence	True	False	False	False
+RNA	11	Microglia	6	NA	microglia-associated candidate	20	1.0	0.5950315404237766	0.4979618632101581	supported_coarse_profile_correspondence	True	False	False	False
+RNA	12	Oligodendrocyte precursor cell	4	3	astrocyte-associated candidate	20	0.65	0.28759066445135406	0.0301758498905198	low_or_unavailable_profile_support	True	True	False	False
+RNA	13	Endothelial cell	6	7	microglia-associated candidate	20	0.95	0.2689810067483243	0.09919434626402773	supported_coarse_profile_correspondence	True	True	False	False
+RNA	14	GABAergic neuron	10	1	unresolved neuronal candidate; low-count review	20	0.6	0.2509534163991514	0.04755050302617096	low_or_unavailable_profile_support	True	True	False	False
+RNA	15	Glutamatergic neuron	2	NA	glutamatergic neuronal candidate	20	1.0	0.6532103313471675	0.29225268130851745	supported_coarse_profile_correspondence	True	False	False	False
+RNA	16	Granule neuron	2	NA	glutamatergic neuronal candidate	20	1.0	0.3966980667076488	0.15791435222079128	supported_coarse_profile_correspondence	True	False	False	False
+RNA	17	Neuron	1	9	granule-neuron-associated candidate	20	0.4	0.16360661283927663	0.005745809250016998	low_or_unavailable_profile_support	True	True	False	False
+RNA	18	Neuron	0	NA	heterogeneous neuronal candidate	20	1.0	0.4287652292923738	0.021440868587326578	low_or_unavailable_profile_support	True	False	False	False
+RNA	19	Purkinje neuron	0	9	heterogeneous neuronal candidate	20	0.75	0.10032978003996844	0.0061127817508181415	low_or_unavailable_profile_support	True	True	False	False
+RNA	20	Fibroblast-like vascular cell	9	4	unresolved vascular/stromal mixed candidate	20	0.4	0.2020461140658869	0.011589452175048559	low_or_unavailable_profile_support	True	True	False	False
+RNA	21	Astrocyte	4	NA	astrocyte-associated candidate	20	1.0	0.6638789470810879	0.4782553753513501	supported_coarse_profile_correspondence	True	False	False	False
+RNA	22	Choroid plexus epithelial cell	6	9	microglia-associated candidate	20	0.5	0.27295343026026553	0.018811676319471407	low_or_unavailable_profile_support	True	True	False	False
+RNA	23	Neuron	0	1	heterogeneous neuronal candidate	20	0.85	0.25254962013228965	0.04665302007319003	low_or_unavailable_profile_support	True	True	False	False
+RNA	24	Ciliated epithelial cell	9	4	unresolved vascular/stromal mixed candidate	20	0.7	0.3129664905092453	0.027717180992285345	low_or_unavailable_profile_support	True	True	False	False
+RNA	25	Neuron	8	0	unresolved neuronal candidate; condition/QC review	20	0.85	0.32485998155751716	0.011410355261320726	low_or_unavailable_profile_support	True	True	False	False
+RNA	26	Neuron	0	NA	heterogeneous neuronal candidate	17	1.0	0.19900637025659554	0.02679002187297319	low_or_unavailable_profile_support	True	False	False	False
