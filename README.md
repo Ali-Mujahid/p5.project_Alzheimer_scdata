@@ -2,11 +2,15 @@
 
 A complete, portable snapshot of the interactive atlas and the files needed to operate it. It includes the browser source, all offline libraries and licenses, UMAP coordinates, Leiden0.6/1.0 labels and marker adapters, all28 TE-overlap views, downloadable PDF/TSV reports, build and validation scripts, archived producer source and provenance.
 
-**Reviewed update: 17 October 2026.** The default view adds the accepted RNA broad-label review and Microglia review tables. Labels and core-analysis membership remain provisional. Saved-coordinate availability is stated by the adapter; unavailable points are not replaced or synthesized. RNA TE counts have not been generated for this update. The dated ATAC QC observation is 100 of 104 libraries; this does not establish final retention or a current scheduler state.
+**Reviewed update: 21 October 2026.** The current atlas includes provisional RNA labels, Microglia review tables, ATAC TE results, and reviewed mouse-level Microglia RNA TE results and figures. Labels and core-analysis membership remain provisional. Saved-coordinate availability is stated by the adapter; unavailable points are not replaced or synthesized. The dated ATAC QC observation is 100 of 104 libraries; this does not establish final retention or a current scheduler state.
 
-The complete **15 October 2026 base snapshot** remains immutable and can be opened separately with `--base-snapshot`. Its historical QC observations are dated archival evidence, including the earlier 8-library import; they are not the 17 October status. Final labels, RNA–ATAC transfer and count-based TE inference remain pending.
+The complete **15 October 2026 base snapshot** remains immutable and can be opened separately with `--base-snapshot`. Its historical QC observations are dated archival evidence, including the earlier 8-library import; they are not the current status. Final labels, RNA–ATAC transfer and whole-atlas TE analysis remain pending.
 
-## Open the atlas on another computer
+## Open the atlas online
+
+[Open the interactive atlas on GitHub Pages](https://ali-mujahid.github.io/p5.project_Alzheimer_scdata/). The link works without downloading the repository or running a local server.
+
+## Open an offline copy on another computer
 
 1. Download **Code → Download ZIP** and extract it, or clone:
 
@@ -29,7 +33,7 @@ The complete **15 October 2026 base snapshot** remains immutable and can be open
 
    If that port is already in use: `python3 start_atlas.py --port 56405 --open`. Press Ctrl+C in the terminal to stop.
 
-Static viewing uses only Python's standard library and a modern browser. No R, scientific Python packages, cluster login, Internet/CDN or additional data download is needed after obtaining the repository. Opening the HTML with `file://` does not support its lazy JSON loading; use the launcher. GitHub stores the portable package; this repository URL itself is not a hosted interactive website.
+Offline viewing uses only Python's standard library and a modern browser. No R, scientific Python packages, cluster login, Internet/CDN or additional data download is needed after obtaining the repository. Opening the HTML with `file://` does not support its lazy JSON loading; use the launcher.
 
 To view the original archived interface, run `python3 start_atlas.py --base-snapshot --open`. This explicitly ignores the overlay, including a damaged overlay, and uses the unchanged original files. Without that option, an invalid overlay stops startup; it never silently falls back to old scientific status.
 
