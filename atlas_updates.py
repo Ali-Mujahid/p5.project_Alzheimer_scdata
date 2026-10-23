@@ -18,11 +18,12 @@ PREFIX = "/full_workflow_20261014/atlas_preview/"
 UPDATE_ID = "rna_microglia_20261017"
 REQUIRED = {PREFIX + name for name in (
     "index.html", "app.js", "rna_microglia.js", "te_group_trends.js", "rna_microglia.css",
+    "paired_views.js", "paired_views.css",
     "data/rna_microglia.json", "data/microglia_coordinates.json",
 )}
 MAX_FILE_BYTES = 128 * 1024 * 1024
 MAX_TOTAL_BYTES = 256 * 1024 * 1024
-MAX_FILES = 177
+MAX_FILES = 200
 
 
 def _need(condition, message):

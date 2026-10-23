@@ -1,0 +1,460 @@
+{
+  "schema": "paired_saved_coordinates_v1",
+  "allocation": {
+    "job_id": "7615239",
+    "node": "node-d13"
+  },
+  "own_rna": {
+    "n": 2281619,
+    "coordinates": "RNA_ours_all2281619.float32.npy",
+    "source": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_runs/RNA_LiSC_20261012_v4/job-7452608/rna/embedding_pcr_harmony/atlas.h5ad"
+  },
+  "geo_rna_source": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/remaining_RNA/processed/GSM6538356_RNA_cell_annotation.csv.gz",
+  "geo_atac_source": "/lisc/data/scratch/molecular_neurosciences/i-med/p5_Glial_TE_regulation_aging/pre_processed_RNA/analysis_source/paired_atlas_20261023_v1/GSM6538357_ATAC_cell_annotation.csv.gz",
+  "geo_rna_all": {
+    "n": 1469111,
+    "clusters": [
+      {
+        "id": 0,
+        "name": "Cerebellum granule neurons",
+        "n": 477790
+      },
+      {
+        "id": 1,
+        "name": "Interbrain and midbrain neurons 2",
+        "n": 143349
+      },
+      {
+        "id": 2,
+        "name": "Oligodendrocyte progenitor cells",
+        "n": 22718
+      },
+      {
+        "id": 3,
+        "name": "Striatal neurons 1",
+        "n": 56080
+      },
+      {
+        "id": 4,
+        "name": "Oligodendrocytes",
+        "n": 104514
+      },
+      {
+        "id": 5,
+        "name": "Astrocytes",
+        "n": 66383
+      },
+      {
+        "id": 6,
+        "name": "OB neurons 1",
+        "n": 37258
+      },
+      {
+        "id": 7,
+        "name": "Ependymal cells",
+        "n": 3049
+      },
+      {
+        "id": 8,
+        "name": "Purkinje neurons",
+        "n": 10439
+      },
+      {
+        "id": 9,
+        "name": "Dentate gyrus neurons",
+        "n": 20110
+      },
+      {
+        "id": 10,
+        "name": "Interbrain and midbrain neurons 1",
+        "n": 154645
+      },
+      {
+        "id": 11,
+        "name": "Hindbrain neurons 2",
+        "n": 3181
+      },
+      {
+        "id": 12,
+        "name": "Cerebellum interneurons",
+        "n": 27566
+      },
+      {
+        "id": 13,
+        "name": "Interneurons 1",
+        "n": 27475
+      },
+      {
+        "id": 14,
+        "name": "Interneurons 2",
+        "n": 16370
+      },
+      {
+        "id": 15,
+        "name": "Cortical projection neurons 1",
+        "n": 177274
+      },
+      {
+        "id": 16,
+        "name": "Habenula neurons",
+        "n": 1541
+      },
+      {
+        "id": 17,
+        "name": "Cortical projection neurons 2",
+        "n": 39036
+      },
+      {
+        "id": 18,
+        "name": "Endothelial cells",
+        "n": 20362
+      },
+      {
+        "id": 19,
+        "name": "Microglia",
+        "n": 16879
+      },
+      {
+        "id": 20,
+        "name": "Choroid plexus epithelial cells",
+        "n": 4379
+      },
+      {
+        "id": 21,
+        "name": "Bergmann glia",
+        "n": 9478
+      },
+      {
+        "id": 22,
+        "name": "Inferior olivary nucleus neurons",
+        "n": 783
+      },
+      {
+        "id": 23,
+        "name": "Pituitary cells",
+        "n": 1365
+      },
+      {
+        "id": 24,
+        "name": "Vascular leptomeningeal cells",
+        "n": 8277
+      },
+      {
+        "id": 25,
+        "name": "OB neurons 2",
+        "n": 6823
+      },
+      {
+        "id": 26,
+        "name": "Striatal neurons 2",
+        "n": 2079
+      },
+      {
+        "id": 27,
+        "name": "Cortical projection neurons 3",
+        "n": 4219
+      },
+      {
+        "id": 28,
+        "name": "Hindbrain neurons 1",
+        "n": 1854
+      },
+      {
+        "id": 29,
+        "name": "Unipolar brush cells",
+        "n": 1296
+      },
+      {
+        "id": 30,
+        "name": "OB neurons 3",
+        "n": 2539
+      }
+    ],
+    "coordinates": "RNA_GEO_all1469111.float32.npy",
+    "codes": "RNA_GEO_all1469111.uint8.npy"
+  },
+  "geo_rna_micro": {
+    "n": 16879,
+    "clusters": [
+      {
+        "id": 0,
+        "name": "Microglia_1",
+        "n": 4850
+      },
+      {
+        "id": 1,
+        "name": "Microglia_2",
+        "n": 3833
+      },
+      {
+        "id": 2,
+        "name": "Microglia_3",
+        "n": 3216
+      },
+      {
+        "id": 3,
+        "name": "Microglia_4",
+        "n": 454
+      },
+      {
+        "id": 4,
+        "name": "Microglia_5",
+        "n": 1524
+      },
+      {
+        "id": 5,
+        "name": "Microglia_6",
+        "n": 489
+      },
+      {
+        "id": 6,
+        "name": "Microglia_7",
+        "n": 1429
+      },
+      {
+        "id": 7,
+        "name": "Microglia_8",
+        "n": 372
+      },
+      {
+        "id": 8,
+        "name": "Microglia_9",
+        "n": 380
+      },
+      {
+        "id": 9,
+        "name": "Microglia_10",
+        "n": 82
+      },
+      {
+        "id": 10,
+        "name": "Microglia_11",
+        "n": 128
+      },
+      {
+        "id": 11,
+        "name": "Microglia_12",
+        "n": 55
+      },
+      {
+        "id": 12,
+        "name": "Microglia_13",
+        "n": 67
+      }
+    ],
+    "coordinates": "RNA_GEO_Microglia.float32.npy",
+    "codes": "RNA_GEO_Microglia.uint8.npy"
+  },
+  "geo_atac_all": {
+    "n": 376309,
+    "clusters": [
+      {
+        "id": 0,
+        "name": "Interbrain and midbrain neurons 2",
+        "n": 38689
+      },
+      {
+        "id": 1,
+        "name": "Pituitary cells",
+        "n": 319
+      },
+      {
+        "id": 2,
+        "name": "Interneurons 1",
+        "n": 8705
+      },
+      {
+        "id": 3,
+        "name": "OB neurons 3",
+        "n": 667
+      },
+      {
+        "id": 4,
+        "name": "Striatal neurons 1",
+        "n": 20326
+      },
+      {
+        "id": 5,
+        "name": "Interneurons 2",
+        "n": 4467
+      },
+      {
+        "id": 6,
+        "name": "Hindbrain neurons 2",
+        "n": 660
+      },
+      {
+        "id": 7,
+        "name": "Hindbrain neurons 1",
+        "n": 592
+      },
+      {
+        "id": 8,
+        "name": "Interbrain and midbrain neurons 1",
+        "n": 17221
+      },
+      {
+        "id": 9,
+        "name": "OB neurons 1",
+        "n": 11155
+      },
+      {
+        "id": 10,
+        "name": "Cortical projection neurons 2",
+        "n": 13707
+      },
+      {
+        "id": 11,
+        "name": "Cortical projection neurons 1",
+        "n": 58451
+      },
+      {
+        "id": 12,
+        "name": "OB neurons 2",
+        "n": 1798
+      },
+      {
+        "id": 13,
+        "name": "Habenula neurons",
+        "n": 484
+      },
+      {
+        "id": 14,
+        "name": "Unipolar brush cells",
+        "n": 331
+      },
+      {
+        "id": 15,
+        "name": "Endothelial cells",
+        "n": 2365
+      },
+      {
+        "id": 16,
+        "name": "Cerebellum interneurons",
+        "n": 8228
+      },
+      {
+        "id": 17,
+        "name": "Purkinje neurons",
+        "n": 1871
+      },
+      {
+        "id": 18,
+        "name": "Choroid plexus epithelial cells",
+        "n": 613
+      },
+      {
+        "id": 19,
+        "name": "Inferior olivary nucleus neurons",
+        "n": 108
+      },
+      {
+        "id": 20,
+        "name": "Striatal neurons 2",
+        "n": 829
+      },
+      {
+        "id": 21,
+        "name": "Cerebellum granule neurons",
+        "n": 93340
+      },
+      {
+        "id": 22,
+        "name": "Oligodendrocytes",
+        "n": 40024
+      },
+      {
+        "id": 23,
+        "name": "Dentate gyrus neurons",
+        "n": 5098
+      },
+      {
+        "id": 24,
+        "name": "Astrocytes",
+        "n": 25744
+      },
+      {
+        "id": 25,
+        "name": "Bergmann glia",
+        "n": 3083
+      },
+      {
+        "id": 26,
+        "name": "Cortical projection neurons 3",
+        "n": 1403
+      },
+      {
+        "id": 27,
+        "name": "Oligodendrocyte progenitor cells",
+        "n": 4947
+      },
+      {
+        "id": 28,
+        "name": "Vascular leptomeningeal cells",
+        "n": 1404
+      },
+      {
+        "id": 29,
+        "name": "Microglia",
+        "n": 9511
+      },
+      {
+        "id": 30,
+        "name": "Ependymal cells",
+        "n": 169
+      }
+    ],
+    "coordinates": "ATAC_GEO_all376309.float32.npy",
+    "codes": "ATAC_GEO_all376309.uint8.npy"
+  },
+  "geo_atac_micro": {
+    "n": 9511,
+    "clusters": [
+      {
+        "id": 0,
+        "name": "Microglia (GEO broad type)",
+        "n": 9511
+      }
+    ],
+    "coordinates": "ATAC_GEO_Microglia.float32.npy",
+    "codes": "ATAC_GEO_Microglia.uint8.npy"
+  },
+  "products": {
+    "ATAC_GEO_all376309.float32.npy": {
+      "bytes": 3010600,
+      "sha256": "227b11a827ccf7a260fa35cef7070cebf2ace3de04a0aa5a70ea4130729f4c75"
+    },
+    "ATAC_GEO_all376309.uint8.npy": {
+      "bytes": 376437,
+      "sha256": "c2828e289c78e8a450474ff529d9d55d62039241082dbb86aed47ab64adaf51d"
+    },
+    "RNA_ours_all2281619.float32.npy": {
+      "bytes": 18253080,
+      "sha256": "d8098dd9809380a1f6ea160df4ff192feaccbf22b8b31282d4aa9726a09928b9"
+    },
+    "ATAC_GEO_Microglia.uint8.npy": {
+      "bytes": 9639,
+      "sha256": "acc9a18740ffa2bd4bd10627fe5838ff84bc3290678ffcb4492c92405ee27be1"
+    },
+    "RNA_GEO_all1469111.uint8.npy": {
+      "bytes": 1469239,
+      "sha256": "f1e54384384f9c3613caf17ed5211ffdcff4bc8de493dc26037f296161527117"
+    },
+    "RNA_GEO_Microglia.float32.npy": {
+      "bytes": 135160,
+      "sha256": "243d05d91107311cce5b1e4c53170c3cc16393af3a430ea85c7017da599a9606"
+    },
+    "RNA_GEO_Microglia.uint8.npy": {
+      "bytes": 17007,
+      "sha256": "d8541ce514e32c48a80e3eb81951c95898450ee2aca6f13c0e3730fcc40a88d1"
+    },
+    "ATAC_GEO_Microglia.float32.npy": {
+      "bytes": 76216,
+      "sha256": "ff0be01144f83535f6fcc9d3c4d4d0e940e98200f382c3088d2bde4335670dfc"
+    },
+    "RNA_GEO_all1469111.float32.npy": {
+      "bytes": 11753016,
+      "sha256": "383e391b91e2ca1eab986dc65de96daec9f0448ec713682f7ba21d5bfd48a047"
+    }
+  }
+}
