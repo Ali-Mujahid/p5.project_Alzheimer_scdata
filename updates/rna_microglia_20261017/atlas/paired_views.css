@@ -16,3 +16,11 @@
 #paired-markers23 svg{display:block;background:#fff}
 #paired-markers23 .dotplot-note{font-size:12px;color:#506b65}
 @media(max-width:1050px){#paired-umaps23 .paired-grid,#paired-markers23 .paired-grid{grid-template-columns:1fr}}
+
+#paired-umaps23,#paired-markers23,#te-bound-comparison23{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+#paired-umaps23 h2,#paired-markers23 h2,#te-bound-comparison23 h2{font-size:clamp(1.3rem,2vw,1.9rem);line-height:1.2}
+#paired-umaps23 .hint,#paired-markers23 .hint,#te-bound-comparison23 .hint{font-size:.96rem;line-height:1.55}
+#te-bound-comparison23 .te-comparison-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+#te-bound-comparison23 .te-comparison-grid article{border:1px solid #dbe6e3;border-radius:12px;padding:14px;min-width:0}
+#te-bound-comparison23 .te-comparison-grid img{display:block;max-width:100%;height:auto}
+@media(max-width:900px){#te-bound-comparison23 .te-comparison-grid{grid-template-columns:1fr}}

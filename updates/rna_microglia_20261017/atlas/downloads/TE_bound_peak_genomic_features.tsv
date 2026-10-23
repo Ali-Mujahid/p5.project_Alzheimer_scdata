@@ -1,0 +1,23 @@
+peak_set	context	TE_bound_peak_midpoints	all_TE_bound_peak_midpoints	fraction
+Native mm10	Promoter <=1 kb	262	5734	0.045692361353331
+Native mm10	Promoter 1-2 kb	163	5734	0.0284269271014998
+Native mm10	Promoter 2-3 kb	146	5734	0.0254621555633066
+Native mm10	5' UTR	3	5734	0.000523194977328218
+Native mm10	3' UTR	46	5734	0.00802232298569934
+Native mm10	First exon	39	5734	0.00680153470526683
+Native mm10	Other exon	53	5734	0.00924311126613185
+Native mm10	First intron	768	5734	0.133937914196024
+Native mm10	Other intron	1722	5734	0.300313916986397
+Native mm10	Downstream <=300 bp	5	5734	0.000871991628880363
+Native mm10	Distal intergenic	2527	5734	0.440704569236135
+Published reciprocal95 mm10	Promoter <=1 kb	1605	54191	0.0296174641545644
+Published reciprocal95 mm10	Promoter 1-2 kb	1638	54191	0.0302264213614807
+Published reciprocal95 mm10	Promoter 2-3 kb	1595	54191	0.0294329316676201
+Published reciprocal95 mm10	5' UTR	12	54191	0.000221438984333192
+Published reciprocal95 mm10	3' UTR	318	54191	0.00586813308482959
+Published reciprocal95 mm10	First exon	349	54191	0.006440183794357
+Published reciprocal95 mm10	Other exon	407	54191	0.00751047221863409
+Published reciprocal95 mm10	First intron	8394	54191	0.154896569541068
+Published reciprocal95 mm10	Other intron	18076	54191	0.333560923400565
+Published reciprocal95 mm10	Downstream <=300 bp	44	54191	0.000811942942555037
+Published reciprocal95 mm10	Distal intergenic	21753	54191	0.401413518849994

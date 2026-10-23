@@ -1,0 +1,11 @@
+group	peak_source	counting_unit	TE_positive	total	plotted_fraction	mouse_fraction_min	mouse_fraction_max	endpoint
+WT_3mo	Our pooled group peaks	peak summits	5662	38893	0.145578896			pooled four-mouse peak set; summit intersects canonical TE
+WT_3mo	Published thresholded Microglia	mouse-peak observations	81406	144203	0.564440732	0.560798241	0.566340160	mean of four mouse fractions; full peak interval intersects TE
+WT_6mo	Our pooled group peaks	peak summits	5925	40042	0.147969632			pooled four-mouse peak set; summit intersects canonical TE
+WT_6mo	Published thresholded Microglia	mouse-peak observations	93822	166292	0.564158690	0.562959252	0.565907782	mean of four mouse fractions; full peak interval intersects TE
+WT_21mo	Our pooled group peaks	peak summits	5867	40382	0.145287504			pooled four-mouse peak set; summit intersects canonical TE
+WT_21mo	Published thresholded Microglia	mouse-peak observations	90940	161788	0.561926460	0.558971256	0.563101964	mean of four mouse fractions; full peak interval intersects TE
+5xFAD_3mo	Our pooled group peaks	peak summits	5171	36400	0.142060440			pooled four-mouse peak set; summit intersects canonical TE
+5xFAD_3mo	Published thresholded Microglia	mouse-peak observations	73316	130503	0.561721544	0.560420719	0.563017744	mean of four mouse fractions; full peak interval intersects TE
+APOE4_3mo	Our pooled group peaks	peak summits	4972	35507	0.140028727			pooled four-mouse peak set; summit intersects canonical TE
+APOE4_3mo	Published thresholded Microglia	mouse-peak observations	78982	140543	0.561707962	0.557579825	0.565948342	mean of four mouse fractions; full peak interval intersects TE
