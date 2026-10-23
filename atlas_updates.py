@@ -155,7 +155,7 @@ def load_update(root):
         allowed_download = (len(relative.parts) == 2 and relative.parts[0] == "downloads" and
                             (relative.suffix in {".pdf", ".png", ".jpg", ".npy", ".tsv", ".csv", ".json", ".md", ".txt"} or
                              relative.name.endswith((".tsv.gz", ".tsv.xz")) or
-                             relative.name in {"Figure2_BCDE_reviewed_tables_and_PDFs.zip", "Microglia_RNA_TE_QC_panels_and_tables.zip", "Microglia_RNA_TE_DE_tables_and_figures.zip", "Microglia_TE_ATAC_MAnorm2_tables.zip"}))
+                             relative.name in {"Figure2_BCDE_reviewed_tables_and_PDFs.zip", "Microglia_RNA_TE_QC_panels_and_tables.zip", "Microglia_RNA_TE_DE_tables_and_figures.zip", "Microglia_TE_ATAC_MAnorm2_tables.zip", "Microglia_per_animal_peak_TE_20261023.zip"}))
         _need(route in REQUIRED or allowed_download, "Unreviewed overlay route class: " + route)
         expected_path = "updates/" + UPDATE_ID + "/atlas/" + suffix
         _need(row["path"] == expected_path, "Overlay disk and HTTP paths must match exactly")

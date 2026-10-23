@@ -1,0 +1,10 @@
+Assembly: mm10 as supplied. The only peak input is global.manual.atac-peaks.with_group.bed with 370,514 rows. Exactly 14,893 WT_3mo male R1 rows are malformed duplicate copies of correctly named records; all ten peak fields are matched before discarding these copies. The retained analysis has 355,621 distinct called peaks across 20 animal BAMs. Sample name is in column 4 and group is in column 11 for retained rows. No 68,126-peak global catalog or five pooled LiSC group peak files are used.
+Forty valid chrM peaks are retained in group peak denominators; the full user TE BED determines whether any can be called TE-overlapping.
+The only TE input is the user-provided six-column TEs.sorted.bed from the same VSC directory. Column 4 is reported as TE name/family as supplied; it is not presumed to be a finer subfamily.
+Peak-to-TE rule: any positive-base overlap between the full BED0 half-open per-animal called peak and supplied TE interval; MACS summit is not used for this endpoint.
+TE loci are deduplicated by chromosome, start, end, strand, TE name and class. Their source class/name are retained verbatim.
+TE class and class|name counts are distinct peak counts per taxonomy term and are nonexclusive across terms when a peak intersects several TE annotations.
+Target_not_control BED contains TE loci intersecting at least one peak from a target-group animal but no peak from any of four WT_3mo animals. Unique_to_target_among_all_five also excludes all three other target groups. Per-locus animal support is saved separately.
+BED absence means absence of a called overlapping peak in this group set; it does not prove zero chromatin accessibility or a group-specific differential result.
+Genomic context is assigned separately to lower 1-bp midpoints of TE-positive peaks and overlapping TE loci with ChIPseeker/TxDb mm10 knownGene, TSS +/-3 kb, downstream 300 bp; full intervals are used for peak-to-TE overlap.
+These called-peak union comparisons are descriptive; the file retains four animal identities per group, but no adjusted differential test, TE transcription, or enrichment-background correction is inferred.

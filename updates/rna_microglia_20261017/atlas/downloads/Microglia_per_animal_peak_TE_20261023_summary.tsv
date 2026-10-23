@@ -1,0 +1,6 @@
+group	total_called_peaks	TE_overlapping_peaks	fraction_TE_overlapping_peaks	distinct_TE_loci	peak_TE_locus_pairs	n_animal_BAMs	unit
+WT_3mo	63900	23336	0.365195618153365	28408	43430	4	full_per_animal_peak_interval_any_overlap
+WT_6mo	85832	35724	0.416208407120887	44334	66394	4	full_per_animal_peak_interval_any_overlap
+WT_21mo	81666	32507	0.398048147331815	38393	60702	4	full_per_animal_peak_interval_any_overlap
+5xFAD_3mo	55207	19338	0.350281667179887	25060	36599	4	full_per_animal_peak_interval_any_overlap
+APOE4_TREM2_3mo	69016	27542	0.399066883041614	36216	51613	4	full_per_animal_peak_interval_any_overlap
