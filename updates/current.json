@@ -1140,8 +1140,8 @@
     {
       "http_path": "/full_workflow_20261014/atlas_preview/paired_views.js",
       "path": "updates/rna_microglia_20261017/atlas/paired_views.js",
-      "bytes": 20984,
-      "sha256": "646be11cdc033d6d959ac16026cf7f53c2a098eb86b863c0c6ab1637e98a246d"
+      "bytes": 20997,
+      "sha256": "43b5095dfc98a3496dc73c3bbb57d2e0c81ba7995bcc6e62459de36221efdd9f"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/rna_microglia.css",
