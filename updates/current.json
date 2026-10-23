@@ -586,6 +586,30 @@
       "sha256": "06a1f63cac7216245bd3dc3de765e7ba85f080db124d431d41a6f604b68078b2"
     },
     {
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_ATAC_coverage_20261023_data.zip",
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_TE_ATAC_coverage_20261023_data.zip",
+      "sha256": "fc7aeb45a8ee07e505ca1f2d20324b4401e5fcef942799a2db9d0b6f09a0a284",
+      "bytes": 8617714
+    },
+    {
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_ATAC_coverage_20261023_locus.pdf",
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_TE_ATAC_coverage_20261023_locus.pdf",
+      "sha256": "7e7f55cdc64771bb8ec10d55e7f88f0dc997bf5f1cec75a1ad0326cb8bc291a3",
+      "bytes": 7580
+    },
+    {
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_ATAC_coverage_20261023_locus.png",
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_TE_ATAC_coverage_20261023_locus.png",
+      "sha256": "eba8e4b7a1b694aed81f20b46569a07fbac2e4d73b59d935ffa7c1010db0da13",
+      "bytes": 84219
+    },
+    {
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_ATAC_coverage_20261023_mice.pdf",
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_TE_ATAC_coverage_20261023_mice.pdf",
+      "sha256": "d83d85d36abc66fa14c2a1bd31d852fb32f5a67e28bf52560dae6c6632f9b404",
+      "bytes": 12526
+    },
+    {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_TE_ATAC_embedding.json",
       "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_ATAC_embedding.json",
       "bytes": 4099233,
@@ -1224,8 +1248,8 @@
     {
       "path": "updates/rna_microglia_20261017/atlas/index.html",
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
-      "sha256": "06cabe4e266614a483afb5a1a5a3e4245beee01105681f20c29d809e3f68d533",
-      "bytes": 99211
+      "sha256": "0454eb3dc0fff5870514c1430b28514e504a2a916d3c2a0fad1c0662a4d164fd",
+      "bytes": 100824
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/paired_views.css",
