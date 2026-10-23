@@ -868,6 +868,42 @@
       "sha256": "1fb3ddf7634b04c5422130518ac54fceb89247f56bd12fa5afac8fa58dd728a2"
     },
     {
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_RNA_expression_20261024_group.pdf",
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_TE_RNA_expression_20261024_group.pdf",
+      "sha256": "bdaab0b3c1cb18d52152c8df6658899dc31fd62e2eaa69a4c731a9a8aa239bba",
+      "bytes": 65780
+    },
+    {
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_RNA_expression_20261024_group.png",
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_TE_RNA_expression_20261024_group.png",
+      "sha256": "58b652b42f11695d29219b3de7658d28ea5d453274997b8d1270583d00aa7f39",
+      "bytes": 66871
+    },
+    {
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_RNA_expression_20261024_group_means.tsv",
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_TE_RNA_expression_20261024_group_means.tsv",
+      "sha256": "caa683188322c8b9e1687d1239e71f378144b3cfd9c585bb5eeb7f620fcbfd2a",
+      "bytes": 45290
+    },
+    {
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_RNA_expression_20261024_mice.pdf",
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_TE_RNA_expression_20261024_mice.pdf",
+      "sha256": "536af772a3160c8e2e3e4ca3c6f8f3f70c37dcacdf5c18d2c7e7fde0cbd389c2",
+      "bytes": 55273
+    },
+    {
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_RNA_expression_20261024_mice.png",
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_TE_RNA_expression_20261024_mice.png",
+      "sha256": "14bb18f11c226c21c02ff4076e4d8c022f790b68381a9a3ac04beb94a398e7ae",
+      "bytes": 189977
+    },
+    {
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_RNA_expression_20261024_mouse_values.tsv",
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_TE_RNA_expression_20261024_mouse_values.tsv",
+      "sha256": "cbfee40735e48c14c1874509cfc0525838f7e067f77470d482611137500c892f",
+      "bytes": 162076
+    },
+    {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_WT_3mo_TE_peak_contrasts.tsv",
       "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_WT_3mo_TE_peak_contrasts.tsv",
       "bytes": 160500,
@@ -1248,8 +1284,8 @@
     {
       "path": "updates/rna_microglia_20261017/atlas/index.html",
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
-      "sha256": "0454eb3dc0fff5870514c1430b28514e504a2a916d3c2a0fad1c0662a4d164fd",
-      "bytes": 100824
+      "sha256": "1fa47e63496f4d7a8ed65abf9499300f470f7b784b70b1bbadfa25eaad74cd1c",
+      "bytes": 102738
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/paired_views.css",
