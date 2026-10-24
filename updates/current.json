@@ -1282,10 +1282,10 @@
       "sha256": "93a7ef3b6c0bad52fad47ad7769a6441f90c23f19fce96d98bd1e31f41bc67d0"
     },
     {
-      "path": "updates/rna_microglia_20261017/atlas/index.html",
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
-      "sha256": "b6c2eb4b69c53b7d61364a8353656e32b4b84c9558288d243d1f4deca1bfece5",
-      "bytes": 105563
+      "path": "updates/rna_microglia_20261017/atlas/index.html",
+      "bytes": 107920,
+      "sha256": "da8a49f8cffbd73d2cdf974a7967202624ed79b9e85300362506bde31e38c130"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/paired_views.css",
@@ -1346,6 +1346,42 @@
       "path": "updates/rna_microglia_20261017/atlas/downloads/TE_cCRE_five_group_methods_20261024.md",
       "bytes": 3872,
       "sha256": "1052f61ab1a691971f2b08c533ca592056e71d46b6d3d6c2e806af0919bf7efa"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/TE_architecture_all_cell_types_A_to_I.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/TE_architecture_all_cell_types_A_to_I.pdf",
+      "bytes": 496626,
+      "sha256": "23661967bc7b92cbc37490eec838b36180cdd7de1470952fe301a2f96eb90223"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/TE_architecture_all_cell_types_A_to_I.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/TE_architecture_all_cell_types_A_to_I.png",
+      "bytes": 804875,
+      "sha256": "95627e4a9c7d6269781f03bd72cefe247839fc54b7bc14c99e0639446069dff3"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/TE_architecture_microglia_A_to_I.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/TE_architecture_microglia_A_to_I.pdf",
+      "bytes": 505573,
+      "sha256": "0770d2c851998ef4873f88338827cdc3e7fa80b0209c1c5b5fc09db73964e133"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/TE_architecture_microglia_A_to_I.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/TE_architecture_microglia_A_to_I.png",
+      "bytes": 804172,
+      "sha256": "eb4f68eb3f74e19db24f09fb155f8335746d189b18dbd704a850468b94b2e4b9"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/TE_architecture_A_to_I_methods.md",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/TE_architecture_A_to_I_methods.md",
+      "bytes": 3619,
+      "sha256": "b687178e46bd4732dbc61257253796c89f4263c252d2c3099aa3c541a398edd9"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/TE_architecture_A_to_I_data.json",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/TE_architecture_A_to_I_data.json",
+      "bytes": 1611180,
+      "sha256": "b103436225210736608722f4fc93e78af3e8643558c7cc49d0f19b37f0fa5b63"
     }
   ]
 }
