@@ -17,24 +17,33 @@
     "shared_positive_both": 150
   },
   "examples": [
-    "L1_Mm",
+    "RMER12B",
+    "RLTR45-int",
+    "MLT2B1",
     "IAPLTR3-int",
-    "RMER12B"
+    "MLT1J-int"
   ],
   "output_sha256": {
-    "ATAC_TE_all_directional_heatmap.pdf": "0a7145e809a5f2b3841d82f238cad4d4c34208658c244ac1639a3a94b8761275",
-    "ATAC_TE_all_directional_subfamilies.tsv": "2f0d09bf7c82519414b3e91ec1ee1304d650b3f4f9e88448fe48c938688baebb",
-    "ATAC_TE_overview.png": "c4ebe4fcb1b6e2934c9ab66d8dd552931c3041f9a645f8faa722bf18137279cc",
-    "IAPLTR3-int_RNA_ATAC_four_UMAP_scopes_five_groups.pdf": "8e754cd66d2ac125fd4b5a6682096ffc5f6d4f084c6e20b7c3d9c772231748f0",
-    "IAPLTR3-int_RNA_ATAC_four_UMAP_scopes_five_groups.png": "c80339f9741277c67537e16281f0b249149fa3907c56371be51f465857801c26",
-    "L1_Mm_RNA_ATAC_four_UMAP_scopes_five_groups.pdf": "d84d9d33a74d170aeea023920848fdb3adc3f08b7d5d651ef8acf2fdfc89858b",
     "L1_Mm_RNA_ATAC_four_UMAP_scopes_five_groups.png": "f083ad8a3758fa05421b35cce5662d2ddab1f4010d672e9c81161f93e190f273",
-    "RMER12B_RNA_ATAC_four_UMAP_scopes_five_groups.pdf": "e2ac37e246b4783c9f99405e26fc01188503ced1fb2b05117a32a41594dac650",
-    "RMER12B_RNA_ATAC_four_UMAP_scopes_five_groups.png": "58e5524838423244a307f122712d65dac27d025f3613e75f0665565e57646acd",
-    "RNA_ATAC_150_shared_directional_subfamilies.tsv": "556892a98716bdef66d02bcf54f09fd3b2cb578c3ed5f9cd2882a137703df4cb",
-    "RNA_TE_all_directional_heatmap.pdf": "6aa342c4d9ab4c3e53bdb21a7f3717a13fe2534dfe57fa44307c2b0f8467b0fd",
-    "RNA_TE_all_directional_subfamilies.tsv": "c5347271411f9c2f00d45a70a0a2bd8c69947ba0810737fb5c66a55d74fb4f0c",
+    "MLT2B1_RNA_ATAC_four_UMAP_scopes_five_groups.png": "aa84e81c735af46a5f980ee210f079052e4a65ca8a6844d208e0ef132a21431f",
+    "RLTR45-int_RNA_ATAC_four_UMAP_scopes_five_groups.pdf": "87c1ee610301fdc232dc1bc0879449a5fb003cd16e68145802d9f9b6e7a79a2e",
+    "MLT2B1_RNA_ATAC_four_UMAP_scopes_five_groups.pdf": "fcf4ed46f9a12188c03bc02ee2d033af6674022a4d5de90ab641745cfa695185",
+    "RLTR45-int_RNA_ATAC_four_UMAP_scopes_five_groups.png": "e2c4ee653065a66c892850fcf56f6d7984774fff9e873cefb0718fd6464d5b6f",
+    "ATAC_TE_all_directional_subfamilies.tsv": "2f0d09bf7c82519414b3e91ec1ee1304d650b3f4f9e88448fe48c938688baebb",
+    "L1_Mm_RNA_ATAC_four_UMAP_scopes_five_groups.pdf": "d84d9d33a74d170aeea023920848fdb3adc3f08b7d5d651ef8acf2fdfc89858b",
+    "IAPLTR3-int_RNA_ATAC_four_UMAP_scopes_five_groups.pdf": "36b9f03d9e1930101038a652ad14b1eedc9cb9425bfd343391432c436ed8b184",
+    "IAPLTR3-int_RNA_ATAC_four_UMAP_scopes_five_groups.png": "c80339f9741277c67537e16281f0b249149fa3907c56371be51f465857801c26",
+    "example_UMAP_group_summary.tsv": "2a68337092bfe858ba603b09e71e709a5efe38a1ce73bea8f9952be32c173444",
     "RNA_TE_overview.png": "eed4b9ea6473cf5941d37b412669bc7ab37caf329532c3c074d13184929fa6fa",
-    "example_UMAP_group_summary.tsv": "ae2936677a2bc9b667a3210ce985aecf2322bbce599b6c49da4a242bdefb7cda"
+    "RNA_TE_all_directional_heatmap.pdf": "6aa342c4d9ab4c3e53bdb21a7f3717a13fe2534dfe57fa44307c2b0f8467b0fd",
+    "UMAP_example_selection_all_WT_comparison.tsv": "156390e638522919ca95c0bb6f9ba3abec99389052b0b07707f5d57840692be4",
+    "RNA_ATAC_150_shared_directional_subfamilies.tsv": "556892a98716bdef66d02bcf54f09fd3b2cb578c3ed5f9cd2882a137703df4cb",
+    "MLT1J-int_RNA_ATAC_four_UMAP_scopes_five_groups.png": "249f7534dd6a1994489a88d8142b9d47b996c3444c9f3687aaaf29f785b64035",
+    "RNA_TE_all_directional_subfamilies.tsv": "c5347271411f9c2f00d45a70a0a2bd8c69947ba0810737fb5c66a55d74fb4f0c",
+    "ATAC_TE_all_directional_heatmap.pdf": "0a7145e809a5f2b3841d82f238cad4d4c34208658c244ac1639a3a94b8761275",
+    "MLT1J-int_RNA_ATAC_four_UMAP_scopes_five_groups.pdf": "47672125edef99250a5d64fd9709c318ef7e66a71309057a2421af2c10aa4571",
+    "ATAC_TE_overview.png": "c4ebe4fcb1b6e2934c9ab66d8dd552931c3041f9a645f8faa722bf18137279cc",
+    "RMER12B_RNA_ATAC_four_UMAP_scopes_five_groups.png": "58e5524838423244a307f122712d65dac27d025f3613e75f0665565e57646acd",
+    "RMER12B_RNA_ATAC_four_UMAP_scopes_five_groups.pdf": "cf70e544342a9b631219181727659d339a19baf653b4f0be76cf4d066fce899f"
   }
 }

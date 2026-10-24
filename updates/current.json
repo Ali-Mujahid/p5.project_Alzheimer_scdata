@@ -235,7 +235,7 @@
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/IAPLTR3-int_RNA_ATAC_four_UMAP_scopes_five_groups.pdf",
       "path": "updates/rna_microglia_20261017/atlas/downloads/IAPLTR3-int_RNA_ATAC_four_UMAP_scopes_five_groups.pdf",
       "bytes": 1745264,
-      "sha256": "8e754cd66d2ac125fd4b5a6682096ffc5f6d4f084c6e20b7c3d9c772231748f0"
+      "sha256": "36b9f03d9e1930101038a652ad14b1eedc9cb9425bfd343391432c436ed8b184"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/IAPLTR3-int_RNA_ATAC_four_UMAP_scopes_five_groups.png",
@@ -254,6 +254,30 @@
       "path": "updates/rna_microglia_20261017/atlas/downloads/L1_Mm_RNA_ATAC_four_UMAP_scopes_five_groups.png",
       "bytes": 2222136,
       "sha256": "f083ad8a3758fa05421b35cce5662d2ddab1f4010d672e9c81161f93e190f273"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/MLT1J-int_RNA_ATAC_four_UMAP_scopes_five_groups.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/MLT1J-int_RNA_ATAC_four_UMAP_scopes_five_groups.pdf",
+      "bytes": 1709046,
+      "sha256": "47672125edef99250a5d64fd9709c318ef7e66a71309057a2421af2c10aa4571"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/MLT1J-int_RNA_ATAC_four_UMAP_scopes_five_groups.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/MLT1J-int_RNA_ATAC_four_UMAP_scopes_five_groups.png",
+      "bytes": 2168370,
+      "sha256": "249f7534dd6a1994489a88d8142b9d47b996c3444c9f3687aaaf29f785b64035"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/MLT2B1_RNA_ATAC_four_UMAP_scopes_five_groups.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/MLT2B1_RNA_ATAC_four_UMAP_scopes_five_groups.pdf",
+      "bytes": 1815663,
+      "sha256": "fcf4ed46f9a12188c03bc02ee2d033af6674022a4d5de90ab641745cfa695185"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/MLT2B1_RNA_ATAC_four_UMAP_scopes_five_groups.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/MLT2B1_RNA_ATAC_four_UMAP_scopes_five_groups.png",
+      "bytes": 1899008,
+      "sha256": "aa84e81c735af46a5f980ee210f079052e4a65ca8a6844d208e0ef132a21431f"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_RNA_TE_DE_summary.pdf",
@@ -1150,10 +1174,22 @@
       "sha256": "2ea38449b0c5fb8ec33bf025475b55dc358046aa9ad0a1f9eb92b64535627743"
     },
     {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/RLTR45-int_RNA_ATAC_four_UMAP_scopes_five_groups.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/RLTR45-int_RNA_ATAC_four_UMAP_scopes_five_groups.pdf",
+      "bytes": 1776391,
+      "sha256": "87c1ee610301fdc232dc1bc0879449a5fb003cd16e68145802d9f9b6e7a79a2e"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/RLTR45-int_RNA_ATAC_four_UMAP_scopes_five_groups.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/RLTR45-int_RNA_ATAC_four_UMAP_scopes_five_groups.png",
+      "bytes": 2283597,
+      "sha256": "e2c4ee653065a66c892850fcf56f6d7984774fff9e873cefb0718fd6464d5b6f"
+    },
+    {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/RMER12B_RNA_ATAC_four_UMAP_scopes_five_groups.pdf",
       "path": "updates/rna_microglia_20261017/atlas/downloads/RMER12B_RNA_ATAC_four_UMAP_scopes_five_groups.pdf",
       "bytes": 1775466,
-      "sha256": "e2ac37e246b4783c9f99405e26fc01188503ced1fb2b05117a32a41594dac650"
+      "sha256": "cf70e544342a9b631219181727659d339a19baf653b4f0be76cf4d066fce899f"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/RMER12B_RNA_ATAC_four_UMAP_scopes_five_groups.png",
@@ -1374,14 +1410,14 @@
     {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/TE_disease_directional_manifest.json",
       "path": "updates/rna_microglia_20261017/atlas/downloads/TE_disease_directional_manifest.json",
-      "bytes": 3659,
-      "sha256": "a1644c8cb8f94257fc3831c5e4d853dbccbe15d97ee4c44f1552b0360b34c594"
+      "bytes": 4573,
+      "sha256": "098c1791817403c3b84c684766f10974f0863092495af39815c6615cbd362c0a"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/TE_disease_directional_methods.md",
       "path": "updates/rna_microglia_20261017/atlas/downloads/TE_disease_directional_methods.md",
-      "bytes": 3460,
-      "sha256": "11ab982d571f59789958229eca38c8e5319eee052499f5224ce75a27e8b20234"
+      "bytes": 4225,
+      "sha256": "5bded7e6de08481300a8cf697ec02ec2d585603c2ac98b8b42c662a573596578"
     },
     {
       "path": "updates/rna_microglia_20261017/atlas/downloads/TE_group_comparison_methods_20261023.md",
@@ -1408,10 +1444,16 @@
       "bytes": 4042
     },
     {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/UMAP_example_selection_all_WT_comparison.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/UMAP_example_selection_all_WT_comparison.tsv",
+      "bytes": 12079,
+      "sha256": "156390e638522919ca95c0bb6f9ba3abec99389052b0b07707f5d57840692be4"
+    },
+    {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/example_UMAP_group_summary.tsv",
       "path": "updates/rna_microglia_20261017/atlas/downloads/example_UMAP_group_summary.tsv",
-      "bytes": 2209,
-      "sha256": "ae2936677a2bc9b667a3210ce985aecf2322bbce599b6c49da4a242bdefb7cda"
+      "bytes": 3673,
+      "sha256": "2a68337092bfe858ba603b09e71e709a5efe38a1ce73bea8f9952be32c173444"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/provenance.json",
@@ -1446,8 +1488,8 @@
     {
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
       "path": "updates/rna_microglia_20261017/atlas/index.html",
-      "bytes": 112026,
-      "sha256": "0b09efcc568b5a03787ac182a35f73425744609324b61d8245f9d70ac68302d3"
+      "bytes": 113642,
+      "sha256": "1fbd96e8a5928f98cdd9854ec5f2dbdf738611a3b23e22fe5a6d8be76d35d9c4"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/paired_views.css",
