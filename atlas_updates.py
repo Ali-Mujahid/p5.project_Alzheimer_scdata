@@ -23,7 +23,7 @@ REQUIRED = {PREFIX + name for name in (
 )}
 MAX_FILE_BYTES = 128 * 1024 * 1024
 MAX_TOTAL_BYTES = 256 * 1024 * 1024
-MAX_FILES = 220
+MAX_FILES = 230
 
 
 def _need(condition, message):
@@ -153,7 +153,7 @@ def load_update(root):
         suffix = route[len(PREFIX):]
         relative = _relative(suffix)
         allowed_download = (len(relative.parts) == 2 and relative.parts[0] == "downloads" and
-                            (relative.suffix in {".pdf", ".png", ".jpg", ".npy", ".tsv", ".csv", ".json", ".md", ".txt"} or
+                            (relative.suffix in {".pdf", ".png", ".jpg", ".svg", ".npy", ".tsv", ".csv", ".json", ".md", ".txt"} or
                              relative.name.endswith((".tsv.gz", ".tsv.xz")) or
                              relative.name in {"Figure2_BCDE_reviewed_tables_and_PDFs.zip", "Microglia_RNA_TE_QC_panels_and_tables.zip", "Microglia_RNA_TE_DE_tables_and_figures.zip", "Microglia_TE_ATAC_MAnorm2_tables.zip", "Microglia_per_animal_peak_TE_20261023.zip", "Microglia_TE_ATAC_coverage_20261023_data.zip"}))
         _need(route in REQUIRED or allowed_download, "Unreviewed overlay route class: " + route)

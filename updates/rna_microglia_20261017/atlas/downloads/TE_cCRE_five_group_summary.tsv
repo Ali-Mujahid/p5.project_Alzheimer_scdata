@@ -1,0 +1,13 @@
+metric	value
+common_peaks	335546
+all_TE_overlapping_peaks	176629
+selected_RNA_cells	22251
+groups	5
+animals_underlying_group_profiles	20
+all_RNA_genes	55487
+peak_gene_pairs_within_500kb	4304442
+defined_five_group_correlations	2849895
+undefined_group_correlations	1454547
+exploratory_positive_disease_trends	8530
+tested_P_values	not_applicable_five_groups
+FDR_significant_links	not_claimed

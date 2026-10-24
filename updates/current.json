@@ -1284,8 +1284,8 @@
     {
       "path": "updates/rna_microglia_20261017/atlas/index.html",
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
-      "sha256": "1fa47e63496f4d7a8ed65abf9499300f470f7b784b70b1bbadfa25eaad74cd1c",
-      "bytes": 102738
+      "sha256": "b6c2eb4b69c53b7d61364a8353656e32b4b84c9558288d243d1f4deca1bfece5",
+      "bytes": 105563
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/paired_views.css",
@@ -1316,6 +1316,36 @@
       "path": "updates/rna_microglia_20261017/atlas/te_group_trends.js",
       "bytes": 3291,
       "sha256": "207dbb3b54f7b0494c5bf6a2649aed842dc21dd51675ca69d68529cf0551aa2d"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/TE_cCRE_illustrative_five_group_trends.svg",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/TE_cCRE_illustrative_five_group_trends.svg",
+      "bytes": 11584,
+      "sha256": "cb5bdae82e74d7b621f7d43bca14d749d37ffce80593fc74b7c19398c1001d7a"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/TE_cCRE_illustrative_group_plot_values.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/TE_cCRE_illustrative_group_plot_values.tsv",
+      "bytes": 1966,
+      "sha256": "517629f554ad78be8647a2fc24721eb107437fbb2cd866b84821d6706c8fa9f1"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/TE_cCRE_exploratory_top100_L1_MaLR_SINE.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/TE_cCRE_exploratory_top100_L1_MaLR_SINE.tsv",
+      "bytes": 44308,
+      "sha256": "0131e0aa429c5dce36903bc37e14f9c4c21f1d559f5e10e0bfeb3341dcc9fabe"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/TE_cCRE_five_group_summary.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/TE_cCRE_five_group_summary.tsv",
+      "bytes": 388,
+      "sha256": "455e79f740ba412c64a61a34c462a4cd48af93630d32ea1aefcde5893579bed6"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/TE_cCRE_five_group_methods_20261024.md",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/TE_cCRE_five_group_methods_20261024.md",
+      "bytes": 3872,
+      "sha256": "1052f61ab1a691971f2b08c533ca592056e71d46b6d3d6c2e806af0919bf7efa"
     }
   ]
 }
