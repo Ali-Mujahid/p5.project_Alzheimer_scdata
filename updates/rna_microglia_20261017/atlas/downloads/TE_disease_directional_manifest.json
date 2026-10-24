@@ -1,0 +1,40 @@
+{
+  "source_sha256": {
+    "work/RNA_Microglia_TE_QC_20261021/verified_transfer_from_VSC/canonical_exported_expected.mtx.gz": "388b51980c1ea0fc563d914ac391da1a2c31111f66caeb6e3c09f19d401fad7b",
+    "work/RNA_Microglia_TE_QC_20261021/verified_transfer_from_VSC/features.tsv": "4a46266bcd3ab42875fdabacaec0bf65b98af746c7a5c161a8500cb1b56d414f",
+    "work/RNA_Microglia_TE_QC_20261021/selected_results_verified/gene_reference_exact22251_coordinates.npz": "db752247d94c1b2d6e04256a31dc8b40e97c6c2e2afa09cd5610a5d893dfbc7e",
+    "work/TE_reference_figure_20261024/atlas_publication/updates/rna_microglia_20261017/atlas/downloads/RNA_ours_all2281619.float32.npy": "d8098dd9809380a1f6ea160df4ff192feaccbf22b8b31282d4aa9726a09928b9",
+    "work/Microglia_TE_ATAC_expansion_20261021/te_input/primary_unambiguous_subfamily.mtx.gz": "5e17a0fa359e838054845bbc3830ba678bf52e206dfb25d773eb888b9ce63457",
+    "work/Microglia_TE_ATAC_expansion_20261021/te_input/subfamilies.tsv": "8a2f26b51ddb8f8eae964f9ebc9cc58166be6b638d59762e4fe8fb46db338dcf",
+    "outputs/p5_workflow/full_workflow_20261014/atlas_preview/coordinates_harmony.js": "24a93a07e7cdfd25ed8c8f6e23578de4ddd21471ac977eedc345127b31da6627",
+    "outputs/p5_workflow/ATAC_initial_atlas_20261014/job-7466270/embedding/initial_cell_metadata.tsv.gz": "caab031091efb3c8178154253e09c9627ed68a59ff7134563e0b62c91a4467dc",
+    "work/TE_reference_figure_20261024/atlas_publication/updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_ATAC_all9152_coordinates.tsv": "be9f4b007782779e56fdea7473616a790ebedfb79cf04dc64677cff5c4d0ba45",
+    "work/TE_reference_figure_20261024/atlas_publication/updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_ATAC_baseline_ATAC_TE_subfamily_differential_accessibility.tsv": "f4fd8936f8b4dddccecb8c29a592a062ae4ce9f1103d35cd6d979275f69dcf19"
+  },
+  "counts": {
+    "RNA_positive_both": 241,
+    "ATAC_positive_both": 585,
+    "shared_positive_both": 150
+  },
+  "examples": [
+    "L1_Mm",
+    "IAPLTR3-int",
+    "RMER12B"
+  ],
+  "output_sha256": {
+    "ATAC_TE_all_directional_heatmap.pdf": "0a7145e809a5f2b3841d82f238cad4d4c34208658c244ac1639a3a94b8761275",
+    "ATAC_TE_all_directional_subfamilies.tsv": "2f0d09bf7c82519414b3e91ec1ee1304d650b3f4f9e88448fe48c938688baebb",
+    "ATAC_TE_overview.png": "c4ebe4fcb1b6e2934c9ab66d8dd552931c3041f9a645f8faa722bf18137279cc",
+    "IAPLTR3-int_RNA_ATAC_four_UMAP_scopes_five_groups.pdf": "8e754cd66d2ac125fd4b5a6682096ffc5f6d4f084c6e20b7c3d9c772231748f0",
+    "IAPLTR3-int_RNA_ATAC_four_UMAP_scopes_five_groups.png": "c80339f9741277c67537e16281f0b249149fa3907c56371be51f465857801c26",
+    "L1_Mm_RNA_ATAC_four_UMAP_scopes_five_groups.pdf": "d84d9d33a74d170aeea023920848fdb3adc3f08b7d5d651ef8acf2fdfc89858b",
+    "L1_Mm_RNA_ATAC_four_UMAP_scopes_five_groups.png": "f083ad8a3758fa05421b35cce5662d2ddab1f4010d672e9c81161f93e190f273",
+    "RMER12B_RNA_ATAC_four_UMAP_scopes_five_groups.pdf": "e2ac37e246b4783c9f99405e26fc01188503ced1fb2b05117a32a41594dac650",
+    "RMER12B_RNA_ATAC_four_UMAP_scopes_five_groups.png": "58e5524838423244a307f122712d65dac27d025f3613e75f0665565e57646acd",
+    "RNA_ATAC_150_shared_directional_subfamilies.tsv": "556892a98716bdef66d02bcf54f09fd3b2cb578c3ed5f9cd2882a137703df4cb",
+    "RNA_TE_all_directional_heatmap.pdf": "6aa342c4d9ab4c3e53bdb21a7f3717a13fe2534dfe57fa44307c2b0f8467b0fd",
+    "RNA_TE_all_directional_subfamilies.tsv": "c5347271411f9c2f00d45a70a0a2bd8c69947ba0810737fb5c66a55d74fb4f0c",
+    "RNA_TE_overview.png": "eed4b9ea6473cf5941d37b412669bc7ab37caf329532c3c074d13184929fa6fa",
+    "example_UMAP_group_summary.tsv": "ae2936677a2bc9b667a3210ce985aecf2322bbce599b6c49da4a242bdefb7cda"
+  }
+}

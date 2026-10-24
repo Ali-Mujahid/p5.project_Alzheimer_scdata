@@ -23,7 +23,7 @@ REQUIRED = {PREFIX + name for name in (
 )}
 MAX_FILE_BYTES = 128 * 1024 * 1024
 MAX_TOTAL_BYTES = 256 * 1024 * 1024
-MAX_FILES = 230
+MAX_FILES = 256
 
 
 def _need(condition, message):
