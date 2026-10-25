@@ -1584,8 +1584,8 @@
     {
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
       "path": "updates/rna_microglia_20261017/atlas/index.html",
-      "bytes": 119415,
-      "sha256": "ac52050785b38339f4dcce5fa800e95f83e5c2a962f6093841f1a97439bf4529"
+      "bytes": 120220,
+      "sha256": "d3711f1801bde52099fd0cf831c6939cfa16e8bd69c089efacaa4fad681c8ea0"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/microglia_deg.css",
@@ -1610,6 +1610,18 @@
       "path": "updates/rna_microglia_20261017/atlas/paired_views.js",
       "bytes": 20997,
       "sha256": "43b5095dfc98a3496dc73c3bbb57d2e0c81ba7995bcc6e62459de36221efdd9f"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/published_figure1c.css",
+      "path": "updates/rna_microglia_20261017/atlas/published_figure1c.css",
+      "bytes": 689,
+      "sha256": "5624f87c65c02b94e04848fae1a4883a8c4814ad10660ee49fe2bc1fd79efeaf"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/published_figure1c.js",
+      "path": "updates/rna_microglia_20261017/atlas/published_figure1c.js",
+      "bytes": 7020,
+      "sha256": "f49cf1045c6a0e8c104139ec1ea5a784c84ce25746897aa9975eaa8327623c49"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/rna_microglia.css",

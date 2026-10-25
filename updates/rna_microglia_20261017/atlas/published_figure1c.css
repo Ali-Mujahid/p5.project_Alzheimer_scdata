@@ -1,0 +1,7 @@
+#trackersci-figure1c-control .figure1c-controls{display:flex;flex-wrap:wrap;align-items:end;gap:12px;margin:16px 0}
+#trackersci-figure1c-control .figure1c-controls label{display:flex;flex-direction:column;gap:5px;font-size:.88rem}
+#trackersci-figure1c-control .figure1c-controls input{font:inherit}
+#trackersci-figure1c-control .figure1c-interactive{display:grid;gap:16px;max-width:1050px}
+#trackersci-figure1c-control .figure1c-plot{overflow-x:auto;border:1px solid #d5e3e0;border-radius:10px;padding:10px;background:#fff}
+#trackersci-figure1c-control .figure1c-plot svg{display:block;width:100%;min-width:680px;height:auto}
+#trackersci-figure1c-control .figure1c-plot h3{margin:0 0 6px}

@@ -19,6 +19,7 @@ UPDATE_ID = "rna_microglia_20261017"
 REQUIRED = {PREFIX + name for name in (
     "index.html", "app.js", "rna_microglia.js", "te_group_trends.js", "rna_microglia.css",
     "paired_views.js", "paired_views.css", "microglia_deg.js", "microglia_deg.css",
+    "published_figure1c.js", "published_figure1c.css",
     "data/rna_microglia.json", "data/microglia_coordinates.json",
 )}
 MAX_FILE_BYTES = 128 * 1024 * 1024
