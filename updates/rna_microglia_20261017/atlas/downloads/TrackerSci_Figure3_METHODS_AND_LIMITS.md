@@ -1,0 +1,21 @@
+# TrackerSci Figure 3 processed-data comparison
+
+Source: Lu et al., *Cell* 2023, DOI [10.1016/j.cell.2023.08.042](https://doi.org/10.1016/j.cell.2023.08.042), [GSE212251](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE212251). The full [published Figure 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC10545416/figure/F3/) is the visual reference. This is a **different newborn-cell cohort (mm39)** from the aging/Alzheimer EasySci GSE212606 atlas (mm10). The two datasets were not merged.
+
+The independent adaptation keeps the paper's A–G panel order and major cell-type sequence. Numerical panels use the GEO processed RNA gene-count matrix (55,416 genes × 14,095 cells), ATAC peak-count matrix (204,968 peaks × 9,316 cells), ATAC gene-activity matrix (55,416 genes × 9,316 cells), deposited cell annotations, and published Tables S2A/B and S3A/B. All three LiSC data jobs completed 0:0: source download 7667065, gene/peak aggregation 7667090, TF gene-activity extraction 7667092. The first aggregation attempt 7667082 failed before output because paper and GEO cell-type names differ; exact mappings were corrected before the successful run.
+
+| Panel | Rendered measurement | Relation to the published panel |
+|---|---|---|
+| A | 1,744 distinct DE genes with a DA promoter peak highest in the same cell type, using source Tables S2A/B. Cell-library-normalized GEO RNA counts and ATAC peak counts were averaged by deposited cell type, log1p transformed and z-scored per feature. The first q-value-ranked promoter peak was chosen for each gene if multiple peaks matched. | Data-backed reconstruction; not pixel-identical to the authors' scaling/peak aggregation. |
+| B | Density of **reported significant** promoter (2,832) and distal (15,485) peak–gene Pearson coefficients from Table S3A. | The full tested-pair and permuted background vectors are not deposited, so the original null curves and empirical threshold are **not** reproduced. |
+| C | Reported Dlx2 (four distal) and Olig2 (ten distal, one promoter) links from Table S3A, with promoter positions from the GEO ATAC peak annotation. | Data-backed arc layout; browser signal tracks from the paper are not included. |
+| D | The GEO integrated UMAP coordinates, colored by RNA Dlx2/Olig2 counts or the selected promoter and strongest linked distal ATAC peak. RNA and ATAC are separate nuclei; color uses log1p of each-cell count / total assay counts × 10,000. | Data-backed redraw on the deposited integrated embedding. The original authors' exact display transformation is unavailable. |
+| E | Density of the 70 **reported significant** TF RNA–motif Pearson coefficients (51 positive, 19 negative) from Table S3B. | The full tested TF set and permuted coefficients are not deposited, so the original null curves and threshold are **not** reproduced. |
+| F | Dlx2 and Olig2 RNA expression versus ATAC **gene activity** across 13 matched cell-type labels. | **Different measurement:** ATAC gene activity is a descriptive proxy, not TF motif accessibility. It must not be interpreted as the published Figure 3F correlation. |
+| G | The same RNA versus ATAC gene-activity comparison for Zfx, Pou6f1, Hmbox1, Klf8 and Smarcc1. | **Different measurement:** it does not reproduce the published Figure 3G motif analysis. |
+
+All downloadable plots are independent renderings, not altered copies of the paper's artwork. The source figure's PMC metadata lists a CC BY-NC-ND license; the atlas links to the original rather than redistributing an edited crop.
+
+The full replication of B/E/F/G as published would require the authors' 88 pseudo-cell expression/peak matrix, permuted score vectors, and motif-by-peak accessibility matrix or the original motif-scanning database and exact peak selection. The provided author code gives the method but not those result matrices. No peak–gene or TF-motif significance was newly called here. These panels are a source-faithful comparison and an explicitly labelled adaptation, **not a complete exact replication**.
+
+Source checksum: GEO ATAC peak-count gzip SHA-256 `63bcf195e4d28fcc2884575b741bec1f4bcd0620c302bba79cb2cf56127d4ecd`. The panel A pair selection, cell values, and proxy correlations are provided as separate downloads so the plotted quantitative inputs are inspectable.

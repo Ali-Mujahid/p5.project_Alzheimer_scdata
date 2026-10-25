@@ -1908,8 +1908,8 @@
     {
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
       "path": "updates/rna_microglia_20261017/atlas/index.html",
-      "bytes": 130936,
-      "sha256": "7eb0a168b3ecd7485ab22f76382d07f15d41965f60974523d0b8525a05e42c47"
+      "bytes": 133199,
+      "sha256": "780a4bc8d23952368931e60b33efe6954ad0bff7a27ab04d96a2dfef00805bcb"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/microglia_deg.css",
@@ -1970,6 +1970,36 @@
       "path": "updates/rna_microglia_20261017/atlas/te_group_trends.js",
       "bytes": 3291,
       "sha256": "207dbb3b54f7b0494c5bf6a2649aed842dc21dd51675ca69d68529cf0551aa2d"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/TrackerSci_Figure3_A_to_G_deposited_data_adaptation.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/TrackerSci_Figure3_A_to_G_deposited_data_adaptation.pdf",
+      "bytes": 330106,
+      "sha256": "c0ef1fa2b2be65d7a380fe7f66dc81e48a0821083b3b90b9874400859dff4dba"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/TrackerSci_Figure3_A_to_G_deposited_data_adaptation.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/TrackerSci_Figure3_A_to_G_deposited_data_adaptation.png",
+      "bytes": 975318,
+      "sha256": "38f058126c17251658edbc1f7ffac00c30f32ea8aa9ce7f297d054a42692548d"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/TrackerSci_Figure3_METHODS_AND_LIMITS.md",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/TrackerSci_Figure3_METHODS_AND_LIMITS.md",
+      "bytes": 4291,
+      "sha256": "e49faf2c9bef87715662a66368f1529576182faa5e85a04be1d09431ea5d4cc8"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/TrackerSci_Figure3_panel_A_gene_promoter_pairs.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/TrackerSci_Figure3_panel_A_gene_promoter_pairs.tsv",
+      "bytes": 178149,
+      "sha256": "cae6f316fcc2f8235e03d235934ce1388de22fb66a2bd845339ab7c9a8ef5b85"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/TrackerSci_Figure3_panel_FG_gene_activity_proxy_correlations.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/TrackerSci_Figure3_panel_FG_gene_activity_proxy_correlations.tsv",
+      "bytes": 587,
+      "sha256": "84dc3133da432f029a389b2d128149f7641b65545e672fa6e6f21ad37d517557"
     }
   ]
 }
