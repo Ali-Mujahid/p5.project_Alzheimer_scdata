@@ -1,0 +1,41 @@
+{
+  "method": "PyDESeq2 0.5.0",
+  "source_assay": "raw integer Microglia gene UMIs",
+  "not_source_assay": "fractional IRescue TE subfamily expected allocations",
+  "rna_sha256": "6417874648011e0871b3f5ccc2a4599cf86da79c933c16435170a674b0ea3606",
+  "highres_sha256": "4383339de4236f7b2540e2cbb52065702792b20373c831e15d38f771fde6b770",
+  "mice": 20,
+  "selected_microglia_cells": 22251,
+  "genes_total": 55487,
+  "genes_prefiltered": 9385,
+  "prefilter": "raw UMI count >=10 in >=4 mice, blind to condition",
+  "design": "~ condition + sex",
+  "reference": "WT_3mo",
+  "contrast_unit": "mouse",
+  "contrasts": {
+    "WT_6mo_vs_WT_3mo": {
+      "tested": 9385,
+      "FDR005": 0,
+      "FDR010": 0
+    },
+    "WT_21mo_vs_WT_3mo": {
+      "tested": 9385,
+      "FDR005": 210,
+      "FDR010": 273
+    },
+    "5xFAD_3mo_vs_WT_3mo": {
+      "tested": 9385,
+      "FDR005": 1,
+      "FDR010": 1
+    },
+    "APOE4_TREM2_3mo_vs_WT_3mo": {
+      "tested": 9385,
+      "FDR005": 4,
+      "FDR010": 26
+    }
+  },
+  "normalization": "PyDESeq2 median-of-ratios gene size factors",
+  "FDR": "Benjamini-Hochberg within each contrast; q<0.1 exploratory",
+  "refit_cooks": false,
+  "caveat": "Gene DEGs are separate from TE RNA differential subfamilies; no cells treated as replicates."
+}
