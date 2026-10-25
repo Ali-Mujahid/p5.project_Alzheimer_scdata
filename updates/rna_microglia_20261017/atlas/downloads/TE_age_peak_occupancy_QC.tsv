@@ -1,0 +1,11 @@
+group	age_proxy	genomic_copies	peak_occupied_copies	genome_wide_occupied_fraction	manual_animal_peak_calls	target_without_control_copies
+WT_3mo	lower_divergence_lt10pct	553880	3558	0.0064237741	63892	0
+WT_3mo	higher_divergence_ge20pct	2263332	19729	0.0087167945	63892	0
+WT_6mo	lower_divergence_lt10pct	553880	5936	0.010717123	85824	3829
+WT_6mo	higher_divergence_ge20pct	2263332	30073	0.013287048	85824	17236
+WT_21mo	lower_divergence_lt10pct	553880	4688	0.0084639272	81658	2699
+WT_21mo	higher_divergence_ge20pct	2263332	26651	0.011775117	81658	14267
+5xFAD_3mo	lower_divergence_lt10pct	553880	3239	0.0058478371	55199	1673
+5xFAD_3mo	higher_divergence_ge20pct	2263332	17140	0.0075729058	55199	7789
+APOE4_TREM2_3mo	lower_divergence_lt10pct	553880	4890	0.0088286271	69008	2937
+APOE4_TREM2_3mo	higher_divergence_ge20pct	2263332	24582	0.010860978	69008	13146
