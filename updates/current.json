@@ -1044,8 +1044,8 @@
     {
       "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_circos_METHODS.md",
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_circos_METHODS.md",
-      "bytes": 3491,
-      "sha256": "04ae8625a1279e93d7183a40544a878123e56aa2a868bd3bf3a026a11514e806"
+      "bytes": 3633,
+      "sha256": "7b89f3067893050cbc517d0835b1e67f3d44df7a09dfa52570370985781a5845"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_equal_mouse_allgene_top20.json",
@@ -1530,8 +1530,8 @@
     {
       "path": "updates/rna_microglia_20261017/atlas/downloads/TE_copy_divergence_5Mb.tsv",
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/TE_copy_divergence_5Mb.tsv",
-      "bytes": 172022,
-      "sha256": "1a98eff7459c7e09cdfde333b943a8b854feb42735b438d6965852a2c0b88789"
+      "bytes": 168973,
+      "sha256": "a60e304e86316cbefbb1555987add73f7c8af6807e5f5ad9685ff3ec8d15a761"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/TE_disease_directional_manifest.json",
@@ -1632,14 +1632,14 @@
     {
       "path": "updates/rna_microglia_20261017/atlas/downloads/mm10_TE_low_high_divergence_circos.pdf",
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/mm10_TE_low_high_divergence_circos.pdf",
-      "bytes": 816455,
-      "sha256": "d66af69ed9996660a0293a226e85e19bf45ff894e502b730597d0ff410dc94f4"
+      "bytes": 814909,
+      "sha256": "2f01705a0ec79c131c4b2c1de04a2390d1b0067b4f0cb4ce92bebfa6046ab0fa"
     },
     {
       "path": "updates/rna_microglia_20261017/atlas/downloads/mm10_TE_low_high_divergence_circos.png",
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/mm10_TE_low_high_divergence_circos.png",
-      "bytes": 1195685,
-      "sha256": "0701376063c2a410c3bf486603016a427a2f39d8b0a4ff5a024b8215ad1b68ed"
+      "bytes": 1194994,
+      "sha256": "74bf9d7ba0455df77164a0b1c385eb08c82814d9994a3ee241f6b10cf02fae8a"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/provenance.json",
@@ -1674,8 +1674,8 @@
     {
       "path": "updates/rna_microglia_20261017/atlas/index.html",
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
-      "bytes": 123823,
-      "sha256": "b00fb99510ea790d8560d06a889ddd02223eee2b1efd791c1dabfc7cfd2608f0"
+      "bytes": 123839,
+      "sha256": "9510a5a452dc7282686b98873f03d30e89f09af9ea33704d313b242a7bcaff4c"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/microglia_deg.css",
