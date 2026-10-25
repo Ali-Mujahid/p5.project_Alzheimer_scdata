@@ -15,6 +15,6 @@ Four windows near `P2ry12`, `Tmem119`, `Apoe` and `Trem2` contain one illustrati
 
 ## Reproducibility and QC
 
-`aggregate_te_age_accessibility.py`, `aggregate_atac_bigwigs.py`, `aggregate_rna_gene_density.py`, `extract_atac_browser_signal.py`, `extract_rna_browser_depth.py`, and the renderers generate the released TSV/BED/PDF/PNG files. LiSC jobs 7664651, 7664653 and 7664654 finished with exit 0. The VSC RNA browser-depth job is 8805786; its result is released only after exit 0 and an output-axis check.
+`aggregate_te_age_accessibility.py`, `aggregate_atac_bigwigs.py`, `aggregate_rna_gene_density.py`, `extract_atac_browser_signal.py`, and the renderers generate the released TSV/BED/PDF/PNG files. LiSC jobs 7664651, 7664653 and 7664654 finished with exit 0. VSC RNA browser-depth job 8805786 was canceled before starting at the user's request. Basewise RNA coverage has not been added; the RNA ring shown here is gene-expression density.
 
 Peak call counts vary between groups. No matched-depth peak calling, animal-level significance test or TE-locus RNA quantification was inferred from these descriptive plots.
