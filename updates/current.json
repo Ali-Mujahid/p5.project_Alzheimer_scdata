@@ -64,6 +64,12 @@
       "sha256": "c4ebe4fcb1b6e2934c9ab66d8dd552931c3041f9a645f8faa722bf18137279cc"
     },
     {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/ETnERV2-int_genomic_copies_5Mb.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/ETnERV2-int_genomic_copies_5Mb.tsv",
+      "bytes": 44049,
+      "sha256": "28c9fcc54a74f1384215d98dc304b684fa26a23e5f848a4b2c950ef1f439be02"
+    },
+    {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/Figure2_BCDE_reviewed_report.pdf",
       "path": "updates/rna_microglia_20261017/atlas/downloads/Figure2_BCDE_reviewed_report.pdf",
       "bytes": 307581,
@@ -1036,10 +1042,28 @@
       "sha256": "6834ac1c568aa496f10fc5a9f2b3e7ffb7bab6920455baee53c93bef2e6866d8"
     },
     {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_circos_METHODS.md",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_circos_METHODS.md",
+      "bytes": 2608,
+      "sha256": "23f6744212bd49f62053b09e3148b28a0634145f6d9a760a2faca2923ed7a662"
+    },
+    {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_equal_mouse_allgene_top20.json",
       "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_equal_mouse_allgene_top20.json",
       "bytes": 132156,
       "sha256": "d37ab7f050ad567aad6a3ace04f7a9a645f78a4fd2ac7cfb73d87448ba9af3d9"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_four_contrasts_RNA_ATAC_TE_circos.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_four_contrasts_RNA_ATAC_TE_circos.pdf",
+      "bytes": 1268547,
+      "sha256": "2bb7422c774dd1d7271f0f3fd077909ab356714f76964670ed0f4d87babe2dae"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_four_contrasts_RNA_ATAC_TE_circos.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_four_contrasts_RNA_ATAC_TE_circos.png",
+      "bytes": 2320319,
+      "sha256": "6f0b2b981e9157cde0c312181eef96f226843f77ffeb2bc42afa790a9ca27c5d"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_group_peak_TE_copy_trends.tsv",
@@ -1516,6 +1540,12 @@
       "sha256": "5bded7e6de08481300a8cf697ec02ec2d585603c2ac98b8b42c662a573596578"
     },
     {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/TE_family_genomic_copies_5Mb.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/TE_family_genomic_copies_5Mb.tsv",
+      "bytes": 179243,
+      "sha256": "b9828ce3dd89f7e01c8e512b5c20e56377b324793b70be5c0aa2df8b1a7a7aab"
+    },
+    {
       "path": "updates/rna_microglia_20261017/atlas/downloads/TE_group_comparison_methods_20261023.md",
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/TE_group_comparison_methods_20261023.md",
       "sha256": "75be78ca0a0904a041779556c48667f152376b575bb30f5869e9ade68969daf1",
@@ -1546,10 +1576,52 @@
       "sha256": "156390e638522919ca95c0bb6f9ba3abec99389052b0b07707f5d57840692be4"
     },
     {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/WT_21mo_vs_3mo_TE_associated_circos.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/WT_21mo_vs_3mo_TE_associated_circos.pdf",
+      "bytes": 413615,
+      "sha256": "da11e481a2ef21f86d4b0bbe136d1baf59082982c6385c205645c1b68aa7cbbe"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/WT_21mo_vs_3mo_TE_associated_circos.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/WT_21mo_vs_3mo_TE_associated_circos.png",
+      "bytes": 957939,
+      "sha256": "4fe7e0788b7cd304bc03e246a49e284807d20090bfa65d13f3079dc842480fb7"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/chromosome_tracks_5Mb.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/chromosome_tracks_5Mb.tsv",
+      "bytes": 548066,
+      "sha256": "bc2cf33eef812fcee19ac1c2f70c956567e8d6ce9438ea53d04d1b07dcef3187"
+    },
+    {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/example_UMAP_group_summary.tsv",
       "path": "updates/rna_microglia_20261017/atlas/downloads/example_UMAP_group_summary.tsv",
       "bytes": 3673,
       "sha256": "2a68337092bfe858ba603b09e71e709a5efe38a1ce73bea8f9952be32c173444"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/mm10_TE_class_genome_circos.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/mm10_TE_class_genome_circos.pdf",
+      "bytes": 393517,
+      "sha256": "dc93b96080effe48265cba256e904674b757791d25f343b24fed3278955fb43a"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/mm10_TE_class_genome_circos.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/mm10_TE_class_genome_circos.png",
+      "bytes": 832169,
+      "sha256": "7319d8d19ca32e5e00b77851b16389e972c158df68d69a14841463a86ccd1100"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/mm10_TE_family_genome_circos.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/mm10_TE_family_genome_circos.pdf",
+      "bytes": 815622,
+      "sha256": "248ddeaefc9dd8004b8b6184a53b7274224c44b5751c7957be1dab64a1584646"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/mm10_TE_family_genome_circos.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/mm10_TE_family_genome_circos.png",
+      "bytes": 1166631,
+      "sha256": "34fc1979dfd39d24edaad40053517ff616eca7cb5a7678e3040f788a79bf9124"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/provenance.json",
@@ -1584,8 +1656,8 @@
     {
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
       "path": "updates/rna_microglia_20261017/atlas/index.html",
-      "bytes": 120220,
-      "sha256": "d3711f1801bde52099fd0cf831c6939cfa16e8bd69c089efacaa4fad681c8ea0"
+      "bytes": 122956,
+      "sha256": "b1266b4c658f252439a86b5c707c5cf0e1f07eb401e5c6e1f4e2fb6b1e9fcc11"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/microglia_deg.css",
