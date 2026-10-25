@@ -232,6 +232,24 @@
       "sha256": "dc158633b40f2500ca1adef1df5b7c377d0206116d88fdaca3b7f3ab8d6a606f"
     },
     {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Figure_1C_TrackerSci_published_marker_order.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Figure_1C_TrackerSci_published_marker_order.pdf",
+      "bytes": 76772,
+      "sha256": "df77359b2c699dc4ba3d7fd8680339c61d697791abe167bcc9dae4268902d315"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Figure_1C_TrackerSci_published_marker_order.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Figure_1C_TrackerSci_published_marker_order.png",
+      "bytes": 328558,
+      "sha256": "33ec68ef1cd8bf1531762393bd88264bef5684df81220e32ca8518b95f559f12"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Figure_1C_publication_order_values.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Figure_1C_publication_order_values.tsv",
+      "bytes": 40350,
+      "sha256": "b88e6ad3628a19b9afc5911cd6d0f0dccbf75f974b02138e88f3f8e9c366e4cf"
+    },
+    {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/IAPLTR3-int_RNA_ATAC_four_UMAP_scopes_five_groups.pdf",
       "path": "updates/rna_microglia_20261017/atlas/downloads/IAPLTR3-int_RNA_ATAC_four_UMAP_scopes_five_groups.pdf",
       "bytes": 1745264,
@@ -1488,8 +1506,8 @@
     {
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
       "path": "updates/rna_microglia_20261017/atlas/index.html",
-      "bytes": 113642,
-      "sha256": "1fbd96e8a5928f98cdd9854ec5f2dbdf738611a3b23e22fe5a6d8be76d35d9c4"
+      "bytes": 115691,
+      "sha256": "4405f15652d064c768b13be8ab1da3117364b419faa0de15af345c8969cd1b55"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/paired_views.css",
