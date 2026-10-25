@@ -18,12 +18,12 @@ PREFIX = "/full_workflow_20261014/atlas_preview/"
 UPDATE_ID = "rna_microglia_20261017"
 REQUIRED = {PREFIX + name for name in (
     "index.html", "app.js", "rna_microglia.js", "te_group_trends.js", "rna_microglia.css",
-    "paired_views.js", "paired_views.css",
+    "paired_views.js", "paired_views.css", "microglia_deg.js", "microglia_deg.css",
     "data/rna_microglia.json", "data/microglia_coordinates.json",
 )}
 MAX_FILE_BYTES = 128 * 1024 * 1024
 MAX_TOTAL_BYTES = 256 * 1024 * 1024
-MAX_FILES = 256
+MAX_FILES = 288
 
 
 def _need(condition, message):
@@ -155,7 +155,7 @@ def load_update(root):
         allowed_download = (len(relative.parts) == 2 and relative.parts[0] == "downloads" and
                             (relative.suffix in {".pdf", ".png", ".jpg", ".svg", ".npy", ".tsv", ".csv", ".json", ".md", ".txt"} or
                              relative.name.endswith((".tsv.gz", ".tsv.xz")) or
-                             relative.name in {"Figure2_BCDE_reviewed_tables_and_PDFs.zip", "Microglia_RNA_TE_QC_panels_and_tables.zip", "Microglia_RNA_TE_DE_tables_and_figures.zip", "Microglia_TE_ATAC_MAnorm2_tables.zip", "Microglia_per_animal_peak_TE_20261023.zip", "Microglia_TE_ATAC_coverage_20261023_data.zip"}))
+                             relative.name in {"Figure2_BCDE_reviewed_tables_and_PDFs.zip", "Microglia_RNA_TE_QC_panels_and_tables.zip", "Microglia_RNA_TE_DE_tables_and_figures.zip", "Microglia_TE_ATAC_MAnorm2_tables.zip", "Microglia_per_animal_peak_TE_20261023.zip", "Microglia_TE_ATAC_coverage_20261023_data.zip", "Microglia_RNA_DEG_all_results_20261025.zip"}))
         _need(route in REQUIRED or allowed_download, "Unreviewed overlay route class: " + route)
         expected_path = "updates/" + UPDATE_ID + "/atlas/" + suffix
         _need(row["path"] == expected_path, "Overlay disk and HTTP paths must match exactly")
