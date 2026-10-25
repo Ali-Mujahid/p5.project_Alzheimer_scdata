@@ -1,5 +1,13 @@
 # Genome-wide Microglia TE/ATAC/RNA tracks
 
+The current Circos display uses 21 separate mm10 chromosome blocks and radial
+density curves for every measured feature. TE copy counts are plotted per 1 Mb;
+target and WT_3mo ATAC group bigWig means are plotted per 100 kb. Each assay
+uses a common log1p scale across groups with display heights clipped at its
+99th percentile. The earlier heatmap-ring Circos remains available as an
+archived view. The RNA TE ring stays explicitly pending until the real
+Microglia-only copy-overlap counts are complete.
+
 The requested four contrasts are WT_6mo, WT_21mo, 5xFAD_3mo and
 APOE4_TREM2_3mo, each shown against WT_3mo. Coordinates are mm10 primary
 chromosomes 1–19, X and Y.

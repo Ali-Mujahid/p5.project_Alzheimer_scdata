@@ -1834,12 +1834,6 @@
       "sha256": "93a7ef3b6c0bad52fad47ad7769a6441f90c23f19fce96d98bd1e31f41bc67d0"
     },
     {
-      "http_path": "/full_workflow_20261014/atlas_preview/index.html",
-      "path": "updates/rna_microglia_20261017/atlas/index.html",
-      "bytes": 129493,
-      "sha256": "6c23a977ddcbd7857ed525fe67ef12d343736510ca1db376f064f7abb370e25a"
-    },
-    {
       "http_path": "/full_workflow_20261014/atlas_preview/microglia_deg.css",
       "path": "updates/rna_microglia_20261017/atlas/microglia_deg.css",
       "bytes": 1105,
@@ -1930,10 +1924,28 @@
       "sha256": "527dce27f4c248a91dad1e80f19afa5c2d833245205032fd5a688c465d55d757"
     },
     {
+      "http_path": "/full_workflow_20261014/atlas_preview/index.html",
+      "path": "updates/rna_microglia_20261017/atlas/index.html",
+      "bytes": 129826,
+      "sha256": "e128f21ced1bf2f5ca63f0474f75983a39c99cd723a239a85a5017c9236867ce"
+    },
+    {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_1Mb_TE_100kb_ATAC_circos_METHODS.md",
       "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_1Mb_TE_100kb_ATAC_circos_METHODS.md",
-      "bytes": 2061,
-      "sha256": "81a020bf4b03b5437d8ae9e152dccf3b1056aa709bf9245e51d31bfb362fcb42"
+      "bytes": 2566,
+      "sha256": "4098e05068db6a9206f10d6f2124550c43f0eb3c46553201a4f2aeecb8679b31"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_four_targets_chromosome_blocks_density_circos_RNA_TE_pending.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_four_targets_chromosome_blocks_density_circos_RNA_TE_pending.pdf",
+      "bytes": 2067114,
+      "sha256": "c9214bd1e7e10b5fe1f6ebdc61643367dfb1c79138541cf7d95093c0d4ea0146"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_four_targets_chromosome_blocks_density_circos_RNA_TE_pending.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_four_targets_chromosome_blocks_density_circos_RNA_TE_pending.png",
+      "bytes": 1803735,
+      "sha256": "472e39a997972e7b260e569eeab8923d70902fc297e6828512afb79386506091"
     }
   ]
 }
