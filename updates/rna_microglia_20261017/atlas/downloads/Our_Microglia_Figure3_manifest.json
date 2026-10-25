@@ -1,0 +1,39 @@
+{
+  "source": "Lu et al. Cell 2023 Figure 3 layout; our GSE212606 Microglia-only data",
+  "scope": "our Microglia only",
+  "RNA_cells": 22251,
+  "ATAC_cells": 9152,
+  "mice": 20,
+  "TE_candidate_pairs": 120334,
+  "positive_TE_peak_gene_FDR010": 0,
+  "A_genes": [
+    "P2ry12",
+    "Tmem119",
+    "Cx3cr1",
+    "Csf1r",
+    "Sall1",
+    "Apoe",
+    "Cd9",
+    "Trem2",
+    "Lpl",
+    "Stat1",
+    "Ddx60",
+    "Mrc1",
+    "Mki67"
+  ],
+  "F_genes": [
+    "Spi1",
+    "Irf8"
+  ],
+  "G_genes": [
+    "Sall1",
+    "Mafb",
+    "Stat1",
+    "Nfkb1",
+    "Runx1"
+  ],
+  "B_promoter_pairs": 4168,
+  "B_distal_pairs": 116166,
+  "E_TF_genes_with_promoter_signal": 7,
+  "panels_EFG_use_motif_proxy": true
+}
