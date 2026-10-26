@@ -1,0 +1,162 @@
+{
+  "status": "combined_20_validated_mouse_matrices",
+  "matrix_shape": [
+    1075,
+    22251
+  ],
+  "matrix_nonzero": 2068401,
+  "total_assigned_te_umi": 4351598,
+  "animals": 20,
+  "groups": [
+    "WT_3mo",
+    "WT_6mo",
+    "WT_21mo",
+    "5xFAD_3mo",
+    "APOE4_TREM2_3mo"
+  ],
+  "cells": 22251,
+  "capture_layers_per_cell": 2,
+  "feature_axis_sha256": "91c4d17962d10deab904f6fbd440f99d1d8c6d6a4f333db9f854ee9fcc0214ab",
+  "per_mouse": [
+    {
+      "animal": "WT_3mo_female_1",
+      "group": "WT_3mo",
+      "cells": 1222,
+      "captures": 2444,
+      "te_umi": 219639
+    },
+    {
+      "animal": "WT_3mo_female_2",
+      "group": "WT_3mo",
+      "cells": 991,
+      "captures": 1982,
+      "te_umi": 219380
+    },
+    {
+      "animal": "WT_3mo_male_1",
+      "group": "WT_3mo",
+      "cells": 1877,
+      "captures": 3754,
+      "te_umi": 396776
+    },
+    {
+      "animal": "WT_3mo_male_2",
+      "group": "WT_3mo",
+      "cells": 888,
+      "captures": 1776,
+      "te_umi": 152907
+    },
+    {
+      "animal": "WT_6mo_female_1",
+      "group": "WT_6mo",
+      "cells": 1472,
+      "captures": 2944,
+      "te_umi": 379950
+    },
+    {
+      "animal": "WT_6mo_female_2",
+      "group": "WT_6mo",
+      "cells": 519,
+      "captures": 1038,
+      "te_umi": 109520
+    },
+    {
+      "animal": "WT_6mo_male_1",
+      "group": "WT_6mo",
+      "cells": 1805,
+      "captures": 3610,
+      "te_umi": 369602
+    },
+    {
+      "animal": "WT_6mo_male_2",
+      "group": "WT_6mo",
+      "cells": 588,
+      "captures": 1176,
+      "te_umi": 109120
+    },
+    {
+      "animal": "WT_21mo_female_1",
+      "group": "WT_21mo",
+      "cells": 389,
+      "captures": 778,
+      "te_umi": 52687
+    },
+    {
+      "animal": "WT_21mo_female_2",
+      "group": "WT_21mo",
+      "cells": 2078,
+      "captures": 4156,
+      "te_umi": 412148
+    },
+    {
+      "animal": "WT_21mo_male_1",
+      "group": "WT_21mo",
+      "cells": 992,
+      "captures": 1984,
+      "te_umi": 165854
+    },
+    {
+      "animal": "WT_21mo_male_2",
+      "group": "WT_21mo",
+      "cells": 1028,
+      "captures": 2056,
+      "te_umi": 203317
+    },
+    {
+      "animal": "5xFAD_3mo_female_1",
+      "group": "5xFAD_3mo",
+      "cells": 456,
+      "captures": 912,
+      "te_umi": 90370
+    },
+    {
+      "animal": "5xFAD_3mo_female_2",
+      "group": "5xFAD_3mo",
+      "cells": 503,
+      "captures": 1006,
+      "te_umi": 83070
+    },
+    {
+      "animal": "5xFAD_3mo_male_1",
+      "group": "5xFAD_3mo",
+      "cells": 1582,
+      "captures": 3164,
+      "te_umi": 284380
+    },
+    {
+      "animal": "5xFAD_3mo_male_2",
+      "group": "5xFAD_3mo",
+      "cells": 409,
+      "captures": 818,
+      "te_umi": 80687
+    },
+    {
+      "animal": "APOE4_TREM2_3mo_female_1",
+      "group": "APOE4_TREM2_3mo",
+      "cells": 1780,
+      "captures": 3560,
+      "te_umi": 339363
+    },
+    {
+      "animal": "APOE4_TREM2_3mo_female_2",
+      "group": "APOE4_TREM2_3mo",
+      "cells": 971,
+      "captures": 1942,
+      "te_umi": 164603
+    },
+    {
+      "animal": "APOE4_TREM2_3mo_male_1",
+      "group": "APOE4_TREM2_3mo",
+      "cells": 1177,
+      "captures": 2354,
+      "te_umi": 245964
+    },
+    {
+      "animal": "APOE4_TREM2_3mo_male_2",
+      "group": "APOE4_TREM2_3mo",
+      "cells": 1524,
+      "captures": 3048,
+      "te_umi": 272261
+    }
+  ]
+}

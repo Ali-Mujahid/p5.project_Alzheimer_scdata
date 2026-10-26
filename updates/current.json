@@ -1774,6 +1774,48 @@
       "sha256": "f1657b5854f8e7288a85a7d0c8fc553dfcdb9bc6ec38d5f7ecd163c5368c57c1"
     },
     {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Stellarscope_Microglia_20mice_summary.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Stellarscope_Microglia_20mice_summary.pdf",
+      "bytes": 44507,
+      "sha256": "7e91e525c47fd0146cfc817373579bcd41e75a7790b509bffaeff9a8a2bf02c1"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Stellarscope_Microglia_20mice_summary.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Stellarscope_Microglia_20mice_summary.png",
+      "bytes": 304427,
+      "sha256": "3cf8cf6b90d06ac77343db6d275826444542fa6b390f344185d776ed1f6cc8a6"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Stellarscope_Microglia_exploratory_group_shifts.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Stellarscope_Microglia_exploratory_group_shifts.tsv",
+      "bytes": 2152,
+      "sha256": "af8313b28ad242797bb8dd239a98b41e5e7cd25fb8f20bd8b2a1409dc86618f2"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Stellarscope_Microglia_mouse_pseudobulk_counts.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Stellarscope_Microglia_mouse_pseudobulk_counts.tsv",
+      "bytes": 71649,
+      "sha256": "12f5fe0f20bda48a44bbf95a3aec277d99928a69da8c77029831bb46d7b87c43"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Stellarscope_Microglia_mouse_summary.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Stellarscope_Microglia_mouse_summary.tsv",
+      "bytes": 923,
+      "sha256": "c5fb9ae33727dd059713f5eeca9f319c75ba6cabefdc60b442d5cac80781c87e"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Stellarscope_Microglia_subfamilies.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Stellarscope_Microglia_subfamilies.tsv",
+      "bytes": 25987,
+      "sha256": "b3a6469bd71c3d98188160ee62f83686591bdb36a94081ca1fb7b5d1d43bf3a1"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Stellarscope_Microglia_summary.json",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Stellarscope_Microglia_summary.json",
+      "bytes": 3334,
+      "sha256": "f4736e6747410c1bdc59ca3f4aa0395f7fe49b0cafa24db0a681a98de1a5281a"
+    },
+    {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/TE_age_peak_occupancy_5Mb.tsv",
       "path": "updates/rna_microglia_20261017/atlas/downloads/TE_age_peak_occupancy_5Mb.tsv",
       "bytes": 498438,
@@ -2142,8 +2184,8 @@
     {
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
       "path": "updates/rna_microglia_20261017/atlas/index.html",
-      "bytes": 139328,
-      "sha256": "f0607c61454bc1f616a6f148095300fc86191b168372a40d40d70fcdc6db0800"
+      "bytes": 141493,
+      "sha256": "845523ea130352b975901311ac360d751babc0d0e61fc21034f709ebd0a79bf3"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/microglia_deg.css",
