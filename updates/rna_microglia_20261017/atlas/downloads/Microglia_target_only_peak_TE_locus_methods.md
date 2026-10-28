@@ -1,26 +1,29 @@
-# Microglia RNA signal at target-only ATAC peak-bound TE loci
+# Scaled Microglia TE RNA expression at ATAC peak-bound loci
 
-## Inputs and sets
+The current figure uses scaled expression values. It supersedes the earlier plot whose y-axis showed normalized assigned UMI sums per 1,000 loci.
 
-The four target-only peak-bound TE sets are the MAnorm native, unfiltered `unique_target` peak overlaps with the mm10 RepeatMasker TE BED. They contain 9,361 WT_6mo, 9,725 WT_21mo, 7,240 5xFAD_3mo, and 6,438 APOE4_TREM2_3mo distinct TE loci. For each pairwise comparison, a separate WT_3mo-only peak-bound TE set was constructed from the native `unique_control.bed` and the same TE annotation; these contain 8,188, 8,767, 10,136, and 10,615 loci, respectively. `unique` describes the called ATAC peak set, not exclusive RNA detection or exclusive TE-copy occupancy. Some TE copies overlap different peaks from both peak sets.
+## Input loci and RNA data
 
-RNA input is the previously validated Stellarscope 1.5, Microglia-selected, per-animal TE-locus UMI matrix (20 mice, 22,251 selected cells). The mm10 feature axis is pinned by SHA256 `91c4d17962d10deab904f6fbd440f99d1d8c6d6a4f333db9f854ee9fcc0214ab`. All eight ATAC TE sets matched the Stellarscope feature axis exactly by chromosome, start, end, and strand; zero loci were missing and no locus matched more than one feature. ATAC BED TE names often differ from the more specific Stellarscope feature names, so no name-only join was used. See `results/feature_join_audit.json`.
+The four target-only MAnorm peak-bound TE sets contain 9,361 WT_6mo, 9,725 WT_21mo, 7,240 5xFAD_3mo, and 6,438 APOE4_TREM2_3mo distinct mm10 TE loci. The paired WT_3mo-only peak-bound sets contain 8,188, 8,767, 10,136, and 10,615 loci. These use the unfiltered native unique-target/unique-control peak calls; no M or p-value cutoff was added. A TE copy can overlap distinct peaks from both sets.
 
-## Measurement
+Source expression is the previously validated Stellarscope 1.5 assigned-UMI matrix for 22,251 selected Microglia cells across 20 mice. Every selected ATAC TE locus joined uniquely to the RNA feature axis by chromosome, start, end, and strand. TE names differ in specificity between annotations, so the join uses coordinates. Feature-axis SHA256: `91c4d17962d10deab904f6fbd440f99d1d8c6d6a4f333db9f854ee9fcc0214ab`.
 
-For each mouse and locus set, RNA signal is the sum of Stellarscope-assigned TE UMIs over the matched loci. The plotted quantity is `set UMIs / all assigned TE UMIs in that mouse × 1,000,000 × 1,000 / number of matched loci`. Each panel compares exactly the same fixed TE locus set between four WT_3mo mice and four target mice, balanced two females and two males per condition. Boxplots show mouse-level values and every mouse point. The top row uses target-only ATAC peak-bound TE loci; the lower row uses the pairwise WT_3mo-only peak-bound TE loci.
+## Exact scaling
 
-This is a descriptive analysis. ATAC-only peaks can have RNA signal in either group. The assigned UMI values depend on the Stellarscope multimapping model and do not prove autonomous transcription from a TE copy. Equal total-TE-UMI normalization measures the share of model-assigned TE signal per 1,000 loci; it does not replace a formal count model with RNA depth and cell-composition offsets. No p-values or differential-expression calls are inferred from these boxplots.
+For each of the eight locus sets, use the same four WT_3mo and four target mice:
 
-## Results
+1. Normalize each locus's expression by the total assigned TE UMIs in that mouse: `TE-CPM = locus UMI / total assigned TE UMI × 1,000,000`.
+2. Transform each locus and mouse with `x = ln(1 + TE-CPM)`.
+3. For each locus, calculate `z = (x - mean(x across 8 mice)) / sample_SD(x across 8 mice)`.
+4. Keep loci with zero variance, assigning their scaled value to zero for all mice.
+5. For each mouse, average the locus z-scores over all loci in that fixed set. Boxplots summarize the four mouse values per condition. Circles are females and triangles males; each group has two of each.
 
-The target-only-set median target/WT_3mo ratios are 1.015 (WT_6mo), 0.964 (WT_21mo), 1.066 (5xFAD_3mo), and 0.973 (APOE4_TREM2_3mo). Thus the group medians are similar at this aggregate scale; the 5xFAD panel shows the largest positive descriptive shift, about 6.6%. Individual loci can differ despite similar set-wide totals.
+The y-axis is **Scaled TE expression (mean locus z-score)**, a unitless relative expression score. Zero refers to the pairwise eight-mouse average. Positive scores represent higher relative locus expression, and negative scores lower relative expression. Averaging many loci narrows the score range; the displayed mouse mean scores themselves are not standardized to SD 1.
 
-## Files
+Scaling is done within each comparison and locus set. Values summarize relative patterns and do not measure absolute RNA abundance or fold change. Locus-wise scaling gives each variable locus the same variance before averaging, so its pattern can differ from the prior sum of assigned UMIs, which gives higher-count loci more weight. Constant loci remain in the denominator to preserve the full requested TE sets. Scaling sparse low-count loci can emphasize detection differences. No p-values or formal differential-expression conclusions are inferred from these plots. Stellarscope locus assignments remain model-based.
 
-- `Microglia_target_only_peak_TE_locus_RNA_boxplots.pdf` and `.png`: eight panels.
-- `Microglia_target_only_peak_TE_locus_mouse_values.tsv`: 64 mouse-by-set values, including raw and normalized sums.
-- `Microglia_target_only_peak_TE_locus_summary.tsv`: descriptive group medians and ratios.
-- The full per-locus selected UMI table is retained locally at `/Users/mujahidali/Documents/Codex/2026-09-30/a/work/MAnorm_targetTE_RNA_20261028/results/selected_TE_locus_UMI_by_mouse.tsv.gz`. Rows may repeat across the eight sets and must not be summed across sets.
+## Verification and files
 
-LiSC jobs 7750731 (join audit) and 7750735 (locus measurement) both completed with exit code 0. The 70,470 per-set locus rows passed gzip integrity and the 64 plot rows passed four-mice-per-condition, balanced-sex checks.
+Source locus sums exactly reproduce the validated mouse-level UMI sums for all 64 mouse/set rows. All variable locus z-scores have mean zero and sample SD one within numerical tolerance. Each comparison retains eight distinct mice with balanced sex. All eight panels share one y-axis range.
+
+The scaled figure and exported values are in the local `results/scaled_expression` directory. The atlas provides the PDF, PNG, mouse scores and group median table. Original count matrices and the earlier normalized-UMI plot remain retained locally for provenance.
