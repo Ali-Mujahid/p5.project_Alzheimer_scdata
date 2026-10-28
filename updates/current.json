@@ -1126,6 +1126,18 @@
       "sha256": "cbfee40735e48c14c1874509cfc0525838f7e067f77470d482611137500c892f"
     },
     {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_TE_RNA_gene_depth_Wilcoxon.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_RNA_gene_depth_Wilcoxon.pdf",
+      "bytes": 28194,
+      "sha256": "96ca090254980b7cd5d76c9daecf85da74991f72e3f064708b86a6c5a8fcb0a5"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_TE_RNA_gene_depth_Wilcoxon.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_RNA_gene_depth_Wilcoxon.tsv",
+      "bytes": 794,
+      "sha256": "b018f270d3054abc79edb0f03e68f9c3787ccb997d53dfb7973b21476b13ab7c"
+    },
+    {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_TE_RNA_normalization_comparison.pdf",
       "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_RNA_normalization_comparison.pdf",
       "bytes": 73072,
@@ -1326,8 +1338,8 @@
     {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_target_only_peak_TE_locus_methods.md",
       "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_target_only_peak_TE_locus_methods.md",
-      "bytes": 7218,
-      "sha256": "de823ebafc8ae2bd7a2269f4b93d138283f7ec843b07ec4a6859e4385c698d24"
+      "bytes": 8127,
+      "sha256": "5e856c4fe549c19af7c8ccd79a2135a963fba345b33b35b73109f32f30dbb69b"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_target_only_peak_TE_locus_mouse_values.tsv",
@@ -2328,8 +2340,8 @@
     {
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
       "path": "updates/rna_microglia_20261017/atlas/index.html",
-      "bytes": 151636,
-      "sha256": "6a06f128fe4426b0b25b39c16e7cf758383279d7db52e0a29b8e3d8ac8b4c08c"
+      "bytes": 153499,
+      "sha256": "0c1d371c307fc91bb6cc53205e0f936de45cb03403b3c39a89405830cb993027"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/microglia_deg.css",

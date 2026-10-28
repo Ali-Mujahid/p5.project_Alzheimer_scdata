@@ -1,0 +1,5 @@
+target	control	locus_set	n_loci	n_control_mice	n_target_mice	test	U_control	p_value	target_over_control_median_ratio	independent_70_assignment_check	BH_FDR_across_four_comparisons	significance
+WT_6mo	WT_3mo	target_only	9361	4	4	two-sided exact Wilcoxon rank-sum (Mann-Whitney U)	5.0	0.4857142857142857	1.042376423098016	True	0.9142857142857143	ns
+WT_21mo	WT_3mo	target_only	9725	4	4	two-sided exact Wilcoxon rank-sum (Mann-Whitney U)	8.0	1.0	1.023796866094197	True	1.0	ns
+5xFAD_3mo	WT_3mo	target_only	7240	4	4	two-sided exact Wilcoxon rank-sum (Mann-Whitney U)	6.0	0.6857142857142857	1.0147713729366108	True	0.9142857142857143	ns
+APOE4_TREM2_3mo	WT_3mo	target_only	6438	4	4	two-sided exact Wilcoxon rank-sum (Mann-Whitney U)	6.0	0.6857142857142857	0.9986279006031984	True	0.9142857142857143	ns

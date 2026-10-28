@@ -57,3 +57,8 @@ For the original request to compare RNA signal over a fixed TE set, use the summ
 - `audit_receipt.json`: source hashes, exact mouse/cell joins, and conservation checks.
 
 Source matrices, peak sets, feature-axis joins and all preceding plot versions remain retained in the parent work directory. The calculations reuse saved small matrices; no BAM recount was performed.
+
+
+## Requested Wilcoxon tests on the gene-depth view
+
+Two-sided exact Wilcoxon rank-sum tests use independent mice (4 vs 4), not paired signed-rank tests or individual loci as replicates. Normalized set totals were tested before display scaling; ranks and p-values are invariant to the plotted z-score transformation. All 70 label assignments were enumerated independently. BH correction covers the four gene-depth contrasts. Raw p-values are 0.485714, 1.000000, 0.685714 and 0.685714 for WT_6mo, WT_21mo, 5xFAD and APOE, respectively; adjusted values are 0.914286, 1.000000, 0.914286 and 0.914286. Every bracket is labeled ns. The test does not model sex, although groups are balanced. Because the normalization was inspected after other results, these comparisons are exploratory. The method follows [SciPy documentation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.mannwhitneyu.html).
