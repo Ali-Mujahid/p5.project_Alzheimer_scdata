@@ -24,7 +24,7 @@ REQUIRED = {PREFIX + name for name in (
 )}
 MAX_FILE_BYTES = 128 * 1024 * 1024
 MAX_TOTAL_BYTES = 270 * 1024 * 1024
-MAX_FILES = 430
+MAX_FILES = 450
 
 
 def _need(condition, message):
@@ -156,8 +156,8 @@ def load_update(root):
         allowed_download = (len(relative.parts) == 2 and relative.parts[0] == "downloads" and
                             (relative.suffix in {".pdf", ".png", ".jpg", ".svg", ".npy", ".tsv", ".csv", ".json", ".md", ".txt", ".bed"} or
                              relative.name.endswith((".tsv.gz", ".tsv.xz")) or
-                             relative.name in {"Microglia_TE_model_audit_tables.zip", "Microglia_TE_RNA_upstream_audit_tables.zip", "IRescue_Microglia_four_TE_copy_count_matrices.zip", "IRescue_Stellarscope_locus_comparison_tables.zip", "Figure2_BCDE_reviewed_tables_and_PDFs.zip", "Microglia_RNA_TE_QC_panels_and_tables.zip", "Microglia_RNA_TE_DE_tables_and_figures.zip", "Microglia_TE_ATAC_MAnorm2_tables.zip", "Microglia_per_animal_peak_TE_20261023.zip", "Microglia_TE_ATAC_coverage_20261023_data.zip", "Microglia_RNA_DEG_all_results_20261025.zip"}))
-        _need(route in REQUIRED or route in {PREFIX + "irescue_locus.js", PREFIX + "data/irescue_microglia_locus.json"} or allowed_download, "Unreviewed overlay route class: " + route)
+                             relative.name in {"Microglia_TE_model_audit_tables.zip", "Microglia_TE_RNA_upstream_audit_tables.zip", "IRescue_Microglia_four_TE_copy_count_matrices.zip", "IRescue_Microglia_TE_DE_tables_and_plots.zip", "IRescue_Stellarscope_locus_comparison_tables.zip", "Figure2_BCDE_reviewed_tables_and_PDFs.zip", "Microglia_RNA_TE_QC_panels_and_tables.zip", "Microglia_RNA_TE_DE_tables_and_figures.zip", "Microglia_TE_ATAC_MAnorm2_tables.zip", "Microglia_per_animal_peak_TE_20261023.zip", "Microglia_TE_ATAC_coverage_20261023_data.zip", "Microglia_RNA_DEG_all_results_20261025.zip"}))
+        _need(route in REQUIRED or route in {PREFIX + "irescue_locus.js", PREFIX + "data/irescue_microglia_locus.json", PREFIX + "irescue_de.js", PREFIX + "data/irescue_microglia_DE.json"} or allowed_download, "Unreviewed overlay route class: " + route)
         expected_path = "updates/" + UPDATE_ID + "/atlas/" + suffix
         _need(row["path"] == expected_path, "Overlay disk and HTTP paths must match exactly")
         _relative(row["path"])
