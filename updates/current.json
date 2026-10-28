@@ -1300,6 +1300,36 @@
       "sha256": "69de29ccf0cc14a6ce5c693b0de6e38dc4bcdab8552a059f4b4fe336f30ae052"
     },
     {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_target_only_peak_TE_locus_RNA_boxplots.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_target_only_peak_TE_locus_RNA_boxplots.pdf",
+      "bytes": 30235,
+      "sha256": "3240353338d88035f6df862ce69ab67b5b7b0d36f756b28c82b6c7ed4a0d0e4b"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_target_only_peak_TE_locus_RNA_boxplots.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_target_only_peak_TE_locus_RNA_boxplots.png",
+      "bytes": 260390,
+      "sha256": "f00a2279448a0e3afa1f958c17235a0bb6ef4d88a1d7d09aa7dd2c0558ed1cf0"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_target_only_peak_TE_locus_methods.md",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_target_only_peak_TE_locus_methods.md",
+      "bytes": 3467,
+      "sha256": "1c51c6b3b6605219e96645173004778acd1a58711acb2a2e0b33a946620aceef"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_target_only_peak_TE_locus_mouse_values.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_target_only_peak_TE_locus_mouse_values.tsv",
+      "bytes": 7799,
+      "sha256": "744e9d322aa2ccb1245196fe158b2fa08aca2d394d9019277f9047f980ae51d0"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_target_only_peak_TE_locus_summary.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_target_only_peak_TE_locus_summary.tsv",
+      "bytes": 783,
+      "sha256": "d76c1e370c48a8cc9e7ae90025f5c7b6075c70157036af207abb659b69d91d91"
+    },
+    {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_total_DEG_log2FC_heatmap.pdf",
       "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_total_DEG_log2FC_heatmap.pdf",
       "bytes": 26523,
@@ -2286,8 +2316,8 @@
     {
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
       "path": "updates/rna_microglia_20261017/atlas/index.html",
-      "bytes": 146844,
-      "sha256": "200bac9745cbe51387d037a15079b30c2309a798353b6caf913347afbd1eccfc"
+      "bytes": 149109,
+      "sha256": "885dd8029aae32dda26fe325d69343dd367a4ab02a6d27694b4d36a3402bf0fd"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/microglia_deg.css",
