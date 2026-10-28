@@ -1162,6 +1162,30 @@
       "sha256": "2d363298b6bb0f09c99cfe3c3244a2af9bc368214c67c7f1c3ef6a245e0d442f"
     },
     {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_TE_RNA_upstream_audit.md",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_RNA_upstream_audit.md",
+      "bytes": 7510,
+      "sha256": "624d27e406489db6b3ce36b8eb7829fc0f12686f803e7b1ecf7340e2492089b7"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_TE_RNA_upstream_audit.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_RNA_upstream_audit.pdf",
+      "bytes": 79220,
+      "sha256": "a19655ee9f83014748a1fa5bafe2e75975571e9ca9ee79cc3ee20bde863e154b"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_TE_RNA_upstream_audit.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_RNA_upstream_audit.png",
+      "bytes": 204820,
+      "sha256": "92a6d4a22ab5a83ef59e11ad15e058b8fba8fa2287bb884389a733137aa4d04b"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_TE_RNA_upstream_audit_tables.zip",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_RNA_upstream_audit_tables.zip",
+      "bytes": 22979,
+      "sha256": "f927372e0bafd7ad65e41beab0ee643c5744cf77f4a8f1be14ceec3805a3698c"
+    },
+    {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_TE_density_ATAC_RNA_four_targets_circos_RNA_TE_pending.pdf",
       "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_TE_density_ATAC_RNA_four_targets_circos_RNA_TE_pending.pdf",
       "bytes": 1165567,
@@ -2376,8 +2400,8 @@
     {
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
       "path": "updates/rna_microglia_20261017/atlas/index.html",
-      "bytes": 158860,
-      "sha256": "2748b8ddac8096be83dfe6759afb4011ac83d6b522f01a2cd221f85dd6aca67a"
+      "bytes": 161145,
+      "sha256": "d100d880a69f6b1dc72c32f108a611263be1d5a47bd50d08824a711f46323a64"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/microglia_deg.css",
