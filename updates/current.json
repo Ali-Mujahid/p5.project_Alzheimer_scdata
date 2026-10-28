@@ -10,6 +10,12 @@
       "sha256": "db123da68b6991a5c574de3d4536c9163ba3ead20a93f4a2ca89fbb5f8fc4533"
     },
     {
+      "http_path": "/full_workflow_20261014/atlas_preview/data/irescue_microglia_locus.json",
+      "path": "updates/rna_microglia_20261017/atlas/data/irescue_microglia_locus.json",
+      "bytes": 28574,
+      "sha256": "ea7e0d4058071361c34628722c0f6c277a034b0be827b529538bf4a9c5ba7283"
+    },
+    {
       "http_path": "/full_workflow_20261014/atlas_preview/data/microglia_coordinates.json",
       "path": "updates/rna_microglia_20261017/atlas/data/microglia_coordinates.json",
       "bytes": 19140534,
@@ -344,6 +350,84 @@
       "path": "updates/rna_microglia_20261017/atlas/downloads/IAPLTR3-int_RNA_ATAC_four_UMAP_scopes_five_groups.png",
       "bytes": 2230005,
       "sha256": "c80339f9741277c67537e16281f0b249149fa3907c56371be51f465857801c26"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/IRescue_Microglia_four_TE_copy_count_matrices.zip",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/IRescue_Microglia_four_TE_copy_count_matrices.zip",
+      "bytes": 657127,
+      "sha256": "3ff849428225f4e52c106059aa34bea53de9f9c0da3fc916a9bce06038b7625e"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/IRescue_Microglia_locus_METHODS.md",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/IRescue_Microglia_locus_METHODS.md",
+      "bytes": 6352,
+      "sha256": "d048fdcf79d5011f337d813e6ba446c5f37fe423751392043b6dbadd27b89e40"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/IRescue_Microglia_specific_TE_RNA_boxplots.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/IRescue_Microglia_specific_TE_RNA_boxplots.pdf",
+      "bytes": 19759,
+      "sha256": "79ed1065cefd118226abe9762c67f1d7c340cdb32e0d8d4b9ec8699b312cb56b"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/IRescue_Microglia_specific_TE_RNA_boxplots.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/IRescue_Microglia_specific_TE_RNA_boxplots.png",
+      "bytes": 133926,
+      "sha256": "516b46776fc2848d19d2199e444bcbbcc8be90fb84a172b4996d5889051c0457"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/IRescue_Microglia_specific_TE_RNA_heatmaps.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/IRescue_Microglia_specific_TE_RNA_heatmaps.pdf",
+      "bytes": 127448,
+      "sha256": "c034daaa558db67e36655c5f41ca8dacfd499d6867fedabd0200c589b7625ef2"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/IRescue_Microglia_specific_TE_RNA_heatmaps.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/IRescue_Microglia_specific_TE_RNA_heatmaps.png",
+      "bytes": 198414,
+      "sha256": "34d67e4669f412e1fb5abf4e1a3c42fa9bab1448769b9b08b3e238ef5c2ec00a"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/IRescue_Stellarscope_locus_comparison_tables.zip",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/IRescue_Stellarscope_locus_comparison_tables.zip",
+      "bytes": 2765471,
+      "sha256": "7cff7b8568f6302ee5fc4cb3440df28a2299cef3faad97dfbdbd5e4492087764"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/IRescue_WT_3mo_vs_5xFAD_3mo.TE_RNA_counts.tsv.gz",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/IRescue_WT_3mo_vs_5xFAD_3mo.TE_RNA_counts.tsv.gz",
+      "bytes": 141755,
+      "sha256": "08bdeaeea46d5f73484a93d25e42712e05614cb9b9f4f0ac280e79ed9a04608f"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/IRescue_WT_3mo_vs_APOE4_TREM2_3mo.TE_RNA_counts.tsv.gz",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/IRescue_WT_3mo_vs_APOE4_TREM2_3mo.TE_RNA_counts.tsv.gz",
+      "bytes": 128838,
+      "sha256": "c4c0893437701dda28cd7ad9c8f9e5909a9a4c957d57b82eec8a5e06c83e3494"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/IRescue_WT_3mo_vs_WT_21mo.TE_RNA_counts.tsv.gz",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/IRescue_WT_3mo_vs_WT_21mo.TE_RNA_counts.tsv.gz",
+      "bytes": 190673,
+      "sha256": "ee25a4d3d74a3b3e665bb5e0a78be1b4cba89d214f1ae71419123e3c883104b6"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/IRescue_WT_3mo_vs_WT_6mo.TE_RNA_counts.tsv.gz",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/IRescue_WT_3mo_vs_WT_6mo.TE_RNA_counts.tsv.gz",
+      "bytes": 186138,
+      "sha256": "01318749d6c41b2cf0631916004cb52cc8c3d702a456f9710d5792cfe2f2ca77"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/IRescue_vs_Stellarscope_Microglia_locus_comparison.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/IRescue_vs_Stellarscope_Microglia_locus_comparison.pdf",
+      "bytes": 33342,
+      "sha256": "bb85eeccecacba1fd803dbca55a5339b524b645db9474e6945bc5f8789d1d593"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/IRescue_vs_Stellarscope_Microglia_locus_comparison.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/IRescue_vs_Stellarscope_Microglia_locus_comparison.png",
+      "bytes": 247625,
+      "sha256": "a19e6d56f284814481ca43eec7f92454d9af410985a27ba526ad9f8b521debda"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/L1_Mm_RNA_ATAC_four_UMAP_scopes_five_groups.pdf",
@@ -2400,8 +2484,14 @@
     {
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
       "path": "updates/rna_microglia_20261017/atlas/index.html",
-      "bytes": 161145,
-      "sha256": "d100d880a69f6b1dc72c32f108a611263be1d5a47bd50d08824a711f46323a64"
+      "bytes": 167683,
+      "sha256": "e2d5a45c097612b2816786ed05d442170be473f81ed7ec52d0de01dd4d21b328"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/irescue_locus.js",
+      "path": "updates/rna_microglia_20261017/atlas/irescue_locus.js",
+      "bytes": 8969,
+      "sha256": "def65f49117adecb5de19029427e82b85284f675274f5736b4267a58fdde5cb9"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/microglia_deg.css",
