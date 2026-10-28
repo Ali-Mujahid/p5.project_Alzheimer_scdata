@@ -1744,6 +1744,108 @@
       "sha256": "a9cfd1c1e58da5f34ba56cd41a5a8711434eecc7f90ba6908a9dba12a0aa3f7d"
     },
     {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/RNA_methods_20261028_CellChat_Microglia_involving_pathway_strength.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/RNA_methods_20261028_CellChat_Microglia_involving_pathway_strength.tsv",
+      "bytes": 3895,
+      "sha256": "fee58b061ec1c51bcb309479ebc287f7980aeb7c9c29f013b19f958a5a63720c"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/RNA_methods_20261028_CellChat_Microglia_involving_pathways.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/RNA_methods_20261028_CellChat_Microglia_involving_pathways.pdf",
+      "bytes": 27500,
+      "sha256": "99b725caed471d005edc5997933ad5e9f8c87595a92bdfbe858bf7d98217364f"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/RNA_methods_20261028_CellChat_all_condition_links.tsv.gz",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/RNA_methods_20261028_CellChat_all_condition_links.tsv.gz",
+      "bytes": 411650,
+      "sha256": "6b5b324dd98c1dbcf89ff002412e948c30af9e5ab598bb575287f8252c427285"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/RNA_methods_20261028_CellChat_pathway_strength_by_condition.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/RNA_methods_20261028_CellChat_pathway_strength_by_condition.tsv",
+      "bytes": 6039,
+      "sha256": "c04e33f48a7591dddebec1d9853ea1c08b41a8b4a9f0a538e5064ae7dcc4d450"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/RNA_methods_20261028_CellChat_preview.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/RNA_methods_20261028_CellChat_preview.png",
+      "bytes": 46378,
+      "sha256": "bd9d9b68ce2979a69f0a248e440d41955d8e1c5035f80c5421cae031a23ca7f9"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/RNA_methods_20261028_CellChat_top_pathways.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/RNA_methods_20261028_CellChat_top_pathways.pdf",
+      "bytes": 6923,
+      "sha256": "ba5cc00f4d99810d3e0ff30ff9f279429e88640d0b63b15f8386a17665a26c5e"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/RNA_methods_20261028_Microglia_Monocle3_cell_pseudotime.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/RNA_methods_20261028_Microglia_Monocle3_cell_pseudotime.tsv",
+      "bytes": 536763,
+      "sha256": "7c2e7f5161e305d1e12150cd3003fed2e968f36733a6f4e015ffa022636bde0f"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/RNA_methods_20261028_Microglia_Monocle3_gene_modules.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/RNA_methods_20261028_Microglia_Monocle3_gene_modules.tsv",
+      "bytes": 9361,
+      "sha256": "86af5b0cba8a45cca2b1e3b3142bcec71ac9d65611153315bfea9051e3b0c652"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/RNA_methods_20261028_Microglia_Monocle3_readable_summary.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/RNA_methods_20261028_Microglia_Monocle3_readable_summary.pdf",
+      "bytes": 232051,
+      "sha256": "7594e3ee87423273407a2c8e4ee4a654686db2f7663f486aad56c1ad950aa560"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/RNA_methods_20261028_Microglia_Monocle3_trajectory_associated_genes.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/RNA_methods_20261028_Microglia_Monocle3_trajectory_associated_genes.tsv",
+      "bytes": 330361,
+      "sha256": "3e08d6dc6d0470cff22642fc18062dcb347b7bbb09c876abc0e553d90e11253b"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/RNA_methods_20261028_Monocle3_preview.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/RNA_methods_20261028_Monocle3_preview.png",
+      "bytes": 624555,
+      "sha256": "0c0b834595326ad9b26bdd6d49ffdc0d9651a2f56e43d3c19e724a8c9cb6de50"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/RNA_methods_20261028_Monocle3_pseudotime_mouse_medians.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/RNA_methods_20261028_Monocle3_pseudotime_mouse_medians.tsv",
+      "bytes": 1067,
+      "sha256": "419e197297e41350de2138421eb7d05a3102d2dc2766a96a2bdcbe3501888d01"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/RNA_methods_20261028_RESULTS_REPORT.md",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/RNA_methods_20261028_RESULTS_REPORT.md",
+      "bytes": 3325,
+      "sha256": "c6261f0c6320af4925c6f0cadcd4b96d9497bb327d1ef0da2a1338e0bef9b12b"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/RNA_methods_20261028_scCODA_broad_composition_effects.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/RNA_methods_20261028_scCODA_broad_composition_effects.pdf",
+      "bytes": 24715,
+      "sha256": "40ed8fee562743393841c77abdc7752da04b63dd471099756c3a684b545f6ad6"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/RNA_methods_20261028_scCODA_preview.png",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/RNA_methods_20261028_scCODA_preview.png",
+      "bytes": 52967,
+      "sha256": "132b11df2320c90c66e36f116faba9ae3e0d9b67bf701f1bbc92ea82fa47bc2a"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/RNA_methods_20261028_sccoda_broad_result_metadata.json",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/RNA_methods_20261028_sccoda_broad_result_metadata.json",
+      "bytes": 1057,
+      "sha256": "d39c5826792f275fbbd4edc83bc932ca6f47514e45f668c6cd979025f54fd78b"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/RNA_methods_20261028_sccoda_effects.tsv",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/RNA_methods_20261028_sccoda_effects.tsv",
+      "bytes": 12121,
+      "sha256": "53e49f74e681dd65b2b4885de9952aae1fd916907ba5d0368c0311c16fffc248"
+    },
+    {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/RNA_ours_all2281619.float32.npy",
       "path": "updates/rna_microglia_20261017/atlas/downloads/RNA_ours_all2281619.float32.npy",
       "bytes": 18253080,
@@ -2184,8 +2286,8 @@
     {
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
       "path": "updates/rna_microglia_20261017/atlas/index.html",
-      "bytes": 141493,
-      "sha256": "845523ea130352b975901311ac360d751babc0d0e61fc21034f709ebd0a79bf3"
+      "bytes": 146844,
+      "sha256": "200bac9745cbe51387d037a15079b30c2309a798353b6caf913347afbd1eccfc"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/microglia_deg.css",

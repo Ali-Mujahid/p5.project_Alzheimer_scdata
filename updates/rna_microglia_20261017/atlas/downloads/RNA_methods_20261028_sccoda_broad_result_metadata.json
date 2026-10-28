@@ -1,0 +1,36 @@
+{
+  "method": "pertpy.tools.Sccoda",
+  "pertpy_version": "1.4.0",
+  "n_animals": 20,
+  "n_cell_types": 15,
+  "n_cells": 2281619,
+  "reference": "Oligodendrocyte precursor cell (automatic)",
+  "formula": "C(condition, Treatment('WT_3mo')) + C(sex, Treatment('female'))",
+  "warmup": 500,
+  "samples": 1000,
+  "rng_key": 42,
+  "estimated_fdr": 0.1,
+  "credible_effects": [
+    {
+      "target": "5xFAD_3mo",
+      "cell_type": "Granule neuron",
+      "log2_fold_change": -0.1479248256393719,
+      "final_parameter": -0.13849236555726135
+    },
+    {
+      "target": "WT_21mo",
+      "cell_type": "Endothelial cell",
+      "log2_fold_change": -0.5014074673048112,
+      "final_parameter": -0.32415582760865125
+    },
+    {
+      "target": "WT_21mo",
+      "cell_type": "GABAergic neuron",
+      "log2_fold_change": 0.5398572605123393,
+      "final_parameter": 0.3975938826943251
+    }
+  ],
+  "computation_job": 7747716,
+  "computation_job_state": "FAILED after complete effect-table export; metadata version AttributeError",
+  "result_tables_present": true
+}
