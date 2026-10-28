@@ -1,0 +1,23 @@
+# Nonzero-copy filtering and exploratory RUVSeq boxplots — 29 October 2026
+
+The original IRescue Microglia TE-copy matrices, raw fractional expected counts, 22,251 selected Microglia cells and 20 mouse identities are unchanged. Each comparison uses four WT_3mo and four target mice (2F/2M per group), and the same TE copies in both groups.
+
+## 1. Remove all-zero TE copies
+Remove a copy only if its expected count is exactly zero in ALL EIGHT mice of that comparison. No per-mouse or target-positive filtering is used, and individual zero entries in retained rows remain. No positive expected allocation is rounded down or deleted. Removing all-zero rows leaves each mouse's set total unchanged; it cannot increase total expression or change its direction. It changes the denominator of a per-copy average. Both the before/after plot and exact filtered raw TSV matrices are supplied.
+
+The separate TOTAL-expression audit plot repeats the prior log2(1 + gene-normalized SET TOTAL) endpoint before/after zero removal and is identical by construction. The mean-log plots below use a different summary: mean(log2(1+per-copy CPM)) is not log2(1+sum CPM). A few large copies can drive the set total while the mean-log expression over many copies moves differently.
+
+Each plotted point is one mouse's mean log2(1 + gene-normalized CPM) across the fixed TE copies. Gene normalization uses the same independently derived gene-TMM effective RNA depth as the prior analysis. This is mean normalized TE expression, not a count of observed physical transcripts. The separate scaled plot z-scores those eight mouse means within each method and TE set. It does not treat thousands of TE copies as independent mouse replicates. No significance test or new DE calls are added by this descriptive display.
+
+## 2. RUVSeq RUVr
+RUVSeq 1.44.0 and its EDASeq 2.44.0 dependency were obtained from official Bioconductor 3.22 source archives and installed into this task's isolated LiSC Rlibrary. Existing/shared environments are unchanged. Both packages contain pure R code and their exact archives and hashes are retained.
+
+RUVg requires defensible negative controls; no validated invariant TE list or spike-ins were established. We therefore use RUVr, which estimates factors from residuals after modeling known effects. Factors are learned from the matched Microglia RNA GENE pseudobulk matrix (55,487 genes x20 mice). Its sample axes and raw column sums must exactly match the independently saved gene depths. Abundance eligibility is at least 10 gene counts in at least four mice, with no disease-direction selection. The gene RNA values are log2(1 + gene-TMM-normalized CPM). First-pass OLS residuals remove intercept, sex and five-group condition from the factor-estimation input. These are log-linear residuals, not NB deviance residuals. Official RUVSeq::RUVr is called with isLog=TRUE, round=FALSE, center=FALSE on these already centered residuals.
+
+One factor (k=1) is the prespecified exploratory adjustment; two factors (k=2) are a sensitivity analysis, not a method selected by a favorable disease pattern. The all-20-mouse factors are projected orthogonally to each pair's intercept/sex/condition design, orthonormalized and applied to the TE log-normalized expression using linear regression. Only the unwanted-factor component is subtracted. Numerical checks require unchanged per-TE group-average log expression and full-rank designs. This protects the modeled group and sex effects; mouse medians and within-group spread may change. The adjusted matrices are **log expression**, may contain negative values, and are not raw counts or integer pseudo-counts. No back-transformation/clipping/rounding is used to force them positive.
+
+RUV factors inferred from within-group variation cannot establish that this variation is purely technical. They can also remove biological heterogeneity, so these are exploratory plots and not a replacement for the existing primary DE analysis. RUVSeq documentation recommends using the original counts with unwanted factors in the DE model, rather than using corrected values as raw DE input. The previous IRescue DE results are preserved; no DE testing was rerun here.
+
+The archive includes the original-row filter mask, zero-filtered raw matrices, k1/k2 adjusted log-expression matrices, 128 mouse-level plotted values, exact factors, design-protection/variance checks, selected RNA gene IDs, gene RLE QC, PDF plots and complete code. A small known-factor fixture verifies factor recovery and condition protection, not biological truth.
+
+Official guidance: https://www.bioconductor.org/packages/release/bioc/vignettes/RUVSeq/inst/doc/RUVSeq.html .

@@ -1,0 +1,5 @@
+target	original_loci	all_zero_in_same8_removed	retained_loci	original_set_expected_sum	filtered_set_expected_sum	unrounded_counts
+WT_6mo	9361	4450	4911	35704.595	35704.595	TRUE
+WT_21mo	9725	4717	5008	31550.164	31550.164	TRUE
+5xFAD_3mo	7240	3846	3394	20879.457	20879.457	TRUE
+APOE4_TREM2_3mo	6438	3205	3233	23546.354	23546.354	TRUE
