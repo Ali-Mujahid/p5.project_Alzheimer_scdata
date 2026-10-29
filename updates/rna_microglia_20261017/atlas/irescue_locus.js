@@ -41,7 +41,7 @@
     const rows = data.mouse_expression.filter(r => r.target === target && ms.includes(r.method));
     const bins = ms.flatMap(m => ['WT_3mo', target].map(g => ({method: m, group: g,
       rows: rows.filter(r => r.method === m && r.group === g)})));
-    if (!bins.every(b => b.rows.length === 4)) throw new Error('Expected four mouse replicates per condition.');
+    if (!bins.every(b => b.rows.length === ((target === 'WT_21mo' && b.method === 'IRescue' && b.group === target) ? 3 : 4))) throw new Error('Unexpected mouse replicate count.');
     const W = 1100, H = 620, left = 110, right = 35, top = 92, bottom = 150;
     const max = Math.max(...rows.map(value)), min = Math.min(...rows.map(value));
     const padding = Math.max((max - min) * .2, max * .025, .05);
@@ -73,7 +73,7 @@
         fill: c, 'fill-opacity': .28, stroke: c, 'stroke-width': 2}));
       svg.append(el('line', {x1: xx - 45, x2: xx + 45, y1: y(med), y2: y(med), stroke: '#222', 'stroke-width': 3}));
       b.rows.forEach((r, j) => {
-        const px = xx + (j - 1.5) * 10, py = y(value(r)), rr = Number(radius.value);
+        const px = xx + (j - (b.rows.length - 1) / 2) * 10, py = y(value(r)), rr = Number(radius.value);
         const n = r.sex === 'male' ? el('path', {d: `M ${px} ${py - rr} L ${px + rr} ${py + rr} L ${px - rr} ${py + rr} Z`, fill: c, stroke: 'white'})
           : el('circle', {cx: px, cy: py, r: rr, fill: c, stroke: 'white'});
         n.append(el('title', {}, `${r.animal}; ${r.method}; raw=${r.raw_set_count}; gene-normalized=${r.set_count_per_million_gene_UMIs}`));
@@ -86,14 +86,14 @@
     const labels = {raw: 'Raw RNA set counts: expected UMIs (IRescue) / assigned UMIs (Stellarscope)',
       cpm: 'RNA set counts per million gene UMIs, using fixed gene-derived TMM exposure',
       log: 'log₂(1 + RNA set counts per million gene UMIs); fixed gene-derived TMM exposure',
-      z: 'Z-score of gene-normalized set expression; centered separately within each method across the same eight mice'};
+      z: 'Z-score of gene-normalized set expression; centered separately within each method across each method’s displayed mice'};
     svg.append(el('text', {x: W / 2, y: H - 43, 'text-anchor': 'middle', 'font-size': 15}, labels[measure.value]));
     svg.append(el('text', {x: W / 2, y: H - 17, 'text-anchor': 'middle', 'font-size': 13, fill: '#526863'},
-      'Female: circle · male: triangle · n=4 per group · displayed y-range follows the values · descriptive, no significance claim'));
+      target === 'WT_21mo' ? 'WT_21mo IRescue: 3 target / 4 control mice; Stellarscope: original 4 / 4. Female: circle · male: triangle.' : 'Female: circle · male: triangle · n=4 per group · descriptive, no significance claim'));
     frame.replaceChildren(svg);
     const matrix = data.matrices.find(r => r.target === target);
     host.querySelector('[data-ir-matrix]').href = 'downloads/' + matrix.file;
-    status.textContent = `${matrix.rows.toLocaleString()} unchanged TE rows, including zeros; four control and four target mice. ` +
+    status.textContent = `${matrix.rows.toLocaleString()} TE rows, including zeros; ` + (target === 'WT_21mo' ? 'IRescue uses four controls and three WT_21mo mice (female 1 excluded); Stellarscope retains its historical four-per-group data. ' : 'four control and four target mice. ') +
       'IRescue values are fractional expected allocations. Display controls do not alter the downloadable counts.';
   }
   [select, method, measure, controlColor, targetColor, radius].forEach(n => n.addEventListener('input', redraw));
@@ -111,7 +111,7 @@
       pdf.save(`Microglia_TE_RNA_${select.value}_${method.value}_${measure.value}.pdf`);
     } catch (e) {status.textContent = 'PDF export failed: ' + e.message + '. Checked PDF downloads remain available.';}
   });
-  fetch('data/irescue_microglia_locus.json').then(r => {if (!r.ok) throw new Error(`HTTP ${r.status}`);return r.json();}).then(v => {
+  fetch('data/irescue_microglia_locus.json?v=WT21_7mice').then(r => {if (!r.ok) throw new Error(`HTTP ${r.status}`);return r.json();}).then(v => {
     if (v.status !== 'completed_checked' || v.animals !== 20 || v.Microglia_cells !== 22251) throw new Error('Completed 20-mouse data required.');
     data = v;select.replaceChildren(...v.matrices.map(r => {const n = document.createElement('option');n.value = r.target;n.textContent = r.target;return n;}));redraw();
   }).catch(e => {status.textContent = 'Interactive RNA data could not load: ' + e.message + '. Use the checked matrix and PDF links below.';});

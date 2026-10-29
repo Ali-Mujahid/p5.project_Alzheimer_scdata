@@ -33,28 +33,26 @@
     },
     {
       "target": "WT_21mo",
-      "file": "IRescue_WT_3mo_vs_WT_21mo.TE_RNA_counts.tsv.gz",
+      "file": "IRescue_WT21_7mice_counts.tsv.gz",
       "rows": 9725,
       "count_columns": [
         "WT_3mo_female_1",
         "WT_3mo_female_2",
         "WT_3mo_male_1",
         "WT_3mo_male_2",
-        "WT_21mo_female_1",
         "WT_21mo_female_2",
         "WT_21mo_male_1",
         "WT_21mo_male_2"
       ],
-      "sha256": "ee25a4d3d74a3b3e665bb5e0a78be1b4cba89d214f1ae71419123e3c883104b6",
+      "sha256": "b3eebfcdedf793aa457b7d757ed5fb151184cc8943ed9bdaee8fc669a0867ab4",
       "column_sums": {
-        "WT_3mo_female_1": 3758.1829999999995,
-        "WT_3mo_female_2": 4107.697999999999,
+        "WT_3mo_female_1": 3758.183,
+        "WT_3mo_female_2": 4107.698,
         "WT_3mo_male_1": 6482.965,
         "WT_3mo_male_2": 2844.776,
-        "WT_21mo_female_1": 859.291,
         "WT_21mo_female_2": 6796.615,
-        "WT_21mo_male_1": 3004.7050000000004,
-        "WT_21mo_male_2": 3695.9309999999996
+        "WT_21mo_male_1": 3004.705,
+        "WT_21mo_male_2": 3695.931
       }
     },
     {
@@ -311,9 +309,9 @@
       "sex": "female",
       "TE_loci": 9725.0,
       "raw_set_count": 3758.183,
-      "gene_effective_depth": 637839.952315852,
-      "set_count_per_million_gene_UMIs": 5892.047035239626,
-      "log2_1plus_gene_normalized_set_expression": 12.524798065739805
+      "gene_effective_depth": 633718.689309164,
+      "set_count_per_million_gene_UMIs": 5930.364787090167,
+      "log2_1plus_gene_normalized_set_expression": 12.534148386907667
     },
     {
       "target": "WT_21mo",
@@ -323,9 +321,9 @@
       "sex": "female",
       "TE_loci": 9725.0,
       "raw_set_count": 4107.698,
-      "gene_effective_depth": 625607.869202404,
-      "set_count_per_million_gene_UMIs": 6565.93083657493,
-      "log2_1plus_gene_normalized_set_expression": 12.681003545406014
+      "gene_effective_depth": 621315.342192426,
+      "set_count_per_million_gene_UMIs": 6611.293365950419,
+      "log2_1plus_gene_normalized_set_expression": 12.690935018398916
     },
     {
       "target": "WT_21mo",
@@ -334,10 +332,10 @@
       "group": "WT_3mo",
       "sex": "male",
       "TE_loci": 9725.0,
-      "raw_set_count": 6482.964999999999,
-      "gene_effective_depth": 1093678.68871828,
-      "set_count_per_million_gene_UMIs": 5927.668763115071,
-      "log2_1plus_gene_normalized_set_expression": 12.533492479743574
+      "raw_set_count": 6482.965,
+      "gene_effective_depth": 1131094.02560125,
+      "set_count_per_million_gene_UMIs": 5731.588049502679,
+      "log2_1plus_gene_normalized_set_expression": 12.484970893666642
     },
     {
       "target": "WT_21mo",
@@ -347,21 +345,9 @@
       "sex": "male",
       "TE_loci": 9725.0,
       "raw_set_count": 2844.776,
-      "gene_effective_depth": 458824.107693649,
-      "set_count_per_million_gene_UMIs": 6200.145006110753,
-      "log2_1plus_gene_normalized_set_expression": 12.598318910181263
-    },
-    {
-      "target": "WT_21mo",
-      "method": "IRescue",
-      "animal": "WT_21mo_female_1",
-      "group": "WT_21mo",
-      "sex": "female",
-      "TE_loci": 9725.0,
-      "raw_set_count": 859.2909999999999,
-      "gene_effective_depth": 178824.282994643,
-      "set_count_per_million_gene_UMIs": 4805.22547391252,
-      "log2_1plus_gene_normalized_set_expression": 12.23068861570689
+      "gene_effective_depth": 448835.114847344,
+      "set_count_per_million_gene_UMIs": 6338.131545183477,
+      "log2_1plus_gene_normalized_set_expression": 12.630069490755917
     },
     {
       "target": "WT_21mo",
@@ -371,9 +357,9 @@
       "sex": "female",
       "TE_loci": 9725.0,
       "raw_set_count": 6796.615,
-      "gene_effective_depth": 1156147.97936517,
-      "set_count_per_million_gene_UMIs": 5878.672212645269,
-      "log2_1plus_gene_normalized_set_expression": 12.52152001278959
+      "gene_effective_depth": 1170741.85826514,
+      "set_count_per_million_gene_UMIs": 5805.391642929331,
+      "log2_1plus_gene_normalized_set_expression": 12.503426170139594
     },
     {
       "target": "WT_21mo",
@@ -383,9 +369,9 @@
       "sex": "male",
       "TE_loci": 9725.0,
       "raw_set_count": 3004.705,
-      "gene_effective_depth": 500905.320921024,
-      "set_count_per_million_gene_UMIs": 5998.548776593534,
-      "log2_1plus_gene_normalized_set_expression": 12.550638285008226
+      "gene_effective_depth": 494406.45979524,
+      "set_count_per_million_gene_UMIs": 6077.398343954503,
+      "log2_1plus_gene_normalized_set_expression": 12.569475508718805
     },
     {
       "target": "WT_21mo",
@@ -395,9 +381,9 @@
       "sex": "male",
       "TE_loci": 9725.0,
       "raw_set_count": 3695.931,
-      "gene_effective_depth": 598309.222180227,
-      "set_count_per_million_gene_UMIs": 6177.292381575033,
-      "log2_1plus_gene_normalized_set_expression": 12.592992431358804
+      "gene_effective_depth": 599326.713003897,
+      "set_count_per_million_gene_UMIs": 6166.80504941212,
+      "log2_1plus_gene_normalized_set_expression": 12.590541450256925
     },
     {
       "target": "WT_21mo",

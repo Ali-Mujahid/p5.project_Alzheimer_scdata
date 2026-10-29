@@ -9,7 +9,7 @@
   if(!data)return;current=data.comparisons.find(c=>c.target===$('[data-de-target]').value);
   const threshold=Number($('[data-de-fdr]').value),pointSize=Number($('[data-de-size]').value),high=$('[data-de-high]').value,low=$('[data-de-low]').value;
   const rows=current.volcano,sig=rows.filter(r=>r.FDR<threshold),up=sig.filter(r=>r.log2FC>0).length;
-  $('[data-de-status]').textContent=`${current.target} vs WT_3mo: ${current.tested_loci.toLocaleString()} of ${current.total_loci.toLocaleString()} TE copies tested; ${up} higher and ${sig.length-up} lower at FDR < ${threshold}${threshold===.1?' (exploratory)':''}. Four mice per group; sex-adjusted primary gene-TMM model.`;
+  $('[data-de-status]').textContent=`${current.target} vs WT_3mo: ${current.tested_loci.toLocaleString()} of ${current.total_loci.toLocaleString()} TE copies tested; ${up} higher and ${sig.length-up} lower at FDR < ${threshold}${threshold===.1?' (exploratory)':''}. ${current.target==='WT_21mo'?'Four controls and three WT_21mo mice; WT_21mo_female_1 excluded; exploratory':'Four mice per group'}; sex-adjusted primary gene-TMM model.`;
   const W=850,H=610,L=90,R=30,T=85,B=95,maxX=Math.max(1,...rows.map(r=>Math.abs(r.log2FC)))*1.08,maxY=Math.max(2,...rows.map(r=>-Math.log10(Math.max(r.FDR,1e-300))))*1.08;
   const x=v=>L+(v+maxX)/(2*maxX)*(W-L-R),y=v=>H-B-v/maxY*(H-T-B);
   volcano=make('svg',{xmlns:ns,viewBox:`0 0 ${W} ${H}`,width:W,height:H,role:'img','aria-label':'IRescue TE differential expression volcano',style:'font-family:Arial;background:white;max-width:100%;height:auto'});
@@ -41,7 +41,7 @@
   });
   if(display.length)current.mice.forEach((m,j)=>heatmap.append(make('text',{transform:`translate(${left+j*cell+25} ${top+display.length*17+12}) rotate(35)`,'font-size':9},m)));
   title(heatmap,hw/2,hh-14,'Blue: lower · white: row mean · red: higher; display clipped at ±2.5; mice are not reordered.',12);$('[data-de-heatmap]').replaceChildren(heatmap);
-  $('[data-de-list]').href=`downloads/IRescue_${current.target}_DE_primary_all_TE_results.tsv.gz`;
+  $('[data-de-list]').href=current.target==='WT_21mo'?'downloads/IRescue_WT21_7mice_DE_all.tsv.gz':`downloads/IRescue_${current.target}_DE_primary_all_TE_results.tsv.gz`;
  }
  async function exportPDF(svg,suffix){
   if(!svg||!window.jspdf?.jsPDF){$('[data-de-status]').textContent='Use the checked PDF links below; PDF export library is unavailable.';return;}
@@ -53,5 +53,5 @@
  }
  for(const s of ['[data-de-target]','[data-de-fdr]','[data-de-high]','[data-de-low]','[data-de-size]'])$(s).addEventListener('input',render);
  $('[data-de-volcano-pdf]').addEventListener('click',()=>exportPDF(volcano,'volcano'));$('[data-de-heatmap-pdf]').addEventListener('click',()=>exportPDF(heatmap,'heatmap'));
- fetch('data/irescue_microglia_DE.json').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(v=>{if(v.status!=='completed'||v.comparisons.length!==4)throw Error('Four completed comparisons required');data=v;$('[data-de-target]').replaceChildren(...v.comparisons.map(c=>{let n=document.createElement('option');n.value=c.target;n.textContent=c.target;return n;}));render();}).catch(e=>{$('[data-de-status]').textContent='Could not load differential results: '+e.message;});
+ fetch('data/irescue_microglia_DE.json?v=WT21_7mice').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(v=>{if(v.status!=='completed'||v.comparisons.length!==4)throw Error('Four completed comparisons required');data=v;$('[data-de-target]').replaceChildren(...v.comparisons.map(c=>{let n=document.createElement('option');n.value=c.target;n.textContent=c.target;return n;}));render();}).catch(e=>{$('[data-de-status]').textContent='Could not load differential results: '+e.message;});
 })();
