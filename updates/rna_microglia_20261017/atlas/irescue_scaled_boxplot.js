@@ -81,7 +81,7 @@
     svg.append(el('text',{x:W/2,y:H-40,'text-anchor':'middle','font-size':12},showTests.checked?'Exact two-sided rank-sum test per mouse; BH across four contrasts; unadjusted for sex.':'Descriptive mouse-level values; enable significance bars for exact rank-sum tests.'));
     svg.append(el('text',{x:W/2,y:H-20,'text-anchor':'middle','font-size':12},showPoints.checked?'Female: circle · male: triangle':'Mouse points hidden'));
     holder.replaceChildren(svg);
-    status.textContent=`${panels.length===4?'All four comparisons: each control box uses that target’s TE set.':panels[0].name+': '+(panels[0].control.length+panels[0].treated.length)+' mice.'} ${normalization.value==='gene_depth'?'Same-nucleus gene depth':'Gene-TMM effective depth'}; ${scale.value==='z'?'z-scores calculated separately within each comparison from log-normalized values':scale.value==='log'?'log₂ normalized values':'normalized values'}. WT_21mo_female_1 is excluded only from WT_21mo. ${showTests.checked?'Exploratory two-sided exact rank-sum p values; BH q values across all four comparisons; sex not adjusted.':''}`;
+    status.textContent=`${panels.length===4?'All four comparisons: each control box uses that target’s TE set.':panels[0].name+': '+(panels[0].control.length+panels[0].treated.length)+' mice.'} Female chrY TE allocations excluded. ${normalization.value==='gene_depth'?'Same-nucleus gene depth':'Gene-TMM effective depth'}; ${scale.value==='z'?'z-scores calculated separately within each comparison from log-normalized values':scale.value==='log'?'log₂ normalized values':'normalized values'}. WT_21mo_female_1 is excluded only from WT_21mo. ${showTests.checked?'Exploratory two-sided exact rank-sum p values; BH q values across all four comparisons; sex not adjusted.':''}`;
   }
   for (const n of [target,normalization,scale,low,high,pointSize,boxWidth,plotWidth,plotHeight,showPoints,showTests]) n.addEventListener('input',draw);
   $('[data-box-pdf]').addEventListener('click',async()=>{
@@ -95,7 +95,7 @@
       doc.addImage(c.toDataURL('image/png'),'PNG',0,0,vb.width/4,vb.height/4);doc.save(`IRescue_${target.value}_${normalization.value}_${scale.value}_boxplot.pdf`);
     } catch (e) {status.textContent=`PDF export failed: ${e.message}. Use the static PDF link below.`;}
   });
-  Promise.all([fetch('downloads/four_comparisons_raw_matched_gene_depth_mouse_values.tsv'),fetch('data/irescue_microglia_locus.json?v=WT21_7mice')])
+  Promise.all([fetch('downloads/IRescue_target_TE_mouse_values_female_chrY_excluded.tsv'),fetch('data/irescue_microglia_locus.json?v=WT21_7mice')])
     .then(async rs=>{if(rs.some(r=>!r.ok))throw new Error('Required mouse values unavailable');return [await rs[0].text(),await rs[1].json()];})
     .then(([text,data])=>{
       const lines=text.trim().split(/\r?\n/),fields=lines.shift().split('\t');
@@ -103,7 +103,9 @@
       records=lines.map(line=>{
         const vals=line.split('\t'),r=Object.fromEntries(fields.map((key,i)=>[key,vals[i]]));
         const tmm=mapping.get(`${r.target}|${r.animal}`);if(!tmm || tmm.group!==r.group || tmm.sex!==r.sex)throw new Error('Mouse identity mismatch');
-        return {target:r.target,animal:r.animal,group:r.group,sex:r.sex,geneDepth:Number(r.TE_per_million_matched_gene_UMIs),geneTMM:Number(tmm.set_count_per_million_gene_UMIs)};
+        const original=Number(r.original_TE_expected_allocations),corrected=Number(r.TE_expected_allocations);
+        if(!(original>0) || corrected<0 || corrected>original+1e-8)throw new Error('Invalid sex-aware TE allocation');
+        return {target:r.target,animal:r.animal,group:r.group,sex:r.sex,geneDepth:Number(r.TE_per_million_matched_gene_UMIs),geneTMM:Number(tmm.set_count_per_million_gene_UMIs)*corrected/original};
       });
       if(records.length!==31 || new Set(records.map(r=>`${r.target}|${r.animal}`)).size!==31)throw new Error('Incomplete or duplicated mouse values');
       draw();

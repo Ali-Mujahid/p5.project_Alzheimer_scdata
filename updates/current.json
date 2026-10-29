@@ -2664,8 +2664,8 @@
     {
       "path": "updates/rna_microglia_20261017/atlas/index.html",
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
-      "bytes": 195531,
-      "sha256": "339c4881705098d73786aa4ab5750adcd83d4f25543cd765157e6d8d065a0387"
+      "bytes": 196947,
+      "sha256": "4b38a57f65ca8d90fccf42840994366f8aefc594c3c6c3d30d35321c37a91247"
     },
     {
       "path": "updates/rna_microglia_20261017/atlas/irescue_de.js",
@@ -2850,14 +2850,14 @@
     {
       "path": "updates/rna_microglia_20261017/atlas/irescue_scaled_boxplot.js",
       "http_path": "/full_workflow_20261014/atlas_preview/irescue_scaled_boxplot.js",
-      "bytes": 11587,
-      "sha256": "6eaafd7d7a848322bebff314bc295c5db38fda9c86f41e8166aca01b415549af"
+      "bytes": 11872,
+      "sha256": "39a01cbcb2811358cfb49ec7f66bf5ccea513bbf4a33f7cadff68169c1d59e58"
     },
     {
       "path": "updates/rna_microglia_20261017/atlas/atac_te_scaled_boxplot.js",
       "http_path": "/full_workflow_20261014/atlas_preview/atac_te_scaled_boxplot.js",
-      "bytes": 10859,
-      "sha256": "3a3ad879b2b795a06e1fabd5641525b73200b09b2febe5d0984cfaea77fc86b8"
+      "bytes": 10898,
+      "sha256": "62e72f30db8a7ce3d7148442b9adca6242544d4e16a6319504de6c7ebd7c71e2"
     },
     {
       "path": "updates/rna_microglia_20261017/atlas/downloads/ATAC_TE_target_sets_mouse_relative_signal.tsv",
@@ -2868,26 +2868,44 @@
     {
       "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_matched_TE_RNA_ATAC_sex_stratified_circos.pdf",
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_matched_TE_RNA_ATAC_sex_stratified_circos.pdf",
-      "bytes": 4760589,
-      "sha256": "287713fb3441a430b4aaee064e77304da2297d644d1881214198bd465c66367f"
+      "bytes": 4787786,
+      "sha256": "9d3088c3e3bb08a95f98136fc8235c39ffca670a91a40f32dd03266fabee7dbd"
     },
     {
       "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_matched_TE_RNA_ATAC_sex_stratified_circos.png",
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_matched_TE_RNA_ATAC_sex_stratified_circos.png",
-      "bytes": 4369536,
-      "sha256": "2415360f599b6c8fc4a0afba8217ca15373bc76a0dd54b0e5f6b2300ec32b3a0"
+      "bytes": 4426438,
+      "sha256": "cf56ec5c332d22e1c813818b4dffa578e23db2898070bda96cb16cd733167d68"
     },
     {
       "path": "updates/rna_microglia_20261017/atlas/downloads/matched_TE_sex_stratified_1Mb_tracks.tsv.gz",
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/matched_TE_sex_stratified_1Mb_tracks.tsv.gz",
-      "bytes": 505973,
-      "sha256": "77c5eeffa41be53782a1c7937af313593df22ce2b4c5060d4a5622e674633aac"
+      "bytes": 503820,
+      "sha256": "eb8fb1fda30684c0dc4ea360d41dd74173d3e75750a5701b243fea8cdf7a02bf"
     },
     {
       "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_matched_TE_RNA_ATAC_sex_stratified_METHODS.md",
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_matched_TE_RNA_ATAC_sex_stratified_METHODS.md",
-      "bytes": 3108,
-      "sha256": "560cb8c1863ce996353491e1be38b68b9c64e03422c8ac6b41e227a7e7945841"
+      "bytes": 4761,
+      "sha256": "92989c2a6544e8ca7df9b286b4377fcd8ff8a9d3666d555cbc650faad0438265"
+    },
+    {
+      "path": "updates/rna_microglia_20261017/atlas/downloads/female_chrY_source_exclusion_audit.tsv",
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/female_chrY_source_exclusion_audit.tsv",
+      "bytes": 2518,
+      "sha256": "583a3abfc40d2e7dfe3854f2e77b1236f83229e1ce3492ec091746f0d8330341"
+    },
+    {
+      "path": "updates/rna_microglia_20261017/atlas/downloads/IRescue_target_TE_mouse_values_female_chrY_excluded.tsv",
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/IRescue_target_TE_mouse_values_female_chrY_excluded.tsv",
+      "bytes": 3689,
+      "sha256": "2fa87f2eac458b540875a66fd4db06037105514fd231af40505e7b5ea02ac674"
+    },
+    {
+      "path": "updates/rna_microglia_20261017/atlas/downloads/ATAC_target_TE_mouse_values_female_chrY_excluded.tsv",
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/ATAC_target_TE_mouse_values_female_chrY_excluded.tsv",
+      "bytes": 2621,
+      "sha256": "34275bd7dbc50ecd180640dcf01c3043d35396da50629ee9f952f0b2b33c8e63"
     }
   ]
 }

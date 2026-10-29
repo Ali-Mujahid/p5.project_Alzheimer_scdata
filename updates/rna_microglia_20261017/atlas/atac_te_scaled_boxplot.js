@@ -81,7 +81,7 @@
     svg.append(el('text',{x:W/2,y:H-40,'text-anchor':'middle','font-size':12},showTests.checked?'Exact two-sided rank-sum test per mouse; BH across four contrasts; unadjusted for sex.':'Descriptive mouse-level values; enable significance bars for exact rank-sum tests.'));
     svg.append(el('text',{x:W/2,y:H-20,'text-anchor':'middle','font-size':12},showPoints.checked?'Female: circle · male: triangle':'Mouse points hidden'));
     holder.replaceChildren(svg);
-    status.textContent=`${panels.length===4?'All four comparisons: each control box uses that target’s TE set.':panels[0].name+': '+(panels[0].control.length+panels[0].treated.length)+' mice.'} ATAC signal divided by each track’s covered-base genome-wide mean; ${scale.value==='z'?'z-scores calculated separately within each comparison from log-normalized values':scale.value==='log'?'log₂ normalized values':'normalized values'}. WT_21mo_female_1 is excluded only from WT_21mo. ${showTests.checked?'Exploratory two-sided exact rank-sum p values; BH q values across all four comparisons; sex not adjusted.':''}`;
+    status.textContent=`${panels.length===4?'All four comparisons: each control box uses that target’s TE set.':panels[0].name+': '+(panels[0].control.length+panels[0].treated.length)+' mice.'} Female chrY TE copies excluded. ATAC signal divided by each track’s covered-base genome-wide mean; ${scale.value==='z'?'z-scores calculated separately within each comparison from log-normalized values':scale.value==='log'?'log₂ normalized values':'normalized values'}. WT_21mo_female_1 is excluded only from WT_21mo. ${showTests.checked?'Exploratory two-sided exact rank-sum p values; BH q values across all four comparisons; sex not adjusted.':''}`;
   }
   for (const n of [target,normalization,scale,low,high,pointSize,boxWidth,plotWidth,plotHeight,showPoints,showTests]) n.addEventListener('input',draw);
   $('[data-box-pdf]').addEventListener('click',async()=>{
@@ -95,7 +95,7 @@
       doc.addImage(c.toDataURL('image/png'),'PNG',0,0,vb.width/4,vb.height/4);doc.save(`ATAC_TE_${target.value}_${scale.value}_boxplot.pdf`);
     } catch (e) {status.textContent=`PDF export failed: ${e.message}. Use the static PDF link below.`;}
   });
-  fetch('downloads/ATAC_TE_target_sets_mouse_relative_signal.tsv')
+  fetch('downloads/ATAC_target_TE_mouse_values_female_chrY_excluded.tsv')
     .then(async r=>{if(!r.ok)throw new Error('Required ATAC mouse values unavailable');return r.text();})
     .then(text=>{const lines=text.trim().split(/\r?\n/),fields=lines.shift().split('\t');
       records=lines.map(line=>{const vals=line.split('\t'),r=Object.fromEntries(fields.map((key,i)=>[key,vals[i]]));return {...r,signal:Number(r.signal)};});
