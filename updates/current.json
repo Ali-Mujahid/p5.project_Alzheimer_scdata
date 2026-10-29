@@ -2664,8 +2664,8 @@
     {
       "path": "updates/rna_microglia_20261017/atlas/index.html",
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
-      "bytes": 189655,
-      "sha256": "07d179f6f8fd0955636b701eed79378a6b18b5881545e3ee5a099e068629fc35"
+      "bytes": 190224,
+      "sha256": "0eaba972623e0966ea4c2d743ee7a9a98bc57a0e71221ae0ab8cadd34295ef36"
     },
     {
       "path": "updates/rna_microglia_20261017/atlas/irescue_de.js",
@@ -2850,8 +2850,8 @@
     {
       "path": "updates/rna_microglia_20261017/atlas/irescue_scaled_boxplot.js",
       "http_path": "/full_workflow_20261014/atlas_preview/irescue_scaled_boxplot.js",
-      "bytes": 8702,
-      "sha256": "d35ad74d3b2dc2afa1cb06954e05270931491332915b8b3be9ccd1d8dedcf5a0"
+      "bytes": 11587,
+      "sha256": "6eaafd7d7a848322bebff314bc295c5db38fda9c86f41e8166aca01b415549af"
     }
   ]
 }
