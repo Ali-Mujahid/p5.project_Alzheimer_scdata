@@ -2664,8 +2664,8 @@
     {
       "path": "updates/rna_microglia_20261017/atlas/index.html",
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
-      "bytes": 193769,
-      "sha256": "d454a04334e535d4d7130c85d87fd05e8f47506acf54d331b013d4a59b2ea1a7"
+      "bytes": 195531,
+      "sha256": "339c4881705098d73786aa4ab5750adcd83d4f25543cd765157e6d8d065a0387"
     },
     {
       "path": "updates/rna_microglia_20261017/atlas/irescue_de.js",
@@ -2864,6 +2864,30 @@
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/ATAC_TE_target_sets_mouse_relative_signal.tsv",
       "bytes": 1844,
       "sha256": "b332c184f57e581625da96cd55591afafed9c8a482f0aaa43d3fd433fc5a8852"
+    },
+    {
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_matched_TE_RNA_ATAC_sex_stratified_circos.pdf",
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_matched_TE_RNA_ATAC_sex_stratified_circos.pdf",
+      "bytes": 4760589,
+      "sha256": "287713fb3441a430b4aaee064e77304da2297d644d1881214198bd465c66367f"
+    },
+    {
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_matched_TE_RNA_ATAC_sex_stratified_circos.png",
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_matched_TE_RNA_ATAC_sex_stratified_circos.png",
+      "bytes": 4369536,
+      "sha256": "2415360f599b6c8fc4a0afba8217ca15373bc76a0dd54b0e5f6b2300ec32b3a0"
+    },
+    {
+      "path": "updates/rna_microglia_20261017/atlas/downloads/matched_TE_sex_stratified_1Mb_tracks.tsv.gz",
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/matched_TE_sex_stratified_1Mb_tracks.tsv.gz",
+      "bytes": 505973,
+      "sha256": "77c5eeffa41be53782a1c7937af313593df22ce2b4c5060d4a5622e674633aac"
+    },
+    {
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_matched_TE_RNA_ATAC_sex_stratified_METHODS.md",
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_matched_TE_RNA_ATAC_sex_stratified_METHODS.md",
+      "bytes": 3108,
+      "sha256": "560cb8c1863ce996353491e1be38b68b9c64e03422c8ac6b41e227a7e7945841"
     }
   ]
 }
