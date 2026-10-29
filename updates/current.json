@@ -2664,8 +2664,8 @@
     {
       "path": "updates/rna_microglia_20261017/atlas/index.html",
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
-      "bytes": 190224,
-      "sha256": "0eaba972623e0966ea4c2d743ee7a9a98bc57a0e71221ae0ab8cadd34295ef36"
+      "bytes": 193769,
+      "sha256": "d454a04334e535d4d7130c85d87fd05e8f47506acf54d331b013d4a59b2ea1a7"
     },
     {
       "path": "updates/rna_microglia_20261017/atlas/irescue_de.js",
@@ -2852,6 +2852,18 @@
       "http_path": "/full_workflow_20261014/atlas_preview/irescue_scaled_boxplot.js",
       "bytes": 11587,
       "sha256": "6eaafd7d7a848322bebff314bc295c5db38fda9c86f41e8166aca01b415549af"
+    },
+    {
+      "path": "updates/rna_microglia_20261017/atlas/atac_te_scaled_boxplot.js",
+      "http_path": "/full_workflow_20261014/atlas_preview/atac_te_scaled_boxplot.js",
+      "bytes": 10859,
+      "sha256": "3a3ad879b2b795a06e1fabd5641525b73200b09b2febe5d0984cfaea77fc86b8"
+    },
+    {
+      "path": "updates/rna_microglia_20261017/atlas/downloads/ATAC_TE_target_sets_mouse_relative_signal.tsv",
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/ATAC_TE_target_sets_mouse_relative_signal.tsv",
+      "bytes": 1844,
+      "sha256": "b332c184f57e581625da96cd55591afafed9c8a482f0aaa43d3fd433fc5a8852"
     }
   ]
 }
