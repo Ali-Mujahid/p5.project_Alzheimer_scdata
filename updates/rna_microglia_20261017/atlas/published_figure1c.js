@@ -4,7 +4,7 @@
   const $ = id => document.getElementById(id);
   const NS = 'http://www.w3.org/2000/svg';
   const defaults = {low:'#3288bd', mid:'#ffffff', high:'#d53e4f', contrast:1};
-  const data = {paper:null, expanded:null, combined:null};
+  const data = {paper:null, expanded:null, extra:null, combined:null};
   const state = {
     RNA:{mode:'paper', style:'dots', markers:[], cells:[], size:12, colWidth:40, rowHeight:29, fontSize:13, grid:false},
     ATAC:{mode:'paper', style:'heatmap', markers:[], cells:[], size:12, colWidth:40, rowHeight:29, fontSize:13, grid:false}
@@ -118,13 +118,16 @@
     for(const [element,key] of [[size,'size'],[colWidth,'colWidth'],[rowHeight,'rowHeight'],[fontSize,'fontSize']]) element.addEventListener('input',()=>{s[key]=Number(element.value);render();});
     grid.addEventListener('change',()=>{s.grid=grid.checked;render();});
     function applyMarkers() {
-      const requested=markerInput.value.split(',').map(x=>x.trim()).filter(Boolean);
-      const permitted=genesFor(assay,s.mode);
-      const invalid=requested.filter(g=>!permitted.includes(g));
+      const canonical=new Map(genesFor(assay,'combined').map(g=>[g.toLowerCase(),g]));
+      const typed=markerInput.value.split(',').map(x=>x.trim()).filter(Boolean);
+      const requested=typed.map(g=>canonical.get(g.toLowerCase())||g);
+      const combined=genesFor(assay,'combined');
+      const invalid=requested.filter(g=>!combined.includes(g));
       if(!requested.length || invalid.length || new Set(requested).size!==requested.length) {
         $('figure1c-status').textContent=invalid.length?`Unavailable ${assay} marker(s) in this source: ${invalid.join(', ')}`:'Choose at least one marker and do not repeat a gene.';
         markerInput.focus();return;
       }
+      if(requested.some(g=>!genesFor(assay,s.mode).includes(g))) {s.mode='combined';source.value='combined';}
       s.markers=requested;markerInput.value=requested.join(', ');refreshPickers();render();
     }
     apply.addEventListener('click',applyMarkers);
@@ -133,15 +136,16 @@
     addButton.addEventListener('click',()=>{
       const gene=addMarker.value;
       if(!gene || s.markers.includes(gene)) return;
+      if(!genesFor(assay,s.mode).includes(gene)) {s.mode='combined';source.value='combined';}
       s.markers.push(gene);markerInput.value=s.markers.join(', ');refreshPickers();render();
     });
     allCells.addEventListener('click',()=>{s.cells=[...axes[assay]];refreshPickers();render();});
     noCells.addEventListener('click',()=>{s.cells=[];refreshPickers();render();});
     single.addEventListener('click',()=>exportPdf([assay]).catch(e=>{$('figure1c-status').textContent='PDF export failed: '+e.message;}));
-    function refreshAvailable() {available.textContent='Available: '+genesFor(assay,s.mode).join(', ');}
+    function refreshAvailable() {available.textContent='Measured markers (including Tmem119, Cx3cr1 and P2ry12): '+genesFor(assay,'combined').join(', ');}
     function refreshPickers() {
       addMarker.replaceChildren();
-      const remaining=genesFor(assay,s.mode).filter(g=>!s.markers.includes(g));
+      const remaining=genesFor(assay,'combined').filter(g=>!s.markers.includes(g));
       for(const gene of remaining) {const option=document.createElement('option');option.value=gene;option.textContent=gene;addMarker.append(option);}
       addButton.disabled=!remaining.length;
       markerChips.replaceChildren();
@@ -231,7 +235,7 @@
     pdf.save(`TrackerSci_${assays.join('_')}_custom_markers.pdf`);
   }
   let panels={};
-  for(const id of ['figure1c-low','figure1c-mid','figure1c-high','figure1c-contrast']) $(id).addEventListener('input',()=>{if(data.paper&&data.expanded)render();});
+  for(const id of ['figure1c-low','figure1c-mid','figure1c-high','figure1c-contrast']) $(id).addEventListener('input',()=>{if(data.combined)render();});
   $('figure1c-reset').addEventListener('click',()=>{
     for(const [key,value] of Object.entries(defaults)) $(`figure1c-${key}`).value=value;
     for(const assay of ['RNA','ATAC']) {
@@ -243,11 +247,14 @@
   $('figure1c-export').addEventListener('click',()=>exportPdf(['RNA','ATAC']).catch(e=>{$('figure1c-status').textContent='PDF export failed: '+e.message;}));
   Promise.all([
     fetch('downloads/Figure_1C_publication_order_values.tsv').then(r=>{if(!r.ok)throw Error(`Figure 1C HTTP ${r.status}`);return r.text();}),
-    fetch('downloads/TrackerSci_expanded_marker_values.tsv').then(r=>{if(!r.ok)throw Error(`Expanded markers HTTP ${r.status}`);return r.text();})
-  ]).then(([paper,expanded])=>{
-    data.paper=parseTable(paper);data.expanded=parseTable(expanded);
+    fetch('downloads/TrackerSci_expanded_marker_values.tsv').then(r=>{if(!r.ok)throw Error(`Expanded markers HTTP ${r.status}`);return r.text();}),
+    fetch('downloads/TrackerSci_microglia_extra_marker_values.tsv').then(r=>{if(!r.ok)throw Error(`Microglia markers HTTP ${r.status}`);return r.text();})
+  ]).then(([paper,expanded,extra])=>{
+    data.paper=parseTable(paper);data.expanded=parseTable(expanded);data.extra=parseTable(extra);
     const paperGenes=new Set(data.paper.map(row=>`${row.assay}\t${row.gene}`));
-    data.combined=[...data.paper,...data.expanded.filter(row=>!paperGenes.has(`${row.assay}\t${row.gene}`))];
+    const extraGenes=new Set(data.extra.map(row=>`${row.assay}\t${row.gene}`));
+    data.combined=[...data.paper,...data.extra.filter(row=>!paperGenes.has(`${row.assay}\t${row.gene}`)),
+      ...data.expanded.filter(row=>!paperGenes.has(`${row.assay}\t${row.gene}`)&&!extraGenes.has(`${row.assay}\t${row.gene}`))];
     checkTables();
     const container=$('figure1c-interactive');
     for(const assay of ['RNA','ATAC']) {state[assay].markers=genesFor(assay,'paper');state[assay].cells=[...axes[assay]];panels[assay]=makePanel(assay);container.append(panels[assay].panel);}
