@@ -13,3 +13,13 @@
 #trackersci-figure1c-control .figure1c-marker-input{width:100%;font:inherit;padding:5px}
 #trackersci-figure1c-control .figure1c-available{display:block;flex-basis:100%;color:#52636a;line-height:1.45}
 #trackersci-figure1c-control .figure1c-svg{overflow-x:auto}
+#trackersci-figure1c-control .figure1c-pickers{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:14px;margin:12px 0}
+#trackersci-figure1c-control .figure1c-picker{border:1px solid #d5e3e0;border-radius:8px;padding:12px;background:#f8fbfa}
+#trackersci-figure1c-control .figure1c-picker>label{display:flex;flex-direction:column;gap:4px;font-size:.84rem}
+#trackersci-figure1c-control .figure1c-picker select{max-width:100%;min-width:170px;padding:5px;font:inherit}
+#trackersci-figure1c-control .figure1c-picker button{margin:5px 5px 5px 0}
+#trackersci-figure1c-control .figure1c-chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
+#trackersci-figure1c-control .figure1c-chips .figure1c-chip{border-radius:999px;padding:4px 8px;background:#e6f0ed;border:1px solid #afc9c2}
+#trackersci-figure1c-control .figure1c-cell-actions{display:flex;flex-wrap:wrap;gap:4px}
+#trackersci-figure1c-control .figure1c-cell-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:5px;margin-top:8px;max-height:190px;overflow:auto}
+#trackersci-figure1c-control .figure1c-cell-list label{display:flex;align-items:start;gap:5px;font-size:.82rem}

@@ -4,10 +4,10 @@
   const $ = id => document.getElementById(id);
   const NS = 'http://www.w3.org/2000/svg';
   const defaults = {low:'#3288bd', mid:'#ffffff', high:'#d53e4f', contrast:1};
-  const data = {paper:null, expanded:null};
+  const data = {paper:null, expanded:null, combined:null};
   const state = {
-    RNA:{mode:'paper', style:'dots', markers:[], size:12, colWidth:40, rowHeight:29, fontSize:13, grid:false},
-    ATAC:{mode:'paper', style:'heatmap', markers:[], size:12, colWidth:40, rowHeight:29, fontSize:13, grid:false}
+    RNA:{mode:'paper', style:'dots', markers:[], cells:[], size:12, colWidth:40, rowHeight:29, fontSize:13, grid:false},
+    ATAC:{mode:'paper', style:'heatmap', markers:[], cells:[], size:12, colWidth:40, rowHeight:29, fontSize:13, grid:false}
   };
   const axes = {};
   function svgNode(parent, tag, attrs, label) {
@@ -50,7 +50,7 @@
       axes[assay]=[...new Set(base.map(row=>row.cell))];
       const expected=assay==='RNA'?16:14;
       if(axes[assay].length!==expected || genesFor(assay,'paper').length!==expected) throw Error('Published Figure 1C axes changed');
-      for(const mode of ['paper','expanded']) {
+      for(const mode of ['paper','expanded','combined']) {
         const selected=data[mode].filter(row=>row.assay===assay);
         const genes=genesFor(assay,mode);
         const keys=new Set(selected.map(row=>`${row.cell}\t${row.gene}`));
@@ -79,7 +79,7 @@
     const panel=document.createElement('div');panel.className='figure1c-plot';
     const title=document.createElement('h3');title.textContent=assay==='RNA'?'Published RNA marker plot':'Published ATAC gene-activity plot';panel.append(title);
     const tools=document.createElement('div');tools.className='figure1c-panel-controls';panel.append(tools);
-    const source=select([['paper','Figure 1C markers'],['expanded','Expanded QC markers']],s.mode);
+    const source=select([['paper','Figure 1C markers'],['combined','Published + extra QC markers'],['expanded','Expanded QC markers only']],s.mode);
     const style=select([['dots','Dotplot'],['squares','Square dotplot'],['heatmap','Heatmap']],s.style);
     const size=slider(2,19,s.size), colWidth=slider(26,62,s.colWidth), rowHeight=slider(19,44,s.rowHeight), fontSize=slider(9,18,s.fontSize);
     const grid=document.createElement('input');grid.type='checkbox';grid.checked=s.grid;
@@ -90,10 +90,29 @@
     const all=document.createElement('button');all.type='button';all.textContent='Show all available';
     const available=document.createElement('small');available.className='figure1c-available';
     markerControls.append(control('Markers (comma-separated; order is adjustable)',markerInput),apply,all,available);
+    const picker=document.createElement('div');picker.className='figure1c-pickers';panel.append(picker);
+    const addMarker=select([], '');addMarker.setAttribute('aria-label',`Add ${assay} marker`);
+    const addButton=document.createElement('button');addButton.type='button';addButton.textContent='+ Add marker';
+    const markerChips=document.createElement('div');markerChips.className='figure1c-chips';markerChips.setAttribute('aria-label',`${assay} selected markers`);
+    const markerPicker=document.createElement('div');markerPicker.className='figure1c-picker';
+    markerPicker.append(control('Add a measured marker',addMarker),addButton,markerChips);
+    const cellPicker=document.createElement('div');cellPicker.className='figure1c-picker';
+    const cellHeading=document.createElement('strong');cellHeading.textContent='Cell types on y-axis';
+    const cellActions=document.createElement('div');cellActions.className='figure1c-cell-actions';
+    const allCells=document.createElement('button');allCells.type='button';allCells.textContent='Show all cell types';
+    const noCells=document.createElement('button');noCells.type='button';noCells.textContent='Clear selection';
+    cellActions.append(allCells,noCells);
+    const cellList=document.createElement('div');cellList.className='figure1c-cell-list';
+    cellPicker.append(cellHeading,cellActions,cellList);
+    picker.append(markerPicker,cellPicker);
     const plot=document.createElement('div');plot.className='figure1c-svg';panel.append(plot);
     const single=document.createElement('button');single.type='button';single.textContent=`Download ${assay} PDF`;panel.append(single);
     source.addEventListener('change',()=>{
-      s.mode=source.value;s.markers=genesFor(assay,s.mode);markerInput.value=s.markers.join(', ');refreshAvailable();render();
+      s.mode=source.value;
+      const permitted=genesFor(assay,s.mode);
+      s.markers=s.markers.filter(g=>permitted.includes(g));
+      if(!s.markers.length) s.markers=[...permitted];
+      markerInput.value=s.markers.join(', ');refreshAvailable();refreshPickers();render();
     });
     style.addEventListener('change',()=>{s.style=style.value;render();});
     for(const [element,key] of [[size,'size'],[colWidth,'colWidth'],[rowHeight,'rowHeight'],[fontSize,'fontSize']]) element.addEventListener('input',()=>{s[key]=Number(element.value);render();});
@@ -106,25 +125,60 @@
         $('figure1c-status').textContent=invalid.length?`Unavailable ${assay} marker(s) in this source: ${invalid.join(', ')}`:'Choose at least one marker and do not repeat a gene.';
         markerInput.focus();return;
       }
-      s.markers=requested;markerInput.value=requested.join(', ');render();
+      s.markers=requested;markerInput.value=requested.join(', ');refreshPickers();render();
     }
     apply.addEventListener('click',applyMarkers);
     markerInput.addEventListener('keydown',event=>{if(event.key==='Enter'){event.preventDefault();applyMarkers();}});
-    all.addEventListener('click',()=>{s.markers=genesFor(assay,s.mode);markerInput.value=s.markers.join(', ');render();});
+    all.addEventListener('click',()=>{s.markers=genesFor(assay,s.mode);markerInput.value=s.markers.join(', ');refreshPickers();render();});
+    addButton.addEventListener('click',()=>{
+      const gene=addMarker.value;
+      if(!gene || s.markers.includes(gene)) return;
+      s.markers.push(gene);markerInput.value=s.markers.join(', ');refreshPickers();render();
+    });
+    allCells.addEventListener('click',()=>{s.cells=[...axes[assay]];refreshPickers();render();});
+    noCells.addEventListener('click',()=>{s.cells=[];refreshPickers();render();});
     single.addEventListener('click',()=>exportPdf([assay]).catch(e=>{$('figure1c-status').textContent='PDF export failed: '+e.message;}));
     function refreshAvailable() {available.textContent='Available: '+genesFor(assay,s.mode).join(', ');}
+    function refreshPickers() {
+      addMarker.replaceChildren();
+      const remaining=genesFor(assay,s.mode).filter(g=>!s.markers.includes(g));
+      for(const gene of remaining) {const option=document.createElement('option');option.value=gene;option.textContent=gene;addMarker.append(option);}
+      addButton.disabled=!remaining.length;
+      markerChips.replaceChildren();
+      for(const gene of s.markers) {
+        const remove=document.createElement('button');remove.type='button';remove.className='figure1c-chip';
+        remove.textContent=`${gene} ×`;remove.setAttribute('aria-label',`Remove ${gene} from ${assay} markers`);
+        remove.addEventListener('click',()=>{
+          if(s.markers.length===1) {$('figure1c-status').textContent='Keep at least one marker.';return;}
+          s.markers=s.markers.filter(g=>g!==gene);markerInput.value=s.markers.join(', ');refreshPickers();render();
+        });
+        markerChips.append(remove);
+      }
+      cellList.replaceChildren();
+      for(const cell of axes[assay]) {
+        const checkbox=document.createElement('input');checkbox.type='checkbox';checkbox.checked=s.cells.includes(cell);
+        checkbox.setAttribute('aria-label',`Show ${cell} in ${assay}`);
+        checkbox.addEventListener('change',()=>{
+          s.cells=axes[assay].filter(name=>name===cell?checkbox.checked:s.cells.includes(name));
+          refreshPickers();render();
+        });
+        const label=document.createElement('label');label.append(checkbox,document.createTextNode(cell));cellList.append(label);
+      }
+    }
     refreshAvailable();
-    return {panel,plot,markerInput,source,style,size,colWidth,rowHeight,fontSize,grid,refreshAvailable};
+    refreshPickers();
+    return {panel,plot,markerInput,source,style,size,colWidth,rowHeight,fontSize,grid,refreshAvailable,refreshPickers};
   }
   function draw(assay,host) {
     const s=state[assay], selected=data[s.mode].filter(row=>row.assay===assay);
-    const cells=axes[assay],genes=s.markers;
+    const cells=s.cells,genes=s.markers;
     const byKey=new Map(selected.map(row=>[`${row.cell}\t${row.gene}`,row]));
     const min=Math.min(...selected.map(row=>row.scaled)),max=Math.max(...selected.map(row=>row.scaled));
-    const left=Math.max(220,Math.min(360,Math.max(...cells.map(c=>c.length))*7+34));
+    const left=Math.max(220,Math.min(360,Math.max(0,...cells.map(c=>c.length))*7+34));
     const top=35,bottom=140,width=left+genes.length*s.colWidth+55,height=top+cells.length*s.rowHeight+bottom;
     const svg=svgNode(host,'svg',{viewBox:`0 0 ${width} ${height}`,role:'img','aria-label':`${assay} ${s.style} of ${genes.length} markers across ${cells.length} cell types`});
     svgNode(svg,'rect',{x:0,y:0,width,height,fill:'#ffffff'});
+    if(!cells.length) {svgNode(svg,'text',{x:35,y:65,'font-size':16,fill:'#52636a'},'Select at least one cell type above.');return;}
     if(s.grid) {
       for(let i=0;i<=cells.length;i++) svgNode(svg,'line',{x1:left,y1:top+i*s.rowHeight,x2:left+genes.length*s.colWidth,y2:top+i*s.rowHeight,stroke:'#e3e9eb','stroke-width':.7});
       for(let j=0;j<=genes.length;j++) svgNode(svg,'line',{x1:left+j*s.colWidth,y1:top,x2:left+j*s.colWidth,y2:top+cells.length*s.rowHeight,stroke:'#e3e9eb','stroke-width':.7});
@@ -157,7 +211,7 @@
   }
   function render() {
     for(const assay of ['RNA','ATAC']) {const host=panels[assay].plot;host.replaceChildren();draw(assay,host);}
-    $('figure1c-status').textContent='Plots updated. Marker order follows each list; expanded QC markers use a separate normalization.';
+    $('figure1c-status').textContent='Plots updated. Add or remove measured markers and choose the cell types shown on each y-axis. The combined source mixes separately processed gene-wise scaled values.';
   }
   async function exportPdf(assays) {
     if(!window.jspdf?.jsPDF) throw Error('PDF library unavailable');
@@ -181,8 +235,8 @@
   $('figure1c-reset').addEventListener('click',()=>{
     for(const [key,value] of Object.entries(defaults)) $(`figure1c-${key}`).value=value;
     for(const assay of ['RNA','ATAC']) {
-      const s=state[assay],p=panels[assay];s.mode='paper';s.style=assay==='RNA'?'dots':'heatmap';s.markers=genesFor(assay,'paper');s.size=12;s.colWidth=40;s.rowHeight=29;s.fontSize=13;s.grid=false;
-      p.source.value=s.mode;p.style.value=s.style;p.markerInput.value=s.markers.join(', ');p.size.value=s.size;p.colWidth.value=s.colWidth;p.rowHeight.value=s.rowHeight;p.fontSize.value=s.fontSize;p.grid.checked=false;p.refreshAvailable();
+      const s=state[assay],p=panels[assay];s.mode='paper';s.style=assay==='RNA'?'dots':'heatmap';s.markers=genesFor(assay,'paper');s.cells=[...axes[assay]];s.size=12;s.colWidth=40;s.rowHeight=29;s.fontSize=13;s.grid=false;
+      p.source.value=s.mode;p.style.value=s.style;p.markerInput.value=s.markers.join(', ');p.size.value=s.size;p.colWidth.value=s.colWidth;p.rowHeight.value=s.rowHeight;p.fontSize.value=s.fontSize;p.grid.checked=false;p.refreshAvailable();p.refreshPickers();
     }
     render();
   });
@@ -191,9 +245,12 @@
     fetch('downloads/Figure_1C_publication_order_values.tsv').then(r=>{if(!r.ok)throw Error(`Figure 1C HTTP ${r.status}`);return r.text();}),
     fetch('downloads/TrackerSci_expanded_marker_values.tsv').then(r=>{if(!r.ok)throw Error(`Expanded markers HTTP ${r.status}`);return r.text();})
   ]).then(([paper,expanded])=>{
-    data.paper=parseTable(paper);data.expanded=parseTable(expanded);checkTables();
+    data.paper=parseTable(paper);data.expanded=parseTable(expanded);
+    const paperGenes=new Set(data.paper.map(row=>`${row.assay}\t${row.gene}`));
+    data.combined=[...data.paper,...data.expanded.filter(row=>!paperGenes.has(`${row.assay}\t${row.gene}`))];
+    checkTables();
     const container=$('figure1c-interactive');
-    for(const assay of ['RNA','ATAC']) {state[assay].markers=genesFor(assay,'paper');panels[assay]=makePanel(assay);container.append(panels[assay].panel);}
+    for(const assay of ['RNA','ATAC']) {state[assay].markers=genesFor(assay,'paper');state[assay].cells=[...axes[assay]];panels[assay]=makePanel(assay);container.append(panels[assay].panel);}
     render();
   }).catch(error=>{$('figure1c-status').textContent='Published marker values could not load: '+error.message;});
 })();
