@@ -2832,8 +2832,8 @@
     {
       "path": "updates/rna_microglia_20261017/atlas/index.html",
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
-      "bytes": 198039,
-      "sha256": "cb48b5cbcdf869498f642b8f5f2ff15cafe6ef6b6c08c5e51bbc36b7c3f79866"
+      "bytes": 200478,
+      "sha256": "7849108217ab173cb3d75504951d40b0f318ea9c051b59c2b1ebbacdae878d79"
     },
     {
       "path": "updates/rna_microglia_20261017/atlas/irescue_de.js",
@@ -2918,6 +2918,42 @@
       "path": "updates/rna_microglia_20261017/atlas/te_group_trends.js",
       "bytes": 3291,
       "sha256": "207dbb3b54f7b0494c5bf6a2649aed842dc21dd51675ca69d68529cf0551aa2d"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/ABC_5xFAD_METHODS.md",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/ABC_5xFAD_METHODS.md",
+      "bytes": 4799,
+      "sha256": "9e4e54584ca76484ba64a85b72827db36d744a847294b65699af1fa205e5b23a"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/ABC_5xFAD_Myo1e_fixed.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/ABC_5xFAD_Myo1e_fixed.pdf",
+      "bytes": 19145,
+      "sha256": "a74140bda4ec06f23c3baa076014e032106bfe8b6a813afe182ee4eb1817e688"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/ABC_5xFAD_Myo1e_promoters.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/ABC_5xFAD_Myo1e_promoters.pdf",
+      "bytes": 16497,
+      "sha256": "066d958ab291ed7e2a700309a58d59c1bbc24bcd6eb6a9911e96cf225948c4b2"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/ABC_5xFAD_fixed_500bp.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/ABC_5xFAD_fixed_500bp.pdf",
+      "bytes": 25963,
+      "sha256": "e9a8e396f1b64371e2efd963268a954a7dabc72c4a10eef90d547117e310a333"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/ABC_5xFAD_selected_tables_and_methods.zip",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/ABC_5xFAD_selected_tables_and_methods.zip",
+      "bytes": 40992,
+      "sha256": "1dbb95ecfb0087f76ba342d722c8f632be412b6532a7750816262c2f309a215d"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/ABC_5xFAD_standard.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/ABC_5xFAD_standard.pdf",
+      "bytes": 25957,
+      "sha256": "8fadb0ecfc6feece6063d65eb4db892469d457d377d46829447c70ed7ce14159"
     }
   ]
 }
