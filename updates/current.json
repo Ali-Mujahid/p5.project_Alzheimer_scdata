@@ -2832,8 +2832,8 @@
     {
       "path": "updates/rna_microglia_20261017/atlas/index.html",
       "http_path": "/full_workflow_20261014/atlas_preview/index.html",
-      "bytes": 200478,
-      "sha256": "7849108217ab173cb3d75504951d40b0f318ea9c051b59c2b1ebbacdae878d79"
+      "bytes": 200962,
+      "sha256": "a02ef1027d4dfb28c0d6763541e93f38f22fb8839a09b2fd23013aea6149a8cb"
     },
     {
       "path": "updates/rna_microglia_20261017/atlas/irescue_de.js",
