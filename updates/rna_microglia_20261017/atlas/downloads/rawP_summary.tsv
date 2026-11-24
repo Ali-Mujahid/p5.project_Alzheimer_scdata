@@ -1,0 +1,5 @@
+scope	target	tested	rawP05_up	rawP05_down	rawP05_total	FDR05_up	FDR05_down
+WT3_detected	WT_21mo	575889	1753	4281	6034	0	1
+WT3_detected	5xFAD_3mo	575889	1551	3087	4638	1	1
+either_group	WT_21mo	764284	4343	4281	8624	1	1
+either_group	5xFAD_3mo	705800	3431	3087	6518	1	1

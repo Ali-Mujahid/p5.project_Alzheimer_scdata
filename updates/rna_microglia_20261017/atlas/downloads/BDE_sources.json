@@ -1,0 +1,53 @@
+{
+  "shards": [
+    {
+      "name": "TE_RNA_WT3_detected_01.tsv.gz",
+      "rows": 85000
+    },
+    {
+      "name": "TE_RNA_WT3_detected_02.tsv.gz",
+      "rows": 85000
+    },
+    {
+      "name": "TE_RNA_WT3_detected_03.tsv.gz",
+      "rows": 85000
+    },
+    {
+      "name": "TE_RNA_WT3_detected_04.tsv.gz",
+      "rows": 85000
+    },
+    {
+      "name": "TE_RNA_WT3_detected_05.tsv.gz",
+      "rows": 85000
+    },
+    {
+      "name": "TE_RNA_WT3_detected_06.tsv.gz",
+      "rows": 85000
+    },
+    {
+      "name": "TE_RNA_WT3_detected_07.tsv.gz",
+      "rows": 65889
+    },
+    {
+      "name": "TE_RNA_WT3_zero_01.tsv.gz",
+      "rows": 85000
+    },
+    {
+      "name": "TE_RNA_WT3_zero_02.tsv.gz",
+      "rows": 85000
+    },
+    {
+      "name": "TE_RNA_WT3_zero_03.tsv.gz",
+      "rows": 85000
+    },
+    {
+      "name": "TE_RNA_WT3_zero_04.tsv.gz",
+      "rows": 18708
+    }
+  ],
+  "source_sha256": "1a9efc9192939086463a122f3b8d3e0ee68a76da8bd51b486d08ebc7c4e2bc51",
+  "IDR_peaks": 104977,
+  "distal_positive_peaks": 72394,
+  "cluster_copies": 267038,
+  "checked_prior_regions": 44163
+}

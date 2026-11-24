@@ -1,0 +1,9 @@
+dense	rgb	emission	segments	README_label	figure_label_used	interpretation
+1	179,238,57	E2	1884	1-Promoter-Active	Active promoter	Figure 4f and README agree
+2	0,139,69	E1	10371	2-Promoter-Weak	Weak promoter	Figure 4f and README agree
+3	4,177,238	E3	9191	3-Enhancer-Active	Active enhancer	Figure 4f and README agree
+4	0,104,138	E4	22000	4-Enhancer-Poised	Primed enhancer	Figure 4f calls this primed, README calls it poised
+5	149,97,52	E7	2938	6-Heterochromatin-H3K9me3	H3K27me3	Figure 4f and deposited mark matrix support H3K27me3
+6	195,13,25	E8	4659	5-Heterochromatin-H3K27me3	H3K9me3	Figure 4f and deposited mark matrix support H3K9me3
+7	114,113,113	E6	15324	8-No signal-Gene Desert	No signal	Figure-order subclass; merged as unmarked in main figures
+8	200,200,200	E5	7037	7-No signal	No signal, gene-distal	Figure-order subclass; merged as unmarked in main figures

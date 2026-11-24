@@ -1,0 +1,13 @@
+#te-panels-bde .bde-plot {overflow-x:auto; margin:.6rem 0 1rem}
+#te-panels-bde .bde-plot svg,#te-panels-bde .bde-plot img {display:block; width:100%;max-width:940px;height:auto}
+#te-panels-bde .bde-fields {display:flex; flex-wrap:wrap;align-items:end;gap:.65rem 1rem;margin:.6rem 0}
+#te-panels-bde .bde-fields label {display:grid;gap:.22rem;font-size:.86rem;font-weight:600}
+#te-panels-bde input[type=number] {width:6.1rem}
+#te-panels-bde input[type=color] {width:3.6rem;height:1.9rem}
+#te-panels-bde .bde-fields input,#te-panels-bde select,#te-panels-bde button {border:1px solid #9cb1b6;border-radius:4px;background:white;color:#173037;padding:.3rem .45rem}
+#te-panels-bde button {cursor:pointer}
+#te-panels-bde details {margin:.8rem 0}
+#te-panels-bde summary {cursor:pointer;font-weight:600}
+#te-panels-bde .bde-note {color:#405760;max-width:95ch}
+#te-panels-bde .bde-links {display:flex;flex-wrap:wrap; gap:.5rem 1.1rem}
+#te-panels-bde section {padding:1rem 0;border-top:1px solid #d4dfe1}
