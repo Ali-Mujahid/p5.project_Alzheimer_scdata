@@ -45,9 +45,20 @@
       "rows": 18708
     }
   ],
-  "source_sha256": "1a9efc9192939086463a122f3b8d3e0ee68a76da8bd51b486d08ebc7c4e2bc51",
-  "IDR_peaks": 104977,
-  "distal_positive_peaks": 72394,
   "cluster_copies": 267038,
-  "checked_prior_regions": 44163
+  "panel_D": {
+    "series": "GSE152020",
+    "assay": "Paired-Tag H3K27ac",
+    "matrix_sha256": "26826c43bc81ecf180df237f9065889ac5e3aff3242edc23972f65a933f5119c",
+    "metadata_sha256": "5d75b52224386dfe3d4a8bf4265f65480c845df28324b57a6e78457d8a8df514",
+    "ChromHMM_BED_sha256": "800acbcb1cab52357984a7cff1b52f7658634560cf73e551546fd2aae5f1e415",
+    "matrix_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE152nnn/GSE152020/suppl/GSE152020_Paired-Tag_H3K27ac_DNA_filtered_matrix.tar.gz",
+    "metadata_url": "https://raw.githubusercontent.com/cxzhu/Paired-Tag/b2f367391aba77b17c833cb5671058ee397a19af/rscripts/2020_10_06_Paired-Tag_MetaData.xls",
+    "microglia_nuclei": 192,
+    "frontal_cortex": 135,
+    "hippocampus": 57,
+    "deposited_bins": 471509,
+    "measured_cluster_loci": 256701,
+    "total_tags": 307727
+  }
 }

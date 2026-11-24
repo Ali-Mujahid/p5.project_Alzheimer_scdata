@@ -11,3 +11,6 @@
 #te-panels-bde .bde-note {color:#405760;max-width:95ch}
 #te-panels-bde .bde-links {display:flex;flex-wrap:wrap; gap:.5rem 1.1rem}
 #te-panels-bde section {padding:1rem 0;border-top:1px solid #d4dfe1}
+#bde-modes {display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin:.8rem 0}
+#bde-modes button[aria-pressed="true"] {background:#1e4850;color:white;border-color:#1e4850}
+#te-panels-bde button:focus-visible {outline:2px solid #086882;outline-offset:2px}

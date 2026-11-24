@@ -42,7 +42,7 @@
     const x0=207, y0=104, cw=isD?119:165, rh=36, w=x0+cw*cols.length+24, h=360;
     const title=isD?'D   Reference chromatin at microglial TE copies':'E   Age-related methylation at microglial TE copies';
     let svg=text(15,26,title,'font-size="19" font-weight="bold"');
-    svg+=text(15,49,isD?'Fraction of each cluster (%)  ·  ChIP and Zhu states come from independent mouse references':'18 mo versus 8 wk  ·  log₂(observed / matched expected overlap)','font-size="12"');
+    svg+=text(15,49,isD?'Zhu adult mouse microglia  ·  Percentage of eligible TE midpoints':'18 mo versus 8 wk  ·  log₂(observed / matched expected overlap)','font-size="12"');
     cols.forEach((s,j)=>{svg+=text(x0+(j+.5)*cw,y0-12,isD?s:(j?'Hypermethylated':'Hypomethylated'),'text-anchor="middle" font-weight="bold"');});
     clusterNames.forEach((name,i)=>{
       const id='C'+(i+1),y=y0+i*rh;
@@ -54,7 +54,7 @@
         const luminance=rgb(color).map(v=>v/255).map(v=>v<=.04045?v/12.92:((v+.055)/1.055)**2.4);
         const light=.2126*luminance[0]+.7152*luminance[1]+.0722*luminance[2];
         const label=isD?val.toFixed(1)+'%':(val>0?'+':'')+val.toFixed(2);
-        const tip=isD?countFmt(+record.copies)+' of '+countFmt(+record.total)+' copies':record.observed+' observed, '+(+record.matched_expected).toFixed(1)+' expected, '+countFmt(+record.callable)+' callable';
+        const tip=isD?countFmt(+record.copies)+' of '+countFmt(+record.total)+' eligible copies; '+countFmt(+record.unmeasured)+' unmeasured':record.observed+' observed, '+(+record.matched_expected).toFixed(1)+' expected, '+countFmt(+record.callable)+' callable';
         svg+='<g><title>'+id+' · '+s+' · '+tip+'</title>'+rect(x0+j*cw,y,cw-1,rh-1,color)+text(x0+(j+.5)*cw,y+23,label,'text-anchor="middle" fill="'+(light>.18?'#132629':'#ffffff')+'"')+'</g>';
       });
     });
@@ -66,10 +66,52 @@
     const update=()=>{if(data[p])heat(p);};
     el(p+'-fields').addEventListener('input',update);
     el(p+'-export').onclick=()=>saveSvg(p+'-plot','Panel_'+p.toUpperCase()+'_C1-C5');
-    tsv(p==='d'?'Panel_D_values.tsv':'Panel_E_values.tsv').then(rows=>{data[p]=rows;update();}).catch(e=>{el(p+'-status').textContent=e.message;});
+    tsv(p==='d'?'Panel_D_values.tsv?v=zhu2':'Panel_E_values.tsv').then(rows=>{data[p]=rows;update();}).catch(e=>{el(p+'-status').textContent=e.message;});
   }
 
   let genome,worker;
+  let distribution='exact', current=null, exporting=false;
+  function inScope(scope,i) {
+    if(scope==='WT3') return genome.control[i]!==0;
+    if(scope==='clusters') return genome.group[i]!==0;
+    if(scope[0]==='C') return genome.group[i]===Number(scope[1]);
+    return true;
+  }
+  function hitClass(x,p,cutoff) {return p<cutoff ? (x>0?1:x<0?2:0) : 0;}
+  function inAxes(x,p,xMax,yMax) {return Math.abs(x)<=xMax && -Math.log10(p)<=yMax;}
+  function download(blob,name) {
+    const link=document.createElement('a'),url=URL.createObjectURL(blob);
+    link.href=url;link.download=name;link.click();setTimeout(()=>URL.revokeObjectURL(url),5000);
+  }
+  async function exportList(target) {
+    if(!current||!genome||exporting) return;
+    const settings={...current,target,format:el('format').value,direction:el('dir').value,extent:el('extent').value};
+    const panels=target==='both'?[0,1]:[target==='WT_21mo'?0:1];
+    const source=panels.map(j=>[genome.values[3*j],genome.values[3*j+(settings.metric==='raw'?1:2)]]);
+    const keep=[];
+    for(let i=0;i<genome.group.length;i++) {
+      if(!inScope(settings.scope,i)) continue;
+      const ok=source.every(([f,ps])=>{
+        const x=f[i],p=ps[i],kind=hitClass(x,p,settings.cutoff);
+        return kind && (settings.direction==='any'||kind===(settings.direction==='up'?1:2))
+          && (settings.extent==='all'||inAxes(x,p,settings.xMax,settings.yMax));
+      });
+      if(ok) keep.push(i);
+    }
+    if(!keep.length && settings.format==='bed') {
+      el('list-status').textContent='Zero qualifying TE copies. A BED file would contain no intervals.';return;
+    }
+    const indices=Uint32Array.from(keep);
+    el('list-status').textContent='Preparing '+countFmt(keep.length)+' TE copies…';
+    exporting=true;el('list-fields').disabled=true;
+    worker.postMessage({indices,settings},[indices.buffer]);
+  }
+  el('list-fields').querySelectorAll('[data-list]').forEach(b=>{b.onclick=()=>exportList(b.dataset.list);});
+  el('modes').querySelectorAll('[data-mode]').forEach(b=>{b.onclick=()=>{
+    distribution=b.dataset.mode;
+    el('modes').querySelectorAll('[data-mode]').forEach(a=>a.setAttribute('aria-pressed',String(a===b)));
+    if(genome) volcano(); else if(!worker) el('load').click();
+  };});
   const scopes={WT3:'Detected in WT 3 mo',either:'Detected in either group',clusters:'C1–C5 combined'};
   for(let i=1;i<=5;i++) scopes['C'+i]='C'+i+' · '+clusterNames[i-1];
   for(const [key,name] of Object.entries(scopes)) el('scope').add(new Option(name,key));
@@ -77,30 +119,44 @@
     if (!genome) return;
     const scope=el('scope').value, metric=el('metric').value, cut=el('cut').valueAsNumber;
     const radius=el('radius').valueAsNumber, xMax=el('x').valueAsNumber, yMax=el('y').valueAsNumber;
-    const density=el('distribution').value==='density', color=['ns','up','down'].map(k=>el(k).value);
+    const density=distribution==='density', color=['ns','up','down'].map(k=>el(k).value);
     if (!(cut>0&&cut<1&&radius>0&&xMax>0&&yMax>0&&[cut,radius,xMax,yMax].every(Number.isFinite))){
-      el('v-status').textContent='Enter a cutoff between zero and one and positive sizes and axis limits.';return;
+      current=null;el('list-fields').disabled=true;el('v-export').disabled=true;el('v-status').textContent='Enter a cutoff between zero and one and positive sizes and axis limits.';return;
     }
+    current={scope,metric,cutoff:cut,xMax,yMax,distribution};
+    el('v-export').disabled=false;el('list-fields').disabled=exporting;
+    el('list-status').textContent='';
     const w=915,h=444,left=65,top=106,pw=362,ph=231;
     const title='B   Microglial TE RNA relative to WT 3 mo';
     const mLabel=metric==='raw'?'raw P':'BH-adjusted P';
-    let svg=text(16,28,title,'font-size="20" font-weight="bold"')+text(16,51,scopes[scope]+'  ·  '+mLabel+' &lt; '+cut+'  ·  '+(density?'Binned density':'Observed coordinates'),'font-size="13"');
+    let svg=text(16,28,title,'font-size="20" font-weight="bold"')+text(16,51,scopes[scope]+'  ·  '+mLabel+' &lt; '+cut+'  ·  '+(density?'Binned density':distribution==='spread'?'Spread overlapping dots':'Observed coordinates'),'font-size="13"');
     let clipped=0;
     const totals=[];
-    const {group,control,values}=genome;
+    const {values}=genome;
     for (let panel=0;panel<2;panel++) {
       const start=left+panel*440, fc=values[3*panel], p=values[3*panel+(metric==='raw'?1:2)];
       const maps=[new Map(),new Map(),new Map()];
-      const n=[0,0,0];
+      const n=[0,0,0], occupied=distribution==='spread'?new Set():null;
       let offscreen=0;
       // Round display coordinates to 0.02 SVG units. Opaque coincident points share the same ink.
       const step=density?3:.02, stride=Math.ceil(pw/step)+2;
       for(let i=0;i<p.length;i++){
-        if((scope==='WT3'&&!control[i])||(scope==='clusters'&&!group[i])||(scope[0]==='C'&&group[i]!==Number(scope[1]))||!Number.isFinite(p[i])) continue;
-        const x=fc[i],y=-Math.log10(p[i]),c=p[i]<cut?(x>0?1:x<0?2:0):0;
+        if(!inScope(scope,i)||!Number.isFinite(p[i])) continue;
+        const x=fc[i],y=-Math.log10(p[i]),c=hitClass(x,p[i],cut);
         n[c]++;
-        if(Math.abs(x)>xMax||y>yMax){offscreen++;continue;}
-        const xx=Math.round((x+xMax)*pw/(2*xMax*step)),yy=Math.round((1-y/yMax)*ph/step);
+        if(!inAxes(x,p[i],xMax,yMax)){offscreen++;continue;}
+        let displayX=(x+xMax)*pw/(2*xMax);
+        const displayY=(1-y/yMax)*ph;
+        if(occupied) {
+          const pixel=Math.round(displayY)*(pw+1)+Math.round(displayX);
+          if(occupied.has(pixel) && x!==0) {
+            let hash=Math.imul(i+1,0x9e3779b1)>>>0; hash=(hash^(hash>>>16))>>>0;
+            const shifted=displayX+((hash/4294967295)*2-1)*3;
+            displayX=x<0?Math.max(0,Math.min(pw/2-.001,shifted)):Math.min(pw,Math.max(pw/2+.001,shifted));
+          }
+          occupied.add(pixel);
+        }
+        const xx=Math.round(displayX/step),yy=Math.round(displayY/step);
         const key=yy*stride+xx, map=maps[c];
         map.set(key,density?(map.get(key)||0)+1:1);
       }
@@ -140,7 +196,7 @@
     [['Increase',1],['Decrease',2],[mLabel+' ≥ '+cut,0]].forEach(([label,i],j)=>{
       const x=190+165*j;svg+='<circle cx="'+x+'" cy="407" r="4" fill="'+color[i]+'"/>'+text(x+10,411,label);
     });
-    const note=(density?'Density uses 3-unit bins. Color darkens with each doubling, up to 128+ copies per class and bin.  ':'')+(clipped?countFmt(clipped)+' points outside the displayed range.':'');
+    const note=(density?'Density uses 3-unit bins. Color darkens with each doubling, up to 128+ copies per class and bin.  ':distribution==='spread'?'Overlapping dots are spread up to 3 SVG units horizontally. Downloads retain measured coordinates.  ':'')+(clipped?countFmt(clipped)+' points outside the displayed range.':'');
     svg+=text(16,436,note,'font-size="11"');
     el('v-plot').innerHTML=wrap(w,h,title,svg);
     el('v-plot').dataset.totals=JSON.stringify(totals);
@@ -148,17 +204,24 @@
     el('radius').disabled=density;
   }
   el('v-fields').addEventListener('change',volcano);
-  el('v-export').onclick=()=>saveSvg('v-plot','Panel_B_'+el('scope').value+'_'+el('metric').value+'_'+el('distribution').value);
+  el('v-export').onclick=()=>saveSvg('v-plot','Panel_B_'+el('scope').value+'_'+el('metric').value+'_'+distribution);
   el('load').onclick=()=>{
     if (worker||genome) return;
     el('load').disabled=true;el('v-status').textContent='Loading count tables…';
-    worker=new Worker('te_panels_worker.js');
+    worker=new Worker('te_panels_worker.js?v=zhu2');
     const fail=message=>{worker.terminate();worker=null;el('load').disabled=false;el('v-status').textContent=message+' · Try loading the tables again.';};
     worker.onerror=event=>fail(event.message);
     worker.onmessage=({data})=>{
+      if(data.exported || data.exportError) {
+        exporting=false;el('list-fields').disabled=!current;
+        if(data.exportError){el('list-status').textContent=data.exportError;return;}
+        download(data.exported,data.filename);
+        el('list-status').textContent='Downloaded '+countFmt(data.count)+' TE copies · '+data.filename;
+        return;
+      }
       if(data.error) return fail(data.error);
       if(data.progress!==undefined){el('v-status').textContent='Reading full-precision count tables · '+data.progress+'%';return;}
-      genome=data;worker.terminate();worker=null;el('load').hidden=true;el('v-fields').disabled=false;el('v-export').disabled=false;volcano();
+      genome=data;el('load').hidden=true;el('v-fields').disabled=false;el('v-export').disabled=false;volcano();
     };
     worker.postMessage({load:true});
   };
