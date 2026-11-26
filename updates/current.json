@@ -3300,8 +3300,8 @@
     {
       "http_path": "/full_workflow_20261014/atlas_preview/paired_views.js",
       "path": "updates/rna_microglia_20261017/atlas/paired_views.js",
-      "bytes": 28150,
-      "sha256": "e4fc306a98b9e036023dba738a865605733c6bfa190c4b77344970e4e1b26788"
+      "bytes": 29691,
+      "sha256": "266b4ad6213d47da1ce790a3dbcf95fabdbe946aed0000e963408865084918a4"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/published_figure1c.css",
@@ -3366,14 +3366,20 @@
     {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_themed_markers_20261126.json",
       "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_themed_markers_20261126.json",
-      "bytes": 91870,
-      "sha256": "e1e71e1cd6f441b8bf0ad0e6364286e986dc52eeed9a9a3cd20ae0ec7182bcb4"
+      "bytes": 330261,
+      "sha256": "a585176f31bbbb97552f97edd5429125be3be4942791ad4fc403df0ada0adde5"
     },
     {
       "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_themed_RNA_ATAC_dotplots.pdf",
       "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_themed_RNA_ATAC_dotplots.pdf",
       "bytes": 115719,
       "sha256": "2e6fbaa75b31076543508fb49c5acb3a84853373b8d39bc53aaf60be8fd0286e"
+    },
+    {
+      "http_path": "/full_workflow_20261014/atlas_preview/downloads/Microglia_condition_themed_RNA_ATAC_dotplots.pdf",
+      "path": "updates/rna_microglia_20261017/atlas/downloads/Microglia_condition_themed_RNA_ATAC_dotplots.pdf",
+      "bytes": 277095,
+      "sha256": "36a6a8d8045f8527f46e3e5527edc4d87fefc2797792db961cfc829ffa68807e"
     }
   ]
 }
